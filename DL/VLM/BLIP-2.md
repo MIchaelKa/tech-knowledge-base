@@ -47,7 +47,7 @@ use the same pre-training dataset as BLIP
 129M images in total
 
 COCO
-Visual Genome
+[[Visual Genome (VG)]]
 CC3M
 CC12M
 SBU

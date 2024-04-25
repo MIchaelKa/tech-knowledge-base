@@ -16,7 +16,9 @@ multi-page
 graph
 вопросы о структуре документа
 
-# **Ссылки**
+# Ссылки
+
+[[Graph]]
 
 [[LayoutLM]]
 
@@ -93,7 +95,7 @@ Relational Graph Annotation
 
 _annotates the hierarchically logical relational graph_
 
-Как-то связано с графом в GQA?
+Как-то связано с графом в [[GQA]]?
 
 **Модель**
 _new graph-based VQA model_

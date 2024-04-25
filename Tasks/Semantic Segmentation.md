@@ -1,0 +1,7 @@
+
+
+
+
+# Алгоритмы
+
+[[Segment Anything]]

@@ -26,7 +26,7 @@ Accuracy
 **Extractive**
 *Similar to extractive QA framework popular in NLP, here the answer for the question is always a single span of text extracted from the given document image.*
 GT ответ всегда полностью присутствует на самом документе
-[[_DNB_Documents]]
+[[_DNB_VLM_Documents]]
 
 
 # Реализация

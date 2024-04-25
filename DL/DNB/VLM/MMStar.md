@@ -1,4 +1,5 @@
 
+**Paper**
 Are We on the Right Way for Evaluating Large Vision-Language Models?
 https://arxiv.org/abs/2403.20330
 
