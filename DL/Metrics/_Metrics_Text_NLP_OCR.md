@@ -1,7 +1,7 @@
 
 **OCR vs. NLP метрики**
 Про Levenshtein based
-We usualy do not use such metrics for NLP tasks. It’s more sutable for OCR and char-level.
+We usually do not use such metrics for NLP tasks. It’s more suitable for OCR and char-level.
 
 **Request**
 metrics for text recognition
@@ -11,7 +11,7 @@ levenshtein distance python
 # Список
 
 [[ANLS]]
-Levenshtein distance
+[[Levenshtein Distance]]
 
 CIDEr
 

@@ -1,0 +1,2 @@
+Комбинаторный поиск
+Combinatorial search

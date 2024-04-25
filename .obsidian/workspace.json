@@ -8,18 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ad2b5216a89a2b1e",
+            "id": "80cb539c8e70162e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DL/Instruction tuning.md",
+                "file": "Template note.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8d0cdff65b5f6e2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Template.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "179e0870e65e88cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DL/CTC loss.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,8 +110,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DL/Instruction tuning.md",
-                "collapseAll": false,
+                "file": "DL/CTC loss.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DL/Instruction tuning.md",
+                "file": "DL/CTC loss.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +150,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DL/Instruction tuning.md"
+                "file": "DL/CTC loss.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,10 +171,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ad2b5216a89a2b1e",
+  "active": "179e0870e65e88cb",
   "lastOpenFiles": [
-    "DL/LLM/RLHF.md",
-    "DL/Instruction tuning.md",
-    "README.md"
+    "DL/DNB/ImageNet.md",
+    "Template note.md",
+    "Template.md",
+    "CS/Beam search.md",
+    "CS/Combinatorial search.md",
+    "CS/Graph.md",
+    "DL/CTC loss.md",
+    "DL/Metrics/Levenshtein Distance.md",
+    "Tasks/Optical Character Recognition (OCR).md",
+    "DL/Nets/CRNN.md",
+    "CS/Dynamic Programming.md",
+    "DL/Nets/Donut.md",
+    "DL/Nets/DINOv2.md",
+    "DL/Nets/DINO.md",
+    "DL/DNB/VLM/_DNB_VLM.md",
+    "DL/Nets/GLIP.md",
+    "DL/GNN.md",
+    "DL/Nets",
+    "DL/DNB/_DNB.md",
+    "Tasks/Text Field Recognition.md",
+    "Tasks",
+    "DL/Metrics/ANLS.md",
+    "DL/Metrics/_Metrics_Offline.md",
+    "DL/Metrics/_Metrics_Text_NLP_OCR.md",
+    "DL/DNB/_DNB_NLP.md",
+    "CS",
+    "DL/DNB/VLM/MP-DocVQA.md",
+    "DL/DNB/VLM/PDFVQA.md",
+    "DL/DNB/VLM/MMStar.md",
+    "DL/DNB/NLP"
   ]
 }
