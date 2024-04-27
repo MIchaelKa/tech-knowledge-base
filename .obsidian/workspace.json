@@ -20,15 +20,18 @@
             }
           },
           {
-            "id": "2e6787f7543a9f6b",
+            "id": "3cb58be2b0afb023",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Soft Skills.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -57,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Visual Genome",
+                "query": "Noisy Student",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Templates/Template RUS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Templates/Template RUS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Templates/Template RUS.md"
+              }
             }
           }
         ]
@@ -150,41 +157,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2e6787f7543a9f6b",
+  "active": "70e87dad489b8cf6",
   "lastOpenFiles": [
+    "Soft Skills.md",
+    "README.md",
+    "Gaussian Processes.md",
+    "Fourier Transform.md",
+    "DL/_DL.md",
+    "DL/Concepts/Zero-Shot Learning (ZSL).md",
+    "DL/Concepts/Self-Supervised Learning (SSL).md",
+    "DL/Concepts/Knowledge Distillation.md",
+    "DL/Concepts/Active Learning.md",
+    "DL/Concepts",
     "Templates/Template RUS.md",
-    "DL/Agents/OSWorld.md",
-    "DL/Agents",
-    "DL/DNB/VLM/MMBench.md",
-    "DL/DNB/VLM/_DNB_VLM.md",
-    "DL/DNB/VLM/_DNB_VLM_Eval.md",
-    "DL/DNB/VLM/_DNB_VLM_Documents.md",
-    "DL/DNB/Visual Genome (VG).md",
-    "DL/VLM/_VLM.md",
-    "DL/DNB/VLM/SeedBench.md",
-    "Templates",
-    "DL/DNB/_DNB.md",
-    "DL/DNB/VLM/GQA.md",
-    "DL/Nets/GLIP.md",
-    "DL/VLM/BLIP-2.md",
-    "DL/DNB/VLM/PDFVQA.md",
-    "DL/DNB/VLM/ScienceQA.md",
-    "Libraries/PaddleOCR.md",
-    "Libraries",
-    "Templates/Template ENG.md",
-    "DL/DNB/VLM/VQAv2.md",
-    "DL/DNB/_DNB_Image-Text.md",
+    "DL/Infra",
+    "DL/Layers",
+    "DL/Labels/Pseudo Labeling.md",
+    "DL/Labels/Label Smoothing.md",
+    "CS/Beam search.md",
+    "DL/Labels",
+    "DL/Labels/Soft Labels.md",
+    "DL/Transformer/ViT.md",
+    "DL/Transformer/Transformer.md",
+    "DL/Transformer/Swin Transformer.md",
+    "DL/Transformer/Longformer.md",
     "DL/Nets/MDETR.md",
-    "DL/Nets/Segment Anything.md",
-    "Tasks/Semantic Segmentation.md",
-    "DL/DNB/GRIT.md",
-    "DL/VLM/CogVLM.md",
-    "DL/Nets/CLIP.md",
-    "DL/Pseudo Labeling.md",
+    "DL/Papers",
+    "DL/Nets/DETR.md",
+    "DL/Nets/GLIP.md",
+    "DL/Papers/Noisy Student.md",
+    "DL/Papers/Revisiting ResNets.md",
+    "DL/Nets/ResNet.md",
+    "DL/VLM/Adversarial Attacks.md",
+    "DL/Dropout.md",
+    "DL/Agents",
+    "Templates",
+    "Libraries",
     "Untitled.canvas",
     "DL/Nets",
-    "Tasks",
-    "CS",
-    "DL/DNB/NLP"
+    "Tasks"
   ]
 }
