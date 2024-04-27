@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5b798c2253c8ebec",
+            "id": "70e87dad489b8cf6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,14 +20,15 @@
             }
           },
           {
-            "id": "7f20481491f42631",
+            "id": "2e6787f7543a9f6b",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Template RUS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Template RUS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Templates/Template RUS.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -153,8 +150,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b798c2253c8ebec",
+  "active": "2e6787f7543a9f6b",
   "lastOpenFiles": [
+    "Templates/Template RUS.md",
+    "DL/Agents/OSWorld.md",
+    "DL/Agents",
     "DL/DNB/VLM/MMBench.md",
     "DL/DNB/VLM/_DNB_VLM.md",
     "DL/DNB/VLM/_DNB_VLM_Eval.md",
@@ -162,7 +162,6 @@
     "DL/DNB/Visual Genome (VG).md",
     "DL/VLM/_VLM.md",
     "DL/DNB/VLM/SeedBench.md",
-    "Templates/Template RUS.md",
     "Templates",
     "DL/DNB/_DNB.md",
     "DL/DNB/VLM/GQA.md",
@@ -182,7 +181,6 @@
     "DL/VLM/CogVLM.md",
     "DL/Nets/CLIP.md",
     "DL/Pseudo Labeling.md",
-    "DL/DNB/VLM/MME.md",
     "Untitled.canvas",
     "DL/Nets",
     "Tasks",

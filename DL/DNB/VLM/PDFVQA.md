@@ -1,13 +1,12 @@
 
-GH
-[https://github.com/adlnlp/pdfvqa](https://github.com/adlnlp/pdfvqa)
+# Внешние ссылки
 
-rnd-hub
-[https://rnd-catalog.de.mlrnd.ru/datasets/pdfvqa](https://rnd-catalog.de.mlrnd.ru/datasets/pdfvqa)
-
+**Paper**
 PDFVQA: A New Dataset for Real-World VQA on PDF Documents
 [https://arxiv.org/abs/2304.06447](https://arxiv.org/abs/2304.06447)
 
+**GH**
+[https://github.com/adlnlp/pdfvqa](https://github.com/adlnlp/pdfvqa)
 
 # Сводка
 
@@ -16,14 +15,24 @@ multi-page
 graph
 вопросы о структуре документа
 
+**Формат изображений**
+Страницы из научных статей. А4 и текст маленького размера.
+Изображения маленького размера для такого формата.
+~792x612
+
+**Граф**
+Нет связей между страницами?
+
+
 # Ссылки
 
 [[Graph]]
+[[ChartQA]]
 
 [[LayoutLM]]
 
-Doc-GCN
 [[GNN]]
+Doc-GCN
 
 Scene text VQA
 InfographicVQA
@@ -36,7 +45,8 @@ InfographicVQA
 
 # Вопросы
 
-Зачем нужен граф, почему не достаточно дерева?
+Q. Зачем нужен граф, почему не достаточно дерева?
+A. Например если нет одного заголовка верхнего уровня, который может стать корнем дерева, но есть несколько заголовков одинакового уровня. Какие связи будут между такими вершинами
 
 # Обзор
 
@@ -75,15 +85,18 @@ Mask-RCNN
 # **3 типа задач**
 
 A
+document element recognition
+fixed answer space
 
 B
 structural understanding
 object recognition
+answer **extraction** on the document page level
 
 С
 parent relation understanding
 
-Например заголовок будет родителем по отношению к контексту. Чтобы ответить правильно на вопрос “Какой раздел описывает таблицу номер 3?” нужно уметь понимать эти отношения между элементами документа, в данном случае это пример нахождения элемента выше по иерархии (нужно найти заловок соответсвующий контенту)
+Например заголовок будет родителем по отношению к контексту. Чтобы ответить правильно на вопрос “Какой раздел описывает таблицу номер 3?” нужно уметь понимать эти отношения между элементами документа, в данном случае это пример нахождения элемента выше по иерархии (нужно найти заголовок соответсвующий контенту)
 
 Identifying the items at the higher-level hierarchy
 Identifying the items at the lower-level hierarchy
@@ -99,5 +112,4 @@ _annotates the hierarchically logical relational graph_
 
 **Модель**
 _new graph-based VQA model_
-
 Doc-GCN

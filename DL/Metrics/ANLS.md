@@ -10,3 +10,4 @@ GH
 Впервые используется в [[ST-VQA]]?
 Ссылка от [[MP-DocVQA]]
 
+[[Levenshtein Distance]]
