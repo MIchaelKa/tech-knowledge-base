@@ -6,9 +6,7 @@ image-text pairs
 **Метрики**
 CIDEr score
 
-**Flickr30k**
-[https://paperswithcode.com/dataset/flickr30k](https://paperswithcode.com/dataset/flickr30k)
-
+[[Flickr30k]]
 Nocaps
 
 # CC

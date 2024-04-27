@@ -36,13 +36,11 @@ Contrastive alignment
 
 # Данные
 
-**Flickr30k**
-Flickr30k dataset for phrase grounding
-https://paperswithcode.com/dataset/flickr30k
+[[Flickr30k]]
+[[Visual Genome (VG)]]
 
 **CLEVR**
 Compositional Language and Elementary Visual Reasoning
 https://cs.stanford.edu/people/jcjohns/clevr/
 https://paperswithcode.com/dataset/clevr
 
-[[Visual Genome (VG)]]
