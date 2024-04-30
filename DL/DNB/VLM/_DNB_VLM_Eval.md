@@ -12,7 +12,7 @@ VLMEvalKit
 [[LLaVA-1]]
 
 `accelerate launch`
-[[Distributed training]]
+[[Distributed Training]]
 
 # VLMEvalKit
 [GH](https://github.com/open-compass/VLMEvalKit)

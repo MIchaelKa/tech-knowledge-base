@@ -1,4 +1,6 @@
 
+Distributed Inference
+
 # Термины
 
 Распределенное обучение
@@ -9,6 +11,4 @@ Scaling
 
 Масштабируемость
 Scalability
-
----
 

@@ -82,7 +82,7 @@ soft or hard pseudo-labels
 
 > I think it is very important that they reject images with high entropy soft-pseudo-labels
 
-Стандартный кросс-энтропи лосс работает с софт метками?
+Стандартный кросс-энтропи лосс в PyTorch работает с софт метками?
 [[Soft Labels]]
 
 ---
