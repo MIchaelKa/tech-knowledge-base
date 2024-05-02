@@ -28,10 +28,17 @@ Conceptual Captions: A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic
 # LAION
 Large-scale Artificial Intelligence Open Network
 
+LAION-400M
+LAION-2B
+LAION-5B
+
 [https://laion.ai/](https://laion.ai/)
 
 **LAION-400M: Open Dataset of CLIP-Filtered 400 Million Image-Text Pairs**
 [https://arxiv.org/abs/2111.02114](https://arxiv.org/abs/2111.02114)
+
+**LAION-5B: An open large-scale dataset for training next generation image-text models**
+https://arxiv.org/abs/2210.08402
 
 
 CLIP-filtered

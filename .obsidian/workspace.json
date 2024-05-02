@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "70e87dad489b8cf6",
+            "id": "ac0c6f1d8398f0bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,11 +20,15 @@
             }
           },
           {
-            "id": "d799fc8a3e9ca98a",
+            "id": "e6dd137de2de6b15",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "DL/Nets/CLIP.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -94,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DL/Nets/CLIP.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DL/Nets/CLIP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "DL/Nets/CLIP.md"
+              }
             }
           }
         ]
@@ -150,39 +158,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d799fc8a3e9ca98a",
+  "active": "e6dd137de2de6b15",
   "lastOpenFiles": [
-    "DL/Nets/MDETR.md",
+    "DL/Concepts/Few-Shot Learning (FSL).md",
+    "DL/Nets/CLIP.md",
+    "DL/Nets/GLIP.md",
+    "Tasks/Image Captioning.md",
+    "DL/LLM/Mixtral of Experts.md",
+    "DL/Nets/DETR.md",
+    "Templates/Template RUS.md",
     "DL/DNB/_DNB_Image-Text.md",
+    "Resume.md",
+    "DL/Infra/Distributed Training.md",
+    "Distributed Systems.md",
+    "DL/LLM/_LLM.md",
+    "DL/VLM/_VLM.md",
+    "Tasks/Classification.md",
+    "DL/LLM/LoRA.md",
+    "DL/Papers/Noisy Student.md",
+    "DL/Labels/Soft Labels.md",
+    "DL/Labels/Pseudo Labeling.md",
+    "DL/Labels/Label Smoothing.md",
+    "DL/_DL.md",
+    "DL/Nets/MDETR.md",
     "DL/DNB/Flickr30k.md",
     "DL/DNB/_DNB_NLP.md",
     "DL/DNB/_DNB.md",
     "Soft Skills.md",
-    "Templates/Template RUS.md",
     "README.md",
-    "Gaussian Processes.md",
-    "Fourier Transform.md",
-    "DL/_DL.md",
-    "DL/Concepts/Zero-Shot Learning (ZSL).md",
-    "DL/Concepts/Self-Supervised Learning (SSL).md",
-    "DL/Concepts/Knowledge Distillation.md",
-    "DL/Concepts/Active Learning.md",
     "DL/Concepts",
     "DL/Infra",
     "DL/Layers",
-    "DL/Labels/Pseudo Labeling.md",
-    "DL/Labels/Label Smoothing.md",
-    "CS/Beam search.md",
     "DL/Labels",
-    "DL/Labels/Soft Labels.md",
-    "DL/Transformer/ViT.md",
-    "DL/Transformer/Transformer.md",
-    "DL/Transformer/Swin Transformer.md",
-    "DL/Transformer/Longformer.md",
     "DL/Papers",
-    "DL/Nets/DETR.md",
-    "DL/Nets/GLIP.md",
-    "DL/Papers/Noisy Student.md",
     "DL/Agents",
     "Templates",
     "Libraries",
