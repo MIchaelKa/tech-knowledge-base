@@ -2,10 +2,6 @@
 Connectionist Temporal Classification
 CTC loss
 
-# Links
-
-
-
 # External Links
 
 **Paper**
