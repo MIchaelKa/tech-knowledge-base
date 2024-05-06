@@ -22,11 +22,15 @@
             }
           },
           {
-            "id": "ccf0259969af1b86",
+            "id": "9218ac3bbf19abad",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "DL/Nets/DINO.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -96,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DL/Nets/DINO.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,6 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DL/Nets/DINO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +139,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "DL/Nets/DINO.md"
+              }
             }
           }
         ]
@@ -152,9 +160,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ccf0259969af1b86",
+  "active": "ab8f0afb60d88328",
   "lastOpenFiles": [
+    "DL/Nets/DETR.md",
+    "CS/Hungarian Algorithm.md",
+    "DL/Nets/DINO.md",
+    "DL/ML System Design.md",
+    "DL/Scalability.md",
+    "DL/Infra/Distributed Training.md",
+    "CS/Linear Programming.md",
     "Templates/Template RUS.md",
+    "Tasks/Semantic Segmentation.md",
+    "DL/Deformable Convolution.md",
+    "DL/VLM/Awesome MLLM.md",
+    "Tasks/Object Detection.md",
+    "DL/Transformer/Swin Transformer.md",
+    "DL/Nets/GLIP.md",
+    "DL/Nets/ResNet.md",
+    "DL/Adversarial Attacks.md",
+    "DL/VLM/_VLM.md",
+    "DL/Transformer/ViT.md",
     "DL/RL/Q-Learning.md",
     "DL/RL",
     "DL/Concepts/Knowledge Distillation.md",
@@ -164,22 +189,6 @@
     "DL/DNB/VLM/_DNB_VLM_Eval.md",
     "DL/DNB/VLM/MMStar.md",
     "DL/Nets/CLIP.md",
-    "DL/Concepts/Few-Shot Learning (FSL).md",
-    "DL/Nets/GLIP.md",
-    "Tasks/Image Captioning.md",
-    "DL/LLM/Mixtral of Experts.md",
-    "DL/Nets/DETR.md",
-    "DL/DNB/_DNB_Image-Text.md",
-    "Resume.md",
-    "DL/Infra/Distributed Training.md",
-    "Distributed Systems.md",
-    "DL/VLM/_VLM.md",
-    "Tasks/Classification.md",
-    "DL/LLM/LoRA.md",
-    "DL/Papers/Noisy Student.md",
-    "DL/Labels/Soft Labels.md",
-    "DL/Labels/Pseudo Labeling.md",
-    "DL/Labels/Label Smoothing.md",
     "DL/Concepts",
     "DL/Infra",
     "DL/Layers",
