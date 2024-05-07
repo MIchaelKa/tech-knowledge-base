@@ -29,21 +29,11 @@ Objects365
 HTC++
 Hybrid task cascade for instance segmentation
 
-DyHead
-Dynamic Head: Unifying Object Detection Heads with Attentions
-https://arxiv.org/abs/2106.08322
-
 ---
 
 **DETR-like models**
 [[DETR]]
 Ссылки на вариации архитектуры DETR
-
-**DAB-DETR**
-DAB-DETR: Dynamic anchor boxes are better queries for DETR.
-
-**DN-DETR**
-DN-DETR: Accelerate detr training by introducing query denoising.
 
 ---
 
@@ -62,7 +52,7 @@ DINO одна из вариаций но назвали по другому, DET
 
 # Обзор
 
-DAB-DETR + DN-DETR + Deformable DETR
+DAB-DETR + [[DN-DETR]] + Deformable DETR
 
 **Масштабируемость**
 [[Scalability]]
@@ -72,6 +62,8 @@ scaling to a large backbone and a large-scale data set
 contrastive denoising training
 mixed query selection
 look forward twice
+
+
 
 # Данные
 

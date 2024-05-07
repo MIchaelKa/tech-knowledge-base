@@ -62,7 +62,7 @@ Sparse Mixture of Experts (SMoE)
 [[Distributed Systems]]
 
 Разделяем FFN слой на несколько разных матриц
- разные матрицы == эксперты
+разные матрицы == эксперты
 
 **Sparse Mixture of Experts (SMoE)**
 Расширяет концепцию MoE дальше

@@ -77,7 +77,7 @@ Querying Transformer
 
 **Query vectors**
 set of **learnable** query vectors
-Похожие query vectors какие были у DETR?
+Похожие query vectors какие были у [[DETR]]?
 
 Вспомнить как работает cross-attention
 Количество **query vectors** и **image feature**s разное
