@@ -20,8 +20,17 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "06034834c98b1818",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Template RUS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +112,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Template RUS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,9 +133,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Templates/Template RUS.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,8 +152,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ab8f0afb60d88328",
+  "active": "06034834c98b1818",
   "lastOpenFiles": [
+    "Soft/Soft Skills.md",
+    "Soft",
+    "Новая папка",
+    "Images/graph_example_1.png",
+    "Images/Снимок экрана 2024-05-23 в 10.57.00.png",
+    "ML/DETR/DETR.md",
+    "Libraries/PaddleOCR.md",
+    "ML/Infra/protobuf.md",
+    "ML/ML/Gaussian Processes.md",
+    "Templates/Template RUS.md",
     "Math",
     "ML/Deformable Convolution.md",
     "ML/Concepts/Adversarial Attacks.md",
@@ -156,8 +171,6 @@
     "ML/_DL.md",
     "ML/ML",
     "ML/OD",
-    "Templates/Template RUS.md",
-    "ML/DETR/DETR.md",
     "ML/DETR/DAB-DETR.md",
     "ML/DETR/Deformable DETR.md",
     "ML/DETR/DINOv2.md",
@@ -168,7 +181,6 @@
     "ML/DETR/MDETR.md",
     "ML/DETR",
     "ML/Nets/GLIP.md",
-    "ML/Infra/protobuf.md",
     "ML/DETR/DN-DETR.md",
     "ML/Infra/Scalability.md",
     "ML/Transformer/Transformer.md",
@@ -176,15 +188,10 @@
     "ML/VLM/BLIP-2.md",
     "CS/Hungarian Algorithm.md",
     "ML/LLM/Mixtral of Experts.md",
-    "ML/VLM/_VLM.md",
     "Images",
-    "Новая папка",
-    "ML/Infra/Distributed Training.md",
     "ML/RL",
     "ML/Concepts",
     "ML/Infra",
-    "DL/Layers",
-    "ML/Labels",
     "Untitled.canvas"
   ]
 }
