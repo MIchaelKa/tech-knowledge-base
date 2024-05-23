@@ -4,6 +4,16 @@
 InternLM
 Mamba
 
+langchain
+
+MMLU
+[[RoPE]]
+p-tuning
+
+# Tools
+
+
+
 # Термины
 
 **ICL**
