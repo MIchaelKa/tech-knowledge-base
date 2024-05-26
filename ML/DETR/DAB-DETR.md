@@ -6,6 +6,7 @@ DAB-DETR: Dynamic anchor boxes are better queries for DETR
 https://arxiv.org/abs/2201.12329
 
 **YT**
+Mak Gaiduk
 https://www.youtube.com/watch?v=8aZIoEt0D7Y
 
 
