@@ -22,7 +22,7 @@ Bilinear interpolation
 
 AC
 Atrous Convoltion (Dilated Convolution)
-[[Convoltion]]
+[[Dilated Convolution]]
 [[Separable Convolution]]
 
 ASPP
@@ -69,7 +69,7 @@ Pooling также увеличивает в итоге RF каждого пик
 # ASPP
 Atrous Spatial Pyramid Pooling
 
-Применяется на feature maps извлеченных с помощью backbone
+Применяется на FMs извлеченных с помощью backbone
 Atrous Convoltion применяются параллельно с различными atrous rates
 
 Применяется как замена FPN

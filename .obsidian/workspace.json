@@ -32,57 +32,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "06d2c3005cdef334",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Nets/DINOv2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "71ab4c6749c97212",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Nets/DINO.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "25ae8b5149dcc9f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/SS/DeepLab.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "18acc3c86d22f9c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/SS/DeepLabV3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -148,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/SS/DeepLab.md",
+                "file": "Tasks/Semantic Segmentation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/SS/DeepLab.md",
+                "file": "Tasks/Semantic Segmentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/SS/DeepLab.md"
+                "file": "Tasks/Semantic Segmentation.md"
               }
             }
           }
@@ -208,35 +160,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "25ae8b5149dcc9f3",
+  "active": "ab8f0afb60d88328",
   "lastOpenFiles": [
-    "ML/SS/DeepLabV3.md",
-    "ML/SS/DeepLab.md",
-    "Templates/Template RUS.md",
+    "Convoltion.md",
+    "ML/CNN.md",
     "Tasks/Semantic Segmentation.md",
+    "ML/Papers/Revisiting ResNets.md",
+    "ML/Papers/Noisy Student.md",
+    "ML/Papers/A ConvNet for the 2020s.md",
+    "Templates/Template RUS.md",
+    "ML/CNN-3D.md",
+    "ML/Nets/DINOv2.md",
+    "ML/Nets/EfficientNet.md",
+    "ML/Nets/Med3D.md",
+    "ML/Layers/Dilated Convolution.md",
+    "ML/Nets/ResNet.md",
+    "ML/SS/DeepLabV3.md",
+    "ML/Nets/DINO.md",
+    "ML/SS/DeepLab.md",
     "Conditional Random Field (CRF).md",
     "ML/SS/Segment Anything.md",
     "ML/SS/PointRend.md",
-    "Convoltion.md",
-    "ML/Nets/DINO.md",
     "ML/Labels/Pseudo Labeling.md",
     "ML/Concepts/Active Learning.md",
-    "ML/Nets/DINOv2.md",
     "ML/DETR/DINO-DETR.md",
     "ML/Transformer/ViT.md",
     "ML/VLM/Ferret-v2.md",
     "ML/VLM/Awesome MLLM.md",
     "Templates/Template ENG.md",
     "ML/SS",
-    "ML/LLM/Mixtral of Experts.md",
-    "Tasks/Classification.md",
-    "Tasks/Text Field Recognition.md",
-    "Tasks/Sound Processing.md",
-    "Tasks/Optical Character Recognition (OCR).md",
-    "Tasks/Object Detection.md",
-    "Tasks/Image Captioning.md",
-    "ML/LLM/LoRA.md",
-    "ML/LLM/Chameleon.md",
     "ML/Layers",
     "Soft",
     "Новая папка",
