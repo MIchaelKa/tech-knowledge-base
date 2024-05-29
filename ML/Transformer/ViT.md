@@ -7,7 +7,7 @@ An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
 [https://huggingface.co/docs/transformers/model_doc/vit](https://huggingface.co/docs/transformers/model_doc/vit)
 
 *Following the original Vision Transformer, some follow-up works have been made*
-[[DINO]]
+[[DINO-DETR]]
 
 
 **Implementation**

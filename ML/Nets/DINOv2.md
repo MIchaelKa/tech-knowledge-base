@@ -1,6 +1,12 @@
 
+# Внешние ссылки
+
+**Paper**
 DINOv2: Learning Robust Visual Features without Supervision
 https://arxiv.org/abs/2304.07193
+
+**TG**
+https://t.me/ai_newz/1870
 
 
 # Сводка
@@ -19,13 +25,6 @@ https://arxiv.org/abs/2304.07193
 
 # Ссылки
 
-[[DINO]]
-
-# Термины
-
-
-# Вопросы
-
 
 # Обзор
 
@@ -41,3 +40,8 @@ https://arxiv.org/abs/2304.07193
 
 # Оценка
 
+
+# Термины
+
+
+# Вопросы

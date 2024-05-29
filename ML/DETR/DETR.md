@@ -53,7 +53,7 @@ Conditional DETR
 [[DAB-DETR]]
 [[DN-DETR]]
 
-[[DINO]]
+[[DINO-DETR]]
 
 
 **DyHead**

@@ -29,9 +29,7 @@ GRIT
 
 # Ссылки
 
-[[DINO]]
 [[DINOv2]]
-
 
 **Referring and grounding**
 Kosmos-2

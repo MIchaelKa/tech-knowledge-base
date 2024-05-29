@@ -6,5 +6,5 @@
 
 [[DETR]]
 [[MDETR]]
-[[DINO]]
+[[DINO-DETR]]
 

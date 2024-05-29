@@ -1,17 +1,21 @@
 
+
 # Внешние ссылки
 
 **Paper**
+Emerging Properties in Self-Supervised Vision Transformers
+https://arxiv.org/abs/2104.14294
 
 **Official**
 
-**GH**
+**YK**
+https://www.youtube.com/watch?v=h3ij3F3cPIk
 
-**HF**
-
-**TG**
 
 # Сводка
+
+**Команда**
+FAIR, Meta
 
 **Основные моменты**
 
@@ -21,21 +25,15 @@
 
 **Данные для тренировки**
 
-///
-
-**Основные моменты**
-
-**Формат** 
-
-**Метрики**
-
-**Размер**
-
-**Авторы**
-
 
 # Ссылки
 
+vs. [[DINO-DETR]]
+[[DINOv2]]
+
+[[Self-Supervised Learning (SSL)]]
+[[ViT]]
+[[Semantic Segmentation]]
 
 # Обзор
 

@@ -9,7 +9,7 @@
 LVM
 large vision foundation models make rapid progress in perception
 [[Segment Anything]]
-[[DINO]]
+[[DINO-DETR]]
 
 Считает что DINO это LVM?
 LVM != VLM
