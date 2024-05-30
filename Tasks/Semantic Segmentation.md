@@ -1,10 +1,18 @@
 
+
+Instance segmentation
+Semantic segmentation
+Panoptic segmentation
+
+Сегментация
+
 # TODO
 
-PointRend
 DINOv2
 FBNet
 BoundaryIOU
+PSPNet
+
 
 # Libs
 
@@ -21,6 +29,8 @@ https://t.me/ai_newz/976
 
 active contours
 watershed transform
+
+Использование [[Boosting]] для задач сегментации
 
 Segmentation BiFPN
 
