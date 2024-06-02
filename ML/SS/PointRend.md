@@ -5,9 +5,9 @@
 PointRend: Image Segmentation as Rendering
 https://arxiv.org/abs/1912.08193
 
-
 YT
 https://www.youtube.com/watch?v=yvNZGDZC3F8
+
 # Сводка
 
 **Основные моменты**
@@ -22,10 +22,10 @@ Efficient representation
 
 # Ссылки
 
-
 Subdivision strategy
-
 Bilinear interpolation
+
+vs. [[Conditional Random Field (CRF)]] in [[DeepLab]]
 
 # Обзор
 

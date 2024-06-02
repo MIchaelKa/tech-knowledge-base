@@ -21,6 +21,8 @@ https://www.youtube.com/watch?v=b6jhopSMit8
 
 # Ссылки
 
+[[DeepLabV3]]
+
 Bilinear interpolation
 
 AC

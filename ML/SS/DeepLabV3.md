@@ -16,7 +16,6 @@ Gets rid of CRF (Conditional Random Field) as used in V1 and V2
 # Ссылки
 
 [[DeepLab]]
-
 [[PointRend]]
 
 
@@ -24,6 +23,7 @@ Gets rid of CRF (Conditional Random Field) as used in V1 and V2
 
 
 **ASPP**
+What the difference from [[DeepLab]] ?
 
 Image-level features
 ???
