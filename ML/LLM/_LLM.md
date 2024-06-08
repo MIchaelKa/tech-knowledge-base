@@ -26,7 +26,7 @@ in-context learning
 https://t.me/bogdanisssimo/288
 
 **Ссылки**
-RAG
+[[RAG]]
 kNN few-shot
 Chain-of-Thought (CoT)
 

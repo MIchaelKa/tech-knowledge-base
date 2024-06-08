@@ -43,7 +43,7 @@ https://github.com/mlfoundations/open_clip
 Predicting text from the images
 
 **Zero-shot classification**
-[[Zero-Shot Learning (ZSL)]]
+[[Zero-Shot (ZSL)]]
 Rephrasing the promt
 Model that can predict text → Classifier
 

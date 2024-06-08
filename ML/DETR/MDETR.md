@@ -16,7 +16,7 @@ https://arxiv.org/abs/2106.13230
 [[DETR]]
 [[CLIP]]
 [[Swin Transformer]]
-[[Zero-Shot Learning (ZSL)]]
+[[Zero-Shot (ZSL)]]
 
 # Обзор
 

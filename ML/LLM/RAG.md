@@ -8,6 +8,11 @@ LangChain
 LlamaIndex
 https://www.llamaindex.ai/
 
+# Posts
+
+**LinkedIn**
+https://www.linkedin.com/posts/ashutosh1919_ai-machinelearning-nlp-activity-7204133978512003076-toVd?utm_source=share&utm_medium=member_desktop
+
 
 **BOGDANISSSIMO**
 https://t.me/bogdanisssimo/195

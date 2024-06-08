@@ -37,7 +37,7 @@ https://ai.meta.com/datasets/segment-anything/
 
 # Ссылки
 
-[[Zero-Shot Learning (ZSL)]]
+[[Zero-Shot (ZSL)]]
 zero-shot transfer
 
 # Обзор
