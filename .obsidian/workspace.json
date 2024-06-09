@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ac0c6f1d8398f0bb",
+            "id": "a1f3b0f1584ab564",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Template RUS.md",
+                "file": "Templates/Template RUS (S).md",
                 "mode": "source",
                 "source": false
               },
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "RNN",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Template RUS.md",
+                "file": "Templates/Template RUS (S).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Template RUS.md",
+                "file": "Templates/Template RUS (S).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Template RUS.md"
+                "file": "Templates/Template RUS (S).md"
               }
             }
           }
@@ -147,34 +147,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ac0c6f1d8398f0bb",
+  "active": "a1f3b0f1584ab564",
   "lastOpenFiles": [
-    "ML/Temperature.md",
-    "ML/Concepts/Self-Supervised Learning (SSL).md",
-    "ML/Nets/CLIP.md",
-    "ML/Concepts/Contrastive Learning (CL).md",
-    "ML/Papers/SimCLR.md",
+    "ML/LLM/Mamba.md",
+    "ML/State Spaces Models (SSM).md",
+    "Math/Kalman Filter.md",
+    "ML/RNN.md",
+    "Templates/Template RUS (S).md",
     "Templates/Template RUS.md",
-    "ML/Labels/Soft Labels.md",
-    "ML/Nets/DINO.md",
+    "ML/Transformer/Transformer.md",
+    "ML/LLM/_LLM.md",
+    "ML/Papers/DINOv2.md",
+    "ML/Papers/DINO.md",
+    "Tasks/Semantic Segmentation.md",
+    "README.md",
+    "ML/Concepts/Self-Supervised Learning (SSL).md",
+    "ML/Concepts/Contrastive Learning (CL).md",
     "ML/DETR/DINO-DETR.md",
+    "ML/Temperature.md",
+    "ML/Nets/CLIP.md",
+    "ML/Papers/SimCLR.md",
+    "ML/Labels/Soft Labels.md",
     "ML/Exponential Moving Average (EMA).md",
     "ML/Concepts/Knowledge Distillation.md",
     "ML/Transformer/ViT.md",
     "ML/NLP/BERT.md",
     "ML/Papers/Noisy Student.md",
     "ML/Concepts/Zero-Shot (ZSL).md",
-    "Tasks/Semantic Segmentation.md",
     "ML/LLM/RAG.md",
-    "ML/LLM/_LLM.md",
-    "ML/Metrics/ANLS.md",
-    "ML/Nets/GLIP.md",
-    "ML/LLM/Mixtral of Experts.md",
-    "ML/SS/DeepLab.md",
-    "ML/SS/DeepLabV3.md",
-    "ML/SS/PointRend.md",
-    "Math/Conditional Random Field (CRF).md",
-    "ML/DNB/VLM/PDFVQA.md",
     "ML/SS",
     "ML/Layers",
     "Soft",

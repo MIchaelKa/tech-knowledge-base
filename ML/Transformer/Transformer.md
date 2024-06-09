@@ -12,7 +12,9 @@ https://www.researchgate.net/figure/Self-attention-mask-schemes-Four-types-of-se
 
 Self-Attention
 
-**Cross-Attention**
+Cross-Attention
+
+Causal mask attention
 Mask-Attention
 Masked self-attention
 
