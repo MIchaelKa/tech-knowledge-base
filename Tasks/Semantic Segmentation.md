@@ -10,7 +10,6 @@ Panoptic segmentation
 
 DINOv2
 FBNet
-BoundaryIOU
 PSPNet
 
 
@@ -36,3 +35,15 @@ Segmentation BiFPN
 
 [[Segment Anything]]
 
+# Loss
+
+## BoundaryIOU
+
+Paper
+https://arxiv.org/abs/2103.16562
+
+https://chatgpt.com/c/437c422d-07e1-40b8-869c-ed148b1b09d4
+
+**Mask IoU**
+тоже самое что обычный IoU или Jaccard?
+*This measure values all pixels equally and, therefore, is less sensitive to boundary quality in larger objects*

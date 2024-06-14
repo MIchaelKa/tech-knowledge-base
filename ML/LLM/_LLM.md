@@ -2,7 +2,7 @@
 ## TODO
 
 InternLM
-Mamba
+[[Mamba]]
 
 langchain
 
