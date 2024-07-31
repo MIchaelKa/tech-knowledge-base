@@ -20,6 +20,7 @@ https://huggingface.co/docs/transformers/model_doc/detr
 **Modern Object Detection: from YOLO to transformers**
 Mak Gaiduk
 https://www.youtube.com/playlist?list=PL1HdfW5-F8AQlPZCJBq2gNjERTDEAl8v3
+
 # Сводка
 
 Meta

@@ -22,36 +22,36 @@
             }
           },
           {
-            "id": "3f017d0fcf89efda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS/Distributed Systems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5667ad7768c9fa46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Infra/protobuf.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ecbd45c5294042b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Infra/Scalability.md",
+                "file": "ML/SS/PointRend.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "59aa40fd75bf71e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/Hungarian Algorithm.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "931343f3827b5fb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SD/Load balancers.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "proto",
+                "query": "PointRend",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Infra/Scalability.md",
+                "file": "SD/Load balancers.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Infra/Scalability.md",
+                "file": "SD/Load balancers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Infra/Scalability.md"
+                "file": "SD/Load balancers.md"
               }
             }
           }
@@ -184,15 +184,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ecbd45c5294042b3",
+  "active": "931343f3827b5fb2",
   "lastOpenFiles": [
-    "ML/Infra/protobuf.md",
-    "ML/Infra/Scalability.md",
-    "CS/Distributed Systems.md",
+    "CS/Hungarian Algorithm.md",
+    "SD/Load balancers.md",
+    "CS/Graph.md",
+    "CS/Linear Programming.md",
+    "ML/DETR/DETR.md",
+    "SD",
+    "ML/SS/PointRend.md",
+    "Templates/Template RUS (S).md",
+    "SD/Scalability.md",
+    "SD/protobuf.md",
+    "ML/Concepts/ML System Design.md",
+    "SD/Distributed Systems.md",
+    "ML/Concepts/Distributed Training.md",
+    "ML/DETR/DINO-DETR.md",
+    "ML/OD/YuNet.md",
     "ML/LLM/Mixtral of Experts.md",
     "ML/SS/Segment Anything.md",
     "Tasks/Semantic Segmentation.md",
-    "Templates/Template RUS (S).md",
     "ML/SS/DeepLab.md",
     "ML/Papers/A ConvNet for the 2020s.md",
     "ML/Papers/Revisiting ResNets.md",
@@ -202,16 +213,6 @@
     "ML/Papers/SimCLR.md",
     "ML/DNB/VLM/PDFVQA.md",
     "ML/DNB/VLM/MP-DocVQA.md",
-    "ML/VLM/_VLM.md",
-    "ML/LLM/_LLM.md",
-    "ML/DNB/VLM/_DNB_VLM.md",
-    "ML/LLM/RAG.md",
-    "ML/LLM/Mamba.md",
-    "ML/State Spaces Models (SSM).md",
-    "Math/Kalman Filter.md",
-    "ML/RNN.md",
-    "Templates/Template RUS.md",
-    "ML/Transformer/Transformer.md",
     "ML/SS",
     "ML/Layers",
     "Soft",
@@ -223,7 +224,6 @@
     "ML/OD",
     "ML/DETR",
     "Images",
-    "ML/RL",
     "Untitled.canvas"
   ]
 }
