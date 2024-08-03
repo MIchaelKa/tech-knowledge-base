@@ -23,7 +23,7 @@ Objects365
 # Ссылки
 
 [[ViT]]
-[[Segment Anything]]
+[[SAM]]
 [[Swin Transformer]]
 
 HTC++

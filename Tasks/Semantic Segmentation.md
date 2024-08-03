@@ -1,10 +1,13 @@
 
+Сегментация
 
 Instance segmentation
 Semantic segmentation
 Panoptic segmentation
 
-Сегментация
+Panoptic vs. Semantic segmentation
+https://pyimagesearch.com/2022/06/29/semantic-vs-instance-vs-panoptic-segmentation/
+Panoptic segmentation assigns class label and ID of the instance for each pixel.
 
 # TODO
 
@@ -24,7 +27,12 @@ Meta AI о нашем SOTA подходе для видео-сегментаци
 https://t.me/ai_newz/976
 
 
-# Алгоритмы
+# Datasets
+
+ADE20K
+https://groups.csail.mit.edu/vision/datasets/ADE20K/
+
+# Algorithms
 
 active contours
 watershed transform
@@ -33,7 +41,7 @@ watershed transform
 
 Segmentation BiFPN
 
-[[Segment Anything]]
+[[SAM]]
 
 # Loss
 

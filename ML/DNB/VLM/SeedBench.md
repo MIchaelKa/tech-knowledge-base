@@ -57,7 +57,7 @@ CC3M
 
 **Извлечение информации**
 [[BLIP-2]]
-[[Segment Anything]]
+[[SAM]]
 [[PaddleOCR]]
 
 [[GRIT]]

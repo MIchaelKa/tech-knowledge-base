@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a1f3b0f1584ab564",
+            "id": "acc6807a00dd6c34",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Template RUS (S).md",
+                "file": "Templates/Template ENG.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,36 +22,36 @@
             }
           },
           {
-            "id": "ecbd45c5294042b3",
+            "id": "d7babb3df946f629",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/SS/PointRend.md",
+                "file": "Tasks/Semantic Segmentation.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "59aa40fd75bf71e6",
+            "id": "1a8152e582ee85f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Hungarian Algorithm.md",
+                "file": "ML/SS/SAM.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "931343f3827b5fb2",
+            "id": "9d8f44fdb465d9ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SD/Load balancers.md",
+                "file": "ML/SS/SAM-2.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "PointRend",
+                "query": "panoptic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SD/Load balancers.md",
+                "file": "ML/SS/SAM-2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SD/Load balancers.md",
+                "file": "ML/SS/SAM-2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,11 +164,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SD/Load balancers.md"
+                "file": "ML/SS/SAM-2.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -184,35 +185,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "931343f3827b5fb2",
+  "active": "9d8f44fdb465d9ed",
   "lastOpenFiles": [
-    "CS/Hungarian Algorithm.md",
-    "SD/Load balancers.md",
-    "CS/Graph.md",
-    "CS/Linear Programming.md",
-    "ML/DETR/DETR.md",
-    "SD",
-    "ML/SS/PointRend.md",
-    "Templates/Template RUS (S).md",
-    "SD/Scalability.md",
-    "SD/protobuf.md",
-    "ML/Concepts/ML System Design.md",
-    "SD/Distributed Systems.md",
-    "ML/Concepts/Distributed Training.md",
-    "ML/DETR/DINO-DETR.md",
-    "ML/OD/YuNet.md",
-    "ML/LLM/Mixtral of Experts.md",
-    "ML/SS/Segment Anything.md",
+    "ML/SS/SAM.md",
     "Tasks/Semantic Segmentation.md",
-    "ML/SS/DeepLab.md",
-    "ML/Papers/A ConvNet for the 2020s.md",
+    "ML/NLP/BERT.md",
+    "ML/Transformer/ViT.md",
+    "ML/DETR/DETR.md",
+    "ML/LLM/Instruction tuning.md",
+    "ML/VLM/CogVLM.md",
+    "ML/SS/SAM-2.md",
+    "ML/VLM/Awesome MLLM.md",
+    "ML/Nets/CLIP.md",
+    "ML/LLM/Chameleon.md",
+    "ML/Metrics/ANLS.md",
+    "ML/Metrics/Levenshtein Distance.md",
+    "Templates/Template ENG.md",
+    "Templates/Template RUS.md",
+    "Templates/Template RUS (S).md",
+    "SD/Load Balancers.md",
+    "ML/Papers/DINOv2.md",
+    "ML/Papers/DINO.md",
+    "ML/OD/Label Assignment.md",
+    "ML/OD/YuNet.md",
+    "ML/Papers/SimCLR.md",
     "ML/Papers/Revisiting ResNets.md",
     "ML/Papers/Noisy Student.md",
-    "ML/Papers/DINO.md",
-    "ML/Concepts/Knowledge Distillation.md",
-    "ML/Papers/SimCLR.md",
-    "ML/DNB/VLM/PDFVQA.md",
-    "ML/DNB/VLM/MP-DocVQA.md",
+    "CS/Hungarian Algorithm.md",
+    "ML/SS/PointRend.md",
+    "SD",
     "ML/SS",
     "ML/Layers",
     "Soft",
