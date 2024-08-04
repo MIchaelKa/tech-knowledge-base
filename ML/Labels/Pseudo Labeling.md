@@ -17,11 +17,30 @@ https://www.analyticsvidhya.com/blog/2017/09/pseudo-labelling-semi-supervised-le
 
 ---
 
+# Термины
+
+QDA
+
+# Overview
+
+**Notes thoughts**
+below two styles
+old one vs. orgmod style?
+question need to ask to select a style
+- what's important source or short info?
+- any other info from this link?
+s-d-premier style vs. orgmod style?
+
+link itself better than [link with description]()?
+
+v1
+
 **Pseudo Labeling - QDA**
 [https://www.kaggle.com/cdeotte/pseudo-labeling-qda-0-969](https://www.kaggle.com/cdeotte/pseudo-labeling-qda-0-969)
 
 >Pseudo labeling is the process of adding confident predicted test data to your training data.
 
-# Термины
+v2
 
-QDA
+- Select high-confidence predictions as pseudo labels for the unlabeled data.
+	- https://chatgpt.com/c/df1920dd-9b9d-4e10-ab04-648cf516f6bc

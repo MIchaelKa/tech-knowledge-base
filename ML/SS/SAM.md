@@ -53,6 +53,7 @@ Join with Links section?
 GPT-3
 
 Interactive segmentation
+human-in-the-loop
 
 **Transformers**
 [[DETR]]
@@ -64,6 +65,14 @@ Interactive segmentation
 	- Masked autoencoders are scalable vision learners
 - Perpixel classification is not all you need for semantic segmentation.
 	- *The paper where is more detailed description of how Mask decoder work?*
+
+# Ideas
+
+SAM - CV Foundation model
+GPT - NLP Foundation model
+
+self-driving foundation models?
+https://en.wikipedia.org/wiki/Self-driving_car
 
 # Overview
 
@@ -98,19 +107,17 @@ After:
 It needs to output the same number of embeddings as it was produced by encoder in order to have correspondence with original image.
 
 **How mask decoder in Segment Anything(SAM) works?**
-https://chatgpt.com/c/4869e3ec-78d4-44e9-b392-fe307d6f948d
+- only request
+	- https://chatgpt.com/c/4869e3ec-78d4-44e9-b392-fe307d6f948d
+- request + paper
+	- TODO
+
+**Token encoder**
+*token encoder provides the needed number of tokens?*
 
 **Loss**
 focal loss and dice loss
 focal loss for semantic segmentation?
-
-# Ideas
-
-SAM - CV Foundation model
-GPT - NLP Foundation model
-
-self-driving foundation models?
-https://en.wikipedia.org/wiki/Self-driving_car
 
 # Data
 
@@ -119,7 +126,18 @@ https://ai.meta.com/datasets/segment-anything/
 *The data was collected using SAM.*
 Как это работает когда модель ошибается?
 [[Pseudo Labeling]]
+
+
 data engine in Segment Anything (SAM) vs. Pseudo Labeling
+- only request
+	- https://chatgpt.com/c/d3c86e71-0c9e-4f19-b963-972a8bf0a5f4
+- request + paper
+	- https://chatgpt.com/c/df1920dd-9b9d-4e10-ab04-648cf516f6bc
+
+3rd stage (fully automatic stage ) in Segment Anything (SAM) vs. Pseudo Labeling
+- request + paper
+	- https://chatgpt.com/c/df1920dd-9b9d-4e10-ab04-648cf516f6bc
+
 
 SA-1B Dataset
 - ENG

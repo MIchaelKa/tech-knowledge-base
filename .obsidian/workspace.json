@@ -58,7 +58,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/SS/SAM-2.md",
+                "file": "ML/SS/SAM.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/SS/SAM-2.md",
+                "file": "ML/SS/SAM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/SS/SAM-2.md"
+                "file": "ML/SS/SAM.md"
               }
             }
           }
@@ -173,7 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 381.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,16 +185,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9d8f44fdb465d9ed",
+  "active": "1a8152e582ee85f0",
   "lastOpenFiles": [
+    "ML/Labels/Pseudo Labeling.md",
+    "ML/SS/SAM-2.md",
     "ML/SS/SAM.md",
+    "().md",
     "Tasks/Semantic Segmentation.md",
     "ML/NLP/BERT.md",
     "ML/Transformer/ViT.md",
     "ML/DETR/DETR.md",
     "ML/LLM/Instruction tuning.md",
     "ML/VLM/CogVLM.md",
-    "ML/SS/SAM-2.md",
     "ML/VLM/Awesome MLLM.md",
     "ML/Nets/CLIP.md",
     "ML/LLM/Chameleon.md",
@@ -211,8 +213,6 @@
     "ML/Papers/SimCLR.md",
     "ML/Papers/Revisiting ResNets.md",
     "ML/Papers/Noisy Student.md",
-    "CS/Hungarian Algorithm.md",
-    "ML/SS/PointRend.md",
     "SD",
     "ML/SS",
     "ML/Layers",
