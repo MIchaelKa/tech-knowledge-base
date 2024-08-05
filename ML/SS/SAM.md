@@ -40,10 +40,6 @@ Evaluation
 - *IoU?*
 - *Segmentation metrics?*
 
-Should this section resemble TOC?
-TOC with links like Zero-Shot
-Join with Links section?
-
 # Links
 
 [[Semantic Segmentation]]
@@ -80,6 +76,7 @@ https://en.wikipedia.org/wiki/Self-driving_car
 *model needs to run in real time on a CPU in a web browser to allow our annotators to use SAM interactively*
 
 # Foundation model
+
 Foundation model for image segmentation
 *foundation model for image segmentation: a **promptable** model that is trained on diverse data and that can adapt to specific tasks, analogous to how prompting is used in natural language processing models.*
 
