@@ -70,6 +70,14 @@ GPT - NLP Foundation model
 self-driving foundation models?
 https://en.wikipedia.org/wiki/Self-driving_car
 
+# Questions
+
+token-to-image and image-to-token attentions
+- just changing Q and K?
+	- first Q from image embeddings, K from output tokens
+	- then Q from output tokens, K from image embeddings
+
+
 # Overview
 
 **Speed and annotations**
@@ -111,6 +119,7 @@ It needs to output the same number of embeddings as it was produced by encoder i
 
 **Token encoder**
 *token encoder provides the needed number of tokens?*
+output tokens (was seen in AM-2)
 
 **Loss**
 focal loss and dice loss

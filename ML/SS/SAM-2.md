@@ -43,6 +43,16 @@ https://github.com/facebookresearch/segment-anything-2
 Amazon SageMaker
 ?
 
+FlashAttention-2
+- Does it mean that the models assumed to run only on cloud hardware like A100?
+
+# Papers
+
+- Hiera
+	- Hiera: A hierarchical vision transformer without the bells-and-whistles.
+	- multiscale features
+- [[RoPE]]
+- 
 # Overview
 
 **Usage**
@@ -94,7 +104,7 @@ video segmentation problem
 - Efficiency
 	- Multiple objects
 		- *Under the hood, SAM 2 processes each object separately*
-		- ???
+		- ?
 
 **Features**
 - Multiple objects
@@ -125,11 +135,18 @@ temporal components
 	- last N frames?
 
 **memory attention**
-- *memory attention operation takes the per-frame embedding from the image encoder and conditions it on the memory bank*
+- Encoder
+	- *memory attention operation takes the per-frame embedding from the image encoder and conditions it on the memory bank*
 	- Heavy encoder runs on each frame?
 	- real-time processing?
 	- see **Performance**
 - How memory attention block works in details?
+	- cross-attention to memories
+	- How it can attend to several memories from the past at once?
+	- https://chatgpt.com/c/e1404028-86d5-4996-a5e7-cc1b0f770eb8
+- Conditioning
+	- *frame embedding used by the SAM 2 decoder conditioned on memories of past predictions and prompted frames.*
+	- What **conditioned** mean in this context?
 
 **streaming architecture**
 real-time processing of arbitrarily long videos

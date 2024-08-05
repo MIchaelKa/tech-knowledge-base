@@ -34,7 +34,7 @@
             }
           },
           {
-            "id": "1a8152e582ee85f0",
+            "id": "0c6404cacd4a8cf5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -46,7 +46,7 @@
             }
           },
           {
-            "id": "2478c180cb9cef88",
+            "id": "1a8152e582ee85f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -87,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "panoptic",
+                "query": "RoPE",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -185,11 +185,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ab8f0afb60d88328",
+  "active": "1a8152e582ee85f0",
   "lastOpenFiles": [
-    "Tasks/Tracking.md",
     "ML/SS/SAM.md",
     "ML/SS/SAM-2.md",
+    "ML/Transformer/RoPE.md",
+    "ML/LLM/_LLM.md",
+    "Tasks/Tracking.md",
     "Tasks/Semantic Segmentation.md",
     "ML/ML/Boosting.md",
     "Templates/Template ENG.md",
@@ -211,8 +213,6 @@
     "ML/Papers/DINOv2.md",
     "ML/Papers/DINO.md",
     "ML/OD/Label Assignment.md",
-    "ML/OD/YuNet.md",
-    "ML/Papers/SimCLR.md",
     "SD",
     "ML/SS",
     "ML/Layers",
