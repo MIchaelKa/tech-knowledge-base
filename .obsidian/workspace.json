@@ -36,43 +36,19 @@
             }
           },
           {
-            "id": "04f5e475999f90e2",
+            "id": "9c46ca6d4f8fd4e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/3D/Depth Estimation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "032f6e72fd38a735",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/3D/Stereo Imaging.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2065eb1156dc94f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COLMAP.md",
+                "file": "ML/3D/3D Human Pose Estimation (3DHPE).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "RoPE",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -138,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/3D/Stereo Imaging.md",
+                "file": "ML/3D/3D Human Pose Estimation (3DHPE).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/3D/Stereo Imaging.md",
+                "file": "ML/3D/3D Human Pose Estimation (3DHPE).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,17 +154,15 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/3D/Stereo Imaging.md"
+                "file": "ML/3D/3D Human Pose Estimation (3DHPE).md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 381.5,
-    "collapsed": true
+    "width": 381.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,19 +174,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "032f6e72fd38a735",
+  "active": "9c46ca6d4f8fd4e2",
   "lastOpenFiles": [
-    "COLMAP.md",
-    "ML/3D/Stereo Imaging.md",
-    "Templates/Papers.md",
-    "Appropriate Nearest Neighbors (ANN).md",
+    "ML/3D/SimpleBaseline3D.md",
+    "ML/3D/3D Human Pose Estimation (3DHPE).md",
     "ML/3D/Depth Estimation.md",
+    "ML/3D/Depth Anything.md",
     "Templates/Template ENG.md",
-    "ML/3D/3D Reconstruction.md",
-    "MVSNet.md",
-    "Camera Calibration.md",
-    "Neural Rendering.md",
+    "Templates/Papers.md",
+    "ML/DNB/Human3.6M.md",
+    "CV",
+    "ML/3D/COLMAP.md",
     "ML/3D/3D Object Detection (3DOD).md",
+    "ML/3D/Stereo Imaging.md",
+    "ML/Appropriate Nearest Neighbors (ANN).md",
+    "ML/3D/3D Reconstruction.md",
+    "ML/3D/MVSNet.md",
+    "CV/Camera Calibration.md",
+    "Tasks/Neural Rendering.md",
     "ML/3D/Med3D.md",
     "ML/3D/Mesh-R-CNN.md",
     "ML/DNB/KITTI.md",
@@ -225,10 +204,6 @@
     "Templates/Template RUS.md",
     "Templates/Template RUS (S).md",
     "ML/DNB/Visual Genome (VG).md",
-    "ML/DNB/VLM/MMBench.md",
-    "ML/DNB/VLM/MME.md",
-    "ML/DNB/VLM/ChartQA.md",
-    "ML/DNB/VLM/DocVQA.md",
     "SD",
     "ML/SS",
     "ML/Layers",
@@ -239,7 +214,6 @@
     "Math",
     "ML/ML",
     "ML/OD",
-    "ML/DETR",
     "Untitled.canvas"
   ]
 }
