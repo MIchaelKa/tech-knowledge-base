@@ -1,0 +1,18 @@
+
+
+Depth Map Prediction from a Single Image using a Multi-Scale Deep Network
+https://arxiv.org/abs/1406.2283
+Citations (3604)
+Source: [[KITTI]]
+SILog
+
+End-to-end learning of geometry and context for deep stereo regression
+[https://arxiv.org/abs/1703.04309](https://arxiv.org/abs/1703.04309)
+Citations (1183)
+Source: [[Mesh-R-CNN]]
+vs. MVSNet
+
+
+A taxonomy and evaluation of dense two-frame stereo correspondence algorithms
+Daniel Scharstein and Richard Szeliski.
+Cost volume

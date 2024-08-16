@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers.md",
+                "file": "Templates/Papers.md",
                 "mode": "source",
                 "source": false
               },
@@ -36,19 +36,43 @@
             }
           },
           {
-            "id": "0c6404cacd4a8cf5",
+            "id": "04f5e475999f90e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/DNB/KITTI.md",
+                "file": "ML/3D/Depth Estimation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "032f6e72fd38a735",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/3D/Stereo Imaging.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2065eb1156dc94f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COLMAP.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -98,8 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 341.5
   },
   "right": {
     "id": "2f1b0a2991b40d4e",
@@ -115,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/DNB/KITTI.md",
+                "file": "COLMAP.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/DNB/KITTI.md",
+                "file": "COLMAP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/DNB/KITTI.md"
+                "file": "COLMAP.md"
               }
             }
           }
@@ -177,18 +200,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0c6404cacd4a8cf5",
+  "active": "2065eb1156dc94f3",
   "lastOpenFiles": [
-    "Papers.md",
-    "ML/DNB/KITTI.md",
-    "PANet.md",
-    "Stereo.md",
+    "Appropriate Nearest Neighbors (ANN).md",
+    "COLMAP.md",
+    "ML/3D/Stereo Imaging.md",
+    "ML/3D/Depth Estimation.md",
+    "Templates/Papers.md",
     "Templates/Template ENG.md",
-    "Kubric.md",
-    "3D Object Detection (3DOD).md",
+    "ML/3D/3D Reconstruction.md",
+    "MVSNet.md",
+    "Camera Calibration.md",
+    "Neural Rendering.md",
+    "ML/3D/3D Object Detection (3DOD).md",
+    "ML/3D/Med3D.md",
+    "ML/3D/Mesh-R-CNN.md",
+    "ML/DNB/KITTI.md",
+    "ML/3D",
+    "ML/3D/CNN-3D.md",
+    "ML/3D/Kubric.md",
+    "ML/Nets/PANet.md",
     "ML/SS/SAM.md",
-    "Depth estimation.md",
-    "CenterNet.md",
+    "ML/Nets/CenterNet.md",
     "Templates/Template RUS.md",
     "Templates/Template RUS (S).md",
     "ML/DNB/Visual Genome (VG).md",
@@ -196,15 +229,6 @@
     "ML/DNB/VLM/MME.md",
     "ML/DNB/VLM/ChartQA.md",
     "ML/DNB/VLM/DocVQA.md",
-    "ML/DNB/_DNB_Image-Text.md",
-    "ML/DNB/_DNB_NLP.md",
-    "ML/DNB/_DNB.md",
-    "ML/Papers/DINO.md",
-    "ML/Papers/DINOv2.md",
-    "ML/SS/SAM-2.md",
-    "ML/Transformer/RoPE.md",
-    "ML/LLM/_LLM.md",
-    "Tasks/Tracking.md",
     "SD",
     "ML/SS",
     "ML/Layers",
@@ -216,7 +240,6 @@
     "ML/ML",
     "ML/OD",
     "ML/DETR",
-    "Images",
     "Untitled.canvas"
   ]
 }

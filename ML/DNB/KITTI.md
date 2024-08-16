@@ -35,8 +35,8 @@ SILog
 
 Tasks
 - Stereo
-	- [[Stereo]]
-	- [[Depth estimation]]
+	- [[Stereo Imaging]]
+	- [[Depth Estimation]]
 - Optical Flow
 - Visual Odometry
 	- GPS

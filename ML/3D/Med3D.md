@@ -1,5 +1,5 @@
 
-# Внешние ссылки
+# External Links
 
 **Paper**
 Med3D: Transfer Learning for 3D Medical Image Analysis
