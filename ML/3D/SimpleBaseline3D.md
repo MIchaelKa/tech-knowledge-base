@@ -20,7 +20,7 @@ https://chatgpt.com/c/5587f998-d763-4bb7-8ba3-98968b7a1568
 2d
 - Stacked hourglass networks for human pose estimation.
 
-e2e approaches
+e2e approaches (papers)
 - Coarse-to-fine volumetric prediction for single-image 3D human pose.
 - Structured prediction of 3d human pose with deep neural networks.
 - VNect?

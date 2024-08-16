@@ -40,9 +40,7 @@ Pixelwise View Selection for Unstructured Multi-View Stereo
 
 # Datasets
 
-DTU
-- 3D Reconstruction
-- indoor DTU dataset
+[[DTU]]
 
 Tanks and Temples
 - Point Clouds

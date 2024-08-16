@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/3D/3D Human Pose Estimation (3DHPE).md",
+                "file": "ML/3D/COLMAP.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/3D/3D Human Pose Estimation (3DHPE).md",
+                "file": "ML/3D/COLMAP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/3D/3D Human Pose Estimation (3DHPE).md"
+                "file": "ML/3D/COLMAP.md"
               }
             }
           }
@@ -162,7 +162,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 381.5
+    "width": 324.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,27 +175,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9c46ca6d4f8fd4e2",
+  "active": "ab8f0afb60d88328",
   "lastOpenFiles": [
-    "ML/3D/SimpleBaseline3D.md",
+    "ML/DNB/3D",
+    "ML/DNB/3D/DTU.md",
     "ML/3D/3D Human Pose Estimation (3DHPE).md",
+    "ML/3D/Stereo Imaging.md",
     "ML/3D/Depth Estimation.md",
     "ML/3D/Depth Anything.md",
-    "Templates/Template ENG.md",
-    "Templates/Papers.md",
-    "ML/DNB/Human3.6M.md",
-    "CV",
-    "ML/3D/COLMAP.md",
-    "ML/3D/3D Object Detection (3DOD).md",
-    "ML/3D/Stereo Imaging.md",
-    "ML/Appropriate Nearest Neighbors (ANN).md",
     "ML/3D/3D Reconstruction.md",
+    "ML/3D/COLMAP.md",
+    "Templates/Template ENG.md",
     "ML/3D/MVSNet.md",
+    "ML/3D/SimpleBaseline3D.md",
+    "Templates/Papers.md",
+    "ML/DNB/3D/Human3.6M.md",
+    "CV",
+    "ML/3D/3D Object Detection (3DOD).md",
+    "ML/Appropriate Nearest Neighbors (ANN).md",
     "CV/Camera Calibration.md",
     "Tasks/Neural Rendering.md",
     "ML/3D/Med3D.md",
     "ML/3D/Mesh-R-CNN.md",
-    "ML/DNB/KITTI.md",
+    "ML/DNB/3D/KITTI.md",
     "ML/3D",
     "ML/3D/CNN-3D.md",
     "ML/3D/Kubric.md",
@@ -202,8 +205,6 @@
     "ML/SS/SAM.md",
     "ML/Nets/CenterNet.md",
     "Templates/Template RUS.md",
-    "Templates/Template RUS (S).md",
-    "ML/DNB/Visual Genome (VG).md",
     "SD",
     "ML/SS",
     "ML/Layers",
