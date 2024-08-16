@@ -76,8 +76,7 @@ Unordered images and Multi-view matching
 # Pipeline
 
 
-Step 1
-Image Features
+Step 1. Image Features
 - Feature Extraction
 	- SIFT
 	- DL
@@ -94,15 +93,18 @@ Image Features
 		- FLANN
 			- [[Appropriate Nearest Neighbors (ANN)]]
 		- Graph-Based Matching
+	
 - Geometrical Verification
 	- RANSAC
-	- Essential and Fundamental Matrices
+	- Essential and Fundamental Matrices estimation
+	- part of Step 2?
+	- related to Two-View Geometry Estimation?
 
-Step 2
+Step 2. SfM
 Sparse Reconstruction
-SfM
 - Initial Pair Selection
 	- select an initial pair of images with a high number of feature matches
+	- Two-View Geometry Estimation
 	- basic 3D structure
 	- camera positions
 		- [[Camera Calibration]]
@@ -116,12 +118,12 @@ SfM
 	- Methods
 		- solving the Perspective-n-Point (PnP)
 		- 2D-3D correspondences
-- Bundle Adjustment
+- Bundle Adjustment (BA)
 	- non-linear optimization process that minimizes the reprojection error across all images
 	- refine previous output
+	- Levenberg-Marquardt
 
-Step 3
-Dense Reconstruction
+Step 3. Dense Reconstruction
 - Depth Map Estimation
 	- multi-view stereo (MVS) techniques
 		- Semi-Global Matching (SGM)
@@ -153,18 +155,31 @@ Q:
 	- Camera Pose Estimation
 		- Needed for rectification step.
 		- We need rectified images before applying triangulation in depth estimation step
-		- Which algorithm they use on Step 2 for simultaneously getting 3D coordinated and camera positions w/o rectification?
 	- sparse 3D point cloud - starting point or reference for dense reconstruction
 	- reduces the computational complexity of dense reconstruction
 		- epipolar line searching?
 - Can we benefit from using Monocular Depth Estimation (MDE) on Step 2
+	- YEs
+- Which algorithm they use on Step 2 for simultaneously getting 3D coordinated and camera positions?
+	- Bundle Adjustment (BA) - ?
+- Which algorithm they use on Step 2 to establish a basic 3D structure and camera positions
+	- Two-View Geometry Estimation
+- Does COLMAP use rectified images on the Step 3. Dense Reconstruction?
+	- YES
 
 
-3D structure on Step 2 (SfM)
+
+3D structure on Step 2. SfM.
 - sparse
 	- Only key points are reconstructed
 - points in the sparse cloud are generally very accurate, as they are derived from robust feature matches
 
-Depth Map Estimation on Step 3 (Dense Reconstruction)
+Depth Map Estimation on Step 3. Dense Reconstruction.
 - dense
 - accuracy can vary depending on the quality of depth estimation
+
+Two-View Geometry Estimation
+- Essential and Fundamental Matrices estimation
+- Rectified images are not typically required
+- Triangulation
+- Direct linear transformation (DLT)

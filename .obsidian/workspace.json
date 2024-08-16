@@ -72,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COLMAP.md",
+                "file": "ML/3D/Stereo Imaging.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COLMAP.md",
+                "file": "ML/3D/Stereo Imaging.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COLMAP.md"
+                "file": "ML/3D/Stereo Imaging.md"
               }
             }
           }
@@ -200,13 +200,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2065eb1156dc94f3",
+  "active": "032f6e72fd38a735",
   "lastOpenFiles": [
-    "Appropriate Nearest Neighbors (ANN).md",
     "COLMAP.md",
     "ML/3D/Stereo Imaging.md",
-    "ML/3D/Depth Estimation.md",
     "Templates/Papers.md",
+    "Appropriate Nearest Neighbors (ANN).md",
+    "ML/3D/Depth Estimation.md",
     "Templates/Template ENG.md",
     "ML/3D/3D Reconstruction.md",
     "MVSNet.md",
