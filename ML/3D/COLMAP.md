@@ -181,3 +181,19 @@ Two-View Geometry Estimation
 - Rectified images are not typically required
 - Triangulation
 - Direct linear transformation (DLT)
+
+
+# Merging
+
+Q: How to merge depth maps from different images?
+
+Steps
+- Camera Pose Information
+- Transform
+	- Convert each depth map from its camera-centric coordinate system to a common world coordinate system.
+- Redundancy
+	- Redundant points in the point cloud
+	- Outliers
+
+Volumetric methods
+- Truncated Signed Distance Function (TSDF)

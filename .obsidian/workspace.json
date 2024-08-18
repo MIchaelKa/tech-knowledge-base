@@ -36,12 +36,24 @@
             }
           },
           {
-            "id": "9c46ca6d4f8fd4e2",
+            "id": "58a51388ef0a5f09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/3D/3D Human Pose Estimation (3DHPE).md",
+                "file": "ML/3D/3D Reconstruction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0a362c0bf51e7f80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/DNB/3D/DTU.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mvs",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/3D/COLMAP.md",
+                "file": "ML/3D/3D Reconstruction.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/3D/COLMAP.md",
+                "file": "ML/3D/3D Reconstruction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/3D/COLMAP.md"
+                "file": "ML/3D/3D Reconstruction.md"
               }
             }
           }
@@ -162,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5,
-    "collapsed": true
+    "width": 324.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,29 +186,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ab8f0afb60d88328",
+  "active": "58a51388ef0a5f09",
   "lastOpenFiles": [
-    "ML/DNB/3D",
     "ML/DNB/3D/DTU.md",
-    "ML/3D/3D Human Pose Estimation (3DHPE).md",
-    "ML/3D/Stereo Imaging.md",
-    "ML/3D/Depth Estimation.md",
-    "ML/3D/Depth Anything.md",
     "ML/3D/3D Reconstruction.md",
-    "ML/3D/COLMAP.md",
-    "Templates/Template ENG.md",
-    "ML/3D/MVSNet.md",
+    "CV/Stereo Imaging.md",
     "ML/3D/SimpleBaseline3D.md",
+    "ML/3D/MVSNet.md",
+    "ML/3D/COLMAP.md",
+    "ML/DNB/3D/KITTI.md",
+    "Learning OpenCV.md",
+    "CV/Camera Calibration.md",
+    "ML/3D/3D Human Pose Estimation (3DHPE).md",
+    "Templates/Template ENG.md",
     "Templates/Papers.md",
+    "ML/3D/Depth Estimation.md",
+    "ML/DNB/3D",
+    "ML/3D/Depth Anything.md",
     "ML/DNB/3D/Human3.6M.md",
     "CV",
     "ML/3D/3D Object Detection (3DOD).md",
     "ML/Appropriate Nearest Neighbors (ANN).md",
-    "CV/Camera Calibration.md",
     "Tasks/Neural Rendering.md",
     "ML/3D/Med3D.md",
     "ML/3D/Mesh-R-CNN.md",
-    "ML/DNB/3D/KITTI.md",
     "ML/3D",
     "ML/3D/CNN-3D.md",
     "ML/3D/Kubric.md",
@@ -214,7 +226,6 @@
     "Images/Снимок экрана 2024-05-23 в 10.57.00.png",
     "Math",
     "ML/ML",
-    "ML/OD",
     "Untitled.canvas"
   ]
 }

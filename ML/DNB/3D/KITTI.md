@@ -192,7 +192,7 @@ SILog
 
 Q:
 What is the benefits of using scale invariant logarithmic error (SILog) over Relative squared error (percent) or Relative absolute error (percent)?
-
+- **Relative Errors** (both squared and absolute) are not inherently scale-invariant.
 
 # Comparison
 

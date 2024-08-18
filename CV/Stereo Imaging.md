@@ -9,6 +9,9 @@ Structure from motion (SfM)
 
 # External Links
 
+[[Learning OpenCV]]
+
+
 
 # Terms
 
@@ -25,8 +28,13 @@ disparity map
 
 # Overview
 
-**Multi-View Stereo (MVS)**
+Multi-View Stereo (MVS)
 Reconstructs 3D surfaces from multiple images taken at different viewpoints.
+
+MVS methods
+- depthmap-fusion based
+	- [[DTU]]
+
 
 # Structure from motion (SfM)
 
@@ -48,6 +56,9 @@ _opencv_contrib/modules/sfm_
 [[COLMAP]]
 
 OpenCV
+
+Rectification
+- TBD
 
 # DL
 

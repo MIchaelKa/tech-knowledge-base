@@ -45,7 +45,7 @@ Lifting 2D keypoints to 3D
 [[SimpleBaseline3D]]
 
 **VideoPose3D**
-3d human pose estimation in video with temporal convolutions and semi-supervised training
+3d human pose estimation in video with **temporal convolutions** and semi-supervised training
 https://arxiv.org/abs/1811.11742
 Citations (855)
 

@@ -32,6 +32,8 @@ aimed at multiple view stereo (MVS) evaluation
 - 80 scenes of large variability
 - 49 or 64 accurate camera positions and reference structured light scans
 - all acquired by a 6-axis industrial robot
+- rectified images
+	- 30000 rectified images
 
 
 Structured Light Scanning
@@ -43,3 +45,18 @@ Structured Light Scanning
 		- light patterns (usually stripes or grids)
 	- Deformation Measurement
 	- 3D Reconstruction
+
+
+# Evaluation
+
+Metrics
+- Accuracy and Completeness
+
+Missing data
+- observability mask
+
+Sampling
+- more 3D points around strongly textured surface regions
+- bias in the evaluation
+
+Meshed surfaces
