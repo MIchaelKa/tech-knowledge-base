@@ -8,6 +8,16 @@ Point Clouds
 
 [[Stereo Imaging]]
 
+[[3D Human Pose Estimation (3DHPE)]]
+
+# DL
+
+[[MVSNet]]
+
+[[Pix2Vox]]
+
+[[Mesh-R-CNN]]
+
 # Datasets
 
 [[KITTI]]
@@ -17,6 +27,8 @@ Point Clouds
 Tanks and temples
 
 Middlebury
+
+ShapeNet
 
 # Metrics
 
