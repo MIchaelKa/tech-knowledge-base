@@ -12,7 +12,6 @@ Citations (1183)
 Source: [[Mesh-R-CNN]]
 vs. MVSNet
 
-
 A taxonomy and evaluation of dense two-frame stereo correspondence algorithms
 Daniel Scharstein and Richard Szeliski.
 Cost volume

@@ -26,6 +26,10 @@ Methods
 - Direct
 - Lifting
 
+DL
+- volumetric
+- Learnable triangulation methods
+
 ## Classic
 
 Classic Approaches to Pose Estimation
@@ -36,10 +40,7 @@ _“Bundle Adjustment in the Large”_ by Sameer Agarwal et al., ECCV 2010.
 
 Direct estimation from images
 
-**VNect**
-VNect: Real-time 3D Human Pose Estimation with a Single RGB Camera
-https://arxiv.org/abs/1705.01583
-Citations (780)
+[[VNect]]
 
 ## Lifting
 
@@ -56,18 +57,6 @@ Citations (855)
 
 [[AssemblyHands]]
 - which category?
-
-# Datasets
-
-- [[Human3.6M]]
-- MPII
-	- MPII Human Pose
-	- 3D?
-- COCO
-- H3WB
-
-**Format**
-https://chatgpt.com/c/f11aacbf-7459-496d-a274-9ef652293f6f
 
 
 # Human Body Models

@@ -17,6 +17,8 @@ https://arxiv.org/abs/2304.12301
 
 # Summary
 
+multi-image
+
 Dataset generation pipeline
 - Volumetric annotation network
 - Learnable triangulation methods
@@ -72,7 +74,6 @@ large-scale datasets for understanding egocentric activities
 
 PCK
 PCKh
-
 
 Single-view baseline
 - heatmap-based hand pose estimators
