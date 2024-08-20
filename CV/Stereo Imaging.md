@@ -64,7 +64,3 @@ Rectification
 
 [[MVSNet]]
 
-Cost volume
-- https://chatgpt.com/c/6f1c64aa-a750-4d4a-a7bb-00c2cdca0386
-- Introduced by *Daniel Scharstein and Richard Szeliski. A taxonomy and evaluation of dense two-frame stereo correspondence algorithms.*
-- cost volume stereo matching

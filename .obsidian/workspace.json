@@ -36,19 +36,33 @@
             }
           },
           {
-            "id": "695a5a5937f58ae0",
+            "id": "0f0579a2bf18410a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Tasks/3D/3D Reconstruction.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "6e33f8d74539b74b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CV/SLAM.md",
+                "file": "ML/Tasks/3D/NeuralRecon.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -77,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "PnP",
+                "query": "Volumetric",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CV/SLAM.md",
+                "file": "ML/Tasks/3D/NeuralRecon.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CV/SLAM.md",
+                "file": "ML/Tasks/3D/NeuralRecon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,11 +168,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CV/SLAM.md"
+                "file": "ML/Tasks/3D/NeuralRecon.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -174,34 +189,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ab8f0afb60d88328",
+  "active": "6e33f8d74539b74b",
   "lastOpenFiles": [
+    "ML/Tasks/3D/3D Reconstruction.md",
+    "ML/Tasks/3D/NeuralRecon.md",
+    "ML/Tasks/3D/COLMAP.md",
+    "CV/Stereo Imaging.md",
+    "Templates/TODO.md",
+    "ML/Tasks/3D/MVSNet.md",
     "Templates/Template ENG.md",
+    "ML/Tasks/3D/Pose/VideoPose3D.md",
+    "ML/Tasks/3D/Pose/3D Human Pose Estimation (3DHPE).md",
     "CV/SLAM.md",
     "CV/RANSAC.md",
     "Math/SVD.md",
     "ML/Tasks/3D/Pose/PoseNet.md",
     "CV/PnP.md",
     "CV/ORB.md",
-    "ML/Tasks/3D/COLMAP.md",
     "Math/Kalman Filter.md",
-    "ML/Tasks/3D/3D Reconstruction.md",
     "ML/Tasks/3D/Pix2Vox.md",
-    "CV/Stereo Imaging.md",
     "ML/Tasks/3D/Depth Estimation.md",
     "ML/State Spaces Models (SSM).md",
     "ML/NeRF.md",
     "ML/Tasks/Pose/Pose Estimation.md",
-    "ML/Tasks/3D/Pose/3D Human Pose Estimation (3DHPE).md",
     "ML/Tasks/3D/Pose/SimpleBaseline3D.md",
     "Math/Quaternion.md",
     "ML/Tasks/Pose/DeepPose.md",
     "CV/SIFT.md",
-    "ML/Tasks/3D/Pose/VideoPose3D.md",
     "ML/DNB/3D/Human3.6M.md",
-    "CV/Camera Calibration.md",
-    "ML/Tasks/3D/A Practical Stereo Depth System for Smart Glasses.md",
-    "ML/Layers/Dilated Convolution.md",
     "ML/Tasks/3D/Pose",
     "ML/Tasks/Tracking",
     "ML/Tasks/Pose",
