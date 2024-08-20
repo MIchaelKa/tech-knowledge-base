@@ -46,7 +46,7 @@ static requirement is important
 
 corresponding points
 - optical flow techniques such as `cv::calcOpticalFlowPyrLK`
-- SIFT
+- [[SIFT]]
 
 OpenCV
 _opencv_contrib/modules/sfm_

@@ -47,6 +47,7 @@ Direct estimation from images
 e2e
 
 [[VNect]]
+
 [[PoseNet]]
 
 e2e approaches (papers)

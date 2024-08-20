@@ -76,7 +76,7 @@ Unordered images and Multi-view matching
 
 Step 1. Image Features
 - Feature Extraction
-	- SIFT
+	- [[SIFT]]
 	- DL
 		- Paper: *Discriminative learning of local image descriptors.*
 	- binary features

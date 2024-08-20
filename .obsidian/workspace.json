@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "96132bb1145c2df6",
+            "id": "695a5a5937f58ae0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Tasks/3D/Pose/VideoPose3D.md",
+                "file": "CV/SLAM.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CPN",
+                "query": "PnP",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Tasks/3D/Pose/VideoPose3D.md",
+                "file": "CV/SLAM.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Tasks/3D/Pose/VideoPose3D.md",
+                "file": "CV/SLAM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Tasks/3D/Pose/VideoPose3D.md"
+                "file": "CV/SLAM.md"
               }
             }
           }
@@ -174,36 +174,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "96132bb1145c2df6",
+  "active": "ab8f0afb60d88328",
   "lastOpenFiles": [
-    "ML/DNB/3D/Human3.6M.md",
-    "ML/Tasks/3D/Pose/VideoPose3D.md",
     "Templates/Template ENG.md",
-    "ML/Tasks/3D/Pose/SimpleBaseline3D.md",
+    "CV/SLAM.md",
+    "CV/RANSAC.md",
+    "Math/SVD.md",
     "ML/Tasks/3D/Pose/PoseNet.md",
-    "CV/Camera Calibration.md",
-    "A Practical Stereo Depth System for Smart Glasses.md",
-    "ML/Tasks/3D/Pose/3D Human Pose Estimation (3DHPE).md",
-    "ML/Tasks/Pose/Pose Estimation.md",
-    "ML/Tasks/3D/3D Reconstruction.md",
-    "ML/Layers/Dilated Convolution.md",
-    "CPN.md",
-    "ML/Layers/FPN.md",
-    "ML/Tasks/Pose/HRNet.md",
-    "ML/Tasks/Pose/SimpleBaseline.md",
-    "ML/Tasks/Pose/Hourglass.md",
-    "ML/Tasks/SS/UNet.md",
-    "ML/Tasks/3D/Pose/VNect.md",
+    "CV/PnP.md",
+    "CV/ORB.md",
     "ML/Tasks/3D/COLMAP.md",
-    "ML/Tasks/3D/Pose/Structured prediction of 3d human pose with deep neural networks.md",
+    "Math/Kalman Filter.md",
+    "ML/Tasks/3D/3D Reconstruction.md",
+    "ML/Tasks/3D/Pix2Vox.md",
+    "CV/Stereo Imaging.md",
+    "ML/Tasks/3D/Depth Estimation.md",
+    "ML/State Spaces Models (SSM).md",
+    "ML/NeRF.md",
+    "ML/Tasks/Pose/Pose Estimation.md",
+    "ML/Tasks/3D/Pose/3D Human Pose Estimation (3DHPE).md",
+    "ML/Tasks/3D/Pose/SimpleBaseline3D.md",
+    "Math/Quaternion.md",
+    "ML/Tasks/Pose/DeepPose.md",
+    "CV/SIFT.md",
+    "ML/Tasks/3D/Pose/VideoPose3D.md",
+    "ML/DNB/3D/Human3.6M.md",
+    "CV/Camera Calibration.md",
+    "ML/Tasks/3D/A Practical Stereo Depth System for Smart Glasses.md",
+    "ML/Layers/Dilated Convolution.md",
     "ML/Tasks/3D/Pose",
-    "ML/Concepts/Self-Supervised Learning (SSL).md",
-    "ML/Tasks/SS/SAM-2.md",
-    "ML/Tasks/3D/Pose/Coarse-to-fine volumetric prediction for single-image 3D human pose.md",
-    "Templates/TODO.md",
-    "ML/_DL.md",
     "ML/Tasks/Tracking",
-    "ML/Tasks/Tracking/PoseTrack.md",
     "ML/Tasks/Pose",
     "ML/Tasks",
     "ML/DNB/3D",

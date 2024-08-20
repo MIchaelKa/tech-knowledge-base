@@ -4,19 +4,31 @@
 
 Point Clouds
 
-[[Depth Estimation]]
-
-[[Stereo Imaging]]
 
 [[3D Human Pose Estimation (3DHPE)]]
 
-# DL
+# Methods
 
-[[MVSNet]]
+Input
+- single-image
+- multiple-images
 
-[[Pix2Vox]]
 
-[[Mesh-R-CNN]]
+Techniques
+- Structure from Motion (SfM)
+- Multi-View Stereo (MVS)
+- Volumetric Methods
+	- voxel grids
+	- signed distance functions (SDF)
+
+[[Depth Estimation]]
+[[Stereo Imaging]]
+
+DL
+- [[MVSNet]]
+- [[Pix2Vox]]
+- [[Mesh-R-CNN]]
+
 
 # Datasets
 
