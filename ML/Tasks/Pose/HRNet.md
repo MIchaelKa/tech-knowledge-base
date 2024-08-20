@@ -28,6 +28,8 @@ Citations (3341)
 
 [[HigherHRNet]]
 
+[[CPN]]
+
 # Linked papers
 
 Deep High-Resolution Representation Learning for Visual Recognition
@@ -50,7 +52,7 @@ high-resolution **representations**
 
 OHKM
 online hard keypoint mining
-(look at CPN paper)
+[[CPN]]
 
 # Datasets
 

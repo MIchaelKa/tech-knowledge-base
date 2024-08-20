@@ -3,6 +3,7 @@
 
 
 A Simple Yet Effective Baseline for 3D Human Pose Estimation
+Julieta Martinez, Rayat Hossain, Javier Romero, James J. Little
 https://arxiv.org/abs/1705.03098
 Citations (1186)
 
@@ -17,15 +18,17 @@ https://chatgpt.com/c/5587f998-d763-4bb7-8ba3-98968b7a1568
 
 [[3D Human Pose Estimation (3DHPE)]]
 
+# Linked Papers
+
 2d
 - Stacked hourglass networks for human pose estimation.
 
 e2e approaches (papers)
-- Coarse-to-fine volumetric prediction for single-image 3D human pose.
-- Structured prediction of 3d human pose with deep neural networks.
-- VNect?
+- [[Coarse-to-fine volumetric prediction for single-image 3D human pose]]
+- [[Structured prediction of 3d human pose with deep neural networks]]
 - 3d human pose estimation from a single image via distance matrix regression
 	- distance matrix (DM)
+-  Where is [[VNect]]?
 
 # Data
 

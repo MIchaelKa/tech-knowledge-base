@@ -10,7 +10,7 @@ Localization of human joints in
 - 3D
 
 Input
-- single image(monocular) 
+- single image (monocular) 
 - multi-image pose estimation
 
 
@@ -54,11 +54,25 @@ PCK
 - 3D Percentage of Correct Keypoints
 
 MPJPE
+- https://chatgpt.com/c/72ceb9ed-7384-48cd-a366-eb27b8f04601
 - Mean Per Joint Position Error
 - sensitive to outliers and large errors
 
 AUC
 - Area Under the Curve (AUC) for 3D PCK
+
+# Loss
+
+MSE
+- [[HRNet]]
+
+MPJPE Loss
+- [[VideoPose3D]]
+- https://chatgpt.com/c/72ceb9ed-7384-48cd-a366-eb27b8f04601
+- MPJPE vs. MSE
+- MPJPE vs. MAE
+- MPJPE vs. RMSE
+
 
 # Datasets
 
@@ -79,9 +93,3 @@ https://github.com/open-mmlab/mmpose
 
 Format for 3D
 https://chatgpt.com/c/f11aacbf-7459-496d-a274-9ef652293f6f
-
-# Loss
-
-MSE
-- [[HRNet]]
-- any other options?

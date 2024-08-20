@@ -4,7 +4,8 @@
 
 # Paper
 
-\VNect: Real-time 3D Human Pose Estimation with a Single RGB Camera
+VNect: Real-time 3D Human Pose Estimation with a Single RGB Camera
+Dushyant Mehta, Srinath Sridhar, Oleksandr Sotnychenko, Helge Rhodin, Mohammad Shafiei, Hans-Peter Seidel, Weipeng Xu, Dan Casas, Christian Theobalt
 https://arxiv.org/abs/1705.01583
 Citations (780)
 
@@ -12,6 +13,9 @@ Citations (780)
 
 
 # Links
+
+Same authors
+- Monocular 3d human pose estimation in the wild using improved cnn supervision
 
 
 # Summary
