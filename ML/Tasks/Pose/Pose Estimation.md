@@ -40,6 +40,7 @@ AP / mAP
 - Similarity metrics
 	- OKS
 	- PCKh?
+	- [[HRNet]]
 
 PCKh
 - head-normalized probability of correct keypoint
@@ -79,3 +80,8 @@ https://github.com/open-mmlab/mmpose
 Format for 3D
 https://chatgpt.com/c/f11aacbf-7459-496d-a274-9ef652293f6f
 
+# Loss
+
+MSE
+- [[HRNet]]
+- any other options?
