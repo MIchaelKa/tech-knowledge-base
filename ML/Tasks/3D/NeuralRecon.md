@@ -4,7 +4,9 @@
 https://t.me/ai_newz/999
 - camera drift in ARKit?
 
-[https://zju3dv.github.io/neuralrecon/](https://zju3dv.github.io/neuralrecon/)
+https://zju3dv.github.io/neuralrecon/
+
+https://chatgpt.com/c/2dd1d6b8-7a46-4037-9a29-87696de294b5
 
 # Paper
 
@@ -12,7 +14,6 @@ NeuralRecon: Real-Time Coherent 3D Reconstruction from Monocular Video
 Jiaming Sun, Yiming Xie, Linghao Chen, Xiaowei Zhou, Hujun Bao
 https://arxiv.org/abs/2104.00681
 Citations (230)
-
 
 # Parent
 
@@ -33,10 +34,20 @@ KinectFusion
 
 # Linked papers
 
-[[MVSNet]]
+MVS
+- [[MVSNet]]
+- [[Cascade cost volume for high-resolution multi-view stereo and stereo matching]]
 
 Reconstruction
 - Atlas: End- to-End 3D Scene Reconstruction from Posed Image
+
+Path-based methods
+- [[COLMAP]]
+- Pixelwise View Selection for Unstructured Multi-View Stereo
+- when offline computation is allowed
+
+
+KinectFusion: Real-time dense surface mapping and tracking
 
 # Summary
 
@@ -46,6 +57,10 @@ Reconstruction
 Datasets
 - ScanNet
 - 7-Scenes
+
+Metrics
+- 2D Depth Metrics
+- 3D Geometry Metrics
 
 # Overview
 
@@ -84,3 +99,16 @@ steps
 	- way to aggregate 3D feature volume / TSDF volumes
 		- Instead of simply averaging or linearly combining the features from different frames, the GRU selectively integrates information from the current frame with the accumulated information from previous frames
 	- maintaining temporal consistency
+
+photo-consistency
+- assumption of photo-consistency
+- vs. rectification
+- Learning-based methods on real-time multi-view depth estimation try to alleviate the photo-consistency assumption with a data-driven approach.
+
+# Pipeline
+
+[[COLMAP]] pipeline vs. NeuralRecon pipeline
+
+What parts of the [[COLMAP]] pipeline we can change by NeuralRecon?
+
+No explicit depth map calculation step.

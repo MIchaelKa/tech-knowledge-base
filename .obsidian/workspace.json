@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "6e33f8d74539b74b",
+            "id": "f4c83939e2aeb30e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -91,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Volumetric",
+                "query": "KinectFusion",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -189,12 +189,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6e33f8d74539b74b",
+  "active": "f4c83939e2aeb30e",
   "lastOpenFiles": [
     "ML/Tasks/3D/3D Reconstruction.md",
     "ML/Tasks/3D/NeuralRecon.md",
     "ML/Tasks/3D/COLMAP.md",
+    "Cascade cost volume for high-resolution multi-view stereo and stereo matching.md",
+    "ML/DNB/3D/KITTI.md",
     "CV/Stereo Imaging.md",
+    "ML/Tasks/3D/Depth Estimation.md",
     "Templates/TODO.md",
     "ML/Tasks/3D/MVSNet.md",
     "Templates/Template ENG.md",
@@ -208,15 +211,12 @@
     "CV/ORB.md",
     "Math/Kalman Filter.md",
     "ML/Tasks/3D/Pix2Vox.md",
-    "ML/Tasks/3D/Depth Estimation.md",
     "ML/State Spaces Models (SSM).md",
     "ML/NeRF.md",
     "ML/Tasks/Pose/Pose Estimation.md",
     "ML/Tasks/3D/Pose/SimpleBaseline3D.md",
     "Math/Quaternion.md",
     "ML/Tasks/Pose/DeepPose.md",
-    "CV/SIFT.md",
-    "ML/DNB/3D/Human3.6M.md",
     "ML/Tasks/3D/Pose",
     "ML/Tasks/Tracking",
     "ML/Tasks/Pose",
