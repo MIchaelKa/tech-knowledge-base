@@ -58,7 +58,7 @@ SLAM vs. [[3D Reconstruction]]
 SLAM
 - Performance
 	- prioritizes efficiency and real-time updating over high fidelity
-- Sensor Fusion
+- [[Sensor Fusion]]
 	- SLAM combines data from multiple sensors (e.g., cameras, LiDAR, IMUs, odometry) to estimate both the device’s pose and the map.
 
 Loop closure
@@ -74,5 +74,5 @@ Output
 
 Feature matching
 - Feature tracking can be used to replace feature matching
-- [[OpticalFlow]]
+- [[Optical Flow]]
 

@@ -14,6 +14,9 @@ https://arxiv.org/abs/2304.12301
 
 # Links
 
+Assembly101: A Large-Scale Multi-View Video Dataset for Understanding Procedural Activities
+https://assembly-101.github.io/
+
 
 # Summary
 

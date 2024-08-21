@@ -34,35 +34,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "0f0579a2bf18410a",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Tasks/3D/3D Reconstruction.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "f4c83939e2aeb30e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Tasks/3D/NeuralRecon.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -91,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "KinectFusion",
+                "query": "asse",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -128,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Tasks/3D/NeuralRecon.md",
+                "file": "Templates/Template ENG.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Tasks/3D/NeuralRecon.md",
+                "file": "Templates/Template ENG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,12 +142,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Tasks/3D/NeuralRecon.md"
+                "file": "Templates/Template ENG.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -189,34 +162,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4c83939e2aeb30e",
+  "active": "acc6807a00dd6c34",
   "lastOpenFiles": [
-    "ML/Tasks/3D/3D Reconstruction.md",
-    "ML/Tasks/3D/NeuralRecon.md",
-    "ML/Tasks/3D/COLMAP.md",
-    "Cascade cost volume for high-resolution multi-view stereo and stereo matching.md",
+    "ML/Tasks/Tracking/Tracking.md",
+    "ML/Tasks/3D/Pose/AssemblyHands.md",
+    "ML/Tasks/3D/Pose/3D Human Pose Estimation (3DHPE).md",
+    "Templates/Template ENG.md",
+    "ML/Tasks/Tracking/MOTChallenge.md",
+    "ML/Metrics/Tracking Metrics.md",
+    "ML/Tasks/SS/SAM-2.md",
+    "ML/Tasks/Tracking/PoseTrack.md",
+    "ML/Tasks/Pose/SimpleBaseline.md",
+    "ML/Tasks/Pose/HRNet.md",
+    "ML/Tasks/Tracking/FairMOT.md",
+    "ML/Tasks/Tracking/DeepSORT.md",
+    "ML/Tasks/Tracking/SORT.md",
+    "CV/Optical Flow.md",
+    "CV/SLAM.md",
     "ML/DNB/3D/KITTI.md",
+    "Tasks/Sensor Fusion.md",
+    "ML/Tasks/3D/NeuralRecon.md",
+    "ML/Tasks/3D/3D Reconstruction.md",
+    "ML/Tasks/3D/COLMAP.md",
+    "ML/Tasks/3D/Cascade cost volume for high-resolution multi-view stereo and stereo matching.md",
     "CV/Stereo Imaging.md",
     "ML/Tasks/3D/Depth Estimation.md",
     "Templates/TODO.md",
     "ML/Tasks/3D/MVSNet.md",
-    "Templates/Template ENG.md",
     "ML/Tasks/3D/Pose/VideoPose3D.md",
-    "ML/Tasks/3D/Pose/3D Human Pose Estimation (3DHPE).md",
-    "CV/SLAM.md",
-    "CV/RANSAC.md",
-    "Math/SVD.md",
-    "ML/Tasks/3D/Pose/PoseNet.md",
-    "CV/PnP.md",
-    "CV/ORB.md",
-    "Math/Kalman Filter.md",
-    "ML/Tasks/3D/Pix2Vox.md",
-    "ML/State Spaces Models (SSM).md",
-    "ML/NeRF.md",
-    "ML/Tasks/Pose/Pose Estimation.md",
-    "ML/Tasks/3D/Pose/SimpleBaseline3D.md",
-    "Math/Quaternion.md",
-    "ML/Tasks/Pose/DeepPose.md",
     "ML/Tasks/3D/Pose",
     "ML/Tasks/Tracking",
     "ML/Tasks/Pose",
