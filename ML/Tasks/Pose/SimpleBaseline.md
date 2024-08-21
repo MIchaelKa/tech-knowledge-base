@@ -1,6 +1,9 @@
 
 # External Links
 
+https://chatgpt.com/c/f41e6c34-3f5e-4ce4-ac6f-7fa56a93b16e
+
+vs. DETR
 https://chatgpt.com/c/1d060649-bc55-406d-a0cf-17d6109a8d41
 
 # Paper
@@ -54,7 +57,9 @@ Tracking
 - Detect-and-track (greedy matching method) + optical flow based pose propagation
 
 
-# Tracking
+
+
+# Matching
 
 Matching
 - Detect-and-track

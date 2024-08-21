@@ -36,31 +36,15 @@
             }
           },
           {
-            "id": "7e490df632105ce4",
+            "id": "b6536a3bb5ba8cf8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Tasks/Tracking/Tracking.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cbb8074cf5a44659",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Tasks/Pose/SimpleBaseline.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -126,7 +110,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Tasks/Pose/SimpleBaseline.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +126,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Tasks/Pose/SimpleBaseline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,12 +147,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ML/Tasks/Pose/SimpleBaseline.md"
-              }
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -186,20 +167,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ab8f0afb60d88328",
+  "active": "b6536a3bb5ba8cf8",
   "lastOpenFiles": [
-    "ML/FlowNet.md",
-    "ML/Tasks/Pose/SimpleBaseline.md",
-    "ML/Tasks/Pose/2D Human Pose Estimation (2DHPE).md",
-    "ML/Tasks/Tracking/Tracking.md",
     "Templates/Template ENG.md",
+    "ML/Tasks/Pose/SimpleBaseline.md",
+    "ML/Tasks/Tracking/Tracking.md",
+    "ML/Tasks/Pose/HRNet.md",
+    "ML/Tasks/Pose/2D Human Pose Estimation (2DHPE).md",
+    "ML/FlowNet.md",
     "ML/Tasks/3D/Pose/AssemblyHands.md",
     "ML/Tasks/3D/Pose/3D Human Pose Estimation (3DHPE).md",
     "ML/Tasks/Tracking/MOTChallenge.md",
     "ML/Metrics/Tracking Metrics.md",
     "ML/Tasks/SS/SAM-2.md",
     "ML/Tasks/Tracking/PoseTrack.md",
-    "ML/Tasks/Pose/HRNet.md",
     "ML/Tasks/Tracking/FairMOT.md",
     "ML/Tasks/Tracking/DeepSORT.md",
     "ML/Tasks/Tracking/SORT.md",
