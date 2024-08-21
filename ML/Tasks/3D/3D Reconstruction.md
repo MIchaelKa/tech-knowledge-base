@@ -47,11 +47,13 @@ Indoor
 
 [[DTU]]
 
-Tanks and temples
-
-Middlebury
+[[Middlebury]]
 
 ShapeNet
+
+ETH3D
+
+Tanks and temples
 
 # Metrics
 

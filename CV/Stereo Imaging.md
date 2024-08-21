@@ -11,7 +11,9 @@ Structure from motion (SfM)
 
 [[Learning OpenCV]]
 
+# Parent
 
+[[Depth Estimation]]
 
 # Terms
 
@@ -21,7 +23,6 @@ disparity map
 
 # Links
 
-[[Depth Estimation]]
 
 [[COLMAP]]
 
