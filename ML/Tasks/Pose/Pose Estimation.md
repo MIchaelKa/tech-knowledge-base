@@ -17,7 +17,7 @@ Input
 Human Pose Estimation
 - https://denred0blog.super.site/human-pose-estimation
 - [[3D Human Pose Estimation (3DHPE)]]
-- [[2D Human Pose Estimation (3DHPE)]]
+- [[2D Human Pose Estimation (2DHPE)]]
 
 Human mesh recovery
 Human mesh recovery from images

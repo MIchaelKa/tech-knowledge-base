@@ -10,7 +10,7 @@ Citations (198)
 # Parent
 
 [[Tracking]]
-[[2D Human Pose Estimation (3DHPE)]]
+[[2D Human Pose Estimation (2DHPE)]]
 
 # Links
 

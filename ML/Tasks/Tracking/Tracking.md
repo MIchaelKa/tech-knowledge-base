@@ -33,13 +33,15 @@ PETS dataset
 SOT
 MOT
 
-[[PoseTrack]]
-
 [[SORT]]
 [[DeepSORT]]
 
 [[FairMOT]]
 
+Flow-based pose tracking
+- [[PoseTrack]]
+- [[SimpleBaseline]]
+- [[HRNet]]
 
 # System
 
@@ -106,3 +108,10 @@ Citations (78)
 occlusion
 - [[Kalman Filter]]
 - [[PoseTrack]]
+
+
+# Other
+
+Why we need tracking-by-detection?
+- Simply applying a detector designed for single image level (e.g. Faster-RCNN, R-FCN) to videos could lead to missing detections and false detections due to motion blur and occlusion introduced by video frames.
+- [[SimpleBaseline]]
