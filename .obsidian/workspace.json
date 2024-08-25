@@ -34,21 +34,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "6084b564dc65aa7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Tasks/3D/A Practical Stereo Depth System for Smart Glasses.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Tasks/3D/A Practical Stereo Depth System for Smart Glasses.md",
+                "file": "Templates/Template ENG.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Tasks/3D/A Practical Stereo Depth System for Smart Glasses.md",
+                "file": "Templates/Template ENG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,12 +142,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Tasks/3D/A Practical Stereo Depth System for Smart Glasses.md"
+                "file": "Templates/Template ENG.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -175,16 +162,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ab8f0afb60d88328",
+  "active": "acc6807a00dd6c34",
   "lastOpenFiles": [
-    "CV/Camera Calibration.md",
+    "ML/Tasks/Pose/Pose Estimation.md",
+    "ML/Tasks/Tracking/PoseTrack.md",
+    "ML/Metrics/Tracking Metrics.md",
+    "ML/DNB/MPII Human Pose.md",
+    "ML/Tasks/3D/Mesh-R-CNN.md",
+    "Templates/Template ENG.md",
     "ML/Tasks/3D/A Practical Stereo Depth System for Smart Glasses.md",
+    "CV/Camera Calibration.md",
     "ML/Nets/MobileNet.md",
     "ML/Tasks/3D/3D Reconstruction.md",
     "ML/Tasks/3D/Depth Estimation.md",
     "CV/Stereo Imaging.md",
     "ML/DNB/3D/Middlebury.md",
-    "Templates/Template ENG.md",
     "ML/Layers/Dilated Convolution.md",
     "CS/Hungarian Algorithm.md",
     "ML/Tasks/Pose/SimpleBaseline.md",
@@ -195,14 +187,9 @@
     "ML/Tasks/3D/Pose/AssemblyHands.md",
     "ML/Tasks/3D/Pose/3D Human Pose Estimation (3DHPE).md",
     "ML/Tasks/Tracking/MOTChallenge.md",
-    "ML/Metrics/Tracking Metrics.md",
     "ML/Tasks/SS/SAM-2.md",
-    "ML/Tasks/Tracking/PoseTrack.md",
     "ML/Tasks/Tracking/FairMOT.md",
     "ML/Tasks/Tracking/DeepSORT.md",
-    "ML/Tasks/Tracking/SORT.md",
-    "CV/Optical Flow.md",
-    "CV/SLAM.md",
     "ML/Tasks/3D/Pose",
     "ML/Tasks/Tracking",
     "ML/Tasks/Pose",
