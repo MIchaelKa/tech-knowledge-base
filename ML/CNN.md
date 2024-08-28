@@ -5,7 +5,7 @@ Convolutional Neural Network (CNN)
 
 [[CNN-3D]]
 
-[[Convoltion]]
+[[Convolution]]
 
 
 # Статьи
