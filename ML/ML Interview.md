@@ -21,6 +21,8 @@ Gaussian distribution
 [[P-value]]
 [[T-test]]
 
+A/B Tests
+
 # Linear Algebra
 
 Rank
@@ -43,18 +45,20 @@ L1 loss vs. L2 loss
 
 # Algorithms
 
-Linear Regression
-Logistic Regression
-Naive Bayes
-Decision Trees
-- Greedy optimization
-Random Forest
-Kernels
-Bagging
-Boosting
+- Linear Regression
+- Logistic Regression
+- Naive Bayes
+- [[Decision Trees]]
+	- Greedy optimization
+- Kernels
+- SVM
+- [[Bagging]]
+	- Random Forest
+- [[Boosting]]
 
-Boosting vs. Bagging
-Bias-variance decomposition
+[[Boosting and Bagging]]
+- Почему для бэггинга мы используем глубокие деревья, а для бустинга наоборот?
+- [[Decision Trees]] BVT
 
 Clustering
 K-Means

@@ -24,13 +24,15 @@
           {
             "id": "98fdf0af6775defa",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "ML/ML Interview.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ],
@@ -63,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mAP",
+                "query": "Entropy",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -162,14 +164,21 @@
   },
   "active": "98fdf0af6775defa",
   "lastOpenFiles": [
-    "Math/Antiderivative.md",
+    "ML/ML/Boosting and Bagging.md",
+    "ML/ML/Decision Trees.md",
+    "ML/ML/Bagging.md",
     "ML/ML Interview.md",
+    "ML/ML/Boosting.md",
     "Templates/Template ENG.md",
+    "Math/Functional Analysis.md",
+    "Math/Statistics/Confidence Interval.md",
+    "CS/Entropy.md",
+    "CS/NP-Hard.md",
+    "Math/Antiderivative.md",
     "Math/Statistics/Statistics.md",
     "Math/Convolution.md",
     "Math/Statistics",
-    "Math/Statistics/Confidence Interval.md",
-    "Quantile.md",
+    "Math/Quantile.md",
     "Math/Statistics/P-value.md",
     "Templates/TODO.md",
     "Math/Probability/Cumulative distribution function (CDF).md",
@@ -183,13 +192,6 @@
     "ML/Tasks/Tracking/PoseTrack.md",
     "ML/Metrics/Tracking Metrics.md",
     "ML/DNB/MPII Human Pose.md",
-    "ML/Tasks/3D/Mesh-R-CNN.md",
-    "ML/Tasks/3D/A Practical Stereo Depth System for Smart Glasses.md",
-    "CV/Camera Calibration.md",
-    "ML/Nets/MobileNet.md",
-    "ML/Tasks/3D/3D Reconstruction.md",
-    "ML/Tasks/3D/Depth Estimation.md",
-    "CV/Stereo Imaging.md",
     "ML/Tasks/3D/Pose",
     "ML/Tasks/Tracking",
     "ML/Tasks/Pose",
