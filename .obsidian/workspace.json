@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "14c90b7b92156a84",
+            "id": "98fdf0af6775defa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Antiderivative.md",
+                "file": "ML/ML Interview.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "value",
+                "query": "mAP",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Antiderivative.md",
+                "file": "ML/ML Interview.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Antiderivative.md",
+                "file": "ML/ML Interview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/Antiderivative.md"
+                "file": "ML/ML Interview.md"
               }
             }
           }
@@ -160,10 +160,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "14c90b7b92156a84",
+  "active": "98fdf0af6775defa",
   "lastOpenFiles": [
-    "Templates/Template ENG.md",
     "Math/Antiderivative.md",
+    "ML/ML Interview.md",
+    "Templates/Template ENG.md",
     "Math/Statistics/Statistics.md",
     "Math/Convolution.md",
     "Math/Statistics",
@@ -189,7 +190,6 @@
     "ML/Tasks/3D/3D Reconstruction.md",
     "ML/Tasks/3D/Depth Estimation.md",
     "CV/Stereo Imaging.md",
-    "ML/DNB/3D/Middlebury.md",
     "ML/Tasks/3D/Pose",
     "ML/Tasks/Tracking",
     "ML/Tasks/Pose",
