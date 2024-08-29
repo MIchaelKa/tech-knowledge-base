@@ -1,5 +1,7 @@
 Random Forest
 
+vs. Ensembles
+
 # External Links
 
 Тема 5. Композиции: бэггинг, случайный лес
@@ -20,7 +22,7 @@ Bootstraping
 - Each new dataset has the same size as original dataset
 
 Random Forest
-- Randomly subsample k dimentions from d
+- Randomly subsample k dimensions from d
 
 RF for feature selection
 

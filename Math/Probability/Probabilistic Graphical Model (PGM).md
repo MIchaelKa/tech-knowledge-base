@@ -1,10 +1,10 @@
 
 Графические вероятностные модели
 
-# Внешние ссылки
+# External Links
 
 https://en.wikipedia.org/wiki/Graphical_mode
 
-# Ссылки
+# Links
 
 [[Conditional Random Field (CRF)]]

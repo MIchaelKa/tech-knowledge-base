@@ -1,8 +1,16 @@
 
+# External Links
+
+https://chatgpt.com/c/1e5365bd-a88e-4357-8472-84747205c687
 
 # Probability
 
 [[Probability Theory]]
+
+Bayes
+- [[Bayes’ Theorem]]
+- [[Bayesian Statistics]]
+- [[Naive Bayes]]
 
 Binomial distribution
 Gaussian distribution
@@ -47,7 +55,7 @@ L1 loss vs. L2 loss
 
 - Linear Regression
 - Logistic Regression
-- Naive Bayes
+- [[Naive Bayes]]
 - [[Decision Trees]]
 	- Greedy optimization
 - Kernels
@@ -55,12 +63,13 @@ L1 loss vs. L2 loss
 - [[Bagging]]
 	- Random Forest
 - [[Boosting]]
+- Clustering
+	- K-Means
 
-[[Boosting and Bagging]]
-- Почему для бэггинга мы используем глубокие деревья, а для бустинга наоборот?
+Почему для бэггинга мы используем глубокие деревья, а для бустинга наоборот?
+- [[Boosting and Bagging]]
 - [[Decision Trees]] BVT
 
-Clustering
 K-Means
 - Что делать если не знаем на сколько классов делить выборку?
 
