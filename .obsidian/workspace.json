@@ -41,26 +41,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Statistics/Bayesian Statistics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ef8b5cb4cd149aeb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Math/Statistics/Bayesian Statistics The Fun Way (BOOK).md",
+                "file": "Math/Statistics/Bayesian Statistics. The Fun Way. (BOOK).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "включ",
+                "query": "likelihood",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5
+    "width": 360.5
   },
   "right": {
     "id": "2f1b0a2991b40d4e",
@@ -126,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Statistics/Bayesian Statistics The Fun Way (BOOK).md",
+                "file": "ML/ML Interview.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Statistics/Bayesian Statistics The Fun Way (BOOK).md",
+                "file": "ML/ML Interview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,12 +154,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/Statistics/Bayesian Statistics The Fun Way (BOOK).md"
+                "file": "ML/ML Interview.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -187,11 +175,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ef8b5cb4cd149aeb",
+  "active": "98fdf0af6775defa",
   "lastOpenFiles": [
+    "Math/Statistics/Bayesian Statistics. The Fun Way. (BOOK).md",
     "Math/Statistics/Bayesian Statistics.md",
+    "Math/Probability/Beta Distribution.md",
+    "Math/Probability/Probability Distribution.md",
+    "Math/Probability/Binomial Distribution.md",
+    "Math/Probability/Cumulative distribution function (CDF).md",
+    "Math/Combinatorics.md",
     "Math/Probability/Bayes’ Theorem.md",
-    "Math/Statistics/Bayesian Statistics The Fun Way (BOOK).md",
     "Math/Probability/Sum Rule.md",
     "Math/Probability/Probabilistic Graphical Model (PGM).md",
     "Templates/Template ENG.md",
@@ -210,12 +203,7 @@
     "CS/Entropy.md",
     "CS/NP-Hard.md",
     "Math/Antiderivative.md",
-    "Math/Statistics/Statistics.md",
-    "Math/Convolution.md",
     "Math/Statistics",
-    "Math/Quantile.md",
-    "Math/Statistics/P-value.md",
-    "Templates/TODO.md",
     "Math/Probability",
     "ML/Tasks/3D/Pose",
     "ML/Tasks/Tracking",

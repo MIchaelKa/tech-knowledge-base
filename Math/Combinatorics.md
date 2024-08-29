@@ -1,0 +1,3 @@
+Комбинаторика
+
+[[Combinatorial search]]

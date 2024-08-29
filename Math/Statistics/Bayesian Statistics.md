@@ -41,7 +41,7 @@ cs4780
 # Books
 
 
-[[Bayesian Statistics The Fun Way (BOOK)]]
+[[Bayesian Statistics. The Fun Way. (BOOK)]]
 
 Статистика и котики
 

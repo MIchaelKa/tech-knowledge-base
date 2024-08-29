@@ -12,8 +12,8 @@ Bayes
 - [[Bayesian Statistics]]
 - [[Naive Bayes]]
 
-Binomial distribution
-Gaussian distribution
+[[Binomial Distribution]]
+Gaussian Distribution
 
 Какой график будет если сложить два равномерных распределения?
 - [[Convolution]]
