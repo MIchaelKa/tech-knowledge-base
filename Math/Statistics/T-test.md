@@ -4,7 +4,6 @@
 How to calculate the statistics "t-test" with numpy
 https://stackoverflow.com/questions/2324438/how-to-calculate-the-statistics-t-test-with-numpy
 
-
 scipy
 - scipy t-test-and-ks-test
 - https://docs.scipy.org/doc/scipy/reference/tutorial/stats.html#t-test-and-ks-test
@@ -14,6 +13,10 @@ scipy
 
 
 http://localhost:8888/notebooks/notebooks/stat_tutorial.ipynb
+
+# Links
+
+Критерий Стьюдента
 
 # Overview
 
