@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "e3f5d3adce371ff8",
+            "id": "8a3f1eec67ce4051",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Statistics/Bayesian Statistics. The Fun Way. (BOOK).md",
+                "file": "ML/ML/Bias-Variance Decomposition (BVD).md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "likelihood",
+                "query": "mlcourse",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -175,26 +175,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "98fdf0af6775defa",
+  "active": "ab8f0afb60d88328",
   "lastOpenFiles": [
+    "ML/ML/Bias-Variance Decomposition (BVD).md",
+    "ML/ML Interview.md",
+    "ML/ML/Bagging.md",
+    "Templates/Template ENG.md",
     "Math/Statistics/Bayesian Statistics. The Fun Way. (BOOK).md",
-    "Math/Statistics/Bayesian Statistics.md",
-    "Math/Probability/Beta Distribution.md",
     "Math/Probability/Probability Distribution.md",
     "Math/Probability/Binomial Distribution.md",
+    "Math/Probability/Total Probability Theorem.md",
+    "Math/Probability/Sum Rule.md",
+    "Math/Statistics/Bayesian Statistics.md",
+    "Math/Probability/Beta Distribution.md",
     "Math/Probability/Cumulative distribution function (CDF).md",
     "Math/Combinatorics.md",
     "Math/Probability/Bayes’ Theorem.md",
-    "Math/Probability/Sum Rule.md",
     "Math/Probability/Probabilistic Graphical Model (PGM).md",
-    "Templates/Template ENG.md",
     "Math/Probability/Conditional Random Field (CRF).md",
     "ML/Tasks/SS/DeepLab.md",
     "Math/Probability/Joint probability.md",
-    "Math/Probability/Total Probability Theorem.md",
-    "ML/ML Interview.md",
     "ML/ML/Naive Bayes.md",
-    "ML/ML/Bagging.md",
     "ML/ML/Boosting and Bagging.md",
     "ML/ML/Decision Trees.md",
     "ML/ML/Boosting.md",
@@ -202,7 +203,6 @@
     "Math/Statistics/Confidence Interval.md",
     "CS/Entropy.md",
     "CS/NP-Hard.md",
-    "Math/Antiderivative.md",
     "Math/Statistics",
     "Math/Probability",
     "ML/Tasks/3D/Pose",

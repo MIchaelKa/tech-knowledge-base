@@ -47,7 +47,7 @@ Metrics
 # ML
 
 Curse of Dimensionality
-Bias-variance decomposition
+[[Bias-Variance Decomposition (BVD)]]
 
 L1 loss vs. L2 loss
 
