@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/ML Interview.md",
+                "file": "ML/Interview/ML Interview Topics.md",
                 "mode": "source",
                 "source": false
               },
@@ -36,19 +36,43 @@
             }
           },
           {
-            "id": "8a3f1eec67ce4051",
+            "id": "bc7d15ecb351eeb1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/ML/Bias-Variance Decomposition (BVD).md",
+                "file": "ML/Interview/ML Interview Questions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6977e36a56e0d597",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Math/Statistics/Bayesian Statistics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8a7c3e48a28e5294",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Math/Statistics/Bayesian Statistics. The Fun Way. (BOOK).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -114,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/ML Interview.md",
+                "file": "Math/Statistics/Bayesian Statistics. The Fun Way. (BOOK).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/ML Interview.md",
+                "file": "Math/Statistics/Bayesian Statistics. The Fun Way. (BOOK).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/ML Interview.md"
+                "file": "Math/Statistics/Bayesian Statistics. The Fun Way. (BOOK).md"
               }
             }
           }
@@ -175,22 +199,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ab8f0afb60d88328",
+  "active": "8a7c3e48a28e5294",
   "lastOpenFiles": [
+    "Math/Probability/Probability Distribution.md",
+    "Normal Distribution.md",
+    "Math/Statistics/Bayesian Statistics. The Fun Way. (BOOK).md",
+    "ML/Interview/ML Interview Questions.md",
+    "Math/Probability/Beta Distribution.md",
+    "Math/Statistics/Bayesian Statistics.md",
+    "ML/Interview/ML Interview Topics.md",
     "ML/ML/Bias-Variance Decomposition (BVD).md",
-    "ML/ML Interview.md",
+    "Math/Probability/Bayes’ Theorem.md",
+    "ML/Interview/ML Interview Answers.md",
+    "ML/Interview",
     "ML/ML/Bagging.md",
     "Templates/Template ENG.md",
-    "Math/Statistics/Bayesian Statistics. The Fun Way. (BOOK).md",
-    "Math/Probability/Probability Distribution.md",
     "Math/Probability/Binomial Distribution.md",
     "Math/Probability/Total Probability Theorem.md",
     "Math/Probability/Sum Rule.md",
-    "Math/Statistics/Bayesian Statistics.md",
-    "Math/Probability/Beta Distribution.md",
     "Math/Probability/Cumulative distribution function (CDF).md",
     "Math/Combinatorics.md",
-    "Math/Probability/Bayes’ Theorem.md",
     "Math/Probability/Probabilistic Graphical Model (PGM).md",
     "Math/Probability/Conditional Random Field (CRF).md",
     "ML/Tasks/SS/DeepLab.md",
@@ -200,9 +228,6 @@
     "ML/ML/Decision Trees.md",
     "ML/ML/Boosting.md",
     "Math/Functional Analysis.md",
-    "Math/Statistics/Confidence Interval.md",
-    "CS/Entropy.md",
-    "CS/NP-Hard.md",
     "Math/Statistics",
     "Math/Probability",
     "ML/Tasks/3D/Pose",
@@ -212,7 +237,6 @@
     "ML/DNB/3D",
     "CV",
     "ML/Tasks/3D",
-    "SD",
     "Images/graph_example_1.png",
     "Images/Снимок экрана 2024-05-23 в 10.57.00.png",
     "Untitled.canvas"

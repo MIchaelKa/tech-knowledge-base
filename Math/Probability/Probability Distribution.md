@@ -12,3 +12,4 @@ Bernoulli
 [[Binomial Distribution]]
 [[Beta Distribution]]
 
+[[Normal Distribution]]
