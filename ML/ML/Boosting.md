@@ -4,6 +4,13 @@
 cs4780
 mlcourse.ai
 
+# Summary
+
+Pros
+- ?
+Cons
+- Interpretability
+
 # Overview
 
 Boosting and bagging both ensembles of classifiers

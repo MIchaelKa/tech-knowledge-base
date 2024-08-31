@@ -4,6 +4,7 @@
 
 Least squares
 linear least-squares
+ordinary least squares
 
 sum-of-squares error function
 

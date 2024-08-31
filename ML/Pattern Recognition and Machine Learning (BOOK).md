@@ -8,7 +8,7 @@ bishop pattern recognition and machine learning
 
 - ???
 - 03.12.2023
-- 
+- 30.08.2024
 
 # Links
 

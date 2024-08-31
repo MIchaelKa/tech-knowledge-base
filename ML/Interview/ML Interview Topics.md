@@ -15,7 +15,8 @@ https://chatgpt.com/c/1e5365bd-a88e-4357-8472-84747205c687
 
 - cs4780
 - MIT 6.041SC
-- Учебник по машинному обучению (Яндекс)
+- [[Учебник по машинному обучению (Яндекс)]]
+- mlcourse.ai
 
 # Probability
 
@@ -65,9 +66,8 @@ L1 loss vs. L2 loss
 
 # Algorithms
 
-- Linear Regression
-	- TBD
-- Logistic Regression
+- [[Linear Regression]]
+- [[Logistic Regression]]
 - [[Naive Bayes]]
 - [[Decision Trees]]
 	- Greedy optimization
