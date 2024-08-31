@@ -47,7 +47,8 @@ Gaussian Distribution
 # Linear Algebra
 
 Rank
-PCA / SVD
+PCA
+SVD
 
 # Common
 
@@ -66,6 +67,8 @@ L1 loss vs. L2 loss
 
 # Algorithms
 
+- [[Classification]]
+
 - [[Linear Regression]]
 - [[Logistic Regression]]
 - [[Naive Bayes]]
@@ -78,6 +81,9 @@ L1 loss vs. L2 loss
 - [[Boosting]]
 - Clustering
 	- K-Means
+
+SVM - это линейная модель?
+- ДА
 
 # DL
 

@@ -48,57 +48,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "35ba354f66fbf4d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Учебник по машинному обучению (Яндекс).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "33b93c43246c0335",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Concepts/Regularization.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e230882d15858e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/ML/Linear Regression.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "93a1ec11052de7da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/ML/Logistic Regression.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -127,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "CEL",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Учебник по машинному обучению (Яндекс).md",
+                "file": "ML/Interview/ML Interview Questions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Учебник по машинному обучению (Яндекс).md",
+                "file": "ML/Interview/ML Interview Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,12 +156,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Учебник по машинному обучению (Яндекс).md"
+                "file": "ML/Interview/ML Interview Questions.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -225,34 +176,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ab8f0afb60d88328",
+  "active": "66c6a69255755287",
   "lastOpenFiles": [
-    "ML/ML/Linear Regression.md",
+    "ML/CTC Loss.md",
+    "ML/ML/Probability Calibration.md",
     "ML/Учебник по машинному обучению (Яндекс).md",
+    "SD/Scalability.md",
+    "Tasks/Classification.md",
+    "ML/Interview/ML Interview Topics.md",
+    "ML/Interview/ML Interview Questions.md",
+    "ML/ML/Logistic Regression.md",
+    "ML/ML/SVM.md",
+    "ML/MSE for classification task.md",
+    "ML/Ordinal Regression.md",
+    "ML/ML/Linear Regression.md",
+    "ML/Cross Entropy Loss (CEL).md",
+    "ML/Labels/Soft Labels.md",
+    "ML/ML/MLE.md",
     "ML/Concepts/Regularization.md",
     "ML/Concepts/Feature Selection.md",
-    "ML/Interview/ML Interview Questions.md",
     "ML/Concepts/Data Augmentation.md",
-    "ML/Interview/ML Interview Topics.md",
     "Templates/Template ENG.md",
     "ML/ML/Least Squares.md",
     "ML/Concepts/Covariance Matrix.md",
     "ML/Pattern Recognition and Machine Learning (BOOK).md",
     "Math/SVD.md",
     "ML/ML/Boosting.md",
-    "ML/ML/Logistic Regression.md",
-    "ML/ML/MLE.md",
     "Math/Probability/Normal Distribution.md",
     "Math/Statistics/Bayesian Statistics. The Fun Way. (BOOK).md",
-    "Math/Probability/Binomial Distribution.md",
-    "Math/Statistics/Bayesian Statistics.md",
-    "Math/Probability/Beta Distribution.md",
-    "ML/ML/Naive Bayes.md",
-    "Math/Probability/Bayes’ Theorem.md",
-    "Math/Probability/Sum Rule.md",
-    "Math/Probability/Joint Probability.md",
-    "Math/Probability/Total Probability Theorem.md",
-    "Math/Probability/Probability Theory.md",
     "A",
     "ML/Interview",
     "Math/Statistics",

@@ -9,7 +9,7 @@ Edit distance
 [[Optical Character Recognition (OCR)]]
 [[Text Field Recognition]]
 [[_Metrics_Offline]]
-[[CTC loss]]
+[[CTC Loss]]
 
 # External Links
 

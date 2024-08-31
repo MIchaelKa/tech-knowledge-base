@@ -119,6 +119,8 @@ Why we need data to be independent and identically distributed?
 - identical
 	- ?
 
+[[MSE for classification task]]
+
 ## Linear models
 
 Links

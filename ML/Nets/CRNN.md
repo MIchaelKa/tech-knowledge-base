@@ -22,7 +22,7 @@ https://learnopencv.com/optical-character-recognition-using-paddleocr/
 
 # Ссылки
 
-[[CTC loss]]
+[[CTC Loss]]
 
 # Статьи и блоги
 

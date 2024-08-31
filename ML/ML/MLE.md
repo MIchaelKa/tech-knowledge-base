@@ -2,6 +2,8 @@
 maximum likelihood estimation
 maximum likelihood criterion
 
+Принцип максимального правдоподобия
+
 # Links
 
 [[Pattern Recognition and Machine Learning (BOOK)]]

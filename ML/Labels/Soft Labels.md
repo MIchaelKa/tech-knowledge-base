@@ -20,5 +20,7 @@ Soft labels vs. [[Label Smoothing]]
 Как работает кросс-энтропи лосс для софт меток?
 cross entropy loss soft labels
 
-**Pytorch CrossEntropyLoss Supports Soft Labels Natively Now**
+Pytorch CrossEntropyLoss Supports Soft Labels Natively Now
 https://stackoverflow.com/questions/68907809/soft-cross-entropy-in-pytorch
+
+[[Cross Entropy Loss (CEL)]]
