@@ -7,9 +7,11 @@ PDF, probability density function
 
 # Links
 
-Bernoulli
-
-[[Binomial Distribution]]
-[[Beta Distribution]]
-
-[[Normal Distribution]]
+Distributions
+- Bernoulli
+- [[Binomial Distribution]]
+- [[Multinomial Distribution]]
+- [[Beta Distribution]]
+- [[Normal Distribution]]
+- [[Poisson Distribution]]
+- [[Exponential Distribution]]

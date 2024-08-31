@@ -1,6 +1,4 @@
 
-Linear models
-
 # External Links
 
 mlcourse.ai
@@ -12,6 +10,8 @@ Questions about ML Linear models
 - https://chatgpt.com/c/785002cf-f20e-4efd-9009-b6c9e9d6eebf
 
 # Links
+
+[[Linear Models]]
 
 [[Учебник по машинному обучению (Яндекс)]]
 

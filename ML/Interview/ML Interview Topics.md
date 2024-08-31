@@ -13,8 +13,8 @@ https://chatgpt.com/c/1e5365bd-a88e-4357-8472-84747205c687
 - Glantz
 ## Courses
 
-- cs4780
-- MIT 6.041SC
+- [[cs4780]]
+- [[MIT 6.041SC]]
 - [[Учебник по машинному обучению (Яндекс)]]
 - mlcourse.ai
 
@@ -27,8 +27,10 @@ Bayes
 - [[Bayesian Statistics]]
 - [[Naive Bayes]]
 
-[[Binomial Distribution]]
-Gaussian Distribution
+
+[[Probability Distribution]]
+
+[[Central Limit Theorem (CLT)]]
 
 # Statistics
 
@@ -64,23 +66,26 @@ Curse of Dimensionality
 [[Bias-Variance Decomposition (BVD)]]
 
 L1 loss vs. L2 loss
+- [[Regularization]]
 
 # Algorithms
 
 - [[Classification]]
 
+- kNN
 - [[Linear Regression]]
 - [[Logistic Regression]]
 - [[Naive Bayes]]
 - [[Decision Trees]]
 	- Greedy optimization
 - Kernels
-- SVM
+- [[SVM]]
 - [[Bagging]]
 	- Random Forest
 - [[Boosting]]
 - Clustering
 	- K-Means
+- [[Gaussian Processes]]
 
 SVM - это линейная модель?
 - ДА

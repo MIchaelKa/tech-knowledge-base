@@ -35,7 +35,6 @@ Then
 $E[X] = np$
 $Var[X] = np(1-p)$
 
-
 # Amazon Resellers
 
 [[Beta Distribution]]

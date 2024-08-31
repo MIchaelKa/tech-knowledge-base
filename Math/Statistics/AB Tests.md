@@ -14,6 +14,9 @@ https://t.me/reliable_ml/124
 Подборка материалов по АБ
 https://t.me/reliable_ml/95
 
+Videos
+https://www.notion.so/A-B-Testing-1605eaa8d4f94008a5d5b77929705668
+
 # Parent
 
 [[ML System Design]]
