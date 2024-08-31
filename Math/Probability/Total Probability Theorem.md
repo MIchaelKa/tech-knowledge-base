@@ -10,7 +10,7 @@ Bertsekas, Dimitri, and John Tsitsiklis. Introduction to Probability. 2nd ed. At
 
 # Links
 
-[[Joint probability]]
+[[Joint Probability]]
 vs. [[Sum Rule]]?
 # Overview
 

@@ -1,32 +1,47 @@
 Here are some possible questions that might come up during your interview on the topics of Probability, Algebra, and Statistics:
 
-# Probability:
+# Probability
 
-## Basic Probability Concepts:
+## Basic Probability Concepts
 
 - What is the difference between independent and mutually exclusive events?
 - How do you calculate the probability of the union of two events?
 - What is conditional probability, and how is it calculated?
 
-## Bayes’ Theorem:
+## Bayes’ Theorem
+
+[[Bayesian Statistics]]
 
 - Explain Bayes' theorem. Can you provide an example of how it’s used in a real-world application?
-	- TBD
+- Привести пример байесовского вывода в реальной задаче, в реальном приложении или модели.
+	- https://chatgpt.com/c/9c607984-9048-41cc-ab99-a737bf0ac7a4
+	- [[Naive Bayes]]
+	- Logistic regression example
+		- Incorporating prior knowledge about the probability of the event we predicting.
+
+- Пример Байесовской регрессии
+	- [[Bayesian Statistics]]
+	- Give me an example of using bayesian linear regression in real world task?
+	- https://chatgpt.com/c/b0983b9a-4091-41a8-b75e-5b28d2c3c353
+
 - How would you apply Bayes' theorem in a situation where you need to update the probability of a hypothesis given new evidence?
 	- Directly?
 	- Use previous distribution as a prior.
 
-- Привести пример байесовского вывода в реальной задаче, в реальном приложении или модели.
 
-- Пример Байесовской регрессии
 
-## Probability Distributions:
+## Probability Distributions
 
 - What is the difference between a discrete and a continuous probability distribution?
 - Can you explain the properties of a normal distribution? What are some examples of data that follow a normal distribution?
 - How do you calculate the expected value and variance of a random variable?
 
 - Как биномиальное распределение может использоваться в реальных задачах машинного обучения?
+	- [[Binomial Distribution]]
+
+- Какой график будет если сложить два равномерных распределения?
+	- [[Convolution]]
+
 ## Markov Chains:
 
 - What is a Markov chain, and where might it be applied?
@@ -76,3 +91,22 @@ Here are some possible questions that might come up during your interview on the
 - How do you design an A/B test? What are the key considerations to ensure valid results?
 - Explain how you would determine if the results of an A/B test are statistically significant.
 - What is the importance of sample size in A/B testing?
+
+# ML
+
+
+Почему для бэггинга мы используем глубокие деревья, а для бустинга наоборот?
+- [[Boosting and Bagging]]
+- [[Decision Trees]] BVT
+
+K-Means. Что делать если не знаем на сколько классов делить выборку?
+- K-Means
+
+Large weight values and overfitting
+- Why large weight values leads to overfitting?
+- Linear Models
+- Regularization
+- Bishop p.8
+	- [[Pattern Recognition and Machine Learning (BOOK)]]
+- https://chatgpt.com/c/a58ef827-65ed-4c13-9ea4-6d9aebff5756
+	- model is placing significant importance on specific features

@@ -35,6 +35,8 @@ https://www.youtube.com/playlist?list=PLFDbGp5YzjqXQ4oE4w9GVWdiokWB9gEpm
 
 # Links
 
+[[Statistics]]
+
 cs4780
 [[Bayes’ Theorem]]
 
@@ -44,12 +46,14 @@ cs4780
 
 Статистика и котики
 
-# Summary
-
-
 # Overview
 
 Байесовская линейная регрессия
 [https://ru.wikipedia.org/wiki/Байесовская_линейная_регрессия](https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D0%B5%D1%81%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F_%D1%80%D0%B5%D0%B3%D1%80%D0%B5%D1%81%D1%81%D0%B8%D1%8F)
 
 Пример Байесовской регрессии
+- Can you give me an example of using bayesian linear regression in real world task?
+- https://chatgpt.com/c/b0983b9a-4091-41a8-b75e-5b28d2c3c353
+- not only predicting the price but also understanding the uncertainty in these predictions
+- True Bayesian approach
+	- cs4780

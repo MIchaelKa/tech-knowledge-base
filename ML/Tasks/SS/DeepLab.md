@@ -120,7 +120,7 @@ Fully-connected CRF
 Разложение формулы совместной вероятности
 - Экспоненциально меньше параметров при использовании графической модели
 - [[Probabilistic Graphical Model (PGM)]]
-- [[Joint probability]]
+- [[Joint Probability]]
 - Should we link [[Sum Rule]] instead?
 
 Мы должны выбрать наиболее вероятную раскраску

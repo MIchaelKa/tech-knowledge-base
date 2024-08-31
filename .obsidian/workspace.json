@@ -36,55 +36,33 @@
             }
           },
           {
-            "id": "bc7d15ecb351eeb1",
+            "id": "66c6a69255755287",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "ML/Interview/ML Interview Questions.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "6977e36a56e0d597",
+            "id": "94cc0623aebae09c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Statistics/Bayesian Statistics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8a7c3e48a28e5294",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Math/Statistics/Bayesian Statistics. The Fun Way. (BOOK).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d3f879711b315b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Math/Probability/Cumulative distribution function (CDF).md",
+                "file": "ML/Pattern Recognition and Machine Learning (BOOK).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -113,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Стьюдента",
+                "query": "MLE",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -130,8 +108,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -151,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Probability/Cumulative distribution function (CDF).md",
+                "file": "ML/Pattern Recognition and Machine Learning (BOOK).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Probability/Cumulative distribution function (CDF).md",
+                "file": "ML/Pattern Recognition and Machine Learning (BOOK).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/Probability/Cumulative distribution function (CDF).md"
+                "file": "ML/Pattern Recognition and Machine Learning (BOOK).md"
               }
             }
           }
@@ -211,36 +188,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3d3f879711b315b6",
+  "active": "ab8f0afb60d88328",
   "lastOpenFiles": [
+    "ML/ML/MLE.md",
+    "Templates/Template ENG.md",
+    "ML/Pattern Recognition and Machine Learning (BOOK).md",
     "Math/Statistics/Bayesian Statistics. The Fun Way. (BOOK).md",
+    "Math/Probability/Beta Distribution.md",
+    "Math/Probability/Binomial Distribution.md",
+    "ML/Interview/ML Interview Questions.md",
+    "Math/Statistics/Bayesian Statistics.md",
+    "ML/Interview/ML Interview Topics.md",
+    "ML/ML/Naive Bayes.md",
+    "Math/Probability/Bayes’ Theorem.md",
+    "Math/Probability/Sum Rule.md",
+    "Math/Probability/Joint Probability.md",
+    "Math/Probability/Total Probability Theorem.md",
+    "Math/Probability/Probability Theory.md",
+    "Math/Quantile.md",
+    "Math/Probability/Cumulative distribution function (CDF).md",
     "Math/Statistics/Statistics.md",
     "Math/Statistics/AB Tests.md",
     "Math/Statistics/T-test.md",
     "ML/Concepts/ML System Design.md",
-    "Templates/Template ENG.md",
     "A/B Tests.md",
     "A",
-    "Math/Statistics/Bayesian Statistics.md",
-    "ML/Interview/ML Interview Questions.md",
     "Math/Probability/Probability Distribution.md",
     "Math/Probability/Normal Distribution.md",
-    "Math/Probability/Beta Distribution.md",
-    "ML/Interview/ML Interview Topics.md",
     "ML/ML/Bias-Variance Decomposition (BVD).md",
-    "Math/Probability/Bayes’ Theorem.md",
     "ML/Interview/ML Interview Answers.md",
     "ML/Interview",
-    "ML/ML/Bagging.md",
-    "Math/Probability/Binomial Distribution.md",
-    "Math/Probability/Total Probability Theorem.md",
-    "Math/Probability/Sum Rule.md",
-    "Math/Probability/Cumulative distribution function (CDF).md",
-    "Math/Combinatorics.md",
-    "Math/Probability/Probabilistic Graphical Model (PGM).md",
-    "Math/Probability/Conditional Random Field (CRF).md",
-    "ML/Tasks/SS/DeepLab.md",
-    "Math/Probability/Joint probability.md",
     "Math/Statistics",
     "Math/Probability",
     "ML/Tasks/3D/Pose",

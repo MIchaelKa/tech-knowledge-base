@@ -3,6 +3,20 @@
 
 https://chatgpt.com/c/1e5365bd-a88e-4357-8472-84747205c687
 
+
+# Resources
+
+## Books
+
+- [[Pattern Recognition and Machine Learning (BOOK)]]
+- [[Bayesian Statistics. The Fun Way. (BOOK)]]
+- Glantz
+## Courses
+
+- cs4780
+- MIT 6.041SC
+- Учебник по машинному обучению (Яндекс)
+
 # Probability
 
 [[Probability Theory]]
@@ -15,9 +29,6 @@ Bayes
 [[Binomial Distribution]]
 Gaussian Distribution
 
-Какой график будет если сложить два равномерных распределения?
-- [[Convolution]]
-
 # Statistics
 
 [[Statistics]]
@@ -29,7 +40,8 @@ Gaussian Distribution
 [[P-value]]
 [[T-test]]
 
-A/B Tests
+[[AB Tests]]
+
 
 # Linear Algebra
 
@@ -54,6 +66,7 @@ L1 loss vs. L2 loss
 # Algorithms
 
 - Linear Regression
+	- TBD
 - Logistic Regression
 - [[Naive Bayes]]
 - [[Decision Trees]]
@@ -65,13 +78,6 @@ L1 loss vs. L2 loss
 - [[Boosting]]
 - Clustering
 	- K-Means
-
-Почему для бэггинга мы используем глубокие деревья, а для бустинга наоборот?
-- [[Boosting and Bagging]]
-- [[Decision Trees]] BVT
-
-K-Means
-- Что делать если не знаем на сколько классов делить выборку?
 
 # DL
 
