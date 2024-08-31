@@ -2,6 +2,11 @@
 maximum likelihood estimation
 maximum likelihood criterion
 
+# Links
+
+[[Pattern Recognition and Machine Learning (BOOK)]]
+- 1.2.4
+- 3.1.1
 
 # Overview
 
@@ -11,7 +16,9 @@ likelihood of the parameters vs. likelihood of the dataset
 Данные распределены независимо и одинаково
 
 А как получить оценки из MLE?
-Как мы из MLE получаем формулу для среднего?
-Минимизация лосса по отношению к параметру $\mu$
-Bishop 1.2.4
-Bishop 3.1.1
+- Как мы из MLE получаем формулу для среднего?
+- Минимизация лосса по отношению к параметру $\mu$
+
+Limitations of the MLE
+- systematically underestimates the variance of the distribution
+- bias

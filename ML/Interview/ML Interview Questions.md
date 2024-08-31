@@ -38,6 +38,7 @@ Here are some possible questions that might come up during your interview on the
 
 - Как биномиальное распределение может использоваться в реальных задачах машинного обучения?
 	- [[Binomial Distribution]]
+	- https://chatgpt.com/c/0e28bb5d-70b6-4cb1-9d56-e998dff12e6b
 
 - Какой график будет если сложить два равномерных распределения?
 	- [[Convolution]]
@@ -110,3 +111,9 @@ Large weight values and overfitting
 	- [[Pattern Recognition and Machine Learning (BOOK)]]
 - https://chatgpt.com/c/a58ef827-65ed-4c13-9ea4-6d9aebff5756
 	- model is placing significant importance on specific features
+
+Why we need data to be independent and identically distributed?
+- [[MLE]]
+- independent
+	- To model joint probability(dataset likelihood) by just multiplying distinct probabilities of datapoints
+- identically
