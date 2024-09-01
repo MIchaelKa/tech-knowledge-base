@@ -13,6 +13,10 @@ Feature engineering
 kaggle
 - https://www.kaggle.com/c/tabular-playground-series-mar-2021/discussion/225014
 
+# Parent
+
+[[Data]]
+
 # Links
 
 [[Feature Selection]]

@@ -79,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pseud",
+                "query": "Batch",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,7 +160,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -178,16 +179,22 @@
   },
   "active": "ab8f0afb60d88328",
   "lastOpenFiles": [
+    "ML/DL/Models",
+    "ML/Data/Data Normalization.md",
+    "ML/DL/Normalization.md",
+    "ML/Interview/ML Interview Topics.md",
+    "Templates/Template ENG.md",
+    "ML/Data/Data.md",
+    "ML/Data/Feature Engineering.md",
+    "ML/Interview/ML Interview Questions.md",
     "ML/Loss",
     "ML/ML/Approximate Nearest Neighbors (ANN).md",
     "ML/Nets/FlowNet.md",
     "ML/Resources",
     "ML/DL",
     "ML/DL/DL.md",
-    "ML/Interview/ML Interview Questions.md",
     "ML/Data/Labels/Pseudo Labeling.md",
     "ML/Data/Data Correlation.md",
-    "ML/Data/Feature Engineering.md",
     "Templates/().md",
     "SD/Load balancers.md",
     "ML/ML/PCA.md",
@@ -195,7 +202,6 @@
     "ML/MLSD/Feature Store.md",
     "ML/MLSD/Курс по ML System Design.md",
     "ML/MLSD",
-    "ML/Data/Data.md",
     "ML/Data/lakeFS.md",
     "ML/Data/Hashing.md",
     "ML/Data/Crawling.md",
@@ -203,17 +209,12 @@
     "Feature Store.md",
     "Crawling.md",
     "Курс по ML System Design.md",
-    "Templates/Template ENG.md",
-    "Hashing.md",
-    "ML/Resources/Учебник по машинному обучению (Яндекс).md",
-    "ML/Data/Feature Selection.md",
     "ML/Data",
     "A",
     "ML/Interview",
     "Math/Statistics",
     "Math/Probability",
     "ML/Tasks/3D/Pose",
-    "ML/Tasks/Tracking",
     "Images/graph_example_1.png",
     "Images/Снимок экрана 2024-05-23 в 10.57.00.png",
     "Untitled.canvas"

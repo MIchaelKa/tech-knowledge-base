@@ -36,8 +36,6 @@ Bayes
 
 [[Statistics]]
 
-
-
 # Linear Algebra
 
 Rank
@@ -53,6 +51,8 @@ Metrics
 - mAP
 
 # ML
+
+[[Data]]
 
 Curse of Dimensionality
 [[Bias-Variance Decomposition (BVD)]]
