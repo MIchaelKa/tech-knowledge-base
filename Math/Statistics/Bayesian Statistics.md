@@ -30,8 +30,7 @@ https://www.youtube.com/playlist?list=PLFDbGp5YzjqXQ4oE4w9GVWdiokWB9gEpm
 - курс?
 - [[Probabilistic Graphical Model (PGM)]]
 
-Введение в вероятностный язык построения моделей машинного обучения
-- notion
+[[Ветров. Введение в вероятностный язык построения моделей машинного обучения]]
 
 # Links
 

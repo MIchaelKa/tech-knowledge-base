@@ -15,7 +15,7 @@ Questions about ML Linear models
 
 [[Учебник по машинному обучению (Яндекс)]]
 
-[[Pattern Recognition and Machine Learning (BOOK)]]
+[[Bishop (BOOK)]]
 - 1.2.5
 
 [[Least Squares]]

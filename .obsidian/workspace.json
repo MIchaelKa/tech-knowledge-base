@@ -48,9 +48,45 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "c51fbe05e4c9cf94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Interview/120 Data Science Interview Questions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1c629e985e7b3444",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Metrics/Metrics - Offline.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f7d32d891a270a9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Metrics/ROC AUC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -79,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Batch",
+                "query": "sufficient",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +136,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 380.5
   },
   "right": {
     "id": "2f1b0a2991b40d4e",
@@ -116,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Interview/ML Interview Questions.md",
+                "file": "ML/Metrics/Metrics - Offline.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Interview/ML Interview Questions.md",
+                "file": "ML/Metrics/Metrics - Offline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,12 +192,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Interview/ML Interview Questions.md"
+                "file": "ML/Metrics/Metrics - Offline.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -179,42 +214,42 @@
   },
   "active": "ab8f0afb60d88328",
   "lastOpenFiles": [
+    "ML/Metrics/ROC AUC.md",
+    "ML/Metrics/Metrics - Offline.md",
+    "ML/Interview/120 Data Science Interview Questions.md",
+    "ML/Interview/ML Interview Questions.md",
+    "ML/Metrics/Metrics - Text, NLP, OCR.md",
+    "ML/Resources/Учебник по машинному обучению (Яндекс).md",
+    "ML/ML/Probability Calibration.md",
+    "ML/ML/Logistic Regression.md",
+    "Math/Probability/Probability Distribution.md",
+    "ML/ML/Decision Trees.md",
+    "ML/MLSD/Data Distribution Shifts (DDS).md",
+    "ML/Interview/ML Interview Topics.md",
+    "Math/Statistics/Bayesian Statistics.md",
+    "ML/Resources/Ветров. Введение в вероятностный язык построения моделей машинного обучения.md",
+    "Math/Statistics/Glantz (BOOK).md",
+    "Math/Statistics/Chi-Square.md",
+    "Math/Statistics/Statistics.md",
+    "Math/Statistics/two-sample test.md",
+    "Math/Statistics/AB Tests.md",
+    "ML/MLSD/Chip. DMLS..md",
+    "Math/Probability/Normal Distribution.md",
+    "ML/Resources/Bishop (BOOK).md",
+    "ML/ML/Boosting.md",
+    "ML/ML/Bias-Variance Decomposition (BVD).md",
+    "ML/Data/Data Augmentation.md",
     "ML/DL/Models",
     "ML/Data/Data Normalization.md",
-    "ML/DL/Normalization.md",
-    "ML/Interview/ML Interview Topics.md",
-    "Templates/Template ENG.md",
-    "ML/Data/Data.md",
-    "ML/Data/Feature Engineering.md",
-    "ML/Interview/ML Interview Questions.md",
     "ML/Loss",
-    "ML/ML/Approximate Nearest Neighbors (ANN).md",
-    "ML/Nets/FlowNet.md",
     "ML/Resources",
     "ML/DL",
-    "ML/DL/DL.md",
-    "ML/Data/Labels/Pseudo Labeling.md",
-    "ML/Data/Data Correlation.md",
-    "Templates/().md",
-    "SD/Load balancers.md",
-    "ML/ML/PCA.md",
-    "ML/ML/Ordinal Regression.md",
-    "ML/MLSD/Feature Store.md",
-    "ML/MLSD/Курс по ML System Design.md",
     "ML/MLSD",
-    "ML/Data/lakeFS.md",
-    "ML/Data/Hashing.md",
-    "ML/Data/Crawling.md",
-    "lakeFS.md",
-    "Feature Store.md",
-    "Crawling.md",
-    "Курс по ML System Design.md",
     "ML/Data",
     "A",
     "ML/Interview",
     "Math/Statistics",
     "Math/Probability",
-    "ML/Tasks/3D/Pose",
     "Images/graph_example_1.png",
     "Images/Снимок экрана 2024-05-23 в 10.57.00.png",
     "Untitled.canvas"

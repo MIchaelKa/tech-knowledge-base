@@ -6,7 +6,7 @@ maximum likelihood criterion
 
 # Links
 
-[[Pattern Recognition and Machine Learning (BOOK)]]
+[[Bishop (BOOK)]]
 - 1.2.4
 - 3.1.1
 

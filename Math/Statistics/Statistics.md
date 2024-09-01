@@ -16,6 +16,8 @@ Statistical tests
 - [[P-value]]
 - [[T-test]]
 - [[AB Tests]]
+- [[two-sample test]]
+- [[Chi-Square]]
 
 # Terms
 

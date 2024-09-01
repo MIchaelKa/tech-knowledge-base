@@ -20,9 +20,13 @@ https://www.khanacademy.org/math/ap-statistics/chi-square-tests/chi-square-goodn
 
 # Links
 
+[[Glantz (BOOK)]]
+
 [[Data Correlation]]
 
 # Overview
+
+Similar to [[T-test]]
 
 Steps
 - Calculate Chi-Square value

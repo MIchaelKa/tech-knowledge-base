@@ -5,6 +5,9 @@ PDF, probability density function
 [[Cumulative distribution function (CDF)]]
 
 
+Univariate distribution
+Multivariate distribution
+
 # Links
 
 Distributions
@@ -15,3 +18,9 @@ Distributions
 - [[Normal Distribution]]
 - [[Poisson Distribution]]
 - [[Exponential Distribution]]
+
+
+- распределение коши
+- Laplace Distribution
+	- Распределение Лапласа
+	- ru.wikipedia.org/wiki/Распределение_Лапласа

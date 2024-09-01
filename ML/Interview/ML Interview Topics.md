@@ -8,7 +8,7 @@ https://chatgpt.com/c/1e5365bd-a88e-4357-8472-84747205c687
 
 ## Books
 
-- [[Pattern Recognition and Machine Learning (BOOK)]]
+- [[Bishop (BOOK)]]
 - [[Bayesian Statistics. The Fun Way. (BOOK)]]
 - [[Glantz (BOOK)]]
 ## Courses
@@ -17,6 +17,7 @@ https://chatgpt.com/c/1e5365bd-a88e-4357-8472-84747205c687
 - [[MIT 6.041SC]]
 - [[Учебник по машинному обучению (Яндекс)]]
 - [[mlcourse.ai]]
+- [[Ветров. Введение в вероятностный язык построения моделей машинного обучения]]
 
 # Probability
 
@@ -64,9 +65,13 @@ L1 loss vs. L2 loss
 
 - [[Classification]]
 
-- kNN
+Regression
 - [[Linear Regression]]
 - [[Logistic Regression]]
+- Multivariate Regression
+	- https://chatgpt.com/c/6a3a19ca-d512-4318-b516-01279f805776
+
+- kNN
 - [[Naive Bayes]]
 - [[Decision Trees]]
 	- Greedy optimization

@@ -32,7 +32,7 @@ Test in Production
 # Overview
 
 statistical significance
-two-sample test
+[[two-sample test]]
 
 качественная рандомизация трафика
 

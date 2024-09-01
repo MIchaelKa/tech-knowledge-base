@@ -12,14 +12,6 @@ https://chatgpt.com/c/32dd9abb-507e-4a1a-8382-993eef8e4dec
 Decision Tree for kNN problem
 Is that how ANN works?
 
-# Paper
-
-
-# Parent
-
-
-# Links
-
 
 # Summary
 
@@ -27,6 +19,9 @@ Pros
 - Interpretability
 - Clear BVT
 - Features can have any scale.
+- More robust to outliers
+	- Why?
+	- https://chatgpt.com/c/14db660d-e204-48ab-8c28-2dbe8dfa92f9
 Cons
 - Prone to overfitting, especially if deep.
 

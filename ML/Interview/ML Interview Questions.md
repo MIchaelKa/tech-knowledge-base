@@ -134,7 +134,7 @@ Large weight values and overfitting
 - Why large weight values leads to overfitting?
 - [[Linear Regression]]
 - [[Regularization]]
-- [[Pattern Recognition and Machine Learning (BOOK)]]
+- [[Bishop (BOOK)]]
 	- page 8.
 - https://chatgpt.com/c/a58ef827-65ed-4c13-9ea4-6d9aebff5756
 	- model is placing significant importance on specific features
