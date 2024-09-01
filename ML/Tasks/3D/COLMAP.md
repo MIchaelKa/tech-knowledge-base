@@ -89,7 +89,7 @@ Step 1. Image Features
 		- KD-Trees
 			- their efficiency diminishes in higher dimensions, such as with SIFT descriptors
 		- FLANN
-			- [[Appropriate Nearest Neighbors (ANN)]]
+			- [[Approximate Nearest Neighbors (ANN)]]
 		- Graph-Based Matching
 	
 - Geometrical Verification

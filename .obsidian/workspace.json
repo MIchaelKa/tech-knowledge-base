@@ -48,33 +48,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "4834abec055aa9f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/cs4780.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "192b36c9b27911f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/ML/Gaussian Processes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -103,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Linear Models",
+                "query": "pseud",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/ML/Gaussian Processes.md",
+                "file": "ML/Interview/ML Interview Questions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/ML/Gaussian Processes.md",
+                "file": "ML/Interview/ML Interview Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,12 +156,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/ML/Gaussian Processes.md"
+                "file": "ML/Interview/ML Interview Questions.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -203,42 +178,42 @@
   },
   "active": "ab8f0afb60d88328",
   "lastOpenFiles": [
-    "Math/Probability/Central Limit Theorem (CLT).md",
-    "ML/Interview/ML Interview Topics.md",
-    "Math/Probability/MIT 6.041SC.md",
-    "Templates/Template ENG.md",
-    "Math/Convolution.md",
-    "ML/cs4780.md",
-    "Math/Statistics/AB Tests.md",
+    "ML/Loss",
+    "ML/ML/Approximate Nearest Neighbors (ANN).md",
+    "ML/Nets/FlowNet.md",
+    "ML/Resources",
+    "ML/DL",
+    "ML/DL/DL.md",
     "ML/Interview/ML Interview Questions.md",
-    "Math/Statistics/Confidence Interval.md",
-    "Math/Probability/Normal Distribution.md",
-    "Templates/Template RUS.md",
-    "ML/ML/Gaussian Processes.md",
-    "Math/Probability/Binomial Distribution.md",
-    "Math/Probability/Exponential Distribution.md",
-    "Math/Probability/Probability Distribution.md",
-    "ML/Linear Models.md",
-    "ML/ML/Naive Bayes.md",
-    "ML/ML/SVM.md",
-    "ML/ML/Linear Regression.md",
-    "Math/Probability/Poisson Distribution.md",
-    "ML/Generative Models.md",
-    "Math/Statistics/Bayesian Statistics. The Fun Way. (BOOK).md",
-    "Math/Probability/Multinomial Distribution.md",
-    "ML/CTC Loss.md",
-    "ML/ML/Probability Calibration.md",
-    "ML/Учебник по машинному обучению (Яндекс).md",
+    "ML/Data/Labels/Pseudo Labeling.md",
+    "ML/Data/Data Correlation.md",
+    "ML/Data/Feature Engineering.md",
+    "Templates/().md",
+    "SD/Load balancers.md",
+    "ML/ML/PCA.md",
+    "ML/ML/Ordinal Regression.md",
+    "ML/MLSD/Feature Store.md",
+    "ML/MLSD/Курс по ML System Design.md",
+    "ML/MLSD",
+    "ML/Data/Data.md",
+    "ML/Data/lakeFS.md",
+    "ML/Data/Hashing.md",
+    "ML/Data/Crawling.md",
+    "lakeFS.md",
+    "Feature Store.md",
+    "Crawling.md",
+    "Курс по ML System Design.md",
+    "Templates/Template ENG.md",
+    "Hashing.md",
+    "ML/Resources/Учебник по машинному обучению (Яндекс).md",
+    "ML/Data/Feature Selection.md",
+    "ML/Data",
     "A",
     "ML/Interview",
     "Math/Statistics",
     "Math/Probability",
     "ML/Tasks/3D/Pose",
     "ML/Tasks/Tracking",
-    "ML/Tasks/Pose",
-    "ML/Tasks",
-    "ML/DNB/3D",
-    "CV",
     "Images/graph_example_1.png",
     "Images/Снимок экрана 2024-05-23 в 10.57.00.png",
     "Untitled.canvas"

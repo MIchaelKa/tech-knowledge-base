@@ -6,13 +6,13 @@
 
 # Внешние ссылки
 
-**soft pseudo labels**
+soft pseudo labels
 https://www.kaggle.com/c/rfcx-species-audio-detection/discussion/220760
 
-**Forum discussion**
+Forum discussion
 https://community.drivendata.org/t/pseudo-labeling-during-8-hours-of-inference/6427
 
-**AV**
+AV
 https://www.analyticsvidhya.com/blog/2017/09/pseudo-labelling-semi-supervised-learning-technique/
 
 ---
@@ -21,7 +21,7 @@ https://www.analyticsvidhya.com/blog/2017/09/pseudo-labelling-semi-supervised-le
 
 QDA
 
-# Overview
+
 
 **Notes thoughts**
 below two styles
@@ -32,6 +32,8 @@ question need to ask to select a style
 s-d-premier style vs. orgmod style?
 
 link itself better than [link with description]()?
+
+# Overview
 
 v1
 

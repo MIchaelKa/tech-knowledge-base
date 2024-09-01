@@ -10,13 +10,13 @@ https://chatgpt.com/c/1e5365bd-a88e-4357-8472-84747205c687
 
 - [[Pattern Recognition and Machine Learning (BOOK)]]
 - [[Bayesian Statistics. The Fun Way. (BOOK)]]
-- Glantz
+- [[Glantz (BOOK)]]
 ## Courses
 
 - [[cs4780]]
 - [[MIT 6.041SC]]
 - [[Учебник по машинному обучению (Яндекс)]]
-- mlcourse.ai
+- [[mlcourse.ai]]
 
 # Probability
 
@@ -36,14 +36,6 @@ Bayes
 
 [[Statistics]]
 
-Доверительные интервалы
-Статистическая значимость
-Статистические тесты
-
-[[P-value]]
-[[T-test]]
-
-[[AB Tests]]
 
 
 # Linear Algebra

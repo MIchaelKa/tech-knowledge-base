@@ -8,7 +8,7 @@ PDF, probability density function
 # Links
 
 Distributions
-- Bernoulli
+- [[Bernoulli Distribution]]
 - [[Binomial Distribution]]
 - [[Multinomial Distribution]]
 - [[Beta Distribution]]

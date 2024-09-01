@@ -1,5 +1,22 @@
 
+Критерий Стьюдента
+
 # External Links
+
+https://en.wikipedia.org/wiki/Student%27s_t-test
+
+# Links
+
+
+# Overview
+
+T-value - отношение между тем как меняются данные между группами к тому как они меняются внутри групп
+
+Значение t и количество степеней свободы позволяет получить [[P-value]]
+
+t=0 - группы идентичны
+
+# Calculation
 
 How to calculate the statistics "t-test" with numpy
 https://stackoverflow.com/questions/2324438/how-to-calculate-the-statistics-t-test-with-numpy
@@ -13,15 +30,3 @@ scipy
 
 
 http://localhost:8888/notebooks/notebooks/stat_tutorial.ipynb
-
-# Links
-
-Критерий Стьюдента
-
-# Overview
-
-T-value - отношение между тем как меняются данные между группами к тому как они меняются внутри групп
-
-Значение t и количество степеней свободы позволяет получить [[P-value]]
-
-t=0 - группы идентичны
