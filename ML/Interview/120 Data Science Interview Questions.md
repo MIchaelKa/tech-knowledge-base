@@ -48,10 +48,12 @@ https://github.com/kojino/120-Data-Science-Interview-Questions
 			- 4.1
 
 5
-- What error metric would you use to evaluate how good a binary classifier is? What if the classes are imbalanced? What if there are more than 2 groups?
+- What error metric would you use to evaluate how good a binary classifier is?
 	- Accuracy
-	- ROC AUC
-	- [[Metrics - Offline]]
+	- [[Metrics. Classification.]]
 - What if the classes are imbalanced?
 	- Precision / Recall, F-measure
+	- AP
+	- Can we use [[ROC AUC]] ?
 - What if there are more than 2 groups?
+	- micro and macro averaging

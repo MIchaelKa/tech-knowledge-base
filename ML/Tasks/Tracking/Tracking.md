@@ -7,7 +7,7 @@
 
 # Links
 
-[[Tracking Metrics]]
+[[Metrics. Tracking.]]
 
 Video datasets
 - Tracking and pose estimation on video

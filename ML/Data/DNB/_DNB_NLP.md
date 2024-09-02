@@ -2,7 +2,7 @@
 
 # Links
 
-[[Metrics - Text, NLP, OCR]]
+[[Metrics. Text, NLP, OCR.]]
 
 # NLP
 

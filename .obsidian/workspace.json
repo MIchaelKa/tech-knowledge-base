@@ -48,45 +48,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "c51fbe05e4c9cf94",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Interview/120 Data Science Interview Questions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1c629e985e7b3444",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Metrics/Metrics - Offline.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f7d32d891a270a9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Metrics/ROC AUC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -115,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sufficient",
+                "query": "imbalance",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -152,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Metrics/Metrics - Offline.md",
+                "file": "ML/Interview/ML Interview Questions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Metrics/Metrics - Offline.md",
+                "file": "ML/Interview/ML Interview Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,11 +156,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Metrics/Metrics - Offline.md"
+                "file": "ML/Interview/ML Interview Questions.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -212,14 +177,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ab8f0afb60d88328",
+  "active": "66c6a69255755287",
   "lastOpenFiles": [
-    "ML/Metrics/ROC AUC.md",
-    "ML/Metrics/Metrics - Offline.md",
+    "ML/Metrics/Average Precision (AP).md",
     "ML/Interview/120 Data Science Interview Questions.md",
-    "ML/Interview/ML Interview Questions.md",
-    "ML/Metrics/Metrics - Text, NLP, OCR.md",
+    "ML/Metrics/Metrics. Classification..md",
+    "ML/Metrics/ROC AUC.md",
     "ML/Resources/Учебник по машинному обучению (Яндекс).md",
+    "Templates/Template ENG.md",
+    "ML/Metrics/Metrics. Tracking..md",
+    "ML/Metrics/Metrics. Text, NLP, OCR..md",
+    "ML/Tasks/SS/PointRend.md",
+    "ML/Interview/ML Interview Questions.md",
     "ML/ML/Probability Calibration.md",
     "ML/ML/Logistic Regression.md",
     "Math/Probability/Probability Distribution.md",
@@ -236,11 +205,7 @@
     "ML/MLSD/Chip. DMLS..md",
     "Math/Probability/Normal Distribution.md",
     "ML/Resources/Bishop (BOOK).md",
-    "ML/ML/Boosting.md",
-    "ML/ML/Bias-Variance Decomposition (BVD).md",
-    "ML/Data/Data Augmentation.md",
     "ML/DL/Models",
-    "ML/Data/Data Normalization.md",
     "ML/Loss",
     "ML/Resources",
     "ML/DL",

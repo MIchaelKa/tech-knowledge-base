@@ -110,7 +110,7 @@ GT
 # Tracking
 
 [[Tracking]]
-[[Tracking Metrics]]
+[[Metrics. Tracking.]]
 
 average time to track all bounding boxes in a frame: 1.14 sec
 

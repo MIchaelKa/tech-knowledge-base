@@ -30,7 +30,7 @@ Metrics
 	- PCKh
 	- mAP
 - Tracking
-	- [[Tracking Metrics]]
+	- [[Metrics. Tracking.]]
 	- CLEAR MOT
 	- trajectory-based measures
 

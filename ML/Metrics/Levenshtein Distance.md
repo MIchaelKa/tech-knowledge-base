@@ -8,7 +8,7 @@ Edit distance
 [[Dynamic Programming]]
 [[Optical Character Recognition (OCR)]]
 [[Text Field Recognition]]
-[[Metrics - Offline]]
+[[Metrics. Classification.]]
 [[CTC Loss]]
 
 # External Links
