@@ -1,4 +1,7 @@
 
+Moved
+https://www.notion.so/M-Regularization-bd48dfeeee054e1f9ee846ef25d7e6df
+
 # External Links
 
 LASSO

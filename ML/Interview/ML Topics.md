@@ -19,6 +19,18 @@ https://chatgpt.com/c/1e5365bd-a88e-4357-8472-84747205c687
 - [[mlcourse.ai]]
 - [[Ветров. Введение в вероятностный язык построения моделей машинного обучения]]
 
+# Terms
+
+Dependent and independent variables
+- https://chatgpt.com/c/25a75448-0491-481d-b951-9d1027b70201
+- Dependent
+	- Response variable
+	- Y
+- Independent
+	- Explanatory variable
+	- X
+	- independent of each other
+
 # Probability
 
 [[Probability Theory]]
@@ -63,6 +75,7 @@ L1 loss vs. L2 loss
 
 # Algorithms
 
+Tasks
 - [[Classification]]
 
 Regression
@@ -71,6 +84,7 @@ Regression
 - Multivariate Regression
 	- https://chatgpt.com/c/6a3a19ca-d512-4318-b516-01279f805776
 
+Algorithms
 - kNN
 - [[Naive Bayes]]
 - [[Decision Trees]]
@@ -86,6 +100,8 @@ Regression
 
 SVM - это линейная модель?
 - ДА
+
+[[Comparison of ML Algorithms]]
 
 # DL
 

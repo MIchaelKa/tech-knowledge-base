@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Interview/ML Interview Topics.md",
+                "file": "ML/Interview/ML Topics.md",
                 "mode": "source",
                 "source": false
               },
@@ -42,7 +42,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Interview/ML Interview Questions.md",
+                "file": "ML/Interview/ML Questions.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "4d4d49cc49615a04",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Interview/120 Data Science Interview Questions.md",
                 "mode": "source",
                 "source": false
               },
@@ -50,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -79,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "imbalance",
+                "query": "Feature Importance",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Interview/ML Interview Questions.md",
+                "file": "Math/Covariance Matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Interview/ML Interview Questions.md",
+                "file": "Math/Covariance Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,12 +170,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Interview/ML Interview Questions.md"
+                "file": "Math/Covariance Matrix.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -177,10 +190,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "66c6a69255755287",
+  "active": "ab8f0afb60d88328",
   "lastOpenFiles": [
-    "ML/Metrics/Average Precision (AP).md",
+    "ML/ML/Curse of Dimensionality.md",
+    "ML/MLSD/ML System Design.md",
     "ML/Interview/120 Data Science Interview Questions.md",
+    "ML/Data/Data Correlation.md",
+    "Math/Covariance Matrix.md",
+    "ML/DL/Double Descent.md",
+    "ML/Concepts/Regularization.md",
+    "ML/Interview/Comparison of ML Algorithms.md",
+    "ML/Data/Feature Selection.md",
+    "ML/Interview/ML Topics.md",
+    "ML/Interview/ML Questions.md",
+    "ML/ML/Logistic Regression.md",
+    "ML/ML/Linear Regression.md",
+    "ML/ML/Decision Trees.md",
+    "ML/ML/Boosting.md",
+    "ML/Interview/ML Interview Answers.md",
+    "ML/Metrics/Average Precision (AP).md",
     "ML/Metrics/Metrics. Classification..md",
     "ML/Metrics/ROC AUC.md",
     "ML/Resources/Учебник по машинному обучению (Яндекс).md",
@@ -188,23 +216,8 @@
     "ML/Metrics/Metrics. Tracking..md",
     "ML/Metrics/Metrics. Text, NLP, OCR..md",
     "ML/Tasks/SS/PointRend.md",
-    "ML/Interview/ML Interview Questions.md",
     "ML/ML/Probability Calibration.md",
-    "ML/ML/Logistic Regression.md",
     "Math/Probability/Probability Distribution.md",
-    "ML/ML/Decision Trees.md",
-    "ML/MLSD/Data Distribution Shifts (DDS).md",
-    "ML/Interview/ML Interview Topics.md",
-    "Math/Statistics/Bayesian Statistics.md",
-    "ML/Resources/Ветров. Введение в вероятностный язык построения моделей машинного обучения.md",
-    "Math/Statistics/Glantz (BOOK).md",
-    "Math/Statistics/Chi-Square.md",
-    "Math/Statistics/Statistics.md",
-    "Math/Statistics/two-sample test.md",
-    "Math/Statistics/AB Tests.md",
-    "ML/MLSD/Chip. DMLS..md",
-    "Math/Probability/Normal Distribution.md",
-    "ML/Resources/Bishop (BOOK).md",
     "ML/DL/Models",
     "ML/Loss",
     "ML/Resources",

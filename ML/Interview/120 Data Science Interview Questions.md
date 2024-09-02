@@ -57,3 +57,40 @@ https://github.com/kojino/120-Data-Science-Interview-Questions
 	- Can we use [[ROC AUC]] ?
 - What if there are more than 2 groups?
 	- micro and macro averaging
+
+6.
+What are various ways to predict a binary response variable? Can you compare two of them and tell me when one would be more appropriate? What’s the difference between these? (SVM, Logistic Regression, Naive Bayes, Decision Tree, etc.)
+- [[Comparison of ML Algorithms]]
+- Start with a simple algorithm Naive Bayes or RF
+- You can start with RF, it works out of the box
+- Is data linearly separable?
+
+7.
+What is regularization and where might it be helpful?
+- [[Regularization]]
+- Regularization helps to deal with overfitting and helps us to get a model that generalize well
+- Penalize L2 or L1 norm
+What is an example of using regularization in a model?
+- L1 / L2
+- Dropout
+- Data augmentation
+
+8.
+Why might it be preferable to include fewer predictors over many?
+- predictors = feature
+- avoiding collinearity between features
+	- avoiding correlated feature
+	- [[Data Correlation]]
+- overfitting
+- Part of RF algorithm
+- [[Curse of Dimensionality]]
+- Computational cost
+- Remember competition when you had to predict sentiment analysis of the review
+	- Only text features works better out of the box
+	- Be lazy
+
+Why might it be preferable to use smaller model
+- Avoid overfitting and memorization of the dataset.
+- Smaller model can perform better.
+- [[Double Descent]]
+- [[ResNet]]

@@ -1,4 +1,7 @@
 
+Moved
+https://www.notion.so/M-Data-correlation-1881d34f3e2647ccb7eb87c9d9d4fd50
+
 # External Links
 
 [[mlcourse.ai]]
