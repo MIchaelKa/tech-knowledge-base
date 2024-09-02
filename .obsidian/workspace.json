@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Covariance Matrix.md",
+                "file": "ML/Interview/120 Data Science Interview Questions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Covariance Matrix.md",
+                "file": "ML/Interview/120 Data Science Interview Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/Covariance Matrix.md"
+                "file": "ML/Interview/120 Data Science Interview Questions.md"
               }
             }
           }
@@ -190,13 +190,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ab8f0afb60d88328",
+  "active": "4d4d49cc49615a04",
   "lastOpenFiles": [
     "ML/ML/Curse of Dimensionality.md",
-    "ML/MLSD/ML System Design.md",
     "ML/Interview/120 Data Science Interview Questions.md",
-    "ML/Data/Data Correlation.md",
+    "ML/Metrics/ROC AUC.md",
     "Math/Covariance Matrix.md",
+    "ML/MLSD/ML System Design.md",
+    "ML/Data/Data Correlation.md",
     "ML/DL/Double Descent.md",
     "ML/Concepts/Regularization.md",
     "ML/Interview/Comparison of ML Algorithms.md",
@@ -210,7 +211,6 @@
     "ML/Interview/ML Interview Answers.md",
     "ML/Metrics/Average Precision (AP).md",
     "ML/Metrics/Metrics. Classification..md",
-    "ML/Metrics/ROC AUC.md",
     "ML/Resources/Учебник по машинному обучению (Яндекс).md",
     "Templates/Template ENG.md",
     "ML/Metrics/Metrics. Tracking..md",

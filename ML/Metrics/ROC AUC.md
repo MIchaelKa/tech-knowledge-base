@@ -9,6 +9,7 @@
 
 [https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html)
 
+Тетрадь Теком
 # Links
 
 [[Учебник по машинному обучению (Яндекс)]]
