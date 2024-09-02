@@ -52,7 +52,7 @@ mean
 - mean of the sum of r.v. is sum of the mean
 	- is it always true?
 	- linearity properties of expectation
-	- [[MIT 6.041SC]]
+	- [[MIT 6.041SC. Probability Theory.]]
 variance
 - also adds
 - $n* \sigma$

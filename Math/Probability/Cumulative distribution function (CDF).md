@@ -1,4 +1,7 @@
 
+Moved
+https://www.notion.so/M-Cumulative-distribution-function-CDF-3857e502cd6f488aa8ae579206716c22
+
 # External Links
 
 https://en.wikipedia.org/wiki/Cumulative_distribution_function
@@ -6,6 +9,7 @@ https://en.wikipedia.org/wiki/Cumulative_distribution_function
 # Links
 
 [[Antiderivative]]
+[[Histogram Equalization]]
 
 # Overview
 

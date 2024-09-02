@@ -23,6 +23,7 @@ https://github.com/kojino/120-Data-Science-Interview-Questions
 
 3
 - What are some ways I can make my model more robust to outliers?
+	- Outliers in train data or during inference?
 	- Regularization
 	- Algorithms
 		- Using MAE instead of MSE
@@ -94,3 +95,45 @@ Why might it be preferable to use smaller model
 - Smaller model can perform better.
 - [[Double Descent]]
 - [[ResNet]]
+
+9.
+Given training data on tweets and their retweets, how would you predict the number of retweets of a given tweet after 7 days after only observing 2 days worth of data?
+- [[Time Series]]
+	- Augmentation
+	- Cycle
+- Regression model
+
+10.
+How could you collect and analyze data to use social media to predict the weather?
+- geo position
+- nlp analysis
+- cv analysis of the photos
+
+
+12.
+How would you design the people you may know feature on LinkedIn or Facebook?
+- clustering
+- graph analysis
+	- GNN
+- compare embeddings
+
+# Probability
+
+(19 questions)
+
+2.
+In any 15-minute interval, there is a 20% probability that you will see at least one shooting star. What is the probability that you see at least one shooting star in the period of an hour?
+- https://chatgpt.com/c/ab97c23a-bca6-459b-bbda-460afc9485dc
+- Complementary Probability
+- [[Poisson Distribution]]
+
+4.
+How can you get a fair coin toss if someone hands you a coin that is weighted to come up heads more often than tails?
+- Estimate probability
+- Then use Binomial trials
+
+
+6.
+Given draws from a normal distribution with known parameters, how can you simulate draws from a uniform distribution?
+- [[Cumulative distribution function (CDF)]]
+- [[Histogram Equalization]]

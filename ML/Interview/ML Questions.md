@@ -48,6 +48,8 @@ Here are some possible questions that might come up during your interview on the
 
 ## Markov Chains
 
+[[Markov Chain]]
+
 - What is a Markov chain, and where might it be applied?
 - How do you determine the steady-state probabilities of a Markov chain?
 
