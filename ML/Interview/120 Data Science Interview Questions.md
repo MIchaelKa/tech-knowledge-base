@@ -156,5 +156,11 @@ How many ways can you split 12 people into 3 teams of 4?
 10.
 Your hash function assigns each object to a number between 1:10, each with equal probability.
 - With 10 objects, what is the probability of a hash collision?
+	- [[Combinatorics]]
 - What is the expected number of hash collisions?
+	- [[Total Expectation Theorem]]
+		- ?
+	- https://chatgpt.com/c/d3ae9e0e-db01-461c-aacd-e6afe223e056
+	- [[Binomial Distribution]]
+		- cannot use, p is different on each subsequent step
 - What is the expected number of hashes that are unused.

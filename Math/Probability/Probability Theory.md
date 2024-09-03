@@ -11,8 +11,6 @@ https://www.youtube.com/playlist?list=PLiAulSm0XXgvCGe63mrAkda9UQ9478YQv
 # Links
 
 
-
-
 # Books
 
 Шень
@@ -26,3 +24,8 @@ A First Course in Probability
 - https://www.amazon.com/First-Course-Probability-10th/dp/0134753119
 - recommended
 	- https://www.linkedin.com/posts/meri-bozulanova_machinelearning-activity-7234212446914166785-QQno?utm_source=share&utm_medium=member_desktop
+
+
+# Overview
+
+[[Total Expectation Theorem]]

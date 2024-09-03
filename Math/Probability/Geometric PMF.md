@@ -16,4 +16,4 @@ Summary
 Expectation
 - [[Progression]]
 - [[Divide and Conquer]]
-
+- [[Total Expectation Theorem]]
