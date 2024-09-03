@@ -137,3 +137,19 @@ How can you get a fair coin toss if someone hands you a coin that is weighted to
 Given draws from a normal distribution with known parameters, how can you simulate draws from a uniform distribution?
 - [[Cumulative distribution function (CDF)]]
 - [[Histogram Equalization]]
+
+8.
+You have a group of couples that decide to have children until they have their first girl, after which they stop having children.
+- What is the expected gender ratio of the children that are born?
+	- 1:1
+	- Easy to answer after solving question 2 (below)
+- What is the expected number of children each couple will have?
+	- [[Geometric PMF]]
+	- $E[X] = 1/p = 2$
+
+9.
+How many ways can you split 12 people into 3 teams of 4?
+- [[Combinatorics]]
+- [[Multinomial Distribution]]
+- https://chatgpt.com/c/c2064177-af68-4623-80ca-a85f2728724b
+

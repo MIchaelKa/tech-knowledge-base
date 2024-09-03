@@ -26,7 +26,4 @@ https://en.wikipedia.org/wiki/Poisson_distribution
 
 vs. Geometric PMF
 - https://chatgpt.com/c/ab97c23a-bca6-459b-bbda-460afc9485dc
-
-Geometric PMF
-- Models the number of trials needed to get the first success in a series of independent Bernoulli trials
-- Memoryless Property
+- [[Geometric PMF]]

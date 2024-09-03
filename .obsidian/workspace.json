@@ -175,7 +175,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -191,14 +191,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4d4d49cc49615a04",
+  "active": "ab8f0afb60d88328",
   "lastOpenFiles": [
+    "Math/Combinatorics.md",
+    "ML/Interview/120 Data Science Interview Questions.md",
+    "Math/Probability/Multinomial Distribution.md",
+    "Math/Probability/Geometric PMF.md",
+    "Math/Probability/Poisson Distribution.md",
+    "Templates/Template ENG.md",
+    "Math/Progression.md",
     "CV/Histogram Equalization.md",
     "Math/Probability/Cumulative distribution function (CDF).md",
-    "ML/Interview/120 Data Science Interview Questions.md",
     "Math/Probability/Probability Distribution.md",
     "Math/Probability/Exponential Distribution.md",
-    "Math/Probability/Poisson Distribution.md",
     "Math/Probability/Bernoulli Distribution.md",
     "SD/BOTEC.md",
     "SD/Grokking MSDI.md",
@@ -207,7 +212,6 @@
     "ML/Interview/ML Questions.md",
     "Math/Probability/Markov Chain.md",
     "Math/Probability/MIT 6.041SC. Probability Theory..md",
-    "Templates/Template ENG.md",
     "ML/ML/Time Series.md",
     "ML/ML/Curse of Dimensionality.md",
     "ML/Resources/cs4780.md",
@@ -215,10 +219,6 @@
     "ML/Metrics/ROC AUC.md",
     "Math/Covariance Matrix.md",
     "ML/MLSD/ML System Design.md",
-    "ML/Data/Data Correlation.md",
-    "ML/DL/Double Descent.md",
-    "ML/Concepts/Regularization.md",
-    "ML/Interview/Comparison of ML Algorithms.md",
     "ML/DL/Models",
     "ML/Loss",
     "ML/Resources",
