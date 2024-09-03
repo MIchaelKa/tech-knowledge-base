@@ -134,3 +134,8 @@ Large weight values and overfitting.
 
 Why feature scaling is important for linear models?
 - [[Linear Models]]
+
+
+# DL
+
+Train on crops, infer on large images

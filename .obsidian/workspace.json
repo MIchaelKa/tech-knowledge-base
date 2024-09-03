@@ -76,6 +76,18 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "de9252fd3fa6c2af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/ML/Anomaly Detection.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 4
@@ -207,13 +219,16 @@
   },
   "active": "98651cba723c04cf",
   "lastOpenFiles": [
-    "ML/Resources/Учебник по машинному обучению (Яндекс).md",
+    "ML/ML/Anomaly Detection.md",
+    "Templates/Template ENG.md",
     "ML/Interview/Data science interview questions with answers..md",
+    "ML/Loss/Focal Loss.md",
+    "ML/Interview/ML Questions.md",
+    "ML/Resources/Учебник по машинному обучению (Яндекс).md",
     "ML/Metrics/mAP.md",
     "ML/Metrics/Metrics. SS and OD.md",
     "ML/Loss/Loss. SS and OD.md",
     "ML/Interview/ML Topics.md",
-    "ML/Interview/ML Questions.md",
     "ML/ML/Linear Models.md",
     "ML/ML/Linear Regression.md",
     "ML/Concepts/Regularization.md",
@@ -231,9 +246,6 @@
     "Math/Statistics/Glantz (BOOK).md",
     "Math/Statistics/Statistics.md",
     "ML/MLSD/Курс по ML System Design.md",
-    "ML/MLSD/ML System Design.md",
-    "Math/Statistics/two-sample test.md",
-    "Math/Statistics/T-test.md",
     "ML/DL/Models",
     "ML/Loss",
     "ML/Resources",
