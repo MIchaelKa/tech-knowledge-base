@@ -15,7 +15,7 @@ Beam search is a heuristic search algorithm that explores a graph by expanding t
 
 Beam search is an optimization of **best-first search**
 
-[[Combinatorial search]]
+[[Combinatorial Search]]
 [[Graph]]
 
 

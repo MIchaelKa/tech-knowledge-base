@@ -64,4 +64,4 @@ We can use a modified **beam search** to solve this.
 
 **Алгоритм**
 [[Dynamic Programming]]
-[[Beam search]]
+[[Beam Search]]

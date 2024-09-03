@@ -62,9 +62,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "0c97d66bbcefd5a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/Complement Representation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Probability/Probability Theory.md",
+                "file": "CS/Complement Representation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Probability/Probability Theory.md",
+                "file": "CS/Complement Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/Probability/Probability Theory.md"
+                "file": "CS/Complement Representation.md"
               }
             }
           }
@@ -191,9 +203,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ab8f0afb60d88328",
+  "active": "0c97d66bbcefd5a0",
   "lastOpenFiles": [
     "ML/Interview/120 Data Science Interview Questions.md",
+    "CS/Beam Search.md",
+    "CS/Combinatorial Search.md",
+    "CS/Complement Representation.md",
+    "Math/Probability/Probability Theory.md",
     "Math/Probability/Binomial Distribution.md",
     "Math/Statistics/Bayesian Statistics. The Fun Way. (BOOK).md",
     "Math/Probability/Total Expectation Theorem.md",
@@ -201,7 +217,6 @@
     "CS/Divide and Conquer.md",
     "Math/Probability/Total Probability Theorem.md",
     "Math/Combinatorics.md",
-    "Math/Probability/Probability Theory.md",
     "Math/Probability/Sum Rule.md",
     "ML/Interview/ML Topics.md",
     "Templates/Template ENG.md",
@@ -216,9 +231,6 @@
     "SD/BOTEC.md",
     "SD/Grokking MSDI.md",
     "ML/Interview/ML Questions.md",
-    "Math/Probability/Markov Chain.md",
-    "Math/Probability/MIT 6.041SC. Probability Theory..md",
-    "ML/ML/Time Series.md",
     "ML/DL/Models",
     "ML/Loss",
     "ML/Resources",
