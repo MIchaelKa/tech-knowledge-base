@@ -50,47 +50,19 @@
             }
           },
           {
-            "id": "3a6d6db886306371",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Interview/120 Data Science Interview Questions.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "98651cba723c04cf",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Interview/Data science interview questions with answers..md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "de9252fd3fa6c2af",
+            "id": "8b98f4e9a7130638",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/ML/Anomaly Detection.md",
+                "file": "Math/Singular Value Decomposition (SVD).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -119,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Clustering",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -156,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Interview/Data science interview questions with answers..md",
+                "file": "Math/Singular Value Decomposition (SVD).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Interview/Data science interview questions with answers..md",
+                "file": "Math/Singular Value Decomposition (SVD).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,12 +168,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Interview/Data science interview questions with answers..md"
+                "file": "Math/Singular Value Decomposition (SVD).md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -217,35 +188,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "98651cba723c04cf",
+  "active": "8b98f4e9a7130638",
   "lastOpenFiles": [
-    "ML/ML/Anomaly Detection.md",
-    "Templates/Template ENG.md",
-    "ML/Interview/Data science interview questions with answers..md",
-    "ML/Loss/Focal Loss.md",
+    "ML/Nets/GLIP.md",
+    "ML/ML/PCA.md",
+    "Math/Singular Value Decomposition (SVD).md",
+    "ML/Layers/Separable Convolution.md",
     "ML/Interview/ML Questions.md",
+    "Math/Statistics/AB Tests.md",
+    "ML/Interview/ML Topics.md",
+    "ML/ML/Boosting.md",
+    "ML/Interview/Data science interview questions with answers..md",
+    "ML/ML/K-Means.md",
+    "Templates/Template ENG.md",
+    "ML/ML/Clustering.md",
+    "ML/Concepts/Unsupervised Learning (UL).md",
+    "Math/Statistics/Statistical Significance.md",
+    "Math/Statistics/Statistics.md",
+    "ML/ML/Anomaly Detection.md",
+    "Math/Statistics/P-value.md",
+    "ML/ML/Bias-Variance Decomposition (BVD).md",
+    "ML/Interview/120 Data Science Interview Questions.md",
+    "ML/Loss/Focal Loss.md",
     "ML/Resources/Учебник по машинному обучению (Яндекс).md",
     "ML/Metrics/mAP.md",
     "ML/Metrics/Metrics. SS and OD.md",
     "ML/Loss/Loss. SS and OD.md",
-    "ML/Interview/ML Topics.md",
     "ML/ML/Linear Models.md",
     "ML/ML/Linear Regression.md",
-    "ML/Concepts/Regularization.md",
-    "ML/Interview/120 Data Science Interview Questions.md",
-    "Math/Statistics/Chi-Square.md",
-    "ML/Data/Data Correlation.md",
-    "ML/Data/Feature Selection.md",
-    "CS/Histogram.md",
-    "CV/Histogram of oriented gradients (HOG).md",
-    "Common/Occam's Razor.md",
-    "ML/MLSD/Test in Production.md",
     "Common",
-    "Math/Statistics/KS-test.md",
-    "Math/Statistics/AB Tests.md",
-    "Math/Statistics/Glantz (BOOK).md",
-    "Math/Statistics/Statistics.md",
-    "ML/MLSD/Курс по ML System Design.md",
     "ML/DL/Models",
     "ML/Loss",
     "ML/Resources",

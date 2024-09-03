@@ -41,7 +41,7 @@ SLAM opencv
 	- [[ORB]]
 - Fundamental matrix computation
 	- 8 correspondence
-	- [[SVD]]
+	- [[Singular Value Decomposition (SVD)]]
 	- [[RANSAC]]
 - Triangulation
 - Bundle Adjustment

@@ -78,6 +78,7 @@ Here are some possible questions that might come up during your interview on the
 - How do you perform matrix multiplication, and what are the rules for matrix multiplication?
 - Explain the concept of matrix rank and its significance in solving linear systems.
 - What is a singular value decomposition (SVD), and why is it useful?
+	- [[Singular Value Decomposition (SVD)]]
 
 # Statistics
 
@@ -100,6 +101,8 @@ Here are some possible questions that might come up during your interview on the
 
 ## A/B Testing
 
+[[AB Tests]]
+
 - How do you design an A/B test? What are the key considerations to ensure valid results?
 - Explain how you would determine if the results of an A/B test are statistically significant.
 - What is the importance of sample size in A/B testing?
@@ -112,7 +115,7 @@ Here are some possible questions that might come up during your interview on the
 - [[Decision Trees]] BVT
 
 K-Means. Что делать если не знаем на сколько классов делить выборку?
-- K-Means
+- [[K-Means]]
 
 Why we need data to be independent and identically distributed?
 - [[MLE]]

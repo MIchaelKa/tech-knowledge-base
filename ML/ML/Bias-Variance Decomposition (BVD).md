@@ -38,7 +38,7 @@ What the error if we have infinite dataset. How then we will differ from desired
 
 # How to deal with these errors?
 
-**High variance**
+High variance
 =? overfitting
 - [[Bagging]]
 - More training data
@@ -46,7 +46,7 @@ What the error if we have infinite dataset. How then we will differ from desired
 
 Why bagging will help, if we will train using the same data?
 
-**High bias**
+High bias
 =? underfitting
 - [[Boosting]]
 - More complex model
@@ -57,3 +57,13 @@ Why bagging will help, if we will train using the same data?
 - Remove outliners
 - Add more features
 	- ?
+
+vs.
+- https://chatgpt.com/c/fd2058ed-405b-4c78-a380-640ca84b5398
+High variance vs. overfitting
+- Overfitting is a specific instance of high variance.
+- What are other options?
+	- Poor Cross-Validation
+	- Bad hyperparameters
+High bias vs. underfitting
+- Underfitting is a specific instance of high bias.

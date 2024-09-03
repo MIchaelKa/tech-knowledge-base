@@ -31,7 +31,7 @@ https://github.com/kojino/120-Data-Science-Interview-Questions
 			- [[Decision Trees]]
 	- Data
 		- Clipping
-			- Winsorizing
+			- Winsorizing / Winsorization
 			- Where you seen this technique recently?
 		- Filter outliers out from dataset
 			- How to detect them?

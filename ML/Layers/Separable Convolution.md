@@ -12,8 +12,8 @@ Groups
 
 # Обзор
 
-> How can we tell if a given kernel K is indeed separable?
-> A more direct method is to treat the 2D kernel as a 2D matrix K and to take its singular value decomposition [[SVD]]
+How can we tell if a given kernel K is indeed separable?
+- more direct method is to treat the 2D kernel as a 2D matrix K and to take its [[Singular Value Decomposition (SVD)]]
 
 # Spatial
 

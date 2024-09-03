@@ -18,6 +18,15 @@ https://www.youtube.com/watch?v=Zki9VMzxcFU
 
 # Overview
 
+Statistical Significance vs. statistical power
+- Statistical significance is more concerned with Type I errors (false positives), whereas statistical power focuses on Type II errors (false negatives)
+
+statistical power
+- https://en.wikipedia.org/wiki/Power_(statistics)
+- The higher the statistical power, the less likely you are to make a Type II error
+
+Statistical Significance
+- determined by the [[P-value]]
 
 # ML Models
 
