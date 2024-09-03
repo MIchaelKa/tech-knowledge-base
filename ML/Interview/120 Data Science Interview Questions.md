@@ -153,3 +153,8 @@ How many ways can you split 12 people into 3 teams of 4?
 - [[Multinomial Distribution]]
 - https://chatgpt.com/c/c2064177-af68-4623-80ca-a85f2728724b
 
+10.
+Your hash function assigns each object to a number between 1:10, each with equal probability.
+- With 10 objects, what is the probability of a hash collision?
+- What is the expected number of hash collisions?
+- What is the expected number of hashes that are unused.
