@@ -71,6 +71,7 @@ What is regularization and where might it be helpful?
 - [[Regularization]]
 - Regularization helps to deal with overfitting and helps us to get a model that generalize well
 - Penalize L2 or L1 norm
+
 What is an example of using regularization in a model?
 - L1 / L2
 - Dropout
@@ -164,3 +165,10 @@ Your hash function assigns each object to a number between 1:10, each with equal
 	- [[Binomial Distribution]]
 		- cannot use, p is different on each subsequent step
 - What is the expected number of hashes that are unused.
+
+# Statistical Inference
+
+6.
+How would you run an A/B test for many variants, say 20 or more?
+- Effect of multiple comparisons
+- Bonferroni Correction

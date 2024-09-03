@@ -14,10 +14,13 @@ scipy.stats
 
 Statistical tests
 - [[P-value]]
-- [[T-test]]
 - [[AB Tests]]
 - [[two-sample test]]
+- [[T-test]]
+- [[KS-test]]
 - [[Chi-Square]]
+
+Параметрические и непараметрические тесты
 
 # Terms
 

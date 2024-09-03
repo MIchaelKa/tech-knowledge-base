@@ -6,7 +6,9 @@ A/B Testing
 
 # External Links
 
-В книге DMLS ссылки на книги и статьи по статистике
+Moved
+https://www.notion.so/MP-A-B-Testing-1605eaa8d4f94008a5d5b77929705668
+- Videos
 
 *цикл постов про процессы в АБ-тестировании*
 https://t.me/reliable_ml/124
@@ -14,17 +16,23 @@ https://t.me/reliable_ml/124
 Подборка материалов по АБ
 https://t.me/reliable_ml/95
 
-Videos
-https://www.notion.so/A-B-Testing-1605eaa8d4f94008a5d5b77929705668
+https://chatgpt.com/c/815acd82-f494-46c2-b21d-f5203f353340
 
 # Parent
 
 [[ML System Design]]
-Test in Production
+
+[[Test in Production]]
 
 # Links
 
 [[Statistics]]
+
+[[Курс по ML System Design]]
+- 10. Жизненный цикл модели
+
+[[Chip. DMLS.]]
+- В книге DMLS ссылки на книги и статьи по статистике
 
 # Summary
 
@@ -34,13 +42,17 @@ Test in Production
 statistical significance
 [[two-sample test]]
 
-качественная рандомизация трафика
+Компоненты
+- контрольная группа
+- качественная рандомизация трафика
 
 А/А/Б
 Сравниваем старую модель и новую, а также старую и старую. Проверяем корректно ли организован эксперимент.
 
 sequential testing
-проблема множественного сравненение
+проблема множественного сравненения
+- связано с проблемой [[T-test]] для множественного сравнения?
+- [[Glantz (BOOK)]]
 
 Метрики
 - какая метрика в А/Б тесте

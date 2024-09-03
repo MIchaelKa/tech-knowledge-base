@@ -36,7 +36,7 @@
             }
           },
           {
-            "id": "66c6a69255755287",
+            "id": "c08db1b627393553",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "4d4d49cc49615a04",
+            "id": "3a6d6db886306371",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -64,15 +64,17 @@
             }
           },
           {
-            "id": "0c97d66bbcefd5a0",
+            "id": "98651cba723c04cf",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Complement Representation.md",
+                "file": "ML/Interview/Data science interview questions with answers..md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ],
@@ -105,7 +107,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Total",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Complement Representation.md",
+                "file": "ML/Interview/Data science interview questions with answers..md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Complement Representation.md",
+                "file": "ML/Interview/Data science interview questions with answers..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Complement Representation.md"
+                "file": "ML/Interview/Data science interview questions with answers..md"
               }
             }
           }
@@ -203,34 +205,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0c97d66bbcefd5a0",
+  "active": "98651cba723c04cf",
   "lastOpenFiles": [
-    "ML/Interview/120 Data Science Interview Questions.md",
-    "CS/Beam Search.md",
-    "CS/Combinatorial Search.md",
-    "CS/Complement Representation.md",
-    "Math/Probability/Probability Theory.md",
-    "Math/Probability/Binomial Distribution.md",
-    "Math/Statistics/Bayesian Statistics. The Fun Way. (BOOK).md",
-    "Math/Probability/Total Expectation Theorem.md",
-    "Math/Probability/Geometric PMF.md",
-    "CS/Divide and Conquer.md",
-    "Math/Probability/Total Probability Theorem.md",
-    "Math/Combinatorics.md",
-    "Math/Probability/Sum Rule.md",
+    "ML/Resources/Учебник по машинному обучению (Яндекс).md",
+    "ML/Interview/Data science interview questions with answers..md",
+    "ML/Metrics/mAP.md",
+    "ML/Metrics/Metrics. SS and OD.md",
+    "ML/Loss/Loss. SS and OD.md",
     "ML/Interview/ML Topics.md",
-    "Templates/Template ENG.md",
-    "Math/Probability/Multinomial Distribution.md",
-    "Math/Probability/Poisson Distribution.md",
-    "Math/Progression.md",
-    "CV/Histogram Equalization.md",
-    "Math/Probability/Cumulative distribution function (CDF).md",
-    "Math/Probability/Probability Distribution.md",
-    "Math/Probability/Exponential Distribution.md",
-    "Math/Probability/Bernoulli Distribution.md",
-    "SD/BOTEC.md",
-    "SD/Grokking MSDI.md",
     "ML/Interview/ML Questions.md",
+    "ML/ML/Linear Models.md",
+    "ML/ML/Linear Regression.md",
+    "ML/Concepts/Regularization.md",
+    "ML/Interview/120 Data Science Interview Questions.md",
+    "Math/Statistics/Chi-Square.md",
+    "ML/Data/Data Correlation.md",
+    "ML/Data/Feature Selection.md",
+    "CS/Histogram.md",
+    "CV/Histogram of oriented gradients (HOG).md",
+    "Common/Occam's Razor.md",
+    "ML/MLSD/Test in Production.md",
+    "Common",
+    "Math/Statistics/KS-test.md",
+    "Math/Statistics/AB Tests.md",
+    "Math/Statistics/Glantz (BOOK).md",
+    "Math/Statistics/Statistics.md",
+    "ML/MLSD/Курс по ML System Design.md",
+    "ML/MLSD/ML System Design.md",
+    "Math/Statistics/two-sample test.md",
+    "Math/Statistics/T-test.md",
     "ML/DL/Models",
     "ML/Loss",
     "ML/Resources",
@@ -240,7 +243,6 @@
     "A",
     "ML/Interview",
     "Math/Statistics",
-    "Math/Probability",
     "Images/graph_example_1.png",
     "Images/Снимок экрана 2024-05-23 в 10.57.00.png",
     "Untitled.canvas"

@@ -6,9 +6,6 @@ mlcourse.ai
 https://habr.com/ru/companies/ods/articles/323890/
 20 мар 2017
 
-Questions about ML Linear models
-- https://chatgpt.com/c/785002cf-f20e-4efd-9009-b6c9e9d6eebf
-
 # Links
 
 [[Linear Models]]

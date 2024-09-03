@@ -44,3 +44,12 @@ https://chatgpt.com/c/0ce49f17-d4d7-4ec9-8f0d-84318c444583
 - What is pros of L2 to compare to L1?
 - Why not to use L1 everytime?
 - Why we need both?
+
+
+Large weight values and overfitting
+- Why large weight values leads to overfitting?
+- [[Linear Regression]]
+- [[Bishop (BOOK)]]
+	- page 8.
+- https://chatgpt.com/c/a58ef827-65ed-4c13-9ea4-6d9aebff5756
+	- model is placing significant importance on specific features

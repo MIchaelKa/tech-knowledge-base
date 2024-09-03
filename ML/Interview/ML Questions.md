@@ -129,18 +129,8 @@ Links
 - [[Linear Regression]]
 - [[Regularization]]
 
-Questions about Linear models
-- https://chatgpt.com/c/785002cf-f20e-4efd-9009-b6c9e9d6eebf
-
-Large weight values and overfitting
-- Why large weight values leads to overfitting?
-- [[Linear Regression]]
+Large weight values and overfitting.
 - [[Regularization]]
-- [[Bishop (BOOK)]]
-	- page 8.
-- https://chatgpt.com/c/a58ef827-65ed-4c13-9ea4-6d9aebff5756
-	- model is placing significant importance on specific features
 
 Why feature scaling is important for linear models?
-- Improved Convergence
-- Interpretability
+- [[Linear Models]]

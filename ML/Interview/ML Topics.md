@@ -49,6 +49,8 @@ Bayes
 
 [[Statistics]]
 
+[[AB Tests]]
+
 # Linear Algebra
 
 Rank
@@ -67,11 +69,10 @@ Metrics
 
 [[Data]]
 
-Curse of Dimensionality
+[[Curse of Dimensionality]]
 [[Bias-Variance Decomposition (BVD)]]
 
-L1 loss vs. L2 loss
-- [[Regularization]]
+[[Regularization]]
 
 # Algorithms
 
@@ -83,6 +84,9 @@ Regression
 - [[Logistic Regression]]
 - Multivariate Regression
 	- https://chatgpt.com/c/6a3a19ca-d512-4318-b516-01279f805776
+- Multiple Regression
+	- considers the effect of more than one explanatory variable
+	- same as [[Linear Regression]]
 
 Algorithms
 - kNN

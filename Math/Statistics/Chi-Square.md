@@ -13,7 +13,8 @@ The Search for Categorical Correlation
 https://towardsdatascience.com/the-search-for-categorical-correlation-a1cf7f1888c9
 
 Histogram Comparison
-https://docs.opencv.org/3.4/d8/dc8/tutorial_histogram_comparison.html
+- https://docs.opencv.org/3.4/d8/dc8/tutorial_histogram_comparison.html
+- [[Histogram]]
 
 Khan Academy
 https://www.khanacademy.org/math/ap-statistics/chi-square-tests/chi-square-goodness-fit/v/chi-square-statistic
@@ -24,9 +25,13 @@ https://www.khanacademy.org/math/ap-statistics/chi-square-tests/chi-square-goodn
 
 [[Data Correlation]]
 
+[[Feature Selection]]
+
 # Overview
 
 Similar to [[T-test]]
+
+Features are categorical
 
 Steps
 - Calculate Chi-Square value
