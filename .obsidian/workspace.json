@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Tasks/Sound Processing.md",
+                "file": "ML/DL/Layers/CPN.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Tasks/Sound Processing.md",
+                "file": "ML/DL/Layers/CPN.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Tasks/Sound Processing.md",
+                "file": "ML/DL/Layers/CPN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Tasks/Sound Processing.md"
+                "file": "ML/DL/Layers/CPN.md"
               }
             }
           }
@@ -190,6 +190,7 @@
   },
   "active": "ab8f0afb60d88328",
   "lastOpenFiles": [
+    "ML/Tasks/Sound Processing.md",
     "ML/ML/Categories",
     "ML/Tasks/Optical Character Recognition (OCR).md",
     "ML/Tasks/Image Captioning.md",
@@ -211,7 +212,7 @@
     "Math/Linear Algebra",
     "ML/DL/Nets/GLIP.md",
     "ML/ML/PCA.md",
-    "ML/Layers/Separable Convolution.md",
+    "ML/DL/Layers/Separable Convolution.md",
     "Math/Statistics/AB Tests.md",
     "ML/Interview/ML Topics.md",
     "ML/ML/Boosting.md",
@@ -219,13 +220,12 @@
     "ML/ML/K-Means.md",
     "Common",
     "ML/DL/Models",
-    "ML/Loss",
+    "ML/DL/Loss",
     "ML/Resources",
     "ML/DL",
     "ML/MLSD",
     "ML/Data",
     "A",
-    "ML/Interview",
     "Images/graph_example_1.png",
     "Images/Снимок экрана 2024-05-23 в 10.57.00.png",
     "Untitled.canvas"
