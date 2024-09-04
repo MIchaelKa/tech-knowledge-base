@@ -55,7 +55,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Singular Value Decomposition (SVD).md",
+                "file": "Math/Linear Algebra/Singular Value Decomposition (SVD).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac7731dd362c7107",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Math/Linear Algebra/Eigenvalues and Eigenvectors.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Singular Value Decomposition (SVD).md",
+                "file": "Math/Linear Algebra/Singular Value Decomposition (SVD).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Singular Value Decomposition (SVD).md",
+                "file": "Math/Linear Algebra/Singular Value Decomposition (SVD).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/Singular Value Decomposition (SVD).md"
+                "file": "Math/Linear Algebra/Singular Value Decomposition (SVD).md"
               }
             }
           }
@@ -188,19 +200,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8b98f4e9a7130638",
+  "active": "ab8f0afb60d88328",
   "lastOpenFiles": [
+    "ML/Interview/ML Questions.md",
+    "Math/Linear Algebra/Singular Value Decomposition (SVD).md",
+    "Math/Linear Algebra/Eigenvalues and Eigenvectors.md",
+    "Templates/Template ENG.md",
+    "Math/Linear Algebra/Eigendecomposion.md",
+    "CV/Harris Corner Detection.md",
+    "CS/Graph.md",
+    "Math/Linear Algebra/Linear Algebra.md",
+    "Math/Linear Algebra",
+    "Math/Linear Algebra/MIT 18.065. Matrix Methods..md",
     "ML/Nets/GLIP.md",
     "ML/ML/PCA.md",
-    "Math/Singular Value Decomposition (SVD).md",
     "ML/Layers/Separable Convolution.md",
-    "ML/Interview/ML Questions.md",
     "Math/Statistics/AB Tests.md",
     "ML/Interview/ML Topics.md",
     "ML/ML/Boosting.md",
     "ML/Interview/Data science interview questions with answers..md",
     "ML/ML/K-Means.md",
-    "Templates/Template ENG.md",
     "ML/ML/Clustering.md",
     "ML/Concepts/Unsupervised Learning (UL).md",
     "Math/Statistics/Statistical Significance.md",
@@ -210,12 +229,6 @@
     "ML/ML/Bias-Variance Decomposition (BVD).md",
     "ML/Interview/120 Data Science Interview Questions.md",
     "ML/Loss/Focal Loss.md",
-    "ML/Resources/Учебник по машинному обучению (Яндекс).md",
-    "ML/Metrics/mAP.md",
-    "ML/Metrics/Metrics. SS and OD.md",
-    "ML/Loss/Loss. SS and OD.md",
-    "ML/ML/Linear Models.md",
-    "ML/ML/Linear Regression.md",
     "Common",
     "ML/DL/Models",
     "ML/Loss",
@@ -225,7 +238,6 @@
     "ML/Data",
     "A",
     "ML/Interview",
-    "Math/Statistics",
     "Images/graph_example_1.png",
     "Images/Снимок экрана 2024-05-23 в 10.57.00.png",
     "Untitled.canvas"

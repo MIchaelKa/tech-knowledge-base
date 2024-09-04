@@ -58,6 +58,7 @@ Here are some possible questions that might come up during your interview on the
 ## Linear Algebra Basics
 
 - What are eigenvalues and eigenvectors, and why are they important in machine learning?
+	- [[Eigenvalues and Eigenvectors]]
 
 - Can you explain the concept of a matrix inversion? In what scenarios might you use matrix inversion?
 	- Solve system of linear equations
@@ -76,7 +77,9 @@ Here are some possible questions that might come up during your interview on the
 ## Matrix Operations
 
 - How do you perform matrix multiplication, and what are the rules for matrix multiplication?
+
 - Explain the concept of matrix rank and its significance in solving linear systems.
+
 - What is a singular value decomposition (SVD), and why is it useful?
 	- [[Singular Value Decomposition (SVD)]]
 
