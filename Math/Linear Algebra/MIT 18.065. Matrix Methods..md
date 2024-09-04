@@ -40,6 +40,7 @@ Counting Law
 
 Null space
 - All solutions to Ax = 0
+- [[Matrix Rank]]
 
 ## 1.5 Orthogonal Matrices and Subspaces
 

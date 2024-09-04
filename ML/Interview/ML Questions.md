@@ -79,6 +79,7 @@ Here are some possible questions that might come up during your interview on the
 - How do you perform matrix multiplication, and what are the rules for matrix multiplication?
 
 - Explain the concept of matrix rank and its significance in solving linear systems.
+	- [[Matrix Rank]]
 
 - What is a singular value decomposition (SVD), and why is it useful?
 	- [[Singular Value Decomposition (SVD)]]
