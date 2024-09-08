@@ -66,6 +66,7 @@ Here are some possible questions that might come up during your interview on the
 
 - How do you solve a system of linear equations using matrix methods?
 
+
 ## Vector Spaces
 
 - What is a vector space, and what are its key properties?

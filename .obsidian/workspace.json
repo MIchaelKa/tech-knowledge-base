@@ -36,26 +36,24 @@
             }
           },
           {
-            "id": "c08db1b627393553",
+            "id": "dd56a0b2b3bdfcb2",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Interview/ML Questions.md",
+                "file": "Math/Linear Algebra/Covariance Matrix.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
             }
           },
           {
-            "id": "aac4876700177daf",
+            "id": "8a4729d900ffe51c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/DL/Layers/CPN.md",
+                "file": "Math/Linear Algebra/Eigenvalues and Eigenvectors.md",
                 "mode": "source",
                 "source": false
               }
@@ -91,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "classifi",
+                "query": "Eigen",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -128,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/DL/Layers/CPN.md",
+                "file": "Math/Linear Algebra/Eigenvalues and Eigenvectors.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/DL/Layers/CPN.md",
+                "file": "Math/Linear Algebra/Eigenvalues and Eigenvectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/DL/Layers/CPN.md"
+                "file": "Math/Linear Algebra/Eigenvalues and Eigenvectors.md"
               }
             }
           }
@@ -188,36 +186,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ab8f0afb60d88328",
+  "active": "8a4729d900ffe51c",
   "lastOpenFiles": [
+    "Templates/Template ENG.md",
+    "Math/Linear Algebra/Eigenvalues and Eigenvectors.md",
+    "Math/Linear Algebra/Eigendecomposion.md",
+    "Math/Linear Algebra/Covariance Matrix.md",
+    "Math/Linear Algebra/Singular Value Decomposition (SVD).md",
+    "Math/Permutations.md",
+    "Math/Linear Algebra/Matrix.md",
+    "Math/Combinatorics.md",
+    "ML/Interview/ML Topics.md",
+    "ML/Interview/Comparison of ML Algorithms.md",
+    "ML/Resources/mlcourse.ai.md",
+    "ML/Interview/ML Questions.md",
+    "ML/ML/Linear Regression.md",
+    "ML/ML/Least Squares.md",
+    "Math/Linear Algebra/Matrix Rank.md",
+    "Math/Probability/Bayes’ Theorem.md",
+    "Math/Statistics/Bayesian Statistics.md",
+    "ML/DL/Layers/CPN.md",
     "ML/Tasks/Sound Processing.md",
     "ML/ML/Categories",
     "ML/Tasks/Optical Character Recognition (OCR).md",
     "ML/Tasks/Image Captioning.md",
-    "ML/Interview/ML Questions.md",
     "ML/Tasks/SS/Semantic Segmentation.md",
     "ML/ML/Categories/Classification.md",
     "Math/Linear Algebra/MIT 18.065. Matrix Methods..md",
-    "Math/Linear Algebra/Matrix Rank.md",
     "ML/ML/Categories/Recommender system.md",
     "ML/ML/Categories/Learning to Rank.md",
-    "Math/Linear Algebra/Covariance Matrix.md",
-    "Templates/Template ENG.md",
-    "Math/Linear Algebra/Singular Value Decomposition (SVD).md",
-    "Math/Linear Algebra/Eigenvalues and Eigenvectors.md",
-    "Math/Linear Algebra/Eigendecomposion.md",
-    "CV/Harris Corner Detection.md",
-    "CS/Graph.md",
-    "Math/Linear Algebra/Linear Algebra.md",
     "Math/Linear Algebra",
-    "ML/DL/Nets/GLIP.md",
-    "ML/ML/PCA.md",
-    "ML/DL/Layers/Separable Convolution.md",
-    "Math/Statistics/AB Tests.md",
-    "ML/Interview/ML Topics.md",
-    "ML/ML/Boosting.md",
-    "ML/Interview/Data science interview questions with answers..md",
-    "ML/ML/K-Means.md",
     "Common",
     "ML/DL/Models",
     "ML/DL/Loss",
