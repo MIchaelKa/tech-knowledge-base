@@ -8,6 +8,12 @@ https://www.notion.so/Eigenvalues-and-Eigenvectors-3e05164d80754961a06659d8c721a
 
 https://chatgpt.com/c/0d972d70-6b4f-4167-9d55-2907b3bb5f88
 
+3Blue1Brown
+Eigenvectors and eigenvalues | Chapter 14, Essence of linear algebra
+https://www.youtube.com/watch?v=PFDu9oVAE-g
+
+Савватеев
+
 # Links
 
 [[Eigendecomposion]]
@@ -24,7 +30,7 @@ https://chatgpt.com/c/0d972d70-6b4f-4167-9d55-2907b3bb5f88
 - [[Singular Value Decomposition (SVD)]]
 - [[Covariance Matrix]]
 
-# Direction of the largest variance.
+# Direction of the largest variance
 
 Eigenvectors are unit vectors representing the direction of the largest variance.
 
@@ -38,8 +44,12 @@ Eigenvectors are unit vectors representing the direction of the largest variance
 	- https://chatgpt.com/c/66ddfcaa-12f8-8000-ab30-9e07f3fd2aeb
 - Lagrange Multipliers
 
+Собственные вектора показывают направления вдоль которого матрица максимально скейлит, это можно объяснить, так как отсутствует эффект поворота, который действует на другие направления.
+
 Covariance Matrix
-- squared matrix, we can apply it to vectors in the feature space of the data.
+- squared matrix, we can apply it to vectors in the feature space of the data
+- почему нам важно то, как скейлит Covariance Matrix?
+	- как это связано с Data Matrix?
 
 
 # Overview
@@ -47,7 +57,8 @@ Covariance Matrix
 Собственный вектор умноженный на константу, также является собственным вектором с тем же самым собственным значением.
 $A(\alpha u) = \alpha(Au) = \alpha(\lambda u) = \lambda(\alpha u)$
 
-In 3D space the eigenvector can represent the axis of rotation
+In 3D space the eigenvector of rotation matrix represents the axis of rotation
+- See Матрица поворота
 
 If $A$ is singular, $\lambda=0$
 singular == rank deficient ?
@@ -55,6 +66,11 @@ singular == rank deficient ?
 Trace
 - It can be proved that the trace of a matrix is the sum of its eigenvalues
 - https://en.wikipedia.org/wiki/Trace_(linear_algebra)
+
+Calculation
+- $(A-\lambda I) v = 0$
+	- we want to find non zero $v$
+- $det(A-\lambda I) = 0$
 
 
 # Matrix
@@ -74,6 +90,7 @@ Eigenvectors of Projection Matrix
 - У матрицы растяжения все вектора собственные?
 - Бесконечное количество векторов.
 - Бесконечное количество собственных направлений
+- Одно собственное значение
 
 Shear matrix
 - one eigenvalue
@@ -83,3 +100,6 @@ Shear matrix
 Eigenbasis
 - If you transformation matrix has enough eigenvectors (to span the full space) the you can change your coordinate system so that these eigenvectors are your basis vectors
 - This is called [[Eigendecomposion]]
+- В этом новом базисе изначальная матрица это диагональная матрица, с собственными значениями на диагонали.
+	- $A = PDP^{-1}$
+	- $D = PAP^{-1}$
