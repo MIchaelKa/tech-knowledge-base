@@ -18,7 +18,7 @@ Flickr30k
 Nocaps
 [[Visual Genome (VG)]]
 
-[[_DNB_Image-Text]]
+[[DNB. Image-Text.]]
 
 ## Bench
 

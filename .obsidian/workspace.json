@@ -34,9 +34,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "aa253434cc43ead0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/DL/Normalization.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Interview/ML Topics.md",
+                "file": "ML/DL/Normalization.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Interview/ML Topics.md",
+                "file": "ML/DL/Normalization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Interview/ML Topics.md"
+                "file": "ML/DL/Normalization.md"
               }
             }
           }
@@ -162,8 +174,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "98fdf0af6775defa",
+  "active": "aa253434cc43ead0",
   "lastOpenFiles": [
+    "ML/Interview/ML Topics.md",
+    "ML/Data/DNB/COCO.md",
+    "ML/Data/DNB/DNB. NLP..md",
+    "ML/Data/DNB/DNB. Image-Text..md",
+    "ML/Data/DNB/DNB.md",
+    "ML/DL/Normalization.md",
+    "ML/Categories/Recommender System.md",
+    "ML/Data/Data Normalization.md",
     "Math/Linear Algebra/Covariance Matrix.md",
     "Math/Linear Algebra/Singular Value Decomposition (SVD).md",
     "Templates/Template ENG.md",
@@ -172,7 +192,6 @@
     "Math/Permutations.md",
     "Math/Linear Algebra/Matrix.md",
     "Math/Combinatorics.md",
-    "ML/Interview/ML Topics.md",
     "ML/Interview/Comparison of ML Algorithms.md",
     "ML/Resources/mlcourse.ai.md",
     "ML/Interview/ML Questions.md",
@@ -183,14 +202,7 @@
     "Math/Statistics/Bayesian Statistics.md",
     "ML/DL/Layers/CPN.md",
     "ML/Tasks/Sound Processing.md",
-    "ML/ML/Categories",
-    "ML/Tasks/Optical Character Recognition (OCR).md",
-    "ML/Tasks/Image Captioning.md",
-    "ML/Tasks/SS/Semantic Segmentation.md",
-    "ML/ML/Categories/Classification.md",
-    "Math/Linear Algebra/MIT 18.065. Matrix Methods..md",
-    "ML/ML/Categories/Recommender system.md",
-    "ML/ML/Categories/Learning to Rank.md",
+    "ML/Categories",
     "Math/Linear Algebra",
     "Common",
     "ML/DL/Models",

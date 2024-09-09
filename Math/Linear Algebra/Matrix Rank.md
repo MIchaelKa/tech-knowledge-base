@@ -13,4 +13,4 @@ Rank Deficiency of the matrix, practical examples
 - Multicollinearity in [[Linear Regression]]
 - [[Covariance Matrix]]
 - Collaborative Filtering
-	- [[Recommender system]]
+	- [[Recommender System]]

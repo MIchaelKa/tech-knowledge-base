@@ -129,6 +129,7 @@ Basics
 - Weight Initialization
 - Batch Normalization
 	- До или после активации
+	- [[Normalization]]
 
 Object detection
 - mAP
