@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "aa253434cc43ead0",
+            "id": "275a4a5200cb8eff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/DL/Normalization.md",
+                "file": "ML/DL/Batch Normalization.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Eigen",
+                "query": "How to Train Your ResNet",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 380.5
+    "width": 333.5
   },
   "right": {
     "id": "2f1b0a2991b40d4e",
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/DL/Normalization.md",
+                "file": "ML/DL/Batch Normalization.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/DL/Normalization.md",
+                "file": "ML/DL/Batch Normalization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/DL/Normalization.md"
+                "file": "ML/DL/Batch Normalization.md"
               }
             }
           }
@@ -174,34 +174,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aa253434cc43ead0",
+  "active": "ab8f0afb60d88328",
   "lastOpenFiles": [
+    "ML/Resources/cs231n.md",
+    "ML/DL/Batch Normalization.md",
+    "ML/Tasks/OD/FCOS.md",
     "ML/Interview/ML Topics.md",
+    "Math/Statistics/Statistical Significance.md",
+    "ML/Papers/How to Train Your ResNet.md",
+    "ML/DL/Normalization.md",
+    "ML/DL/Nets/NFNet.md",
+    "ML/MLSD/Data Distribution Shifts (DDS).md",
+    "ML/DL/Group Normalization.md",
+    "Templates/Template ENG.md",
+    "ML/MLSD/Distributed Training.md",
+    "CS/Floating-point Arithmetic.md",
     "ML/Data/DNB/COCO.md",
     "ML/Data/DNB/DNB. NLP..md",
     "ML/Data/DNB/DNB. Image-Text..md",
     "ML/Data/DNB/DNB.md",
-    "ML/DL/Normalization.md",
     "ML/Categories/Recommender System.md",
     "ML/Data/Data Normalization.md",
     "Math/Linear Algebra/Covariance Matrix.md",
     "Math/Linear Algebra/Singular Value Decomposition (SVD).md",
-    "Templates/Template ENG.md",
     "Math/Linear Algebra/Eigenvalues and Eigenvectors.md",
     "Math/Linear Algebra/Eigendecomposion.md",
     "Math/Permutations.md",
     "Math/Linear Algebra/Matrix.md",
     "Math/Combinatorics.md",
-    "ML/Interview/Comparison of ML Algorithms.md",
-    "ML/Resources/mlcourse.ai.md",
-    "ML/Interview/ML Questions.md",
-    "ML/ML/Linear Regression.md",
-    "ML/ML/Least Squares.md",
-    "Math/Linear Algebra/Matrix Rank.md",
-    "Math/Probability/Bayes’ Theorem.md",
-    "Math/Statistics/Bayesian Statistics.md",
-    "ML/DL/Layers/CPN.md",
-    "ML/Tasks/Sound Processing.md",
     "ML/Categories",
     "Math/Linear Algebra",
     "Common",

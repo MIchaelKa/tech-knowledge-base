@@ -2,8 +2,7 @@
 Статистическая значимость
 
 Cтатистически значимые результаты тренировки NN
-- How to Train Your ResNet
-- https://myrtle.ai/learn/how-to-train-your-resnet-8-bag-of-tricks/
+- [[How to Train Your ResNet]]
 
 # External Links
 
