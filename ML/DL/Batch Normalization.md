@@ -4,13 +4,6 @@
 Batch Norm Explained Visually
 https://towardsdatascience.com/batch-norm-explained-visually-how-it-works-and-why-neural-networks-need-it-b18919692739
 
-cs231n
-- Batch Normalization
-	- https://colab.research.google.com/drive/1seNty-KhftHcgQiCMeeiB91PfNvAohi_
-- Spatial Batch Normalization
-	- https://colab.research.google.com/drive/10fmaBgZ_7J2A8G1qfDgpL98afzPHhpmn#scrollTo=K6-rDAvodZHd
-
-
 https://learnopencv.com/batch-normalization-in-deep-networks/
 
 # Paper
@@ -53,15 +46,6 @@ PROS
 - Acts as a form of regularization.
 
 At test time BN functions differently.
-
-
-Small batch size and detection
-- batch_size=1
-- Как файтюнить обджект детекшн с батчем размера 1?
-- Фризить батч-норм - переводить в eval mode
-- same as Frozen batch norm ?
-- see below Freezing batch normalization
-- Использовать [[Group Normalization]]?
 
 BatchNorm vs. DataNorm
 - Do we need zero-centering and normalization for the data if we use batchnorm? Can we just have BatchNorm before the very first layer? More computationally expensive?

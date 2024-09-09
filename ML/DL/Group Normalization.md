@@ -20,8 +20,14 @@ Yuxin Wu, Kaiming He
 Yannic Kilcher
 [https://www.youtube.com/watch?v=l_3zj6HeWUE](https://www.youtube.com/watch?v=l_3zj6HeWUE)
 
+cs231n
+- assignment2/ConvolutionalNetworks.ipynb
+- [[Histogram of oriented gradients (HOG)]]
 
 # Overview
+
+cs231n
+- Layer Normalization does not perform as well as Batch Normalization when used with Convolutional Layers
 
 Multivariate normal distribution
 Чем ближе наши данные к этому распределению тем лучше работает МЛ.
@@ -29,11 +35,6 @@ Multivariate normal distribution
 Distributed machine learning
 - Smaller batches on each machine
 - [[Distributed Training]]
-
-Почему это может быть актуально для задачи детекции?
-- (Использование GropNorm в FCOS). 
-- Детекция тренируется на мальньких батчах?
-- [[FCOS]]
 
 vs. батчнорм
 - И все-таки как нормализуем батчнорм? 

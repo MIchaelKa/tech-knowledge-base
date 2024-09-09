@@ -23,7 +23,11 @@ Questions
 
 Why do transformers use layer norm instead of batch norm?
 - https://stats.stackexchange.com/questions/474440/why-do-transformers-use-layer-norm-instead-of-batch-norm
-- A less known issue of Batch Norm is that how hard it is to parallellize batch-normalized models.
+- A less known issue of BatchNorm is that how hard it is to parallellize batch-normalized models.
+- Sentence length
+	- In NLP tasks, the sentence length often varies
+	- In transfromer LayerNorm normalizes only over the last dimension (feature dimension), and didn't not normalizes over sentence length
+	- What if for NLP, do not average over sentence length when use BatchNorm?
 
 Residual connections + Layer Normalization
 - Inside each sub-layer in encoder block (self-attension and fc)
