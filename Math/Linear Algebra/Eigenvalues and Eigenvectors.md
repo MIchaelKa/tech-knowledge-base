@@ -30,27 +30,6 @@ https://www.youtube.com/watch?v=PFDu9oVAE-g
 - [[Singular Value Decomposition (SVD)]]
 - [[Covariance Matrix]]
 
-# Direction of the largest variance
-
-Eigenvectors are unit vectors representing the direction of the largest variance.
-
-Почему собственные вектора матрицы $A^TA$ показывают направления максимальной дисперсии в этой матрице, а собственные значения величину этой дисперсии?
-- v1
-	- https://chatgpt.com/c/0d972d70-6b4f-4167-9d55-2907b3bb5f88
-- Interpreting Eigenvectors in Terms of Variance
-- Variance of the data vs. Variance of the matrix
-	- What is variance in the matrix?
-- v2
-	- https://chatgpt.com/c/66ddfcaa-12f8-8000-ab30-9e07f3fd2aeb
-- Lagrange Multipliers
-
-Собственные вектора показывают направления вдоль которого матрица максимально скейлит, это можно объяснить, так как отсутствует эффект поворота, который действует на другие направления.
-
-Covariance Matrix
-- squared matrix, we can apply it to vectors in the feature space of the data
-- почему нам важно то, как скейлит Covariance Matrix?
-	- как это связано с Data Matrix?
-
 
 # Overview
 
