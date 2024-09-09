@@ -10,6 +10,9 @@ cs231n
 - Spatial Batch Normalization
 	- https://colab.research.google.com/drive/10fmaBgZ_7J2A8G1qfDgpL98afzPHhpmn#scrollTo=K6-rDAvodZHd
 
+
+https://learnopencv.com/batch-normalization-in-deep-networks/
+
 # Paper
 
 Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift
@@ -39,7 +42,7 @@ x_mean = x.mean(axis=(0,2,3))
 Batchnorm steps
 - Normalize
 - Allow the network to squash the range if it want to
-	- Do we only need it for **tanh** activation?
+	- Do we only need it for tanh activation?
 	- The network can learn to recover the identity mapping.
 
 PROS
@@ -74,6 +77,7 @@ Internal Covariate Shift (ICF)
 [[Data Distribution Shifts (DDS)]]
 
 Difference between Local Response Normalization and Batch Normalization
+- Jun 19, 2019
 - https://towardsdatascience.com/difference-between-local-response-normalization-and-batch-normalization-272308c034ac
 - Local Response Normalization
 

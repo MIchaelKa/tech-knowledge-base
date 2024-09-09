@@ -18,6 +18,8 @@ https://pytorch.org/docs/stable/nn.html#normalization-layers
 
 [[NFNet]]
 
+До или после активации?
+- [[Network Topology]]
 
 # Discussion
 
