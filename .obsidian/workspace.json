@@ -62,18 +62,6 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "11c788279e1a1b39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Concepts/Mixed precision training (MPT).md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 3
@@ -105,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Squeeze",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -204,22 +192,25 @@
   },
   "active": "ce4dea2f6c169b08",
   "lastOpenFiles": [
-    "ML/Concepts/Mixed precision training (MPT).md",
+    "ML/Resources/Understanding Deep Learning (UDL) (BOOK).md",
+    "ML/DL/Double Descent.md",
+    "Templates/Template ENG.md",
+    "ML/DL/Training Neural Networks (TNN).md",
+    "ML/DL/Backpropagation.md",
     "ML/Interview/DL Topics.md",
+    "ML/Concepts/Mixed precision training (MPT).md",
     "ML/Resources/cs231n.md",
     "ML/DL/Nets/Inception.md",
     "ML/DL/Models/CNN.md",
     "ML/DL/Nets/SENet.md",
     "ML/Papers/Identity Mappings in Deep Residual Networks.md",
     "ML/DL/ML Accelerating (MLA).md",
-    "Templates/Template ENG.md",
     "ML/DL/Layers/Separable Convolution.md",
     "ML/DL/Network Topology.md",
     "ML/DL/Normalization.md",
     "ML/Concepts/Ensembles.md",
     "ML/Tasks/Text Field Recognition.md",
     "ML/Concepts/Active Learning.md",
-    "ML/DL/Training Neural Networks (TNN).md",
     "ML/DL/Parameter Updates.md",
     "ML/DL/Learning Rate Decays.md",
     "ML/Papers/A Recipe for Training Neural Networks.md",
@@ -227,9 +218,6 @@
     "ML/Concepts/Exponential Moving Average (EMA).md",
     "ML/Categories/Classification.md",
     "ML/DL/Loss/Cross Entropy Loss (CEL).md",
-    "ML/Concepts/Regularization.md",
-    "ML/DL/Layers/Dropout.md",
-    "ML/Tasks/OD/YuNet.md",
     "ML/Categories",
     "Math/Linear Algebra",
     "Common",

@@ -2,6 +2,7 @@
 # Resources
 
 [[cs231n]]
+[[Understanding Deep Learning (UDL) (BOOK)]]
 
 
 # DL
@@ -14,6 +15,7 @@ Attention
 Basics
 - [[Dropout]]
 - [[Weight Initialization]]
+- [[Backpropagation]]
 
 Normalization
 - [[Normalization]]
@@ -56,8 +58,8 @@ Other
 - Distillation
 
 Training
+- [[Training Neural Networks (TNN)]]
 - Vanishing Gradients
-- Gradient Clipping
 - [[Mixed precision training (MPT)]]
 
 PyTorch
