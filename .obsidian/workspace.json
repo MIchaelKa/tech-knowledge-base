@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "0193f71d54b23c0f",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Interview/ML Questions.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
             "id": "98fdf0af6775defa",
             "type": "leaf",
             "pinned": true,
@@ -36,36 +50,26 @@
             }
           },
           {
-            "id": "c28bc5878a1fc0b4",
+            "id": "ce4dea2f6c169b08",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/DL/Normalization.md",
+                "file": "ML/Interview/DL Topics.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "736d2f0015343d33",
+            "id": "4015fa8b5412d5d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/DL/Group Normalization.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "546d009d312a4d87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Tasks/OD/FCOS.md",
+                "file": "ML/Resources/cs231n.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +105,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "How to Train Your ResNet",
+                "query": "Initialization",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -138,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Tasks/OD/FCOS.md",
+                "file": "ML/Resources/cs231n.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Tasks/OD/FCOS.md",
+                "file": "ML/Resources/cs231n.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Tasks/OD/FCOS.md"
+                "file": "ML/Resources/cs231n.md"
               }
             }
           }
@@ -199,34 +203,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "546d009d312a4d87",
+  "active": "ab8f0afb60d88328",
   "lastOpenFiles": [
-    "ML/DL/Group Normalization.md",
-    "ML/Tasks/OD/FCOS.md",
+    "ML/Categories/Classification.md",
+    "ML/Resources/cs231n.md",
+    "ML/Interview/DL Topics.md",
+    "ML/DL/Loss/Cross Entropy Loss (CEL).md",
+    "ML/Concepts/Regularization.md",
+    "ML/DL/Layers/Dropout.md",
+    "Templates/Template ENG.md",
+    "ML/DL/Gradient Clipping.md",
+    "ML/Tasks/OD/YuNet.md",
+    "ML/DL/Weight Initialization.md",
+    "ML/Data/Data Normalization.md",
+    "ML/DL/Activation Functions.md",
+    "ML/Interview/120 Data Science Interview Questions.md",
+    "ML/Interview/Comparison of ML Algorithms.md",
+    "ML/Interview/Data science interview questions with answers..md",
+    "ML/Interview/ML Questions.md",
+    "ML/Interview/ML Topics.md",
+    "ML/DL/Nets/GLIP.md",
+    "ML/Data/DNB/GRIT.md",
     "ML/DL/Normalization.md",
+    "ML/Tasks/OD/FCOS.md",
+    "ML/DL/Group Normalization.md",
     "ML/DL/Batch Normalization.md",
     "ML/DL/Nets/CenterNet.md",
     "ML/Tasks/OD/Label Assignment.md",
-    "Templates/Template ENG.md",
     "ML/DL/Layer Normalization.md",
-    "ML/DL/Transformer/Transformer.md",
-    "CV/Histogram of oriented gradients (HOG).md",
-    "ML/DL/Network Topology.md",
-    "ML/Interview/ML Topics.md",
-    "ML/Resources/cs231n.md",
-    "Math/Statistics/Statistical Significance.md",
-    "ML/Papers/How to Train Your ResNet.md",
-    "ML/DL/Nets/NFNet.md",
-    "ML/MLSD/Data Distribution Shifts (DDS).md",
-    "ML/MLSD/Distributed Training.md",
-    "CS/Floating-point Arithmetic.md",
-    "ML/Data/DNB/COCO.md",
-    "ML/Data/DNB/DNB. NLP..md",
-    "ML/Data/DNB/DNB. Image-Text..md",
-    "ML/Data/DNB/DNB.md",
-    "ML/Categories/Recommender System.md",
-    "ML/Data/Data Normalization.md",
-    "Math/Linear Algebra/Covariance Matrix.md",
     "ML/Categories",
     "Math/Linear Algebra",
     "Common",

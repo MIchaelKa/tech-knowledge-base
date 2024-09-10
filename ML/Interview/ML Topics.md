@@ -107,34 +107,3 @@ SVM - это линейная модель?
 
 [[Comparison of ML Algorithms]]
 
-# DL
-
-PyTorch
-- tensorflow vs. pytorch
-
-Transformers
-Attention
-
-Generative models
-- VAE
-- Diffusion models
-
-Other
-- Vanishing Gradients
-- Pseudo Labeling
-- Distillation
-
-Basics
-- Dropout
-- Weight Initialization
-- Batch Normalization
-	- До или после активации
-	- [[Normalization]]
-
-Object detection
-- mAP
-- DETR
-
-Archs
-- ResNet
-- Ботлнек слой в реснете.

@@ -7,6 +7,10 @@ https://www.notion.so/M-Regularization-bd48dfeeee054e1f9ee846ef25d7e6df
 LASSO
 https://en.wikipedia.org/wiki/Lasso_(statistics)
 
+# Links
+
+[[cs231n]]
+
 # Overview
 
 Common pattern
@@ -15,13 +19,19 @@ Common pattern
 
 Regularizations
 - L1 / L2
+- Elastic Net
+	- It is possible to combine the L1 regularization with the L2 regularization
 - [[Dropout]]
 - [[Data Augmentation]]
+
 
 Other ideas
 - DropConnect
 - Fractional Max Pooling
 - Stochastic depth
+
+Bias regularization
+- it is not common to regularize the bias parameters because they do not interact with the data through multiplicative interactions
 
 # L1 / L2
 
