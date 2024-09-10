@@ -31,8 +31,16 @@ Why original ResNet place ReLU after residual, why ReLU not inside the block?
 # Normalization
 
 pre/post normalization
+- pre is better
 - normalization before or after activation
 	- https://chatgpt.com/c/66dedef4-c824-8000-a3c4-f8e26e8e2e27
+- batch normalization should be applied before or after activation?
+	- https://chatgpt.com/c/66e082b7-66e0-8000-8437-b1ab9cde8057
+- pre pros
+	- prevents saturation of non-linearities
+		- preventing exploding or vanishing gradients
+		- valid only for sigmoid?
+		- valid for ReLU also, imagine shift when all activations is negative
 - normalization before or after residual
 	- [[Transformer]]
 

@@ -36,7 +36,6 @@ Loss
 
 Archs
 - [[ResNet]]
-- Ботлнек слой в реснете
 
 SSL
 - [[Self-Supervised Learning (SSL)]]

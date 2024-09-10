@@ -22,27 +22,13 @@
             }
           },
           {
-            "id": "0193f71d54b23c0f",
+            "id": "79aa603c93d89d4a",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Interview/ML Questions.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "98fdf0af6775defa",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Interview/ML Topics.md",
+                "file": "ML/Interview/DL Questions.md",
                 "mode": "source",
                 "source": false
               },
@@ -62,33 +48,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "86e55ca9824830ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/DL/Training/Training Neural Networks (TNN).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f4dd40898fcd8a2c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/DL/Crops.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/DL/Training/Training Neural Networks (TNN).md",
+                "file": "ML/Interview/DL Questions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/DL/Training/Training Neural Networks (TNN).md",
+                "file": "ML/Interview/DL Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/DL/Training/Training Neural Networks (TNN).md"
+                "file": "ML/Interview/DL Questions.md"
               }
             }
           }
@@ -214,19 +176,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "86e55ca9824830ab",
+  "active": "79aa603c93d89d4a",
   "lastOpenFiles": [
-    "ML/DL/Crops.md",
-    "ML/DL/Training/Training Neural Networks (TNN).md",
-    "ML/Interview/ML Questions.md",
+    "ML/DL/Network Topology.md",
+    "ML/Interview/DL Questions.md",
+    "ML/Papers/Identity Mappings in Deep Residual Networks.md",
     "ML/Interview/DL Topics.md",
+    "Templates/Template ENG.md",
+    "ML/DL/Layers/Normalization.md",
+    "ML/DL/Training/Training Neural Networks (TNN).md",
+    "ML/DL/Crops.md",
+    "ML/Interview/ML Questions.md",
+    "ML/Interview/ML Topics.md",
     "ML/DL/Training/TNN. Training Speed..md",
     "ML/DL/Training/Weight Initialization.md",
     "ML/DL/Training",
     "ML/Tasks/OD/YOLOX.md",
     "ML/DL/Training/Exploding Gradients.md",
     "ML/DL/Training/Vanishing Gradients.md",
-    "Templates/Template ENG.md",
     "ML/DL/Training/Gradient Accumulation.md",
     "ML/DL/ML Accelerating (MLA).md",
     "CS/GPU Environment.md",
@@ -238,11 +205,6 @@
     "ML/DL/Training/DataLoader.md",
     "Libraries/PyTorch.md",
     "CS/HDF5.md",
-    "ML/DL/Training/Parameter Updates.md",
-    "ML/DL/Training/Learning Rate Decays.md",
-    "ML/Resources/Understanding Deep Learning (UDL) (BOOK).md",
-    "ML/DL/Training/Double Descent.md",
-    "ML/DL/Backpropagation.md",
     "ML/Categories",
     "Math/Linear Algebra",
     "Common",
