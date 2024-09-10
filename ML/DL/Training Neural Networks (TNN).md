@@ -16,7 +16,10 @@ https://www.notion.so/Training-Neural-Networks-TNN-96818468abca4df88befe3de3583b
 # Overview
 
 Gradient
+- Vanishing Gradients
 - [[Gradient Clipping]]
+
+[[TNN. Training Speed.]]
 
 # Loss
 

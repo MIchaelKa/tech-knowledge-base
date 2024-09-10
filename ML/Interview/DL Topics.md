@@ -59,8 +59,9 @@ Other
 
 Training
 - [[Training Neural Networks (TNN)]]
-- Vanishing Gradients
 - [[Mixed precision training (MPT)]]
+- Vanishing Gradients
+- Dead ReLU
 
 PyTorch
 - tensorflow vs. pytorch
