@@ -10,6 +10,8 @@ https://www.notion.so/Training-Neural-Networks-TNN-96818468abca4df88befe3de3583b
 [[A Recipe for Training Neural Networks]]
 [[How to Train Your ResNet]]
 
+[[Parameter Updates]]
+[[Learning Rate Decays]]
 
 # Overview
 

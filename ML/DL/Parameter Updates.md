@@ -113,7 +113,7 @@ SGD vs. Adam
 
 # LR Range test
 
-FastAI
+fast.ai
 
 Learning rate range test
 - Finding Good Learning Rate and The One Cycle Policy
