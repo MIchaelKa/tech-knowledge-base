@@ -3,23 +3,45 @@
 https://www.notion.so/Training-Neural-Networks-TNN-96818468abca4df88befe3de3583b59e
 
 
+# External Links
+
+ConvNetJS
+https://cs.stanford.edu/people/karpathy/convnetjs/
+
+Deep Learning Tuning Playbook
+https://github.com/google-research/tuning_playbook
+
+Templates
+- https://github.com/ashleve/lightning-hydra-template
+
 # Links
 
 [[cs231n]]
-
 [[A Recipe for Training Neural Networks]]
 [[How to Train Your ResNet]]
+
+
+# Overview
+
+[[Statistical Significance]]
 
 [[Parameter Updates]]
 [[Learning Rate Decays]]
 
-# Overview
-
-Gradient
-- Vanishing Gradients
-- [[Gradient Clipping]]
-
 [[TNN. Training Speed.]]
+
+[[Crops]]
+
+# Gradient
+
+- [[Vanishing Gradients]]
+- [[Exploding Gradients]]
+- [[Gradient Clipping]]
+- [[Gradient Accumulation]]
+
+Визуализируем градиенты
+- https://wandb.ai/ayush-thakur/debug-neural-nets/reports/Visualizing-and-Debugging-Neural-Networks-with-PyTorch-and-W-B--Vmlldzo2OTUzNA
+- Искать взрыв градиентов или затухание градиентов
 
 # Loss
 

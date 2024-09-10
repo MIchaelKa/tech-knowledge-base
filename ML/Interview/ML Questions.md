@@ -147,3 +147,4 @@ Why feature scaling is important for linear models?
 # DL
 
 Train on crops, infer on large images
+- [[Crops]]
