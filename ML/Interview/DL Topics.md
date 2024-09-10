@@ -13,12 +13,7 @@ Attention
 
 Basics
 - [[Dropout]]
-- Weight Initialization
-
-Metric Learning
-- Triplet loss
-
-Multimodality
+- [[Weight Initialization]]
 
 Normalization
 - [[Normalization]]
@@ -41,6 +36,17 @@ Archs
 - [[ResNet]]
 - Ботлнек слой в реснете
 
+SSL
+- [[Self-Supervised Learning (SSL)]]
+- [[DINO]]
+- cs231n
+
+Metric Learning
+- Triplet loss
+
+Multimodality
+- [[CLIP]]
+
 Generative models
 - VAE
 - Diffusion models
@@ -52,15 +58,13 @@ Other
 Training
 - Vanishing Gradients
 - Gradient Clipping
+- [[Mixed precision training (MPT)]]
 
 PyTorch
 - tensorflow vs. pytorch
 
 Advanced
 - [[GLIP]]
-
-[[Self-Supervised Learning (SSL)]]
-[[DINO]]
 
 # CV
 

@@ -5,6 +5,8 @@
 [[Transformer]]
 [[ResNet]]
 
+[[Identity Mappings in Deep Residual Networks]]
+
 
 # Activation function
 
