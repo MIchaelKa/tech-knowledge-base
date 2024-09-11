@@ -3,7 +3,9 @@
 
 [[cs231n]]
 [[Understanding Deep Learning (UDL) (BOOK)]]
+[[dlcourse.ai]]
 
+[[DL]]
 
 # DL
 
@@ -11,6 +13,7 @@ Attention
 - [[Transformer]]
 - Attention
 - SENet
+- [[ViT]]
 
 Basics
 - [[Dropout]]
@@ -19,7 +22,6 @@ Basics
 
 Normalization
 - [[Normalization]]
-- До или после активации?
 - BatchNorm
 - GroupNorm
 
@@ -47,7 +49,8 @@ SSL
 - [[Self-Supervised Learning (SSL)]]
 - [[DINO]]
 - [[cs231n]]
-- VAE
+
+[[Variational Autoencoder (VAE)]]
 
 Generative models
 - VAE

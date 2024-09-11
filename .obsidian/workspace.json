@@ -48,57 +48,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "442ecc9053d619a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/DL/DL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "63e13ede567f9217",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/DL/SSL/Self-Supervised Learning (SSL).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4b4544ad8a0f161e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/DL/SSL/DINOv2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "61b1543326141db0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/DL/SSL/DINO.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -127,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "TODO",
+                "query": "Variational",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/DL/SSL/Self-Supervised Learning (SSL).md",
+                "file": "ML/Interview/DL Topics.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/DL/SSL/Self-Supervised Learning (SSL).md",
+                "file": "ML/Interview/DL Topics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/DL/SSL/Self-Supervised Learning (SSL).md"
+                "file": "ML/Interview/DL Topics.md"
               }
             }
           }
@@ -224,13 +176,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ab8f0afb60d88328",
+  "active": "ce4dea2f6c169b08",
   "lastOpenFiles": [
-    "ML/DL/DL.md",
-    "ML/DL/Loss/Triplet Loss.md",
-    "ML/DL/SSL/Self-Supervised Learning (SSL).md",
-    "ML/Concepts/Metric Learning.md",
+    "ML/Resources/Understanding Deep Learning (UDL) (BOOK).md",
+    "ML/Concepts/Unsupervised Learning (UL).md",
+    "ML/ML/Generative Models.md",
+    "ML/DL/Autoencoders.md",
+    "ML/DL/Variational Autoencoder (VAE).md",
+    "ML/ML/Logistic Regression.md",
+    "Templates/Template ENG.md",
+    "ML/DL/Denoising Autoencoder (DAE).md",
+    "ML/DL/Diffusion Models.md",
+    "ML/Interview/DL Topics.md",
+    "ML/DL/Transformer/ViT.md",
+    "ML/Concepts/Knowledge Distillation.md",
     "ML/DL/SSL/DINO.md",
+    "ML/Interview/DL Questions.md",
+    "ML/DL/DL.md",
+    "ML/DL/SSL/Self-Supervised Learning (SSL).md",
+    "ML/DL/Loss/Triplet Loss.md",
+    "ML/Concepts/Metric Learning.md",
     "ML/DL/SSL/DINOv2.md",
     "ML/DL/SSL/Contrastive Learning (CL).md",
     "ML/Concepts/Few-Shot Learning (FSL).md",
@@ -240,19 +205,6 @@
     "ML/Papers/Revisiting ResNets.md",
     "ML/DL/SSL",
     "ML/DL/SSL/BYOL.md",
-    "ML/Interview/DL Topics.md",
-    "Templates/Template ENG.md",
-    "ML/DL/Layers/Activation Functions.md",
-    "ML/DL/Layers/Batch Normalization.md",
-    "ML/Data/DNB/VLM/_DNB_VLM.md",
-    "ML/Resources/Учебник по машинному обучению (Яндекс).md",
-    "CV/Stereo Imaging.md",
-    "ML/Tasks/OD/FCOS.md",
-    "ML/Resources/cs231n.md",
-    "Math/Linear Algebra/Covariance Matrix.md",
-    "ML/Interview/Comparison of ML Algorithms.md",
-    "Math/Combinatorics.md",
-    "ML/Data/DNB/VLM/ChartQA.md",
     "ML/DL/Training",
     "ML/Categories",
     "Math/Linear Algebra",

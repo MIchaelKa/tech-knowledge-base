@@ -1,4 +1,6 @@
 
+https://www.notion.so/ViT-1242a91c9b98482bb76210eac7c7b0e6
+
 An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
 [https://arxiv.org/abs/2010.11929](https://arxiv.org/abs/2010.11929)
 
@@ -17,8 +19,8 @@ https://github.com/lucidrains/vit-pytorch
 
 YK - [[DINO]]
 
-`[CLS]`токен - для суммаризации информации о всем изображении
-не обладает какой-то определенной связанной с ним позиции.
-
-`[CLS]`токен vs. mean(all embeddings)
-[[BERT]]
+CLS токен
+- для суммаризации информации о всем изображении
+- не обладает какой-то определенной связанной с ним позиции.
+- CLS токен vs. mean(all embeddings)
+	- [[BERT]]
