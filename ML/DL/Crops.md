@@ -3,16 +3,13 @@ Train on crops, infer on large images
 Обучаем на одном разрешении, а инферим на другом
 Train on small images, infer on large images
 
+https://chatgpt.com/c/66e0dd90-9a40-8000-8b22-13fd7afe0b4a
+
 FCN сеть
 FCN сеть c SE блоками
 
 Для FCN не должно быть никакой разницы
-В случае сегментации и простого u-net точно да
-
-FasterRCNN
-- Какие были бы проблемы с FasterRCNN или SSD?
-- FasterRCNN is fully convolutional
-- https://paperswithcode.com/method/faster-r-cnn
+В случае сегментации и простой [[UNet]] точно да
 
 Train
 - Тренировка с изменяющимся размером кропов.
@@ -23,6 +20,11 @@ OD
 - train object detection model on crops but infer on large images
 - FasterRCNN infer on large images
 - object detection on large images
+
+FasterRCNN
+- Какие были бы проблемы с FasterRCNN или SSD?
+- FasterRCNN is fully convolutional
+- https://paperswithcode.com/method/faster-r-cnn
 
 Изменения в архитектуре
 - Для FCN в архитектуру не нужно вносить какие-либо изменения чтобы делать предсказания на других разрешениях.
@@ -37,5 +39,5 @@ Minimum size
 
 Когда могут быть именно проблемы с моделью?
 - SE блоки
-	- Почему?
+	- avg pooling
 - Когда используем какой-то avg pooling со всей фичамапы.

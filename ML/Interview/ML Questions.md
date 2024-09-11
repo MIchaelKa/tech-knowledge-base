@@ -1,3 +1,6 @@
+
+https://chatgpt.com/c/1e5365bd-a88e-4357-8472-84747205c687
+
 Here are some possible questions that might come up during your interview on the topics of Probability, Algebra, and Statistics:
 
 # Probability
