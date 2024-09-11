@@ -32,21 +32,11 @@ Support set
 # Overview
 
 C4W4L02 One Shot Learning
-https://www.youtube.com/watch?v=96b_weTZb2w&list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&index=33
-
-Тут рассказывается про подходы [[Metric Learning]]
-
-Siamese networks
-Термин который мы используем когда одна и также сеть прогоняется дважды для двух разных картинок
-
-Similarity function
-Вычитание двух векторов эмбедингов и взятие нормы вместо косинусного расстояния.
-
-Triplet loss
-Margin parameter
-
-Choosing triplets
-Если мы выбираем их рандомно, то это становится слишком легкой задачей
+- https://www.youtube.com/watch?v=96b_weTZb2w&list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&index=33
+- Тут рассказывается про подходы [[Metric Learning]]
+- Siamese Networks
+	- Термин который мы используем когда одна и также сеть прогоняется дважды для двух разных картинок
+- [[Triplet Loss]]
 
 
 # Comments

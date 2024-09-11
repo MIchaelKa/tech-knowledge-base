@@ -38,21 +38,21 @@ vs. [[DINO-DETR]]
 # Обзор
 
 DINO
-self-**di**stillation with **no** labels
+self-distillation with no labels
 
 [[Self-Supervised Learning (SSL)]] + [[ViT]] = go together very well
 
 Методология для unsupervised pre-training для visual transformer
 No labels at training time
 
-**Self-distillation**
+Self-distillation
 
 teacher-student
 [[Knowledge Distillation]]
 
 No [[Contrastive Learning (CL)]] or Negative Sampling
 
-**Augmentations**
+Augmentations
 [[BYOL]]
 
 Global crops - more than 50% of the image
@@ -103,21 +103,4 @@ Zero-shot
 [[Zero-Shot (ZSL)]] classification using kNN
 
 
-
-# Данные
-
-
-# Архитектура
-
-
-# Обучение
-
-
-# Оценка
-
-
-# Термины
-
-
-# Вопросы
 

@@ -27,6 +27,8 @@ unsupervised learning?
 [[DINO]]
 [[DINOv2]]
 
+[[BERT]]
+word2vec
 # Overview
 
 Self-supervised learning is a method of machine learning that can be regarded as an intermediate form between supervised and unsupervised learning.

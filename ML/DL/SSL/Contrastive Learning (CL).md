@@ -19,13 +19,28 @@ MoCo
 
 # Обзор
 
-Normalized Temperature-scaled Cross Entropy Loss
+Contrastive loss
 NT-Xent
-https://paperswithcode.com/method/nt-xent
+InfoNCE loss
+
+NT-Xent
+- Normalized Temperature-scaled Cross Entropy Loss
+- https://paperswithcode.com/method/nt-xent
+- softmax operation over the similarity scores
+
+InfoNCE
+- Noise-Contrastive Estimation
+- https://paperswithcode.com/method/infonce
 
 CEL vs. NT-Xent
 - CEL == Xent
 - [[Cross Entropy Loss (CEL)]]
 - [[Temperature]] parameter, why we need it?
-- TODO
+- https://chatgpt.com/c/66e1722f-4378-8000-bd9c-82502f5ed46a
+
+Contrastive loss vs. InfoNCE loss vs. NT-Xent
+- https://chatgpt.com/c/66e1722f-4378-8000-bd9c-82502f5ed46a
+- NT-Xent
+	- A specific form of InfoNCE Loss that includes temperature scaling for better control over the distribution of similarities.
+
 
