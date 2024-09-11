@@ -3,7 +3,7 @@ Covariance Matrix
 Ковариационная матрица
 
 Когда совпадает с корреляционной?
-- TBD
+- TODO
 
 semi-definite matrix
 - [[Matrix]]

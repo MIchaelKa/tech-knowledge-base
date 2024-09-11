@@ -81,7 +81,7 @@ GT to Regression Map Encoding
 - All bounding boxes need not be encoded at all levels. Roughly, smaller bounding boxes will be encoded at larger feature maps and vice versa.
 
 GT to Center-ness Map Encoding
-- TBD
+- TODO
 
 # Implementation
 

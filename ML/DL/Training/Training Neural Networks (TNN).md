@@ -32,6 +32,8 @@ Templates
 
 [[Crops]]
 
+[[Label Smoothing]]
+
 # Gradient
 
 - [[Vanishing Gradients]]

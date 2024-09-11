@@ -65,7 +65,7 @@ Logistic Regression
 	- Hardly handle categorical features
 
 Neural Networks
-TBD
+TODO
 
 
 # Overview

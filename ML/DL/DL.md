@@ -5,10 +5,36 @@
 
 # Подходы
 
-[[Active Learning]]
+[[Self-Supervised Learning (SSL)]]
+[[Multimodal Deep Learning]]
+
+Какие задачи мы хотим решать и каким способом.
+- [[Few-Shot Learning (FSL)]]
+	- [[Metric Learning]]
+	- Siamese Networks
+- [[Zero-Shot (ZSL)]]
+	- [[Contrastive Learning (CL)]]
+	- [[CLIP]]
+	- GPT-3
+
+Классификация
+- Metric Learning vs. Contrastive Learning
+	- https://chatgpt.com/c/66e1634d-42a4-8000-8f9c-bd9a5691b78a
+- [[Contrastive Learning (CL)]]
+	- [[Self-Supervised Learning (SSL)]]
+	- [[Multimodal Deep Learning]]
+		- Необязательно, может быть и только картиночный - [[SimCLR]]
+	- pretraining to obtain general representations
+- [[Metric Learning]]
+	- Supervised Learning
+	- learning a task-specific distance metric
+	- learn a distance function (or similarity metric) between data points such that similar data points are close together in an embedding space
 
 # Метки
 
+[[Labeling]]
+
+[[Active Learning]]
 [[Pseudo Labeling]]
 
 [[Soft Labels]]
@@ -17,5 +43,6 @@
 
 # Papers
 
+[[ResNet]]
 [[Noisy Student]]
-[[Revisiting ResNets]]
+

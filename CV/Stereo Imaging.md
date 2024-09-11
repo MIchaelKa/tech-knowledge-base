@@ -59,7 +59,7 @@ _opencv_contrib/modules/sfm_
 OpenCV
 
 Rectification
-- TBD
+- TODO
 
 # DL
 

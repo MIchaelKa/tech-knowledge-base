@@ -34,6 +34,7 @@ Train on crops, infer on large images
 - How do you handle different image sizes in CNNs?
 - What is the difference between instance segmentation, semantic segmentation, and object detection?
 - What are common losses for image segmentation and object detection models?
+	- [[Loss. SS and OD]]
 - How does a region proposal network (RPN) work?
 - What is transfer learning in CV, and how would you fine-tune a pre-trained model?
 - How do GANs (Generative Adversarial Networks) work, and what are some of their applications in CV?

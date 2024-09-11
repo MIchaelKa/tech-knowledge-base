@@ -14,4 +14,4 @@ lmms-eval
 relaxed correctness
 
 **Размер**
-TBD
+TODO

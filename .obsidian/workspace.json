@@ -48,9 +48,69 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "442ecc9053d619a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/DL/DL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "94a1b2f40dc70c6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/DL/SSL/Self-Supervised Learning (SSL).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c842aa03c0de8fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/DL/SSL/Contrastive Learning (CL).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a8cdd6ee56e3aea1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Concepts/Metric Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b4544ad8a0f161e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/DL/SSL/DINOv2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -79,12 +139,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "TODO",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -116,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Interview/DL Questions.md",
+                "file": "ML/DL/DL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Interview/DL Questions.md",
+                "file": "ML/DL/DL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Interview/DL Questions.md"
+                "file": "ML/DL/DL.md"
               }
             }
           }
@@ -176,35 +236,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "79aa603c93d89d4a",
+  "active": "442ecc9053d619a6",
   "lastOpenFiles": [
+    "ML/DL/Nets/ResNet.md",
+    "ML/Papers/Revisiting ResNets.md",
+    "ML/DL/DL.md",
+    "ML/Concepts/Metric Learning.md",
+    "ML/DL/SSL/Contrastive Learning (CL).md",
+    "ML/DL/SSL/Self-Supervised Learning (SSL).md",
+    "ML/DL/SSL",
+    "ML/DL/SSL/DINOv2.md",
+    "ML/DL/SSL/DINO.md",
+    "ML/DL/SSL/BYOL.md",
     "ML/Interview/DL Topics.md",
-    "ML/Interview/ML Questions.md",
-    "ML/Interview/DL Questions.md",
-    "ML/DL/Crops.md",
-    "ML/DL/Network Topology.md",
-    "ML/Papers/Identity Mappings in Deep Residual Networks.md",
     "Templates/Template ENG.md",
-    "ML/DL/Layers/Normalization.md",
-    "ML/DL/Training/Training Neural Networks (TNN).md",
-    "ML/Interview/ML Topics.md",
-    "ML/DL/Training/TNN. Training Speed..md",
-    "ML/DL/Training/Weight Initialization.md",
+    "ML/DL/Layers/Activation Functions.md",
+    "ML/DL/Layers/Batch Normalization.md",
+    "ML/Data/DNB/VLM/_DNB_VLM.md",
+    "ML/Resources/Учебник по машинному обучению (Яндекс).md",
+    "CV/Stereo Imaging.md",
+    "ML/Tasks/OD/FCOS.md",
+    "ML/Resources/cs231n.md",
+    "Math/Linear Algebra/Covariance Matrix.md",
+    "ML/Interview/Comparison of ML Algorithms.md",
+    "Math/Combinatorics.md",
+    "ML/Data/DNB/VLM/ChartQA.md",
+    "ML/Tasks/3D/A Practical Stereo Depth System for Smart Glasses.md",
+    "ML/DL/RL/Reinforcement Learning (RL).md",
+    "ML/Data/Labels/Labeling.md",
+    "ML/DL/Loss/Cross Entropy Loss (CEL).md",
     "ML/DL/Training",
-    "ML/Tasks/OD/YOLOX.md",
-    "ML/DL/Training/Exploding Gradients.md",
-    "ML/DL/Training/Vanishing Gradients.md",
-    "ML/DL/Training/Gradient Accumulation.md",
-    "ML/DL/ML Accelerating (MLA).md",
-    "CS/GPU Environment.md",
-    "ML/DL/FlashAttention.md",
-    "CS/CPU.md",
-    "ML/Determinism.md",
-    "ML/DL/Training/CPU - Disk Bottleneck.md",
-    "CS/Memory.md",
-    "ML/DL/Training/DataLoader.md",
-    "Libraries/PyTorch.md",
-    "CS/HDF5.md",
     "ML/Categories",
     "Math/Linear Algebra",
     "Common",
@@ -213,7 +274,6 @@
     "ML/Resources",
     "ML/DL",
     "ML/MLSD",
-    "ML/Data",
     "Images/graph_example_1.png",
     "Images/Снимок экрана 2024-05-23 в 10.57.00.png",
     "Untitled.canvas"

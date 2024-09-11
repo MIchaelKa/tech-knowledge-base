@@ -3,15 +3,15 @@ self-**di**stillation with **no** labels
 
 # Внешние ссылки
 
-**Paper**
+Paper
 Emerging Properties in Self-Supervised Vision Transformers
 https://arxiv.org/abs/2104.14294
 
 Вышла после [[CLIP]] (2103)
 
-**Official**
+Official
 
-**YK**
+YK
 https://www.youtube.com/watch?v=h3ij3F3cPIk
 
 
@@ -53,7 +53,7 @@ teacher-student
 No [[Contrastive Learning (CL)]] or Negative Sampling
 
 **Augmentations**
-BYOL
+[[BYOL]]
 
 Global crops - more than 50% of the image
 Local crops

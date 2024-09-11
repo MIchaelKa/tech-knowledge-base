@@ -37,16 +37,17 @@ Loss
 Archs
 - [[ResNet]]
 
-SSL
-- [[Self-Supervised Learning (SSL)]]
-- [[DINO]]
-- cs231n
-
-Metric Learning
+[[Metric Learning]]
 - Triplet loss
 
 Multimodality
 - [[CLIP]]
+
+SSL
+- [[Self-Supervised Learning (SSL)]]
+- [[DINO]]
+- [[cs231n]]
+- VAE
 
 Generative models
 - VAE
