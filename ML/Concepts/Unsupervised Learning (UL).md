@@ -7,7 +7,6 @@ https://www.notion.so/Unsupervised-Learning-UL-7c863e46aaf64cba92d126bd7413a1df
 
 [[Understanding Deep Learning (UDL) (BOOK)]]
 
-[[Generative Models]]
 [[Self-Supervised Learning (SSL)]]
 
 # Overview
@@ -17,6 +16,7 @@ Examples of unsupervised learning
 - Dimentionality reduction
 	- [[PCA]]
 - Density estimation
+	- [[Generative Models]]
 - Feature Learning
 - [[Autoencoders]]
 

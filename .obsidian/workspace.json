@@ -48,9 +48,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "be97e1289a1cd96e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/DL/Loss/Loss. SS and OD.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -116,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Interview/DL Topics.md",
+                "file": "ML/DL/Loss/Loss. SS and OD.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Interview/DL Topics.md",
+                "file": "ML/DL/Loss/Loss. SS and OD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,11 +168,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Interview/DL Topics.md"
+                "file": "ML/DL/Loss/Loss. SS and OD.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -176,35 +189,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ce4dea2f6c169b08",
+  "active": "be97e1289a1cd96e",
   "lastOpenFiles": [
-    "ML/Resources/Understanding Deep Learning (UDL) (BOOK).md",
-    "ML/Concepts/Unsupervised Learning (UL).md",
+    "ML/DL/Loss/CTC Loss.md",
     "ML/ML/Generative Models.md",
+    "ML/DL/Loss/Loss. SS and OD.md",
+    "ML/DL/Loss/Focal Loss.md",
+    "Templates/Template ENG.md",
+    "ML/Tasks/SS/Semantic Segmentation.md",
+    "ML/DL/Loss/IoU Losses.md",
+    "ML/Resources/Учебник по машинному обучению (Яндекс).md",
+    "ML/DL/Models/Generative Adversarial Networks (GAN).md",
+    "ML/Interview/DL Questions.md",
+    "ML/Concepts/Unsupervised Learning (UL).md",
+    "ML/Interview/DL Topics.md",
+    "ML/DL/DL.md",
+    "ML/Resources/Understanding Deep Learning (UDL) (BOOK).md",
     "ML/DL/Autoencoders.md",
     "ML/DL/Variational Autoencoder (VAE).md",
     "ML/ML/Logistic Regression.md",
-    "Templates/Template ENG.md",
     "ML/DL/Denoising Autoencoder (DAE).md",
     "ML/DL/Diffusion Models.md",
-    "ML/Interview/DL Topics.md",
     "ML/DL/Transformer/ViT.md",
     "ML/Concepts/Knowledge Distillation.md",
     "ML/DL/SSL/DINO.md",
-    "ML/Interview/DL Questions.md",
-    "ML/DL/DL.md",
     "ML/DL/SSL/Self-Supervised Learning (SSL).md",
     "ML/DL/Loss/Triplet Loss.md",
     "ML/Concepts/Metric Learning.md",
     "ML/DL/SSL/DINOv2.md",
-    "ML/DL/SSL/Contrastive Learning (CL).md",
-    "ML/Concepts/Few-Shot Learning (FSL).md",
-    "ML/Concepts/Temperature.md",
-    "ML/Concepts/Zero-Shot (ZSL).md",
-    "ML/DL/Nets/ResNet.md",
-    "ML/Papers/Revisiting ResNets.md",
     "ML/DL/SSL",
-    "ML/DL/SSL/BYOL.md",
     "ML/DL/Training",
     "ML/Categories",
     "Math/Linear Algebra",

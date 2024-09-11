@@ -1,4 +1,5 @@
 
+
 # Resources
 
 [[cs231n]]
@@ -18,47 +19,52 @@ Attention
 Basics
 - [[Dropout]]
 - [[Weight Initialization]]
+	- Small values
 - [[Backpropagation]]
-
-Normalization
 - [[Normalization]]
-- BatchNorm
-- GroupNorm
+	- BatchNorm
+	- GroupNorm
 
 Object detection
 - mAP
-- DETR
+- [[DETR]]
 - [[FCOS]]
 
 SS
-- UNet
+- [[UNet]]
+- [[SAM]]
 
 Loss
 - [[Loss. SS and OD]]
 
 Archs
 - [[ResNet]]
+- [[MobileNet]]
 
-[[Metric Learning]]
-- Triplet loss
+Few-Shot
+- [[Few-Shot Learning (FSL)]]
+- [[Metric Learning]]
+- [[Contrastive Learning (CL)]]
+- [[Triplet Loss]]
 
 Multimodality
+- [[Multimodal Deep Learning]]
 - [[CLIP]]
 
 SSL
+- [[Unsupervised Learning (UL)]]
 - [[Self-Supervised Learning (SSL)]]
 - [[DINO]]
 - [[cs231n]]
 
-[[Variational Autoencoder (VAE)]]
-
 Generative models
-- VAE
-- Diffusion models
+- [[Variational Autoencoder (VAE)]]
+- [[Diffusion Models]]
+- GAN
 
 Other
-- Pseudo Labeling
-- Distillation
+- [[Pseudo Labeling]]
+- [[Knowledge Distillation]]
 
 Training
 - [[Training Neural Networks (TNN)]]

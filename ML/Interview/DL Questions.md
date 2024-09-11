@@ -13,6 +13,8 @@ Train on crops, infer on large images
 - [[Normalization]]
 - [[Identity Mappings in Deep Residual Networks]]
 
+Почему в ганах обычный vgg а не resnet?
+- [[Generative Adversarial Networks (GAN)]]
 
 # 1. Deep Learning Fundamentals
 

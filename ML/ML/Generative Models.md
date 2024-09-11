@@ -10,5 +10,7 @@
 [[Autoencoders]]
 [[Diffusion Models]]
 
+[[Generative Adversarial Networks (GAN)]]
+
 Normalizing Flows
 - vs. Network Flows
