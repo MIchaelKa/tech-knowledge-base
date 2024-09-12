@@ -53,6 +53,7 @@ Train on crops, infer on large images
 # 3. Classical Computer Vision
 
 - What are the differences between edge detection algorithms such as Sobel, Canny, and Prewitt?
+	- [[Image Gradient]]
 - Explain how SIFT, SURF, and ORB work for feature detection.
 - What is the role of the Hough transform in computer vision?
 - How does optical flow work, and when would you use it?
@@ -67,10 +68,19 @@ Train on crops, infer on large images
 # 4. Productizing DL/CV Solutions
 
 - What are the main challenges when deploying a deep learning model in production?
+
 - How would you optimize a deep learning model for real-time inference?
-- How do you handle model versioning and updates in production environments?
 - What techniques would you use to reduce the memory footprint of a deployed model?
+	- [[ML Accelerating (MLA)]]
+
+
+- How do you handle model versioning and updates in production environments?
+
 - How do you monitor the performance of a DL model in production and detect when retraining is needed?
+	- [[Monitoring]]
+	- https://chatgpt.com/c/66e0dfb6-b878-8000-aa78-e9b318683d0a
+	- Example when you had to retrain model when new type of paycards appeared
+
 - What strategies would you employ to handle model drift?
 - How would you ensure scalability for a DL solution used by millions of users?
 - What are the best practices for logging and monitoring errors during inference?

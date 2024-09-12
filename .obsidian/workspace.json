@@ -48,9 +48,45 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "e0f338f10efe751b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/MLSD/ML System Design.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "01deedd67988914a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/MLSD/Model Registry.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "026edb71a670da6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/MLSD/Monitoring.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -79,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "DeiT",
+                "query": "Production",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Interview/DL Questions.md",
+                "file": "ML/MLSD/ML System Design.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Interview/DL Questions.md",
+                "file": "ML/MLSD/ML System Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,12 +192,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Interview/DL Questions.md"
+                "file": "ML/MLSD/ML System Design.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -177,34 +213,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ab8f0afb60d88328",
+  "active": "e0f338f10efe751b",
   "lastOpenFiles": [
+    "ML/MLSD/Monitoring.md",
+    "ML/MLSD/ML System Design.md",
+    "Templates/Template ENG.md",
+    "ML/MLSD/Model Registry.md",
+    "ML/Metrics/Metrics.md",
+    "SD/Scalability.md",
+    "ML/MLSD/Test in Production.md",
+    "ML/MLSD/Data Distribution Shifts (DDS).md",
+    "ML/Interview/DL Questions.md",
+    "Common/Agile.md",
+    "ML/MLSD/Курс по ML System Design.md",
+    "ML/DL/ML Accelerating (MLA).md",
+    "ML/DL/Edge Device Inference.md",
+    "ML/DL/Neural Net Optimization (NNO).md",
+    "ML/DL/Neural Net Inference (NNI).md",
+    "CS/FLOPS.md",
+    "ML/DL/Layers/Separable Convolution.md",
+    "Math/Convolution.md",
+    "CS/JIT.md",
+    "ML/DL/Training/Training Neural Networks (TNN).md",
+    "ML/Concepts/Pruning.md",
+    "CS/Combinatorial Search.md",
+    "ML/Interview/DL Topics.md",
     "ML/Interview/Data Science Interviews.md",
     "CV/Harris Corner Detection.md",
     "Math/Hessian.md",
-    "Math/Linear Algebra/Eigenvalues and Eigenvectors.md",
-    "Templates/Template ENG.md",
-    "ML/Interview/DL Questions.md",
-    "CV/Optical Flow.md",
-    "ML/Interview/DL Topics.md",
-    "CV/Image Gradient.md",
-    "Math/Laplacian.md",
-    "Math/Taylor Series.md",
-    "ML/ML/Least Squares.md",
-    "Math/Divergence.md",
-    "ML/DL/Transformer/ViT.md",
-    "ML/Concepts/Knowledge Distillation.md",
-    "ML/DL/Transformer/Swin Transformer.md",
-    "ML/DL/SSL/DINO.md",
-    "ML/DL/Training/Class Imbalance.md",
-    "ML/Data/Data Sampling.md",
-    "ML/Interview/Data science interview questions with answers..md",
-    "ML/Resources/cs231n.md",
-    "ML/Interview/120 Data Science Interview Questions.md",
-    "ML/Metrics/Metrics. Classification..md",
-    "ML/Resources/Учебник по машинному обучению (Яндекс).md",
-    "ML/DL/Training/Vanishing Gradients.md",
-    "ML/DL/Layers/Activation Functions.md",
     "ML/DL/SSL",
     "ML/DL/Training",
     "ML/Categories",
