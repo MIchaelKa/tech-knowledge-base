@@ -30,6 +30,9 @@ https://www.youtube.com/watch?v=PFDu9oVAE-g
 - [[Singular Value Decomposition (SVD)]]
 - [[Covariance Matrix]]
 
+Harris
+- Реализовать Harris самому?
+- Write sample app where you can move the window and look for computed matrix and look for its eigenvalues.
 
 # Overview
 

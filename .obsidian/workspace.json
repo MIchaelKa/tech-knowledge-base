@@ -48,21 +48,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "6acadfae6532f7e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Interview/Data Science Interviews.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Interview/Data Science Interviews.md",
+                "file": "ML/Interview/DL Questions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Interview/Data Science Interviews.md",
+                "file": "ML/Interview/DL Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Interview/Data Science Interviews.md"
+                "file": "ML/Interview/DL Questions.md"
               }
             }
           }
@@ -191,17 +179,19 @@
   },
   "active": "ab8f0afb60d88328",
   "lastOpenFiles": [
+    "ML/Interview/Data Science Interviews.md",
+    "CV/Harris Corner Detection.md",
+    "Math/Hessian.md",
+    "Math/Linear Algebra/Eigenvalues and Eigenvectors.md",
+    "Templates/Template ENG.md",
+    "ML/Interview/DL Questions.md",
+    "CV/Optical Flow.md",
+    "ML/Interview/DL Topics.md",
     "CV/Image Gradient.md",
     "Math/Laplacian.md",
-    "Templates/Template ENG.md",
-    "CV/Optical Flow.md",
-    "ML/Interview/DL Questions.md",
     "Math/Taylor Series.md",
-    "ML/Interview/DL Topics.md",
     "ML/ML/Least Squares.md",
     "Math/Divergence.md",
-    "CV/Harris Corner Detection.md",
-    "ML/Interview/Data Science Interviews.md",
     "ML/DL/Transformer/ViT.md",
     "ML/Concepts/Knowledge Distillation.md",
     "ML/DL/Transformer/Swin Transformer.md",
@@ -215,8 +205,6 @@
     "ML/Resources/Учебник по машинному обучению (Яндекс).md",
     "ML/DL/Training/Vanishing Gradients.md",
     "ML/DL/Layers/Activation Functions.md",
-    "ML/DL/Training/Weight Initialization.md",
-    "ML/DL/Training/Exploding Gradients.md",
     "ML/DL/SSL",
     "ML/DL/Training",
     "ML/Categories",
