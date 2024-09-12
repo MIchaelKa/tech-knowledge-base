@@ -48,6 +48,7 @@ Train on crops, infer on large images
 	- [[Generative Adversarial Networks (GAN)]]
 - What is the role of data augmentation in training CV models?
 - Explain the concept of attention mechanisms in the context of vision transformers.
+	- [[ViT]]
 
 # 3. Classical Computer Vision
 

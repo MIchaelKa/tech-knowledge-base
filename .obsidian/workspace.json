@@ -50,6 +50,18 @@
             }
           },
           {
+            "id": "36545bfb6d0e901b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/DL/Transformer/ViT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6acadfae6532f7e9",
             "type": "leaf",
             "state": {
@@ -62,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -128,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Interview/DL Questions.md",
+                "file": "ML/DL/Transformer/ViT.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Interview/DL Questions.md",
+                "file": "ML/DL/Transformer/ViT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Interview/DL Questions.md"
+                "file": "ML/DL/Transformer/ViT.md"
               }
             }
           }
@@ -188,13 +200,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ab8f0afb60d88328",
+  "active": "36545bfb6d0e901b",
   "lastOpenFiles": [
-    "ML/DL/Training/Class Imbalance.md",
     "ML/Interview/DL Questions.md",
+    "ML/DL/Transformer/ViT.md",
+    "ML/DL/Transformer/Swin Transformer.md",
+    "ML/Interview/Data Science Interviews.md",
+    "Templates/Template ENG.md",
+    "ML/DL/SSL/DINO.md",
+    "ML/DL/Training/Class Imbalance.md",
     "ML/Data/Data Sampling.md",
     "ML/Interview/Data science interview questions with answers..md",
-    "ML/Interview/Data Science Interviews.md",
     "ML/Resources/cs231n.md",
     "ML/Interview/120 Data Science Interview Questions.md",
     "ML/Metrics/Metrics. Classification..md",
@@ -211,11 +227,7 @@
     "ML/DL/Loss/CTC Loss.md",
     "ML/ML/Generative Models.md",
     "ML/DL/Loss/Focal Loss.md",
-    "Templates/Template ENG.md",
     "ML/Tasks/SS/Semantic Segmentation.md",
-    "ML/DL/Loss/IoU Losses.md",
-    "ML/DL/Models/Generative Adversarial Networks (GAN).md",
-    "ML/Concepts/Unsupervised Learning (UL).md",
     "ML/DL/SSL",
     "ML/DL/Training",
     "ML/Categories",
