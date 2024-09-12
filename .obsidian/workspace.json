@@ -50,18 +50,6 @@
             }
           },
           {
-            "id": "36545bfb6d0e901b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/DL/Transformer/ViT.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6acadfae6532f7e9",
             "type": "leaf",
             "state": {
@@ -74,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -103,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pooling",
+                "query": "DeiT",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/DL/Transformer/ViT.md",
+                "file": "ML/Interview/DL Questions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/DL/Transformer/ViT.md",
+                "file": "ML/Interview/DL Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/DL/Transformer/ViT.md"
+                "file": "ML/Interview/DL Questions.md"
               }
             }
           }
@@ -200,10 +188,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "36545bfb6d0e901b",
+  "active": "79aa603c93d89d4a",
   "lastOpenFiles": [
-    "ML/Interview/DL Questions.md",
     "ML/DL/Transformer/ViT.md",
+    "ML/Concepts/Knowledge Distillation.md",
+    "ML/Interview/DL Questions.md",
     "ML/DL/Transformer/Swin Transformer.md",
     "ML/Interview/Data Science Interviews.md",
     "Templates/Template ENG.md",
@@ -227,7 +216,6 @@
     "ML/DL/Loss/CTC Loss.md",
     "ML/ML/Generative Models.md",
     "ML/DL/Loss/Focal Loss.md",
-    "ML/Tasks/SS/Semantic Segmentation.md",
     "ML/DL/SSL",
     "ML/DL/Training",
     "ML/Categories",

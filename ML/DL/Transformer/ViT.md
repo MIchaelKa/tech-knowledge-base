@@ -32,6 +32,7 @@ An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
 [[Transformer]]
 
 [[Swin Transformer]]
+DeiT
 
 # Overview
 
@@ -56,6 +57,8 @@ Inductive priors
 - Need a lot of data, more than CNN
 - Even more data and train without skip connections
 	- Why do not use skip connections?
+- Inductive bias
+	- https://www.notion.so/Inductive-bias-99f777d5108f4342a0505d8dfae39a57
 
 ViT learns the same things that CNN do
 - Wavelets
