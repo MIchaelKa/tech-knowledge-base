@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "79aa603c93d89d4a",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Interview/DL Questions.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "ce4dea2f6c169b08",
             "type": "leaf",
             "pinned": true,
@@ -43,6 +29,20 @@
               "type": "markdown",
               "state": {
                 "file": "ML/Interview/DL Topics.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "79aa603c93d89d4a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Interview/DL Questions.md",
                 "mode": "source",
                 "source": false
               },
@@ -62,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -91,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Vanishing",
+                "query": "pooling",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -188,34 +188,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "79aa603c93d89d4a",
+  "active": "ab8f0afb60d88328",
   "lastOpenFiles": [
-    "ML/DL/Training/Vanishing Gradients.md",
+    "ML/DL/Training/Class Imbalance.md",
     "ML/Interview/DL Questions.md",
+    "ML/Data/Data Sampling.md",
+    "ML/Interview/Data science interview questions with answers..md",
+    "ML/Interview/Data Science Interviews.md",
+    "ML/Resources/cs231n.md",
+    "ML/Interview/120 Data Science Interview Questions.md",
+    "ML/Metrics/Metrics. Classification..md",
+    "ML/Resources/Учебник по машинному обучению (Яндекс).md",
+    "ML/Interview/DL Topics.md",
+    "ML/DL/Training/Vanishing Gradients.md",
     "ML/DL/Layers/Activation Functions.md",
     "ML/DL/Training/Weight Initialization.md",
-    "ML/Resources/cs231n.md",
     "ML/DL/Training/Exploding Gradients.md",
     "ML/DL/Training/Training Neural Networks (TNN).md",
-    "ML/Interview/Data Science Interviews.md",
-    "ML/Interview/DL Topics.md",
     "ML/Interview/ML Topics.md",
     "ML/Interview/ML Questions.md",
     "ML/DL/Loss/Loss. SS and OD.md",
-    "ML/Interview/Data science interview questions with answers..md",
     "ML/DL/Loss/CTC Loss.md",
     "ML/ML/Generative Models.md",
     "ML/DL/Loss/Focal Loss.md",
     "Templates/Template ENG.md",
     "ML/Tasks/SS/Semantic Segmentation.md",
     "ML/DL/Loss/IoU Losses.md",
-    "ML/Resources/Учебник по машинному обучению (Яндекс).md",
     "ML/DL/Models/Generative Adversarial Networks (GAN).md",
     "ML/Concepts/Unsupervised Learning (UL).md",
-    "ML/DL/DL.md",
-    "ML/Resources/Understanding Deep Learning (UDL) (BOOK).md",
-    "ML/DL/Autoencoders.md",
-    "ML/DL/Variational Autoencoder (VAE).md",
     "ML/DL/SSL",
     "ML/DL/Training",
     "ML/Categories",

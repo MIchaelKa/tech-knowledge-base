@@ -29,18 +29,23 @@ Train on crops, infer on large images
 - What are LSTMs and GRUs? When are they used in practice?
 - Explain the difference between transfer learning and training a model from scratch.
 - How would you handle imbalanced data in a deep learning model?
+	- [[Class Imbalance]]
 
 # 2. Computer Vision Deep Learning Fundamentals (CV DL Fundamentals)
 
 - Explain the architecture of a Convolutional Neural Network (CNN).
 - What is the role of pooling layers in CNNs, and what types of pooling are there?
 - How do you handle different image sizes in CNNs?
+	- Resize, Crop, Padding
+	- FCN and Adaptive Pooling
 - What is the difference between instance segmentation, semantic segmentation, and object detection?
+	- [[Semantic Segmentation]]
 - What are common losses for image segmentation and object detection models?
 	- [[Loss. SS and OD]]
 - How does a region proposal network (RPN) work?
 - What is transfer learning in CV, and how would you fine-tune a pre-trained model?
 - How do GANs (Generative Adversarial Networks) work, and what are some of their applications in CV?
+	- [[Generative Adversarial Networks (GAN)]]
 - What is the role of data augmentation in training CV models?
 - Explain the concept of attention mechanisms in the context of vision transformers.
 
