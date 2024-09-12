@@ -37,6 +37,7 @@ Libs
 Arch
 - [[MobileNet]]
 	- inverted residual modules
+- EfficientNet
 - [[Separable Convolution]]
 	- depth-wise convolutions
 

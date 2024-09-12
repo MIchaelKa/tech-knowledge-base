@@ -26,11 +26,13 @@ Model
 
 Training
 - [[Training Neural Networks (TNN)]]
+- [[Distributed Training]]
 
 Deploy
 - [[Test in Production]]
 - [[Monitoring]]
 - [[Model Updates]]
+- [[Prediction Modes]]
 
 Scheduller
 - airflow

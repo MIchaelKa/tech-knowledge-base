@@ -74,22 +74,37 @@ Link:
 	- Edge devices
 	- Model updates
 
+Optimization
 - How would you optimize a deep learning model for real-time inference?
 - What techniques would you use to reduce the memory footprint of a deployed model?
 	- [[ML Accelerating (MLA)]]
+	- [[Neural Net Optimization (NNO)]]
+	- [[Edge Device Inference]]
 
-- How do you handle model versioning and updates in production environments?
-	- [[Model Registry]]
-	- [[Model Updates]]
-
+Monitoring
 - How do you monitor the performance of a DL model in production and detect when retraining is needed?
 	- [[Monitoring]]
 	- Example when you had to retrain model when new type of paycards appeared
 - What are the best practices for logging and monitoring errors during inference?
 
+Data and model
 - What strategies would you employ to handle model drift?
-- How would you ensure scalability for a DL solution used by millions of users?
+	- [[Monitoring]]
+	- [[Data Distribution Shifts (DDS)]]
+	- Retraining
 - How do you manage edge cases or out-of-distribution data in a production system?
+
+Deploy
+- How do you handle model versioning and updates in production environments?
+	- [[Model Registry]]
+	- [[Model Updates]]
+- How would you ensure scalability for a DL solution used by millions of users?
+	- [[Scalability]]
+	- GPU/TPU Optimization
+		- CLIP on V100 vs. batching
+	- Model Sharding
+	- [[Distributed Training]]
+	- Deploy models on edge devices to reduce latency
 - What is A/B testing in the context of deploying ML models, and how would you use it?
 
 # 5. Case Study

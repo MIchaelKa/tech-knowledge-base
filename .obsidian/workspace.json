@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/MLSD/ML System Design.md",
+                "file": "ML/Interview/DL Questions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/MLSD/ML System Design.md",
+                "file": "ML/Interview/DL Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/MLSD/ML System Design.md"
+                "file": "ML/Interview/DL Questions.md"
               }
             }
           }
@@ -191,19 +191,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e0f338f10efe751b",
+  "active": "ab8f0afb60d88328",
   "lastOpenFiles": [
+    "ML/MLSD/ML System Design.md",
+    "ML/MLSD/Distributed Training.md",
+    "Templates/Template ENG.md",
+    "ML/Interview/DL Questions.md",
+    "ML/MLSD/Prediction Modes.md",
+    "ML/DL/Neural Net Optimization (NNO).md",
+    "ML/DL/Layers/Separable Convolution.md",
+    "ML/DL/Edge Device Inference.md",
+    "SD/Scalability.md",
     "ML/Metrics/Metrics.md",
     "ML/Resources/Учебник по машинному обучению (Яндекс).md",
     "ML/Metrics/Metrics. Classification..md",
-    "Templates/Template ENG.md",
-    "ML/MLSD/ML System Design.md",
     "ML/MLSD/Feedback Loop.md",
     "ML/Data/Labels/Pseudo Labeling.md",
     "ML/Data/Labels/Labeling.md",
     "ML/Data/Labels/Natural Labels.md",
     "ML/MLSD/Monitoring.md",
-    "ML/Interview/DL Questions.md",
     "ML/Tasks/3D/3D.md",
     "Templates/Template RUS (S).md",
     "Templates/Template RUS.md",
@@ -213,12 +219,6 @@
     "Libraries/Containerization.md",
     "ML/MLSD/Model Registry.md",
     "ML/DL/ML Accelerating (MLA).md",
-    "SD/Scalability.md",
-    "ML/MLSD/Test in Production.md",
-    "ML/MLSD/Data Distribution Shifts (DDS).md",
-    "Common/Agile.md",
-    "ML/MLSD/Курс по ML System Design.md",
-    "ML/DL/Edge Device Inference.md",
     "ML/DL/SSL",
     "ML/DL/Training",
     "ML/Categories",
