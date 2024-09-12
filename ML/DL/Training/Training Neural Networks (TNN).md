@@ -16,10 +16,13 @@ Templates
 
 # Links
 
-[[cs231n]]
-[[A Recipe for Training Neural Networks]]
-[[How to Train Your ResNet]]
+Resources
+- [[cs231n]]
+- [[A Recipe for Training Neural Networks]]
+- [[How to Train Your ResNet]]
 
+Tools
+- [[Docker]]
 
 # Overview
 

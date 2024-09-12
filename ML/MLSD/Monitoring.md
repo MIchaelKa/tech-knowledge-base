@@ -5,7 +5,7 @@ Observability
 
 # External Links
 
-MP
+Moved
 https://www.notion.so/Monitoring-213b398d5ad34c9894ba95832a1a41a0
 
 https://chatgpt.com/c/66e0dfb6-b878-8000-aa78-e9b318683d0a

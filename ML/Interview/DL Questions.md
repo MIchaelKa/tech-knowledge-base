@@ -67,23 +67,28 @@ Train on crops, infer on large images
 
 # 4. Productizing DL/CV Solutions
 
+Link:
+- https://chatgpt.com/c/66e0dfb6-b878-8000-aa78-e9b318683d0a
+
 - What are the main challenges when deploying a deep learning model in production?
+	- Edge devices
+	- Model updates
 
 - How would you optimize a deep learning model for real-time inference?
 - What techniques would you use to reduce the memory footprint of a deployed model?
 	- [[ML Accelerating (MLA)]]
 
-
 - How do you handle model versioning and updates in production environments?
+	- [[Model Registry]]
+	- [[Model Updates]]
 
 - How do you monitor the performance of a DL model in production and detect when retraining is needed?
 	- [[Monitoring]]
-	- https://chatgpt.com/c/66e0dfb6-b878-8000-aa78-e9b318683d0a
 	- Example when you had to retrain model when new type of paycards appeared
+- What are the best practices for logging and monitoring errors during inference?
 
 - What strategies would you employ to handle model drift?
 - How would you ensure scalability for a DL solution used by millions of users?
-- What are the best practices for logging and monitoring errors during inference?
 - How do you manage edge cases or out-of-distribution data in a production system?
 - What is A/B testing in the context of deploying ML models, and how would you use it?
 
