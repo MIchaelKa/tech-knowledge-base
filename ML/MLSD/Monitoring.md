@@ -51,7 +51,7 @@ Operational metrics
 the lower the harder to monitor
 
 Monitoring accuracy-related metrics
-- Close relation to collecting Natural labels
+- Close relation to collecting [[Natural Labels]]
 - Examples
 	- Mobile phone scanning / successful transaction,  ratio
 

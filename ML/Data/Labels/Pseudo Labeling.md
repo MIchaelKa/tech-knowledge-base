@@ -22,7 +22,6 @@ https://www.analyticsvidhya.com/blog/2017/09/pseudo-labelling-semi-supervised-le
 QDA
 
 
-
 **Notes thoughts**
 below two styles
 old one vs. orgmod style?
