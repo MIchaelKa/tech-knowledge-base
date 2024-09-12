@@ -81,9 +81,8 @@ Advanced
 # CV
 
 Classical CV
-
-Harris
-Optical Flow
-Hough
-HOG
-Edge detection
+- Harris
+- Optical Flow
+- Hough
+- HOG
+- Edge detection

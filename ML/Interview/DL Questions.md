@@ -56,6 +56,7 @@ Train on crops, infer on large images
 - Explain how SIFT, SURF, and ORB work for feature detection.
 - What is the role of the Hough transform in computer vision?
 - How does optical flow work, and when would you use it?
+	- [[Optical Flow]]
 - What is the epipolar geometry in stereo vision?
 - How does the RANSAC algorithm help in model fitting?
 - Explain the concept of homography and its applications in CV.
