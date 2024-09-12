@@ -5,12 +5,30 @@ vs. Dead ReLU
 
 [https://www.educative.io/answers/what-is-the-vanishing-gradient-problem](https://www.educative.io/answers/what-is-the-vanishing-gradient-problem)
 
-**Причины**
-Vanishing gradients on sigmoids.
-tanh problems
-RNN
-Deep networks
 
-**Решения**
-residual blocks
-LSTM
+# Links
+
+[[cs231n]]
+- ?
+
+[[Weight Initialization]]
+[[Activation Functions]]
+
+# Overview
+
+Reason
+- Vanishing gradients on sigmoids.
+- tanh problems
+- Initialization with small random numbers
+- RNN
+- Deep networks
+
+Solutions
+- residual blocks
+- LSTM
+- Batch normalization\
+
+Deep networks
+- gradient (error signal) decreases exponentially
+- effect of multiplying n of small numbers to compute gradients of the early layers in an n-layer network
+- early layers train very slowly

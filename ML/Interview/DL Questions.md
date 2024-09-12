@@ -21,6 +21,7 @@ Train on crops, infer on large images
 - What is backpropagation, and how does it work?
 - Explain the concept of overfitting and underfitting in neural networks.
 - What is the vanishing gradient problem, and how can it be addressed?
+	- [[Vanishing Gradients]]
 - What is the difference between a fully connected (dense) layer and a convolutional layer?
 - Explain different types of activation functions (ReLU, Sigmoid, Tanh) and when to use them.
 - What are dropouts and batch normalization, and why are they important?
