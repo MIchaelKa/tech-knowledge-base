@@ -191,12 +191,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ab8f0afb60d88328",
+  "active": "79aa603c93d89d4a",
   "lastOpenFiles": [
+    "ML/Interview/DL Topics.md",
+    "ML/Categories/Anomaly Detection.md",
+    "ML/Interview/DL Questions.md",
     "ML/MLSD/ML System Design.md",
     "ML/MLSD/Distributed Training.md",
     "Templates/Template ENG.md",
-    "ML/Interview/DL Questions.md",
     "ML/MLSD/Prediction Modes.md",
     "ML/DL/Neural Net Optimization (NNO).md",
     "ML/DL/Layers/Separable Convolution.md",
@@ -217,8 +219,6 @@
     "Tools/Docker.md",
     "ML/MLSD/Model Updates.md",
     "Libraries/Containerization.md",
-    "ML/MLSD/Model Registry.md",
-    "ML/DL/ML Accelerating (MLA).md",
     "ML/DL/SSL",
     "ML/DL/Training",
     "ML/Categories",

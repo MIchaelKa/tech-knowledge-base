@@ -113,5 +113,6 @@ Deploy
 - How would you design a CV system for face recognition at an airport, ensuring scalability and privacy compliance?
 - Imagine you need to develop a DL-based product recommendation system. How would you approach the feature engineering, model training, and deployment?
 - You are tasked with detecting anomalies in images of industrial equipment. What steps would you take, and how would you evaluate your solution?
+	- [[Anomaly Detection]]
 - Design a system to automate the quality inspection of products on a factory line using classical CV and DL techniques. How would you integrate both approaches?
 - How would you build a solution to handle real-time video analysis (e.g., vehicle detection) using edge devices? What optimizations would be necessary?
