@@ -49,7 +49,7 @@ Evaluation
 GPT-3
 
 Interactive segmentation
-human-in-the-loop
+[[Human-in-the-Loop (HITL)]]
 
 **Transformers**
 [[DETR]]

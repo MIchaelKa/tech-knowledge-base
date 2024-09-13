@@ -1,6 +1,10 @@
 
 https://www.notion.so/TNN-e0987b21f1d742cfba3bcb2e04472c03
 
+# Parent
+
+[[Training Neural Networks (TNN)]]
+[[ML Accelerating (MLA)]]
 # Links
 
 [[How to Train Your ResNet]]
@@ -13,11 +17,14 @@ https://www.notion.so/TNN-e0987b21f1d742cfba3bcb2e04472c03
 
 [[Mixed precision training (MPT)]]
 
-# Parent
-
-[[ML Accelerating (MLA)]]
 # Overview
 
+What can slow down your training
+- Pre-processing
+	- [[Resize]]
+	- High resolution resizing takes a lot of time.
+
+# PyTorch
 
 cudnn.becnhmark
 - `torch.backends.cudnn.benchmark = True`

@@ -37,6 +37,7 @@ Devide the final value as the phone will be really hot, which factor?
 Important moments
 - Efficient algorithms
 - Monitoring
+	- [[Monitoring]]
     - Device models
     - Statistics of user's device models
 
