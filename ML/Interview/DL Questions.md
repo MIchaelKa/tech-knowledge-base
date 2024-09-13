@@ -19,6 +19,7 @@ Train on crops, infer on large images
 # 1. Deep Learning Fundamentals
 
 - What is backpropagation, and how does it work?
+	- [[Backpropagation]]
 - Explain the concept of overfitting and underfitting in neural networks.
 - What is the vanishing gradient problem, and how can it be addressed?
 	- [[Vanishing Gradients]]
