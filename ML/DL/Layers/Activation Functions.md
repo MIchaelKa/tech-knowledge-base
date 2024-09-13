@@ -1,15 +1,26 @@
 
 non-linearity
 
-Why we need them?
-- TODO
+# External Links
 
-Modern Activation Functions
-- TODO
+https://chatgpt.com/c/66e4146e-7304-8000-aed8-13bcb407296f
 
 # Links
 
 [[cs231n]]
+
+# Discussion
+
+Why we need them?
+- Allowing neural net to learn and model complex data patterns
+- Without activation functions, a neural network would simply behave like a linear regression model
+
+When to use Tanh over Relu?
+- RNNs
+
+Modern Activation Functions
+- Swish
+- GELU
 
 # Overview
 

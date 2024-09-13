@@ -15,6 +15,9 @@ Train on crops, infer on large images
 
 Почему в ганах обычный vgg а не resnet?
 - [[Generative Adversarial Networks (GAN)]]
+- https://chatgpt.com/c/66e4159b-2d80-8000-ae65-960263217ec9
+- слишком мощный дискриминатор
+
 
 # 1. Deep Learning Fundamentals
 
@@ -25,6 +28,7 @@ Train on crops, infer on large images
 	- [[Vanishing Gradients]]
 - What is the difference between a fully connected (dense) layer and a convolutional layer?
 - Explain different types of activation functions (ReLU, Sigmoid, Tanh) and when to use them.
+	- [[Activation Functions]]
 - What are dropouts and batch normalization, and why are they important?
 - How would you implement gradient descent, and what are the differences between SGD, Adam, RMSprop, etc.?
 - What are LSTMs and GRUs? When are they used in practice?

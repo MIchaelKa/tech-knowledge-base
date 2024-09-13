@@ -78,6 +78,9 @@ PyTorch
 Advanced
 - [[GLIP]]
 
+SD
+- [[Edge Device Inference]]
+
 # CV
 
 Classical CV

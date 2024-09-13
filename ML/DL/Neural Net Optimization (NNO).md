@@ -33,10 +33,10 @@ Libs
 - ONNX
 - NVIDIA Triton
 
-
 Arch
 - [[MobileNet]]
 	- inverted residual modules
+- Bottleneck layers
 - EfficientNet
 - [[Separable Convolution]]
 	- depth-wise convolutions

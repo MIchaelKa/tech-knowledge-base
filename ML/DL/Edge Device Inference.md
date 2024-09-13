@@ -3,6 +3,7 @@
 # Parent
 
 [[Neural Net Inference (NNI)]]
+[[Neural Net Optimization (NNO)]]
 
 # Overview
 
