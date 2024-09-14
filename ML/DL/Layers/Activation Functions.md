@@ -45,6 +45,9 @@ tanh instead of sigmoid
 ReLU
 Rectified Liner Unit
 $f(x)=max(0,x)$
+Pros
+- fast to compute
+- infinite activation
 Default recommendation but still have some problems
 - Not zero-centered output
 - Kills the gradient for negative input
