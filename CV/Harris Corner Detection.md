@@ -18,21 +18,24 @@ Harris, C., and M. Stephens. “A combined corner and edge detector,” _Proceed
 
 # Links
 
+[[Optical Flow]]
+
 [[Eigenvalues and Eigenvectors]]
-
 [[Covariance Matrix]]
-
 [[Hessian]]
+[[Quadratic Form]]
+
+Structure tensor
+- also referred to as the second-moment matrix
+- a matrix derived from the gradient of a function
+- https://en.wikipedia.org/wiki/Structure_tensor
 
 Good Features to Track
 - https://www.notion.so/Harris-Corner-Detection-62895375ab9249d398f74dca4ecad945
 
 SSD - sum of squared differences
 
-Structure tensor
-- also referred to as the second-moment matrix
-- a matrix derived from the gradient of a function
-- https://en.wikipedia.org/wiki/Structure_tensor
+Aperture problem
 
 # Overview
 

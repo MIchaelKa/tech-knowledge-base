@@ -22,6 +22,14 @@ https://www.youtube.com/playlist?list=PLUl4u3cNGP63oMNUHXqIUcrkS2PivhN3k
 [[Fourier Transform]]
 [[Singular Value Decomposition (SVD)]]
 
+
+# Lectures
+
+Lecture 1: The Column Space of A Contains All Vectors Ax
+
+Matrix sampling
+[https://youtu.be/YiqIkSHSmyc?t=2148](https://youtu.be/YiqIkSHSmyc?t=2148)
+
 # Overview
 
 Book
