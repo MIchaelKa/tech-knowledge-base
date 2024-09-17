@@ -20,10 +20,13 @@ Harris, C., and M. Stephens. “A combined corner and edge detector,” _Proceed
 
 [[Optical Flow]]
 
+See Notes
+
 [[Eigenvalues and Eigenvectors]]
 [[Covariance Matrix]]
-[[Hessian]]
 [[Quadratic Form]]
+[[Hessian]]
+Structure tensor
 
 Structure tensor
 - also referred to as the second-moment matrix
