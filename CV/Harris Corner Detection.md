@@ -22,14 +22,19 @@ Harris, C., and M. Stephens. “A combined corner and edge detector,” _Proceed
 
 See Notes
 
-[[Eigenvalues and Eigenvectors]]
-[[Covariance Matrix]]
-[[Quadratic Form]]
-[[Hessian]]
-Structure tensor
+Matrix
+- [[Eigenvalues and Eigenvectors]]
+- [[Covariance Matrix]]	
+- Structure tensor
+- Autocorrelation matrix
+
+Not related really?
+- [[Quadratic Form]]
+- [[Hessian]]
 
 Structure tensor
 - also referred to as the second-moment matrix
+	- related to [[Image Moments]] ?
 - a matrix derived from the gradient of a function
 - https://en.wikipedia.org/wiki/Structure_tensor
 
@@ -54,9 +59,9 @@ Taylor Expansion
 
 Autocorrelation matrix
 - Structure tensor
+- [[Covariance Matrix]]
 - Matrix from of the equation
 - In words, we find the covariance of the partial derivative of the image intensity I with respect to the x and y axes.
-- [[Covariance Matrix]]
 
 Harris response
 - After we got the matrix the algorithm, provides the score function.

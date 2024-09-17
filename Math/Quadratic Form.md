@@ -14,5 +14,4 @@ Quadratic Form vs. Hessian
 - [[Hessian]]
 - The term involving the Hessian is a **quadratic form**, showing how the Hessian determines the curvature of f(x)
 - $x^TAx$ vs. $A$
-
-Depending on the matrix A, the quadratic form can be positive definite, negative definite, or indefinite. This influences whether the quadratic form represents a concave, convex, or saddle-shaped function.
+- Depending on the matrix A, the quadratic form can be positive definite, negative definite, or indefinite. This influences whether the quadratic form represents a concave, convex, or saddle-shaped function.
