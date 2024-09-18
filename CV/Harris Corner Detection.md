@@ -6,11 +6,14 @@ https://www.notion.so/Harris-Corner-Detection-62895375ab9249d398f74dca4ecad945
 
 [https://docs.opencv.org/3.4/dc/d0d/tutorial_py_features_harris.html](https://docs.opencv.org/3.4/dc/d0d/tutorial_py_features_harris.html)
 
-[https://en.wikipedia.org/wiki/Harris_corner_detector](https://en.wikipedia.org/wiki/Harris_corner_detector)
-
-[https://en.wikipedia.org/wiki/Corner_detection](https://en.wikipedia.org/wiki/Corner_detection)
+wiki
+- https://en.wikipedia.org/wiki/Harris_corner_detector
+- https://en.wikipedia.org/wiki/Corner_detection
 
 https://medium.com/@deepanshut041/introduction-to-harris-corner-detector-32a88850b3f6
+
+Хабр
+- https://habr.com/ru/articles/244541/
 
 # Paper
 
@@ -27,6 +30,7 @@ Matrix
 - [[Covariance Matrix]]	
 - Structure tensor
 - Autocorrelation matrix
+- Автокорреляционная матрица
 
 Not related really?
 - [[Quadratic Form]]
@@ -62,6 +66,15 @@ Autocorrelation matrix
 - [[Covariance Matrix]]
 - Matrix from of the equation
 - In words, we find the covariance of the partial derivative of the image intensity I with respect to the x and y axes.
+
+Интерпретации собственных значений
+- [[Eigenvalues and Eigenvectors]]
+- Оба значения большие - угол
+- Одно большое, другое маленькое - край
+- Оба маленьких - не особая точка
+- Собственные вектора - это направления, вдоль которых данная матрица искажает (растягивает, скейлит) вектора на которые она действует больше всего.
+- Если градиент большой по какому-то направлению - это приводит к большому собственному значению, с собственным вектором по этому направлению
+- Думаем про логику которую мы закладывали в изначальное уравнение, оно характеризует изменение интенсивности по всем направлениям, выражение которое мы затем получаем в матричном виде (автокорреляционная матрица) просто его упрощение
 
 Harris response
 - After we got the matrix the algorithm, provides the score function.
