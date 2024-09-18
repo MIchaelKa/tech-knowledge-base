@@ -67,6 +67,10 @@ Autocorrelation matrix
 - Matrix from of the equation
 - In words, we find the covariance of the partial derivative of the image intensity I with respect to the x and y axes.
 
+Autocorrelation matrix
+- Why autocorrelation?
+- Gradient is the vector itself!
+
 Интерпретации собственных значений
 - [[Eigenvalues and Eigenvectors]]
 - Оба значения большие - угол

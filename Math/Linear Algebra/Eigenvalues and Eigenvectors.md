@@ -48,8 +48,10 @@ $A(\alpha u) = \alpha(Au) = \alpha(\lambda u) = \lambda(\alpha u)$
 In 3D space the eigenvector of rotation matrix represents the axis of rotation
 - See Матрица поворота
 
-If $A$ is singular, $\lambda=0$
-singular == rank deficient ?
+Нулевые собственные значения
+- If $A$ is singular, $\lambda=0$
+	- singular == rank deficient ?
+- нулевое собственное значение говорит о том что матрица не полного ранга
 
 Trace
 - It can be proved that the trace of a matrix is the sum of its eigenvalues
