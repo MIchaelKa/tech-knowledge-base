@@ -21,6 +21,8 @@ Behave vs. Agile
 # Terms
 
 Agile Manifesto
+https://agilemanifesto.org/
+https://agilemanifesto.org/iso/ru/manifesto.html
 
 Ceremonies
 - Scrum ceremonies
@@ -29,6 +31,17 @@ Ceremonies
 Artifacts
 
 Kanban board
+
+Самоорганизующиеся команды
+
+# Discussion
+
+SV SDK
+- Looking into Agile Manifesto.
+- How well scrum can be applied to SV SDK project?
+- Deliver working software frequently
+	- We are not providing the final software that clients can use.
+	- We have our demo application.
 
 
 # Overview
@@ -52,6 +65,8 @@ Agile frameworks
 - Scrum
 - Kanban
 - Extreme Programming (XP)
+	- Pair programming
+	- TDD
 - Lean
 
 Scrum vs. Kanban
