@@ -6,11 +6,12 @@ https://habr.com/ru/company/edison/blog/313410/
 
 https://en.wikipedia.org/wiki/Agile_software_development
 
+chatgpt
 https://chatgpt.com/c/66f3c2c5-8458-8000-98ea-384f6fde68da
 
 # Books
 
-Scrum и XP: заметки с передовой
+[[Scrum и XP. Заметки с передовой. (BOOK)]]
 
 # Links
 
@@ -29,19 +30,14 @@ Ceremonies
 - Ceremonies, processes, practices
 
 Artifacts
+- Product backlog
+
+Roles
+- Product owner
 
 Kanban board
 
 Самоорганизующиеся команды
-
-# Discussion
-
-SV SDK
-- Looking into Agile Manifesto.
-- How well scrum can be applied to SV SDK project?
-- Deliver working software frequently
-	- We are not providing the final software that clients can use.
-	- We have our demo application.
 
 
 # Overview
@@ -54,11 +50,10 @@ Continuous Improvement
 - One of the core Agile principles is continuous improvement through feedback loops
 - [[Feedback Loop]]
 
-
 Scrum vs. Agile
-- Scrum is a **specific framework** within the Agile philosophy.
+- Scrum is a specific framework within the Agile philosophy.
 - Scrum
-	- Works best with **smaller teams** (typically 5-9 people)
+	- Works best with smaller teams (typically 5-9 people)
 	- Scrum of Scrums (a scaled version of Scrum)
 
 Agile frameworks
@@ -85,3 +80,22 @@ Scrum vs. Waterfall
 - Team Structure
 	- Scrum: Uses cross-functional teams that work collaboratively.
 	- Waterfall: Teams are typically specialized, with separate groups for each phase.
+
+
+Product owner
+- chatgpt
+- Business-oriented and focused on delivering value from a customer or market perspective
+- Can a technical leader be a product owner?
+	- Combining the two roles may cause conflicts.
+- Can a head of department be a product owner?
+	- Better than above but still not perfect
+
+# Discussion
+
+SV SDK
+- Looking into Agile Manifesto.
+- How well scrum can be applied to SV SDK project?
+- Deliver working software frequently
+	- We are not providing the final software that clients can use.
+	- We have our demo application.
+
