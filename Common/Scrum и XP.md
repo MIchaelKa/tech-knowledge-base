@@ -1,6 +1,13 @@
-
+---
+type:
+  - book
+status:
+  - not finished
+---
 
 Scrum and XP from the Trenches
+
+Scrum и XP. Заметки с передовой
 
 # External Links
 

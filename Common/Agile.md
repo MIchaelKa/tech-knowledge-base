@@ -11,7 +11,7 @@ https://chatgpt.com/c/66f3c2c5-8458-8000-98ea-384f6fde68da
 
 # Books
 
-[[Scrum и XP. Заметки с передовой. (BOOK)]]
+[[Scrum и XP]]
 
 # Links
 

@@ -5,9 +5,9 @@ Weak Law of Large Numbers (WLLN)
 
 # External Links
 
-Закон больших чисел и то, чем он не является
 https://en.wikipedia.org/wiki/Law_of_large_numbers
 
+Закон больших чисел и то, чем он не является
 https://habr.com/ru/articles/523880/
 
 # Links
