@@ -12,6 +12,7 @@ https://github.com/google-research/tuning_playbook
 
 Templates
 - https://github.com/ashleve/lightning-hydra-template
+- https://andlukyane.com/project/pytorch-tempest
 
 # Links
 
