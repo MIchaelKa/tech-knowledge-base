@@ -88,8 +88,7 @@ token-to-image and image-to-token attentions
 Foundation model for image segmentation
 *foundation model for image segmentation: a **promptable** model that is trained on diverse data and that can adapt to specific tasks, analogous to how prompting is used in natural language processing models.*
 
-What does it mean, foundation model?
-[https://en.wikipedia.org/wiki/Foundation_model](https://en.wikipedia.org/wiki/Foundation_model)
+[[Foundation Model]]
 
 ## Promptable segmentation
 

@@ -57,10 +57,8 @@ Conditional DETR
 [[DINO-DETR]]
 
 
-**DyHead**
-Dynamic Head: Unifying Object Detection Heads with Attentions
-https://arxiv.org/abs/2106.08322
-Is it also DETR-like ?
+[[Dynamic Head (DyHead)]]
+- Is it also DETR-like ?
 
 
 # Термины

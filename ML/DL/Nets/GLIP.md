@@ -11,8 +11,7 @@ GH
 
 [[CLIP]]
 
-Dynamic Head (DyHead)
-Dynamic head: Unifying object detection heads with attentions
+[[Dynamic Head (DyHead)]]
 
 
 # Данные
