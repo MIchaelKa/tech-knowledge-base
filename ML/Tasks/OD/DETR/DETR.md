@@ -4,6 +4,7 @@
 **Paper**
 End-to-End Object Detection with Transformers
 [https://arxiv.org/abs/2005.12872](https://arxiv.org/abs/2005.12872)
+Meta
 
 **GH**
 https://github.com/facebookresearch/detr
@@ -21,27 +22,13 @@ https://huggingface.co/docs/transformers/model_doc/detr
 Mak Gaiduk
 https://www.youtube.com/playlist?list=PL1HdfW5-F8AQlPZCJBq2gNjERTDEAl8v3
 
-# Сводка
-
-Meta
-
-**Основные моменты**
-
-**Количество параметров**
-
-**Оценка**
-
-**Данные для тренировки**
-
-
 # Ссылки
 
 [[Transformer]]
 
-**Segmentation**
+Segmentation
 [[Semantic Segmentation]]
 Panoptic segmentation
-[panoptic](https://www.notion.so/panoptic-09ebbdb0f46440589921e5984e2efb8a?pvs=21)
 
 # DETR-like models
 
@@ -55,7 +42,6 @@ Conditional DETR
 [[DN-DETR]]
 
 [[DINO-DETR]]
-
 
 [[Dynamic Head (DyHead)]]
 - Is it also DETR-like ?

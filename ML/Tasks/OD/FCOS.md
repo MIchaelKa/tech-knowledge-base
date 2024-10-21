@@ -1,8 +1,8 @@
 
+# External
+
 Moved
 https://www.notion.so/FCOS-b6d5b1f05b7f423383671bc89a10a718
-
-# External Links
 
 `torchvision.models.detection.fcos_resnet50_fpn`
 https://pytorch.org/vision/main/models/generated/torchvision.models.detection.fcos_resnet50_fpn.html#torchvision.models.detection.fcos_resnet50_fpn

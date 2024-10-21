@@ -4,6 +4,7 @@
 Instance segmentation
 Semantic segmentation
 Panoptic segmentation
+- [panoptic](https://www.notion.so/panoptic-09ebbdb0f46440589921e5984e2efb8a?pvs=21)
 
 Panoptic vs. Semantic segmentation
 https://pyimagesearch.com/2022/06/29/semantic-vs-instance-vs-panoptic-segmentation/

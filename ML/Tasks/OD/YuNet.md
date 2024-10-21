@@ -6,7 +6,8 @@ https://www.notion.so/YuNet-193cd0687206418faceec55b358caf89
 
 Paper
 YuNet: A Tiny Millisecond-level Face Detector
-[https://link.springer.com/article/10.1007/s11633-023-1423-y](https://link.springer.com/article/10.1007/s11633-023-1423-y)
+https://link.springer.com/article/10.1007/s11633-023-1423-y
+2023
 
 GH
 [https://github.com/ShiqiYu/libfacedetection.train/tree/master](https://github.com/ShiqiYu/libfacedetection.train/tree/master)
