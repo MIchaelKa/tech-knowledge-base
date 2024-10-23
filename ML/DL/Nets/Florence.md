@@ -9,7 +9,8 @@ Paper
 gonzo_ML
 - https://t.me/gonzo_ML/734
 - 01.12.2021
-	- времена после Yandex Cup
+	- времена после Yandex Cup 21
+	- https://www.notion.so/Yandex-Cup-21-41c804c8e40645f5921d6b7d676cde4c
 - про foundation models
 	- [[Foundation Model]]
 - И в очередной раз ощущение, что решили дорогую комбинаторную задачу по сбору правильного набора компонент. Кажется, именно в этом инженерная и научная ценность работы.
@@ -54,8 +55,18 @@ Training
 	- для CL всегда нужны большие батчи
 
 Дообучение
-- [[Dynamic Head (DyHead)]]
-- METER
-- Решение большой комбинаторной задачи
+- Адаптеры
+	- [[Dynamic Head (DyHead)]]
+	- METER
+- Только для того чтобы получить более универсальные веса?
+- Когда производят бенчмарки для конкретных задач, сразу после конкретного дообучения или после всех дообучений?
 
-# Discussion
+
+Tasks
+- classification
+	- zero-shot
+	- linear probe
+		- ?
+- image-text retrieval
+- object detection
+- VQA
