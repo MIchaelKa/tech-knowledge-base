@@ -12,7 +12,7 @@ https://t.me/timeforcv/12
 
 [[CLIP]]
 
-[[DALLE]]
+[[DALL-E]]
 
 
 # Overview
@@ -96,6 +96,9 @@ primary component matching
 		- [[FPN]] ?
 	- 3 modules
 	- [[PCA]]
+- 2 stage tuning
+	- fine-grained tuning
+	- coarse-grained tuning
 
 Datasets
 - vision-language datasets

@@ -1,7 +1,8 @@
 
 Retrieval Augmented Generation
 
-**Ссылки**
+# Links
+
 RETRO (Retrieval-Enhanced Transformer) 
 LangChain
 

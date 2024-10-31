@@ -1,9 +1,5 @@
----
-type:
-  - book
-status:
-  - not finished
----
+
+# Info
 
 Scrum and XP from the Trenches
 
@@ -18,10 +14,9 @@ https://www.infoq.com/minibooks/scrum-xp-from-the-trenches-2/
 
 прерогатива
 - responsibility?
--  sole right
+- sole right
 
 # Overview
-
 
 
 - 2. Как мы работаем с product backlog'ом
