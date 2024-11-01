@@ -36,8 +36,17 @@ High-Resolution Image Synthesis with Latent Diffusion Models
 # Videos
 
 Diffusion models from scratch in PyTorch
-- https://www.youtube.com/watch?v=a4Yfz2FxXiY
-- 07.2022
+- Info
+	- 07.2022
+- External
+	- https://www.youtube.com/watch?v=a4Yfz2FxXiY
+	- https://colab.research.google.com/drive/1sjy9odlSSy0RBVgMTgP7s99NXsqglsUL
+	- http://localhost:8888/lab/tree/ml_sandbox/dl/diffusion_model_tutorial.ipynb
+- Links
+	- Diffusion-GAN
+- My questions
+	- https://chatgpt.com/c/6724ed66-8430-8000-a776-20a41839ead3
+	- https://chatgpt.com/c/672510ca-8e68-8000-8a15-2522093e5f32
 - Text guided image generation
 - Slow generation process
 	- Sequential generation process
@@ -74,13 +83,15 @@ Diffusion models from scratch in PyTorch
 - Loss
 	- ELBO
 		- Variational lower bound
-	- Similar to [[Variational Autoencoder (VAE)]]
+		- Similar to [[Variational Autoencoder (VAE)]]
 	- Alternatives
 		- Denoising score matching
-- Links
-	- Diffusion-GAN
-- My questions
-	- https://chatgpt.com/c/6724ed66-8430-8000-a776-20a41839ead3
+	- Just use L1 or L2 in this tutorial
+- Sampling
+	- Adding noise during sampling
+	- See questions
+	- Why Add Noise During Generation?
+		- It is the same as sample from above Gaussian distribution
 
 # Terms
 
