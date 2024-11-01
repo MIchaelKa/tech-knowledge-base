@@ -1,7 +1,9 @@
 
-https://www.notion.so/Variational-autoencoder-VAE-dd7e278650d24715b95da65523229854
 
 # External Links
+
+Notion
+https://www.notion.so/Variational-autoencoder-VAE-dd7e278650d24715b95da65523229854
 
 https://www.jeremyjordan.me/variational-autoencoders/
 

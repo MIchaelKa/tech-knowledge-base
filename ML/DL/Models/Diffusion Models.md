@@ -11,6 +11,23 @@ DALL-E
 # Papers
 
 
+Denoising Diffusion Probabilistic Models
+- https://arxiv.org/abs/2006.11239
+- Jonathan Ho, Ajay Jain, Pieter Abbeel
+- Berkeley
+- DDPM
+
+Improved Denoising Diffusion Probabilistic Models
+- https://arxiv.org/abs/2102.09672
+- Alex Nichol, Prafulla Dhariwal
+- OpenAI
+
+Diffusion Models Beat GANs on Image Synthesis
+- https://arxiv.org/abs/2105.05233
+- Prafulla Dhariwal, Alex Nichol
+- OpenAI
+- https://t.me/ai_newz/439
+
 High-Resolution Image Synthesis with Latent Diffusion Models
 - https://arxiv.org/abs/2112.10752
 - Latent Diffusion
@@ -20,8 +37,50 @@ High-Resolution Image Synthesis with Latent Diffusion Models
 
 Diffusion models from scratch in PyTorch
 - https://www.youtube.com/watch?v=a4Yfz2FxXiY
-- Noise scheduler
-- Мы можем сразу, напрямую (не последовательно) посчитать шум для таймстемпа $t$
+- 07.2022
+- Text guided image generation
+- Slow generation process
+	- Sequential generation process
+	- As these models are still in their infancy there might be lots of improvements in the future
+- Main components
+	- Noise scheduler
+	- Model that predicts the noise in the image
+		- Neural Network
+		- UNet
+	- Timestep encoding
+		- Positional embeddings from transfromer
+- Dataset
+	- StanfordCars
+	- Data range (-1, 1)
+- Forward process
+	- Markov process
+	- Each step depends on previous
+	- N
+		- Mean - previous image
+		- Variance - Fixed
+	- Variance schedule
+		- $\beta_t$
+		- how much noise we want to add
+	- Noise scheduler
+		- Different strategies
+		- Simple strategy: adding noise linearly
+		- Мы можем сразу, напрямую (не последовательно) посчитать шум для таймстемпа $t$
+		- Closed form sampling
+- Backward process
+	- Parameterized backward process
+- Training
+	- Batch-training
+	- Sample timestamp t
+- Loss
+	- ELBO
+		- Variational lower bound
+	- Similar to [[Variational Autoencoder (VAE)]]
+	- Alternatives
+		- Denoising score matching
+- Links
+	- Diffusion-GAN
+- My questions
+	- https://chatgpt.com/c/6724ed66-8430-8000-a776-20a41839ead3
 
 # Terms
 
@@ -30,3 +89,12 @@ Vector quantize
 
 
 # Overview
+
+Pros
+- High quality samples
+- Diversity
+
+Cons
+- Slow generation process
+	- Slow sampling
+	- Sequential generation process
