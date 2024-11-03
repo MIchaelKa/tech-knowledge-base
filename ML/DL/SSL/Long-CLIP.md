@@ -104,7 +104,7 @@ Datasets
 - vision-language datasets
 	- datasets
 		- [[Visual Genome (VG)]]
-		- LIAON
+		- LAION
 	- short captions
 - ShareGPT4V
 	- covers rich information including object properties and spatial relationships

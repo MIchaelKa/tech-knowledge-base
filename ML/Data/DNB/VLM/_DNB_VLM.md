@@ -10,7 +10,7 @@ CV
 ## Captioning / im2text
 
 CC
-LIAON
+LAION
 MS-COCO
 COCO-Caption
 
