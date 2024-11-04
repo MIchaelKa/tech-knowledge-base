@@ -1,4 +1,6 @@
 
+# External
+
 https://www.notion.so/Denoising-autoencoder-DAE-5ce9017de3c84a18ab56da5f4350a2a5
 
 

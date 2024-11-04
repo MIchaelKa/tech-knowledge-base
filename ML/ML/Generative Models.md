@@ -1,4 +1,9 @@
 
+
+# External
+
+https://www.notion.so/Generative-Models-3a6cad46759e474da25b4387eddcb51f
+
 # Parent
 
 [[Unsupervised Learning (UL)]]
@@ -8,6 +13,8 @@
 [[Naive Bayes]]
 
 [[Autoencoders]]
+[[Variational Autoencoder (VAE)]]
+
 [[Diffusion Models]]
 
 [[Generative Adversarial Networks (GAN)]]

@@ -1,33 +1,19 @@
 
 # Внешние ссылки
 
-**Paper**
+Paper
 Learning Transferable Visual Models From Natural Language Supervision
 https://arxiv.org/abs/2103.00020
 
-**Official**
+Official
 CLIP: ConnectingText and Images
 https://openai.com/blog/clip/
 
-**YK**
+YK
 https://www.youtube.com/watch?v=T9XSU0pKX2E
 
-**open_clip**
+open_clip
 https://github.com/mlfoundations/open_clip
-
-# Сводка
-
-**Основные моменты**
-
-**Количество параметров**
-
-**Оценка**
-
-
-# Ссылки
-
-
-# Термины
 
 
 # Вопросы
@@ -70,14 +56,4 @@ zero-shot vs. few-shot
 Robustnest for data shift
 
 
-# Данные
-
-
-# Архитектура
-
-
-# Обучение
-
-
-# Оценка
 

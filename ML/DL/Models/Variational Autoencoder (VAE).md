@@ -3,23 +3,29 @@
 # External Links
 
 Notion
-https://www.notion.so/Variational-autoencoder-VAE-dd7e278650d24715b95da65523229854
+- https://www.notion.so/Variational-autoencoder-VAE-dd7e278650d24715b95da65523229854
 
-https://www.jeremyjordan.me/variational-autoencoders/
+Variational autoencoders.
+- https://www.jeremyjordan.me/variational-autoencoders/
+- intractable distribution
+- variational inference
 
 Arxiv Insights
 https://www.youtube.com/watch?v=9zKuYvjFFS8
 
 Tutorial on Autoencoders
+- ?
 
 auto-encoding variational bayes
-https://arxiv.org/abs/1312.6114
+- https://arxiv.org/abs/1312.6114
 
 Raschka
 - Sebastian Raschka
 - https://www.youtube.com/watch?v=UnImUYOdWgk&list=PLTKMiZHVd_2KJtIXOW0zFhFfBaJJilH51&index=139
 - https://github.com/rasbt/stat453-deep-learning-ss21/tree/main/L17
 
+From Autoencoder to Beta-VAE
+- https://lilianweng.github.io/posts/2018-08-12-vae/
 
 # Parent
 
@@ -112,4 +118,9 @@ Lower bound
 - Минимизация upper-bound это более _жесткое_ обучение?
 - Jensen’s inequality
 	- [[Logistic Regression]]
+- Есть вывод в cs231n
 
+
+# Questions
+
+Зачем нам нужно учить вектор дисперсии, а затем стремиться в лосс функции чтобы распределение стремилось к нормальному, если мы могли бы зафиксировать это вектор из 1, предсказывать только среднее и просто каждый раз делать сэмпл из такого распределения?
