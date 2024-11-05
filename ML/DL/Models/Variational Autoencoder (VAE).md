@@ -5,19 +5,20 @@
 Notion
 - https://www.notion.so/Variational-autoencoder-VAE-dd7e278650d24715b95da65523229854
 
+Paper
+- Auto-Encoding Variational Bayes
+- https://arxiv.org/abs/1312.6114
+
 Variational autoencoders.
 - https://www.jeremyjordan.me/variational-autoencoders/
 - intractable distribution
 - variational inference
 
 Arxiv Insights
-https://www.youtube.com/watch?v=9zKuYvjFFS8
+- https://www.youtube.com/watch?v=9zKuYvjFFS8
 
 Tutorial on Autoencoders
 - ?
-
-auto-encoding variational bayes
-- https://arxiv.org/abs/1312.6114
 
 Raschka
 - Sebastian Raschka
@@ -26,6 +27,15 @@ Raschka
 
 From Autoencoder to Beta-VAE
 - https://lilianweng.github.io/posts/2018-08-12-vae/
+- images - high dimensional input with high redundancy
+- Sparse Autoencoder
+	- vs. Dropout
+		- Same effect but using loss function?
+	- KL-divergence between two Bernoulli distributions
+- VAE
+	- ELBO
+		- forward vs. reverse DKL
+		- https://blog.evjang.com/2016/08/variational-bayes.html
 
 # Parent
 
@@ -40,7 +50,9 @@ From Autoencoder to Beta-VAE
 [[PCA]]
 [[Entropy]]
 
-
+ variational
+- [[Variational Calculus]]
+- variational bayesian
 # Overview
 
 dlcourse.ai
@@ -82,8 +94,8 @@ Reparametrization trick
 Links
 - L17.4 VAE loss function
 
-Evidence lower bound (ELBO)
-https://en.wikipedia.org/wiki/Evidence_lower_bound
+GPT
+- https://chatgpt.com/c/66e17e9e-0054-8000-947d-35d830b66ee7
 
 Loss
 - Consist of two parts: Reconstruction loss and Regularization term
@@ -94,7 +106,8 @@ Regularization term
 - N(0,I)
 - KL divergence between $N(\mu, \sigma)$ and $N(0, I)$
 - Why we want our distribution to be close to N(0,I), and what's the distribution we want to be N(0,I)
-	- https://chatgpt.com/c/66e17e9e-0054-8000-947d-35d830b66ee7
+	- See GPT
+	- Distribution of latent variable
 - Applied to encoder output
 
 Reconstruction loss
@@ -102,14 +115,16 @@ Reconstruction loss
 - MSE
 
 Using BCE as reconstruction loss
-- Normalizing image to [0,1] range
+- Normalizing image to (0,1) range
 - Why it may be not a good idea?
 	- Different losses depending on pixel value. For example predicting right 0.2 value gives less loss then predicting 0.4
 
 NLL loss wrt. term to encoder distribution
 - Как это возможно, что является в этом случае GT?
 
-Lower bound
+ELBO
+- Evidence lower bound (ELBO)
+- https://en.wikipedia.org/wiki/Evidence_lower_bound
 - Tractable lower bound on data likelihood
 - Lower bound on the log-likelihood
 - Верхние оценки
@@ -118,9 +133,12 @@ Lower bound
 - Минимизация upper-bound это более _жесткое_ обучение?
 - Jensen’s inequality
 	- [[Logistic Regression]]
-- Есть вывод в cs231n
+- Есть вывод в cs231n?
 
 
 # Questions
 
-Зачем нам нужно учить вектор дисперсии, а затем стремиться в лосс функции чтобы распределение стремилось к нормальному, если мы могли бы зафиксировать это вектор из 1, предсказывать только среднее и просто каждый раз делать сэмпл из такого распределения?
+GPT
+- https://chatgpt.com/c/672a1186-6bd0-8000-80ef-213deaac8ae6
+
+Зачем нам нужно учить вектор дисперсии, а затем стремиться в лосс функции чтобы распределение стремилось к нормальному, если мы могли бы зафиксировать вектор дисперсии состоящим из единиц (как в нормальном распределении к которому мы стремимся) и предсказывать только среднее и просто каждый раз делать сэмпл из такого распределения?
