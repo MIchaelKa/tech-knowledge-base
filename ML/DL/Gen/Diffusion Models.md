@@ -12,8 +12,6 @@ Notion
 
 [[Variational Autoencoder (VAE)]]
 
-[[DALL-E]]
-
 # Papers
 
 
@@ -52,6 +50,8 @@ Classifier-Free Diffusion Guidance
 DDPM
 
 [[DALL-E]]
+[[GLIDE]]
+[[DALL-E-2]]
 
 Latent Diffusion
 - Paper
@@ -111,6 +111,7 @@ What are Diffusion Models?
 	- Ignoring weighting term
 		- Denoising Diffusion Probabilistic Models
 	- score-based generative modeling
+- bits/dim
 - unCLIP
 
 # Videos
@@ -187,6 +188,7 @@ How AI Image Generators Work (Stable Diffusion / Dall-E) - Computerphile
 - https://www.youtube.com/watch?v=1CIpzeNxIhU
 	- Oct 4, 2022
 - Dall-E 1 or 2 ?
+- Объясняет как работает GLIDE?
 - GAN vs. Diffusion models
 	- Smaller steps for model to get from noise to good-looking image
 - Predicting noise

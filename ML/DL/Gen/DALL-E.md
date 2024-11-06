@@ -13,6 +13,17 @@ wiki
 GH
 - https://github.com/openai/DALL-E
 
+gonzo_ML
+- https://t.me/gonzo_ML/656
+- дискретный VAE (dVAE)
+	- dVAE vs. VQ-VAE
+	- https://chatgpt.com/c/672b7140-aca0-8000-bc99-f1978097ff6b
+- sparse transformer
+	- Generating Long Sequences with Sparse Transformers
+	- https://arxiv.org/abs/1904.10509
+- ранжирующая модель
+	- CLIP
+
 # Papers
 
 Zero-Shot Text-to-Image Generation
@@ -21,13 +32,11 @@ Zero-Shot Text-to-Image Generation
 - Citations (4016)
 - DALL-E-1
 
-GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models
-- https://arxiv.org/abs/2112.10741
-- Alex Nichol, Prafulla Dhariwal, Aditya Ramesh, Pranav Shyam, Pamela Mishkin, Bob McGrew, Ilya Sutskever, Mark Chen
 
 # Links
 
+[[GLIDE]]
+
 [[DALL-E-2]]
 
-# Videos
 
