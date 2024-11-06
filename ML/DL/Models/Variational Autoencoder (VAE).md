@@ -1,6 +1,6 @@
 
 
-# External Links
+# External
 
 Notion
 - https://www.notion.so/Variational-autoencoder-VAE-dd7e278650d24715b95da65523229854
@@ -36,6 +36,10 @@ From Autoencoder to Beta-VAE
 	- ELBO
 		- forward vs. reverse DKL
 		- https://blog.evjang.com/2016/08/variational-bayes.html
+- Beta-VAE
+- VQ-VAE
+- VQ-VAE-2
+	- hierarchical latent variables
 
 # Parent
 
@@ -129,8 +133,13 @@ ELBO
 - Lower bound on the log-likelihood
 - Верхние оценки
 	- [[Logistic Regression]]
-- minimizing lower-bound == maximizing upper-bound
-- Минимизация upper-bound это более _жесткое_ обучение?
+- upper-bound
+	- minimizing lower-bound == maximizing upper-bound - ?
+		- Минимизация upper-bound это более _жесткое_ обучение?
+	- maximizing lower-bound == minimizing upper-bound - better
+	- we want maximize lower bound
+	- we want minimize loss
+	- we are minimizing upper-bound
 - Jensen’s inequality
 	- [[Logistic Regression]]
 - Есть вывод в cs231n?
@@ -142,3 +151,7 @@ GPT
 - https://chatgpt.com/c/672a1186-6bd0-8000-80ef-213deaac8ae6
 
 Зачем нам нужно учить вектор дисперсии, а затем стремиться в лосс функции чтобы распределение стремилось к нормальному, если мы могли бы зафиксировать вектор дисперсии состоящим из единиц (как в нормальном распределении к которому мы стремимся) и предсказывать только среднее и просто каждый раз делать сэмпл из такого распределения?
+
+Про мотивацию для некоторых изображений выдавать увеличенную дисперсию в начале статьи
+- https://www.jeremyjordan.me/variational-autoencoders/
+- улыбка мона лизы

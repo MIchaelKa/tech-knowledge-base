@@ -4,11 +4,6 @@
 Notion
 - https://www.notion.so/Diffusion-Models-fac71777ec1548ae9fcd343bd2d196e6
 
-DALL-E
-- https://www.notion.so/DALL-E-3b0bd44a8e73428aa1551821bc573cb2
-- [[DALL-E]]
-
-
 # Links
 
 [[Generative Models]]
@@ -17,8 +12,17 @@ DALL-E
 
 [[Variational Autoencoder (VAE)]]
 
+[[DALL-E]]
+
 # Papers
 
+
+Deep unsupervised learning using nonequilibrium thermodynamics
+- https://arxiv.org/abs/1503.03585
+
+Generative Modeling by Estimating Gradients of the Data Distribution
+- https://arxiv.org/abs/1907.05600
+- score-based generative modeling method
 
 Denoising Diffusion Probabilistic Models
 - https://arxiv.org/abs/2006.11239
@@ -38,12 +42,10 @@ Diffusion Models Beat GANs on Image Synthesis
 - OpenAI
 - https://t.me/ai_newz/439
 
-Deep unsupervised learning using nonequilibrium thermodynamics
-- https://arxiv.org/abs/1503.03585
+Classifier-Free Diffusion Guidance
+- https://arxiv.org/abs/2207.12598
+- Jonathan Ho, Tim Salimans
 
-Generative Modeling by Estimating Gradients of the Data Distribution
-- https://arxiv.org/abs/1907.05600
-- score-based generative modeling method
 
 # Models
 
@@ -171,10 +173,46 @@ Diffusion models from scratch in PyTorch
 	- Why Add Noise During Generation?
 		- It is the same as sample from above Gaussian distribution
 
+
+What are Diffusion Models?
+- https://www.youtube.com/watch?v=fbLgFrlTnGU
+- Forward path
+- Markov chain
+- Отличие от VAE
+	- Forward process is fixed. Only one nn is trained.
+- ELBO
+
+
+How AI Image Generators Work (Stable Diffusion / Dall-E) - Computerphile
+- https://www.youtube.com/watch?v=1CIpzeNxIhU
+	- Oct 4, 2022
+- Dall-E 1 or 2 ?
+- GAN vs. Diffusion models
+	- Smaller steps for model to get from noise to good-looking image
+- Predicting noise
+	- Predict only noise added on the last step
+	- vs.
+	- Predicting all the noise added during all the steps
+		- This is what we do
+		- That why we need to add some noise back during the generation process.
+	- About adding some noise back
+- How to direct generation process?
+	- How to condition on text in
+		- UNet
+			- same way as to adding timestamp
+			- add embedding to every pixel?
+		- Transformer
+			- cross-attention
+	- To train we need image-text pairs
+- Classifier free guidance
+
+Stable Diffusion in Code (AI Image Generation) - Computerphile
+- https://www.youtube.com/watch?v=-lz30by8-sU
+
 # Terms
 
 VQ
-Vector quantize
+Vector Quantize
 
 
 # Overview
