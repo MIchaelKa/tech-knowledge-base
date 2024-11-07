@@ -48,6 +48,7 @@ Classifier-Free Diffusion Guidance
 # Models
 
 DDPM
+DDIM
 
 [[DALL-E]]
 [[GLIDE]]
