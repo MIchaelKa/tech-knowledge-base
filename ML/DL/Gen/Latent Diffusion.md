@@ -1,0 +1,30 @@
+
+Latent Diffusion
+- Paper
+	- High-Resolution Image Synthesis with Latent Diffusion Models
+	- https://arxiv.org/abs/2112.10752
+	- Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, Björn Ommer
+- TG
+	- https://t.me/ai_newz/1056
+	- https://t.me/ai_newz/1057
+- Links
+	- [[Variational Autoencoder (VAE)]]
+	- VQ-VAE
+		- paper
+		- billions of parameters
+	- GANs
+		- problems with multi-modal distributions
+- Linked papers
+	- Zero-shot text-to-image generation
+		- purely transformer-based approach
+	- Deep unsupervised learning using nonequilibrium thermodynamics
+		- ? - ссылается как на статью которая вводит DM
+- Overview
+	- latent space of pretrained autoencoders
+	- less aggressive downsampling
+	- DM - hierarchy of denoising autoencoders
+		- [[Denoising Autoencoder (DAE)]]
+	- Using DM beyond image synthesis
+	- likelihood-based models
+		- ?
+	- train DMs in the learned latent space

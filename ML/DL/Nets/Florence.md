@@ -23,6 +23,11 @@ ALIGN
 
 # Overview
 
+Summary
+- text-image model
+- foundation model
+- 0.9B
+
 Dataset
 - FLD-900M (FLorence Dataset)
 - ALIGN
@@ -39,6 +44,9 @@ UniCL
 Двунаправленная лосс функция
 - t2i
 - i2t
+
+Foundation model
+- разбили задачи CV по трем осям
 
 Models
 - Text

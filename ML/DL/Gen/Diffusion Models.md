@@ -4,7 +4,19 @@
 Notion
 - https://www.notion.so/Diffusion-Models-fac71777ec1548ae9fcd343bd2d196e6
 
+Denoising Diffusion Models: A Generative Learning Big Bang - Туториал
+- https://cvpr2023-tutorial-diffusion-models.github.io/
+- https://t.me/ai_newz/2273
+
+Awesome-Diffusion-Models
+- https://github.com/diff-usion/Awesome-Diffusion-Models
+
+wiki
+- https://en.wikipedia.org/wiki/Diffusion_model
+
 # Links
+
+[[Image Generation]]
 
 [[Generative Models]]
 
@@ -44,6 +56,10 @@ Classifier-Free Diffusion Guidance
 - https://arxiv.org/abs/2207.12598
 - Jonathan Ho, Tim Salimans
 
+Elucidating the Design Space of Diffusion-Based Generative Models
+- NeurIPS 2022
+- https://arxiv.org/abs/2206.00364
+- https://t.me/ai_newz/1911
 
 # Models
 
@@ -54,40 +70,9 @@ DDIM
 [[GLIDE]]
 [[DALL-E-2]]
 
-Latent Diffusion
-- Paper
-	- High-Resolution Image Synthesis with Latent Diffusion Models
-	- https://arxiv.org/abs/2112.10752
-	- Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, Björn Ommer
-- TG
-	- https://t.me/ai_newz/1056
-	- https://t.me/ai_newz/1057
-- Links
-	- [[Variational Autoencoder (VAE)]]
-	- VQ-VAE
-		- paper
-		- billions of parameters
-	- GANs
-		- problems with multi-modal distributions
-- Linked papers
-	- Zero-shot text-to-image generation
-		- purely transformer-based approach
-	- Deep unsupervised learning using nonequilibrium thermodynamics
-		- ? - ссылается как на статью которая вводит DM
-- Overview
-	- latent space of pretrained autoencoders
-	- less aggressive downsampling
-	- DM - hierarchy of denoising autoencoders
-		- [[Denoising Autoencoder (DAE)]]
-	- Using DM beyond image synthesis
-	- likelihood-based models
-		- ?
-	- train DMs in the learned latent space
+[[Latent Diffusion]]
 
-Imagen
-- Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding
-- https://arxiv.org/abs/2205.11487
-- https://t.me/ai_newz/1186
+[[Imagen]]
 
 Stable Diffusion
 - https://t.me/ai_newz/1368
@@ -98,6 +83,16 @@ Stable Diffusion
 - Grounding DINO
 	- https://t.me/ai_newz/1852
 
+Neural Network Parameter Diffusion
+- https://arxiv.org/abs/2402.13144
+- https://t.me/gonzo_ML/2394
+- hypernetwork
+- Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time
+- LD
+
+ControlNet
+- https://github.com/lllyasviel/ControlNet
+
 # Blogs
 
 What are Diffusion Models?
@@ -106,9 +101,10 @@ What are Diffusion Models?
 	- Closed form sampling
 	- reparameterization trick
 - Backward process
-	- *As demonstrated in Fig. 2., such a setup is very similar to VAE*
-	- Learn VAE first!
-	- [[Variational Autoencoder (VAE)]]
+	- VAE
+		- *As demonstrated in Fig. 2., such a setup is very similar to VAE*
+		- Learn VAE first!
+		- [[Variational Autoencoder (VAE)]]
 	- Ignoring weighting term
 		- Denoising Diffusion Probabilistic Models
 	- score-based generative modeling
