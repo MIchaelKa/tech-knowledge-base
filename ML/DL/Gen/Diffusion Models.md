@@ -4,10 +4,6 @@
 Notion
 - https://www.notion.so/Diffusion-Models-fac71777ec1548ae9fcd343bd2d196e6
 
-Denoising Diffusion Models: A Generative Learning Big Bang - Туториал
-- https://cvpr2023-tutorial-diffusion-models.github.io/
-- https://t.me/ai_newz/2273
-
 Awesome-Diffusion-Models
 - https://github.com/diff-usion/Awesome-Diffusion-Models
 
@@ -61,6 +57,19 @@ Elucidating the Design Space of Diffusion-Based Generative Models
 - https://arxiv.org/abs/2206.00364
 - https://t.me/ai_newz/1911
 
+# DE
+
+[[Differential Equations]]
+
+Score-Based Generative Modeling through Stochastic Differential Equations
+- https://arxiv.org/abs/2011.13456
+- Yang Song, Jascha Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon, Ben Poole
+
+Denoising Diffusion Implicit Models
+- https://arxiv.org/abs/2010.02502
+- Jiaming Song, Chenlin Meng, Stefano Ermon
+- DDIM
+
 # Models
 
 DDPM
@@ -92,6 +101,42 @@ Neural Network Parameter Diffusion
 
 ControlNet
 - https://github.com/lllyasviel/ControlNet
+
+
+# Tutorial
+
+Denoising Diffusion Models: A Generative Learning Big Bang - Туториал
+- https://cvpr2023-tutorial-diffusion-models.github.io/
+- https://www.youtube.com/watch?v=1d4r19GEVos
+- https://t.me/ai_newz/2273
+- differential equation solvers
+	- advances on accelerating sampling from diffusion models
+	- DPM-Solver (NeurIPS 2022 Oral)
+	- DEIS
+- Unlike the previous tutorial, we will streamline the discussion on fundamentals
+- Fundamentals
+	- Part 1. DDPM
+		- Diffusion kernel
+			- Closed form sampling
+			- Diffusion kernel is Gaussian convolution
+		- Distributions
+			- We don't have access to PDF of data distribution on all steps, excluding the last
+			- Ancestral sampling
+	- Part 2. Score-based generative modeling with Differential Equations
+		- [[Differential Equations]]
+		- ODE
+			- Neural ODE
+			- 
+		- Stochastic Differential Equations (SDE)
+		- Forward diffusion process as SDE
+			- Score-Based Generative Modeling through Stochastic Differential Equations
+			- Forward diffusion process is discretization of SDE
+		- Probability Flow ODE
+			- Convert SDE to ODE
+			- Flow Matching?
+	- Part 3. Accelerated Sampling
+		- Generative learning trilemma
+		- Advanced ODE/SDE solvers
 
 # Blogs
 
