@@ -10,7 +10,32 @@ Awesome-Diffusion-Models
 wiki
 - https://en.wikipedia.org/wiki/Diffusion_model
 
+
+GPT Learn path
+- 4o
+	- https://chatgpt.com/c/673360f7-0b14-8000-8cf0-eae024e5bac1
+	-  Loss function derivation
+	    - Derive the DDPM loss function step-by-step from the KL divergence between the modeled distribution and the true posterior.
+	    - Understand why this loss reduces to a simplified reweighted form.
+	- Key differences between DDPM and DDIM
+		- Understand why DDIM accelerates the reverse process while maintaining sample quality.
+- o1
+	- https://chatgpt.com/c/673361bc-6618-8000-abe1-9c0f0e5d2fa5
+	- Loss
+		- Derive the simplified loss function used in DDPM.
+		- Comprehend the relationship between DDPM and VAEs.
+	- DDIM
+		- Understand how DDIM accelerates the sampling process.
+	- diffusion processes
+		- Markovian
+		- non-Markovian
+
+Yang Song
+- https://yang-song.net/
+
 # Links
+
+нейробайесовскиe методы
 
 [[Image Generation]]
 
@@ -25,10 +50,6 @@ wiki
 
 Deep unsupervised learning using nonequilibrium thermodynamics
 - https://arxiv.org/abs/1503.03585
-
-Generative Modeling by Estimating Gradients of the Data Distribution
-- https://arxiv.org/abs/1907.05600
-- score-based generative modeling method
 
 Denoising Diffusion Probabilistic Models
 - https://arxiv.org/abs/2006.11239
@@ -60,6 +81,10 @@ Elucidating the Design Space of Diffusion-Based Generative Models
 # DE
 
 [[Differential Equations]]
+
+Generative Modeling by Estimating Gradients of the Data Distribution
+- https://arxiv.org/abs/1907.05600
+- score-based generative modeling method
 
 Score-Based Generative Modeling through Stochastic Differential Equations
 - https://arxiv.org/abs/2011.13456
@@ -101,6 +126,9 @@ Neural Network Parameter Diffusion
 
 ControlNet
 - https://github.com/lllyasviel/ControlNet
+
+Score-Based Models vs. DDIM
+- https://chatgpt.com/c/673399d7-76e4-8000-82b5-85ecba3f4840
 
 
 # Tutorial
@@ -157,6 +185,71 @@ What are Diffusion Models?
 - unCLIP
 
 # Videos
+
+
+What are Diffusion Models?
+- https://www.youtube.com/watch?v=fbLgFrlTnGU
+- Forward path
+- Markov chain
+- Отличие от VAE
+	- Forward process is fixed. Only one nn is trained.
+- ELBO
+
+
+How AI Image Generators Work (Stable Diffusion / Dall-E) - Computerphile
+- https://www.youtube.com/watch?v=1CIpzeNxIhU
+	- Oct 4, 2022
+- Dall-E 1 or 2 ?
+- Объясняет как работает GLIDE?
+- GAN vs. Diffusion models
+	- Smaller steps for model to get from noise to good-looking image
+- Predicting noise
+	- Predict only noise added on the last step
+	- vs.
+	- Predicting all the noise added during all the steps
+		- This is what we do
+		- That why we need to add some noise back during the generation process.
+	- About adding some noise back
+- How to direct generation process?
+	- How to condition on text in
+		- UNet
+			- same way as to adding timestamp
+			- add embedding to every pixel?
+		- Transformer
+			- cross-attention
+	- To train we need image-text pairs
+- Classifier free guidance
+
+
+# Overview
+
+Pros
+- High quality samples
+- Diversity
+
+Cons
+- Slow generation process
+	- Slow sampling
+	- Sequential generation process
+
+# Implementation
+
+GH
+- Official DDPM GitHub repository
+- https://github.com/hojonathanho/diffusion
+- https://github.com/lucidrains/denoising-diffusion-pytorch
+
+The Annotated Diffusion Model
+- https://colab.research.google.com/github/huggingface/notebooks/blob/main/examples/annotated_diffusion.ipynb
+
+
+CV Week
+- https://contest.yandex.ru/contest/69523/problems/
+
+
+Stable Diffusion in Code (AI Image Generation) - Computerphile
+- https://www.youtube.com/watch?v=-lz30by8-sU
+
 
 Diffusion models from scratch in PyTorch
 - Info
@@ -215,57 +308,3 @@ Diffusion models from scratch in PyTorch
 	- See questions
 	- Why Add Noise During Generation?
 		- It is the same as sample from above Gaussian distribution
-
-
-What are Diffusion Models?
-- https://www.youtube.com/watch?v=fbLgFrlTnGU
-- Forward path
-- Markov chain
-- Отличие от VAE
-	- Forward process is fixed. Only one nn is trained.
-- ELBO
-
-
-How AI Image Generators Work (Stable Diffusion / Dall-E) - Computerphile
-- https://www.youtube.com/watch?v=1CIpzeNxIhU
-	- Oct 4, 2022
-- Dall-E 1 or 2 ?
-- Объясняет как работает GLIDE?
-- GAN vs. Diffusion models
-	- Smaller steps for model to get from noise to good-looking image
-- Predicting noise
-	- Predict only noise added on the last step
-	- vs.
-	- Predicting all the noise added during all the steps
-		- This is what we do
-		- That why we need to add some noise back during the generation process.
-	- About adding some noise back
-- How to direct generation process?
-	- How to condition on text in
-		- UNet
-			- same way as to adding timestamp
-			- add embedding to every pixel?
-		- Transformer
-			- cross-attention
-	- To train we need image-text pairs
-- Classifier free guidance
-
-Stable Diffusion in Code (AI Image Generation) - Computerphile
-- https://www.youtube.com/watch?v=-lz30by8-sU
-
-# Terms
-
-VQ
-Vector Quantize
-
-
-# Overview
-
-Pros
-- High quality samples
-- Diversity
-
-Cons
-- Slow generation process
-	- Slow sampling
-	- Sequential generation process

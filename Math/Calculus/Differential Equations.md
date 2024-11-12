@@ -7,9 +7,17 @@ Notion
 
 https://www.khanacademy.org/math/differential-equations
 
+3Blue1Brown
+- https://www.youtube.com/playlist?list=PLZHQObOWTQDNPOjrT6KVlfJuKtYTftqH6
+
+
 # Книги
 
 Applied Stochastic Differential Equations
+- 3.
+	- Brownian motion
+		- Wiener process
+	- leap of faith solutions to SDEs
 
 # Курсы
 
@@ -34,6 +42,10 @@ Applied Stochastic Differential Equations
 	 - Автономные ДУ
 		 - Формула Барроу
 
+# SDE
+
+stochastic differential equations
+стохастические дифференциальные уравнения
 
 # Vector field
 
@@ -48,7 +60,7 @@ Phase space
 
 # Начальные условия
 
-_Initial Value Problem_
+Initial Value Problem
 
 Задача Коши
 ru.wikipedia.org/wiki/Задача_Коши

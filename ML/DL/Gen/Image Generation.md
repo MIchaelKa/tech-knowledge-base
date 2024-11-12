@@ -70,3 +70,9 @@ Flow Matching
 	- Flow Matching for Generative Modeling
 	- https://arxiv.org/abs/2210.02747
 	- Yaron Lipman, Ricky T. Q. Chen, Heli Ben-Hamu, Maximilian Nickel, Matt Le
+
+
+# Terms
+
+VQ
+Vector Quantize
