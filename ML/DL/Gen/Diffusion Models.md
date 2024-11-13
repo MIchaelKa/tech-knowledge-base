@@ -33,9 +33,14 @@ GPT Learn path
 Yang Song
 - https://yang-song.net/
 
+CV Week
+- https://mail.yandex.ru/?uid=43165381#message/187743809466012893
+- https://contest.yandex.ru/contest/69523/problems/
+
 # Links
 
 нейробайесовскиe методы
+- [[Bayesian Statistics]]
 
 [[Image Generation]]
 
@@ -48,8 +53,9 @@ Yang Song
 # Papers
 
 
-Deep unsupervised learning using nonequilibrium thermodynamics
+Deep Unsupervised Learning using Nonequilibrium Thermodynamics
 - https://arxiv.org/abs/1503.03585
+- Jascha Sohl-Dickstein, Eric A. Weiss, Niru Maheswaranathan, Surya Ganguli
 
 Denoising Diffusion Probabilistic Models
 - https://arxiv.org/abs/2006.11239
@@ -232,6 +238,22 @@ Cons
 	- Slow sampling
 	- Sequential generation process
 
+
+Loss function derivation
+- https://chatgpt.com/c/67339f4a-ef70-8000-9698-7b81e22c862f
+	- The reverse process is derived as a parameterized approximation to the true reverse dynamics of the diffusion process
+	- Key insight that predicting noise $\epsilon$ is sufficient
+	- Approximating the true reverse distribution $q(x_{t-1} | x_t)$
+	- Conditioning on $x_0$
+	- This makes $q(x_{t-1} | x_t, x_0)$ analytically tractable because the forward process was designed to be Gaussian.
+
+KL-Divergence
+- [[Entropy]]
+
+Rules of multiplication of Gaussian distribution
+- merge two Gaussians
+- https://habr.com/ru/articles/351400/
+
 # Implementation
 
 GH
@@ -241,10 +263,6 @@ GH
 
 The Annotated Diffusion Model
 - https://colab.research.google.com/github/huggingface/notebooks/blob/main/examples/annotated_diffusion.ipynb
-
-
-CV Week
-- https://contest.yandex.ru/contest/69523/problems/
 
 
 Stable Diffusion in Code (AI Image Generation) - Computerphile

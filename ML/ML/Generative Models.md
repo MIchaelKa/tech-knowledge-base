@@ -2,7 +2,8 @@
 
 # External
 
-https://www.notion.so/Generative-Models-3a6cad46759e474da25b4387eddcb51f
+Notion
+- https://www.notion.so/Generative-Models-3a6cad46759e474da25b4387eddcb51f
 
 # Parent
 
@@ -21,3 +22,9 @@ https://www.notion.so/Generative-Models-3a6cad46759e474da25b4387eddcb51f
 
 Normalizing Flows
 - vs. Network Flows
+
+
+# Overview
+
+При объяснении, что такое моделирование распределения.
+Представим наши картинки состоят из одного пикселя.
