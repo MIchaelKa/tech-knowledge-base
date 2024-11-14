@@ -59,3 +59,4 @@ KL Divergence
 
 The KL Divergence : Data Science Basics
 - https://www.youtube.com/watch?v=q0AkK8aYbLY
+- Our metric needs to be asymmetric

@@ -251,7 +251,7 @@ KL-Divergence
 - [[Entropy]]
 
 Rules of multiplication of Gaussian distribution
-- merge two Gaussians
+- Merge two Gaussians
 - https://habr.com/ru/articles/351400/
 
 # Implementation

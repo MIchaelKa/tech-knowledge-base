@@ -25,22 +25,6 @@ Raschka
 - https://www.youtube.com/watch?v=UnImUYOdWgk&list=PLTKMiZHVd_2KJtIXOW0zFhFfBaJJilH51&index=139
 - https://github.com/rasbt/stat453-deep-learning-ss21/tree/main/L17
 
-From Autoencoder to Beta-VAE
-- https://lilianweng.github.io/posts/2018-08-12-vae/
-- images - high dimensional input with high redundancy
-- Sparse Autoencoder
-	- vs. Dropout
-		- Same effect but using loss function?
-	- KL-divergence between two Bernoulli distributions
-- VAE
-	- ELBO
-		- forward vs. reverse DKL
-		- https://blog.evjang.com/2016/08/variational-bayes.html
-- Beta-VAE
-- VQ-VAE
-- VQ-VAE-2
-	- hierarchical latent variables
-
 # Parent
 
 [[Unsupervised Learning (UL)]]
@@ -56,7 +40,7 @@ From Autoencoder to Beta-VAE
 
  variational
 - [[Variational Calculus]]
-- variational bayesian
+- variational bayesian (VB)
 # Overview
 
 dlcourse.ai
@@ -92,6 +76,42 @@ Reparametrization trick
 - We can’t sample directly from $N(\mu, \sigma)$ because we need to backprob through these layers.
 - But how to sample from $N(\mu, \sigma)$ in general?
 	- See above
+
+
+# Blogs
+
+From Autoencoder to Beta-VAE
+- Links
+	- https://lilianweng.github.io/posts/2018-08-12-vae/
+- images - high dimensional input with high redundancy
+- Sparse Autoencoder
+	- vs. Dropout
+		- Same effect but using loss function?
+	- KL-divergence between two Bernoulli distributions
+- VAE
+	- variational bayesian (VB)
+	- Marginalization over z
+		- fundamental during training, not necessarily during inference
+		-  the training objective considers the contribution of all possible latent codes z
+	- ELBO
+- Beta-VAE
+- VQ-VAE
+- VQ-VAE-2
+	- hierarchical latent variables
+
+ELBO
+- forward vs. reverse DKL
+	- https://blog.evjang.com/2016/08/variational-bayes.html
+- 4o
+	- https://chatgpt.com/c/6735060a-fe68-8000-a4c3-c4faac0dd069
+- o1
+	- https://chatgpt.com/c/67351c80-4140-8000-9f28-792ef764dec1
+- how approximating p(z|x) will allows us to calculate p(x)?
+
+A Beginner's Guide to Variational Methods: Mean-Field Approximation
+- https://blog.evjang.com/2016/08/variational-bayes.html
+- Variational Bayeisan (VB)
+- If we can sample from z∼P(Z|X), we can use this to make a cat classifier that tells us whether a given image is a cat or not.
 
 # VAE loss function
 
@@ -142,8 +162,14 @@ ELBO
 	- we are minimizing upper-bound
 - Jensen’s inequality
 	- [[Logistic Regression]]
+	- https://en.wikipedia.org/wiki/Jensen's_inequality
 - Есть вывод в cs231n?
 
+
+The KL Divergence
+- How to get loss function?
+- https://github.com/rasbt/stat453-deep-learning-ss21/blob/main/L17/helper_train.py#L175C43-L175C52
+- https://chatgpt.com/c/673501dc-89ec-8000-bd7a-219625f2bda4
 
 # Questions
 
