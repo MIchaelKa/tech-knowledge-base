@@ -9,6 +9,9 @@ Paper
 - Auto-Encoding Variational Bayes
 - https://arxiv.org/abs/1312.6114
 
+Tutorial on Autoencoders
+- ?
+
 Variational autoencoders.
 - https://www.jeremyjordan.me/variational-autoencoders/
 - intractable distribution
@@ -17,13 +20,14 @@ Variational autoencoders.
 Arxiv Insights
 - https://www.youtube.com/watch?v=9zKuYvjFFS8
 
-Tutorial on Autoencoders
-- ?
-
 Raschka
 - Sebastian Raschka
 - https://www.youtube.com/watch?v=UnImUYOdWgk&list=PLTKMiZHVd_2KJtIXOW0zFhFfBaJJilH51&index=139
 - https://github.com/rasbt/stat453-deep-learning-ss21/tree/main/L17
+
+cs231n
+- Notion
+- https://deepgenerativemodels.github.io/notes/vae/
 
 # Parent
 
@@ -99,15 +103,6 @@ From Autoencoder to Beta-VAE
 - VQ-VAE-2
 	- hierarchical latent variables
 
-ELBO
-- forward vs. reverse DKL
-	- https://blog.evjang.com/2016/08/variational-bayes.html
-- 4o
-	- https://chatgpt.com/c/6735060a-fe68-8000-a4c3-c4faac0dd069
-- o1
-	- https://chatgpt.com/c/67351c80-4140-8000-9f28-792ef764dec1
-- how approximating p(z|x) will allows us to calculate p(x)?
-
 A Beginner's Guide to Variational Methods: Mean-Field Approximation
 - https://blog.evjang.com/2016/08/variational-bayes.html
 - Variational Bayeisan (VB)
@@ -146,6 +141,11 @@ Using BCE as reconstruction loss
 NLL loss wrt. term to encoder distribution
 - Как это возможно, что является в этом случае GT?
 
+The KL Divergence
+- How to get loss function?
+- https://github.com/rasbt/stat453-deep-learning-ss21/blob/main/L17/helper_train.py#L175C43-L175C52
+- https://chatgpt.com/c/673501dc-89ec-8000-bd7a-219625f2bda4
+
 ELBO
 - Evidence lower bound (ELBO)
 - https://en.wikipedia.org/wiki/Evidence_lower_bound
@@ -163,13 +163,14 @@ ELBO
 - Jensen’s inequality
 	- [[Logistic Regression]]
 	- https://en.wikipedia.org/wiki/Jensen's_inequality
-- Есть вывод в cs231n?
-
-
-The KL Divergence
-- How to get loss function?
-- https://github.com/rasbt/stat453-deep-learning-ss21/blob/main/L17/helper_train.py#L175C43-L175C52
-- https://chatgpt.com/c/673501dc-89ec-8000-bd7a-219625f2bda4
+- forward vs. reverse DKL
+	- https://blog.evjang.com/2016/08/variational-bayes.html
+- 4o
+	- https://chatgpt.com/c/6735060a-fe68-8000-a4c3-c4faac0dd069
+- o1
+	- https://chatgpt.com/c/67351c80-4140-8000-9f28-792ef764dec1
+- how approximating p(z|x) will allows us to calculate p(x)?
+- why we are sure that we can optimize lower bound?
 
 # Questions
 
