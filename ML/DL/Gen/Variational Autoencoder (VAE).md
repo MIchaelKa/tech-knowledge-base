@@ -38,6 +38,7 @@ cs231n
 # Links
 
 [[dlcourse.ai]]
+[[cs231n]]
 
 [[PCA]]
 [[Entropy]]
@@ -70,17 +71,6 @@ dlcourse.ai
 	- уже это само по себе не усиливает/приводит к независимости?
 - Каждый элемент в векторе, каждая переменная имеет свое значение.
 
-How to sample from distribution
-- How to sample from normal distribution.
-- $z=\mu+\sigma*\epsilon$
-- В общем случае нужно использовать [[Covariance Matrix]] $\Sigma$
-- $\epsilon = N(0,I)$
-
-Reparametrization trick
-- We can’t sample directly from $N(\mu, \sigma)$ because we need to backprob through these layers.
-- But how to sample from $N(\mu, \sigma)$ in general?
-	- See above
-
 
 # Blogs
 
@@ -107,6 +97,19 @@ A Beginner's Guide to Variational Methods: Mean-Field Approximation
 - https://blog.evjang.com/2016/08/variational-bayes.html
 - Variational Bayeisan (VB)
 - If we can sample from z∼P(Z|X), we can use this to make a cat classifier that tells us whether a given image is a cat or not.
+
+# Reparametrization trick
+
+How to sample from distribution
+- How to sample from normal distribution.
+- $z=\mu+\sigma*\epsilon$
+- В общем случае нужно использовать [[Covariance Matrix]] $\Sigma$
+- $\epsilon = N(0,I)$
+
+Reparametrization trick
+- We can’t sample directly from $N(\mu, \sigma)$ because we need to backprob through these layers.
+- But how to sample from $N(\mu, \sigma)$ in general?
+	- See above
 
 # VAE loss function
 
@@ -148,7 +151,15 @@ The KL Divergence
 
 ELBO
 - Evidence lower bound (ELBO)
-- https://en.wikipedia.org/wiki/Evidence_lower_bound
+- Links
+	- wiki
+		- https://en.wikipedia.org/wiki/Evidence_lower_bound
+	- forward vs. reverse DKL
+		- https://blog.evjang.com/2016/08/variational-bayes.html
+	- 4o
+		- https://chatgpt.com/c/6735060a-fe68-8000-a4c3-c4faac0dd069
+	- o1
+		- https://chatgpt.com/c/67351c80-4140-8000-9f28-792ef764dec1
 - Tractable lower bound on data likelihood
 - Lower bound on the log-likelihood
 - Верхние оценки
@@ -163,22 +174,16 @@ ELBO
 - Jensen’s inequality
 	- [[Logistic Regression]]
 	- https://en.wikipedia.org/wiki/Jensen's_inequality
-- forward vs. reverse DKL
-	- https://blog.evjang.com/2016/08/variational-bayes.html
-- 4o
-	- https://chatgpt.com/c/6735060a-fe68-8000-a4c3-c4faac0dd069
-- o1
-	- https://chatgpt.com/c/67351c80-4140-8000-9f28-792ef764dec1
 - how approximating p(z|x) will allows us to calculate p(x)?
 - why we are sure that we can optimize lower bound?
 
 # Questions
 
-GPT
-- https://chatgpt.com/c/672a1186-6bd0-8000-80ef-213deaac8ae6
 
-Зачем нам нужно учить вектор дисперсии, а затем стремиться в лосс функции чтобы распределение стремилось к нормальному, если мы могли бы зафиксировать вектор дисперсии состоящим из единиц (как в нормальном распределении к которому мы стремимся) и предсказывать только среднее и просто каждый раз делать сэмпл из такого распределения?
-
-Про мотивацию для некоторых изображений выдавать увеличенную дисперсию в начале статьи
-- https://www.jeremyjordan.me/variational-autoencoders/
-- улыбка мона лизы
+Q1
+- Зачем нам нужно учить вектор дисперсии, а затем стремиться в лосс функции чтобы распределение стремилось к нормальному, если мы могли бы зафиксировать вектор дисперсии состоящим из единиц (как в нормальном распределении к которому мы стремимся) и предсказывать только среднее и просто каждый раз делать сэмпл из такого распределения?
+- GPT
+	- https://chatgpt.com/c/672a1186-6bd0-8000-80ef-213deaac8ae6
+- Про мотивацию для некоторых изображений выдавать увеличенную дисперсию в начале статьи
+	- https://www.jeremyjordan.me/variational-autoencoders/
+	- улыбка мона лизы

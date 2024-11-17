@@ -23,6 +23,8 @@ Notion
 Normalizing Flows
 - vs. Network Flows
 
+Resources
+- [[cs231n]]
 
 # Overview
 
