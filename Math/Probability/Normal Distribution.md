@@ -21,3 +21,5 @@ Rules of multiplication of Gaussian distribution
 - Merge two Gaussians
 - https://habr.com/ru/articles/351400/
 - смесь нормальных распределений
+- multiplication is not merging?
+- https://chatgpt.com/c/67339f4a-ef70-8000-9698-7b81e22c862f

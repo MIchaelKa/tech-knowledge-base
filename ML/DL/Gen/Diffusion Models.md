@@ -33,22 +33,27 @@ GPT Learn path
 Yang Song
 - https://yang-song.net/
 
-CV Week
-- https://mail.yandex.ru/?uid=43165381#message/187743809466012893
-- https://contest.yandex.ru/contest/69523/problems/
-
-# Links
-
-нейробайесовскиe методы
-- [[Bayesian Statistics]]
+# Parent
 
 [[Image Generation]]
 
 [[Generative Models]]
 
+# Links
+
+DE / SDE
+
+Brownian motion
+
+Нейробайесовскиe методы
+- [[Bayesian Statistics]]
+
+
 [[Markov Chain]]
 
 [[Variational Autoencoder (VAE)]]
+
+[[Energy-Based Models (EBMs)]]
 
 # Papers
 
@@ -90,16 +95,70 @@ Elucidating the Design Space of Diffusion-Based Generative Models
 
 Generative Modeling by Estimating Gradients of the Data Distribution
 - https://arxiv.org/abs/1907.05600
+- Yang Song, Stefano Ermon
 - score-based generative modeling method
 
 Score-Based Generative Modeling through Stochastic Differential Equations
 - https://arxiv.org/abs/2011.13456
 - Yang Song, Jascha Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon, Ben Poole
 
+Sliced score matching: A scalable approach to density and score estimation
+- TODO
+
 Denoising Diffusion Implicit Models
 - https://arxiv.org/abs/2010.02502
 - Jiaming Song, Chenlin Meng, Stefano Ermon
 - DDIM
+
+
+Generative Modeling by Estimating Gradients of the Data Distribution
+- https://yang-song.net/blog/2021/score/
+- GPT
+	- https://chatgpt.com/c/67419eab-e698-8000-abb4-97296bc8c70e
+- Terms
+	- Langevin
+	- Langevin dynamics
+	- MCMC
+	- normalizing flow models
+		- https://blog.evjang.com/2018/01/nf1.html
+- Taxonomy
+	- autoregressive models
+		- PixelRNN
+		- Causal Convolutions
+	- likelihood-based models
+	- score-based models
+	- [[Energy-Based Models (EBMs)]]
+- Common
+	- How to represent a PDF of images?
+- score functions 
+	- gradients of log probability density functions
+	- density of what?
+		- likelihood
+	- vs. log probability density functions
+	- log probability (w/o grad) is the same as CEL ?
+		- not exactly
+		- in CEL we model p(y | x) not just p(x)
+		- Without a loss function like cross-entropy, it lacks a clear objective tied to class labels.
+	- grad with respect to the x vs.grad with respect to the theta
+- model architectures
+	- special architectures
+	- restrictions because of intractable constant z_0
+- likelihood-based models
+	- unnormalized probabilistic model, or energy-based model
+- score-based models
+	- score-based models have connections to normalizing flow models, therefore allowing exact likelihood computation and representation learning.
+	- Fisher divergence
+		- we can train score-based models by minimizing the Fisher divergence
+		- intractable
+		- score matching
+- Score matching
+	- Training
+- Langevin dynamics
+	- Inference
+- SDE
+	- Reversing the SDE
+
+
 
 # Models
 
@@ -172,24 +231,6 @@ Denoising Diffusion Models: A Generative Learning Big Bang - Туториал
 		- Generative learning trilemma
 		- Advanced ODE/SDE solvers
 
-# Blogs
-
-What are Diffusion Models?
-- https://lilianweng.github.io/posts/2021-07-11-diffusion-models/
-- Forward process
-	- Closed form sampling
-	- reparameterization trick
-- Backward process
-	- VAE
-		- *As demonstrated in Fig. 2., such a setup is very similar to VAE*
-		- Learn VAE first!
-		- [[Variational Autoencoder (VAE)]]
-	- Ignoring weighting term
-		- Denoising Diffusion Probabilistic Models
-	- score-based generative modeling
-- bits/dim
-- unCLIP
-
 # Videos
 
 
@@ -227,6 +268,53 @@ How AI Image Generators Work (Stable Diffusion / Dall-E) - Computerphile
 - Classifier free guidance
 
 
+# Blogs
+
+What are Diffusion Models?
+- https://lilianweng.github.io/posts/2021-07-11-diffusion-models/
+- Forward process
+	- Closed form sampling
+	- reparameterization trick
+- Backward process
+	- VAE
+		- *As demonstrated in Fig. 2., such a setup is very similar to VAE*
+		- Learn VAE first!
+		- [[Variational Autoencoder (VAE)]]
+	- Ignoring weighting term
+		- Denoising Diffusion Probabilistic Models
+	- score-based generative modeling
+- bits/dim
+- unCLIP
+
+
+# CV Week (Yandex)
+
+Links
+- https://mail.yandex.ru/?uid=43165381#message/187743809466012893
+- https://contest.yandex.ru/contest/69523/problems/
+- https://shad.yandex.ru/cvweek
+
+Лекция 1: Introduction to diffusion models
+- Math tricks
+	- Jensen's inequality
+	- Monte Carlo estimation
+	- Log-derivative trick
+- GM
+	- How to represent distribution by model?
+	- Distance function
+		- Similarity measures on distributions
+		- List
+			- KL Divergence
+			- Fisher Divergence
+	- How to minimize Distance function
+- KL Divergence
+	- Forward vs. Reverse
+- Latent variable models
+	- Monte Carlo do not work for high dimensional latent variables since we need to sample too many times
+	- Solution: ELBO
+- Denoising score matching
+	- Trace of Jacobian
+
 # Overview
 
 Pros
@@ -241,18 +329,34 @@ Cons
 
 Loss function derivation
 - https://chatgpt.com/c/67339f4a-ef70-8000-9698-7b81e22c862f
-	- The reverse process is derived as a parameterized approximation to the true reverse dynamics of the diffusion process
-	- Key insight that predicting noise $\epsilon$ is sufficient
-	- Approximating the true reverse distribution $q(x_{t-1} | x_t)$
-	- Conditioning on $x_0$
-	- This makes $q(x_{t-1} | x_t, x_0)$ analytically tractable because the forward process was designed to be Gaussian.
+- The reverse process is derived as a parameterized approximation to the true reverse dynamics of the diffusion process
+- Key insight that predicting noise $\epsilon$ is sufficient
+- Approximating the true reverse distribution $q(x_{t-1} | x_t)$
+- Conditioning on $x_0$
+- This makes $q(x_{t-1} | x_t, x_0)$ analytically tractable because the forward process was designed to be Gaussian.
+- p and q notations
+	- q - true forward diffusion process (GT)
+	- p - models's approximation
+
+# Math
 
 KL-Divergence
 - [[Entropy]]
 
-Rules of multiplication of Gaussian distribution
+Rules of multiplication of distribution
+- What the meaning of it?
+	- Just get the value of density
+- Gaussian
 - [[Normal Distribution]]
 
+Матожидание по реальным данным
+- https://chatgpt.com/c/6745f1fc-16e4-8000-8a08-1c56f5f7e933
+- CEL using Expectation
+
+Запись функции потерь через Expected value
+- https://chatgpt.com/c/6738ff1f-ad80-8000-951c-ebf9cda0a69e
+- Запись CEL через Expected value
+- Expected value for VAE loss function derivation
 
 # Implementation
 

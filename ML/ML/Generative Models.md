@@ -5,6 +5,12 @@
 Notion
 - https://www.notion.so/Generative-Models-3a6cad46759e474da25b4387eddcb51f
 
+
+CS236
+- https://deepgenerativemodels.github.io/
+- Stefano Ermon
+- https://www.youtube.com/watch?v=XZ0PMRWXBEU
+
 # Parent
 
 [[Unsupervised Learning (UL)]]

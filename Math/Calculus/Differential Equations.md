@@ -4,8 +4,8 @@
 Notion
 - https://www.notion.so/C-Differential-equations-696c3ef9a38141e7ac990677c181a6aa
 
-
-https://www.khanacademy.org/math/differential-equations
+khan
+- https://www.khanacademy.org/math/differential-equations
 
 3Blue1Brown
 - https://www.youtube.com/playlist?list=PLZHQObOWTQDNPOjrT6KVlfJuKtYTftqH6
