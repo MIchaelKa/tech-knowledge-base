@@ -293,6 +293,7 @@ Links
 - https://mail.yandex.ru/?uid=43165381#message/187743809466012893
 - https://contest.yandex.ru/contest/69523/problems/
 - https://shad.yandex.ru/cvweek
+- https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzQXKNJlhdBBqWQQdvHrQwTzBPDv
 
 Лекция 1: Introduction to diffusion models
 - Math tricks
