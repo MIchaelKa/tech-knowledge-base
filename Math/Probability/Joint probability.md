@@ -20,3 +20,4 @@ Joint probability
 	- [[Sum Rule]]
 
 
+Chain Rule

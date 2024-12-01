@@ -32,3 +32,16 @@ Resources
 
 При объяснении, что такое моделирование распределения.
 Представим наши картинки состоят из одного пикселя.
+
+Taxonomy
+- Autoregressive models
+	- Language models
+	- PixelCNN
+	- PixelRNN
+
+Density estimation
+- How to get probability scalar value from different models?
+- Anomaly detection
+
+Unsupervised Learning
+- [[Unsupervised Learning (UL)]]

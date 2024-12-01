@@ -29,3 +29,6 @@ A First Course in Probability
 # Overview
 
 [[Total Expectation Theorem]]
+
+conditionaly independen variables vs. independen variables
+- https://chatgpt.com/c/6749d2b5-e7fc-8000-9b12-12b48740e695

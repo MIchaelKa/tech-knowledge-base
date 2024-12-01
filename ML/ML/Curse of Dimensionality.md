@@ -1,4 +1,6 @@
 
+# External
+
 Moved
 https://www.notion.so/The-Curse-of-Dimensionality-fffd285eed8a45ada08aacd1e85f6f54
 
