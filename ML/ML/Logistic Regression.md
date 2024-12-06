@@ -50,5 +50,5 @@ Loss function check
 - loss is not equal to -np.log(0.5)
 - https://chatgpt.com/c/820a80b3-a789-4542-8c3d-eded4145da5a
 - the mean of logs should be equal log of mean?
-	- https://en.wikipedia.org/wiki/Jensen's_inequality
+	- [[Jensen’s Inequality]]
 - should loss of logistic regression function be equal to 0.69

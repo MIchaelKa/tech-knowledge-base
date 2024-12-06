@@ -27,6 +27,7 @@ Raschka
 
 cs231n
 - Notion
+- [[cs231n]]
 - https://deepgenerativemodels.github.io/notes/vae/
 
 # Parent
@@ -171,9 +172,7 @@ ELBO
 	- we want maximize lower bound
 	- we want minimize loss
 	- we are minimizing upper-bound
-- Jensen’s inequality
-	- [[Logistic Regression]]
-	- https://en.wikipedia.org/wiki/Jensen's_inequality
+- [[Jensen’s Inequality]]
 - how approximating p(z|x) will allows us to calculate p(x)?
 - why we are sure that we can optimize lower bound?
 
