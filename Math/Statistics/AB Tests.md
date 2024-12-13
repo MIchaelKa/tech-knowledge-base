@@ -37,7 +37,7 @@ https://chatgpt.com/c/815acd82-f494-46c2-b21d-f5203f353340
 # Overview
 
 statistical significance
-[[two-sample test]]
+[[Two-sample test]]
 
 Компоненты
 - Метрика

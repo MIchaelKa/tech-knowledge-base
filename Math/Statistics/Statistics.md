@@ -15,7 +15,7 @@ scipy.stats
 Statistical tests
 - [[P-value]]
 - [[AB Tests]]
-- [[two-sample test]]
+- [[Two-sample test]]
 - [[T-test]]
 - [[KS-test]]
 - [[Chi-Square]]
