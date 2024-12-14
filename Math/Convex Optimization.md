@@ -5,7 +5,7 @@ Convex Optimization
 Optimization Methods
 Методы Оптимизации
 
-# External Links
+# External
 
 Moved
 https://www.notion.so/c54f54f538b54efd8d1628d36bc1d900
