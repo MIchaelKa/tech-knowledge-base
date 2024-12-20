@@ -4,7 +4,6 @@
 
 https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial8/Deep_Energy_Models.html
 
-
 https://www.reddit.com/r/MachineLearning/comments/kc8ruw/d_what_exactly_is_yann_lecuns_energy_based/
 
 # Papers
