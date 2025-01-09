@@ -29,6 +29,7 @@ https://www.youtube.com/watch?v=PFDu9oVAE-g
 - [[Harris Corner Detection]]
 - [[Singular Value Decomposition (SVD)]]
 - [[Covariance Matrix]]
+- Copilot
 
 Harris
 - Реализовать Harris самому?

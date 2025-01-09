@@ -8,3 +8,8 @@ Installation
 vs. DVC?
 
 _The larger the data, the less feasible it becomes to consume it from a single machine._
+
+# Parent
+
+[[Data]]
+[[Data Store]]
