@@ -44,7 +44,6 @@ pre/post layer norm
 	- improved gradient flow w/o Normalization on the way
 	- как ты себе объяснял почему pre normalization лучше?
 
-
 pre normalization vs. past normalization
 - https://stackoverflow.com/questions/77864704/annotated-transformer-why-x-dropoutsublayerlayernormx
 - Pre-LN is a more pure and direct highway for info flow
