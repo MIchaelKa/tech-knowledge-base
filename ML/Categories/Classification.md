@@ -8,6 +8,7 @@ softmax vs. sigmoid
 
 # Multi Label
 
+Multilabel
 мульти-лейбл
 multi-label classifier
 

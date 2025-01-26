@@ -58,3 +58,20 @@ https://www.notion.so/Deep-Learning-DL-caf52845c584408f9606c994e1f2786e
 - Даже рандомно инициализированный алекснет? переводит картинки в хорошую репрезентацию
 - Источник?
 	- Видео про зиро шот или статья Дьяконова?
+
+Веса-аутлайеры
+- https://t.me/cryptovalerii/724
+- где еще встречал?
+	- The Super Weight in Large Language Models
+	- https://t.me/gonzo_ML/3046
+
+Byte Latent Transformer
+- Byte Latent Transformer: Patches Scale Better Than Tokens
+- gonzo_ML
+	- https://t.me/gonzo_ML/3109
+- LinkedIn
+	- TODO
+
+
+ModernBERT
+- https://t.me/gonzo_ML/3090

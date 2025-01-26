@@ -1,5 +1,11 @@
 
+# External
+
 https://www.notion.so/Offline-Metrics-fe8a1130741c42fe917bccf94663e854
+
+https://en.wikipedia.org/wiki/Sensitivity_and_specificity#Confusion_matrix
+
+# Overview
 
 Confusion Matrix
 

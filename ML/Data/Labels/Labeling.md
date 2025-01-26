@@ -1,7 +1,10 @@
 
+Annotation
+
 # External Links
 
-https://www.notion.so/Labeling-71da54728db1429e86912bdb4965a5ab
+Labeling
+- https://www.notion.so/Labeling-71da54728db1429e86912bdb4965a5ab
 
 
 # Links
@@ -15,3 +18,15 @@ Approaches
 
 
 Weak supervision
+- TODO
+
+[[Crawling]]
+
+
+# Tools
+
+Label Studio
+- https://labelstud.io/learn/getting-started-with-label-studio/
+- https://labelstud.io/tags/choices
+- How could I load image from local Source Storage?
+	- https://github.com/HumanSignal/label-studio/issues/774
