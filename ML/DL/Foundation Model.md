@@ -13,8 +13,8 @@ https://en.wikipedia.org/wiki/Foundation_model
 # Links
 
 [[SAM]]
-
 [[Florence]]
+[[Florence-2]]
 
 # Overview
 

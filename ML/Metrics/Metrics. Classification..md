@@ -18,6 +18,7 @@ Precision
 - TP + FP - Total positive PRED
 - Точность
 - ~ FP
+- Positive predictive value (PPV)
 
 FPR
 - FP / (FP + TN)
@@ -39,6 +40,7 @@ TPR
 TNR
 - TN / (TN+FP)
 - Specificity
+
 
 
 F1 score
