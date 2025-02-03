@@ -21,7 +21,7 @@ fine-grained perception (grounding, text reading, etc)
 тренируют вместе визуальную и языковые части
 
 **Количество параметров**
-LLM - 1.8B - 72T
+LLM - 1.8B - 72T?
 Для VLM используется только Qwen-7B
 Total: 9.6B (хорошая табличка в статье)
 

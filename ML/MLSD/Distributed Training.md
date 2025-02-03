@@ -16,3 +16,8 @@ Scaling
 Масштабируемость
 Scalability
 
+# Overview
+
+Multiple GPUs
+- Do we need to scale lr when using several GPUs?
+- https://pytorch.org/tutorials/beginner/blitz/data_parallel_tutorial.html
