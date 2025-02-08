@@ -31,7 +31,7 @@ FNR
 - ?
 
 TPR
-- TP / (TP+FN)
+- TP / (TP + FN)
 - TP + FN - Total positive GT
 - Recall
 - Sensitivity

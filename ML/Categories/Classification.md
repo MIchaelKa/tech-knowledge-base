@@ -22,3 +22,6 @@ In summary, to configure a neural network model for multi-label classification, 
 - Number of nodes in the output layer matches the number of labels.
 - Sigmoid activation for each node in the output layer.
 - Binary cross-entropy loss function.
+
+
+BCEWithLogitsLoss
