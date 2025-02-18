@@ -30,3 +30,4 @@ Label Studio
 - https://labelstud.io/tags/choices
 - How could I load image from local Source Storage?
 	- https://github.com/HumanSignal/label-studio/issues/774
+	- https://github.com/HumanSignal/label-studio/issues/774#issuecomment-2458257874

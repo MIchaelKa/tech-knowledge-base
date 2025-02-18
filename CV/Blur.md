@@ -24,6 +24,8 @@ Blur detection with OpenCV
 
 awesome-defocus-detection
 - https://github.com/elejke/awesome-defocus-detection
+- Discriminative Blur Detection Features
+	- use of segmentation masks for defocus blur
 
 
 chatgpt

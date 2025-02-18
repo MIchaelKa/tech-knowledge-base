@@ -1,10 +1,11 @@
 
-Moved
-https://www.notion.so/A-Recipe-for-Training-Neural-Networks-c2c461c42eae47e3996f9215064ee2d3
-
 Andrej Karpathy
 
-http://karpathy.github.io/2019/04/25/recipe/
+Moved
+- https://www.notion.so/A-Recipe-for-Training-Neural-Networks-c2c461c42eae47e3996f9215064ee2d3
+
+Links
+- http://karpathy.github.io/2019/04/25/recipe/
 
 
 Takeaways

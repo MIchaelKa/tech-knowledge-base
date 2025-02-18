@@ -1,8 +1,8 @@
 
+# External
+
+Notion
 https://www.notion.so/Training-Neural-Networks-TNN-96818468abca4df88befe3de3583b59e
-
-
-# External Links
 
 ConvNetJS
 https://cs.stanford.edu/people/karpathy/convnetjs/
