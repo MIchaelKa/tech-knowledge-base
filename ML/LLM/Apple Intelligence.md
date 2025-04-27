@@ -105,22 +105,8 @@ Apple Intelligence Foundation Language Models
 
 
 Vocabulary
-- perpetuating
-	- make (something) continue indefinitely
-	- to cause something to continue
-	- https://dictionary.cambridge.org/dictionary/english/perpetuate
-	- увековечивание
-- profanity
-	- ненормативная лексика
-- contamination
-	- загрязнение
-- elevate
-	- возвысить / поднимать / повышать
 - prohibitively
 	- запретительно
 	- prohibitively expensive - непомерно дорогой
 - moderate
 	- средний / умеренный / сдержанный
-- elicit
-	- вызывать / добиваться
-	- evoke or draw out (a reaction, answer, or fact) from someone

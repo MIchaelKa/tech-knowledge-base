@@ -2,20 +2,24 @@
 Mixtral of Experts
 Sparse Mixture of Experts (SMoE)
 vs.
-Mixture of Experts
+Mixture of Experts (MoE)
 
 Mistral.AI
 
 # Внешние ссылки
 
-**Paper**
-Mixtral of Experts
-https://arxiv.org/abs/2401.04088
 
-**HF**
+A Visual Guide to Mixture of Experts (MoE)
+- https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts
+
+Paper
+- Mixtral of Experts
+- https://arxiv.org/abs/2401.04088
+
+HF
 https://huggingface.co/blog/moe
 
-**YK**
+YK
 https://www.youtube.com/watch?v=mwO6v4BlgZQ
 
 # Сводка
@@ -88,16 +92,4 @@ Model Parallelism
 Количество параметров участвующих в вычислении одного forward pass
 Растет с размером разрешения эмбеддинга.
 Растет с количеством экспертов на токен.
-
-
-# Данные
-
-
-# Архитектура
-
-
-# Обучение
-
-
-# Оценка
 

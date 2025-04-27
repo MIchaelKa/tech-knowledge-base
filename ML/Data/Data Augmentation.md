@@ -11,3 +11,8 @@ More complex: Apply in **PCA direction** of your data space. Introduced in AlexN
 [https://youtu.be/_JB0AO7QxSA?t=3960](https://youtu.be/_JB0AO7QxSA?t=3960)
 
 **MixUp, Cutout**
+TODO
+
+
+Albumentations
+- https://albumentations.ai/docs/api_reference/augmentations/

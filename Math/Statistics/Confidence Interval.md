@@ -6,6 +6,11 @@
 https://www.graphpad.com/guides/prism/7/statistics/stat_more_about_confidence_interval.htm
 
 
+доверительные интервалы и ML
+- https://t.me/boris_again/3084
+- где доверительные интервалы?
+- GSM8K symbolic от эппла в правильную сторону смотрит
+
 # Links
 
 [[P-value]]
