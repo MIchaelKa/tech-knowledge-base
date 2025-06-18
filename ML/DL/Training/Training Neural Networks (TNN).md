@@ -48,9 +48,25 @@ Tools
 - https://wandb.ai/ayush-thakur/debug-neural-nets/reports/Visualizing-and-Debugging-Neural-Networks-with-PyTorch-and-W-B--Vmlldzo2OTUzNA
 - Искать взрыв градиентов или затухание градиентов
 
-# Loss
+
+# Fundamental
 
 [[Double Descent]]
+
+Grokking
+- https://t.me/gonzo_ML/831
+- OpenAI
+- двойной спуск относительно сложности модели (оригинальная работа)
+- двойной спуск относительно количества итераций обучения
+
+Grokking vs. [[Double Descent]]
+- https://chatgpt.com/c/68337c18-fd80-8000-9502-5232ff193793
+
+Muon Optimizer Accelerates Grokking
+- https://t.me/gonzo_ML/3591
+- AdamW на Muon
+
+# Loss
 
 track epochs vs. iterations
 - epochs

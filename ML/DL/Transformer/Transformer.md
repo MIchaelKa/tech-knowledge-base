@@ -1,14 +1,48 @@
 
-https://www.notion.so/Transformer-6377faf80582440d832405b7b393ad8b
+
+# External
+
+Notion
+- https://www.notion.so/Transformer-6377faf80582440d832405b7b393ad8b
+
+The Illustrated Transformer
+- http://jalammar.github.io/illustrated-transformer/
+
+A series of videos on the transformer
+- https://www.youtube.com/playlist?list=PLDw5cZwIToCvXLVY2bSqt7F2gu8y-Rqje
 
 # Summary
 
 Output
 - If you input n vectors into a transformer it's going to give you n things as an output.
 
-# Links
+# Decoder
 
+Как работает decoder
+- https://chatgpt.com/c/683cc789-f928-8000-ac1f-f59ff1704961
+- режим обучения и режим генерации
+- в обоих режимах предсказываются следующие токены для всей последовательности
 
+Шаги работы декодера
+- Сначала на вход подается SOS (Start of sequence) токен
+- Затем SOS + первый предсказанный токен
+
+Могут ли в процессе работы декодера в режиме инференса изменятся уже предсказанные ранее слова в последовательности?
+- Нет
+- Поэтому мы и можем использовать KV-cache
+
+Применяем ли мы Masked self-attention во время инференса?
+- ДА
+- Именно поэтому и возможно использование KV-cache
+- Модель будет работать дольше но потенциально сможет исправлять свои ошибки?
+
+Что будет, если разрешить смотреть в будущее?
+- Это уже не autoregressive модель — это что-то вроде BERT или других denoising autoencoders.
+- Убирать masked self-attention в autoregressive моделях не просто делает модель медленнее —  она полностью меняет суть модели
+
+KV-cache
+- [[LLM Accelerating (LLMA)]]
+- https://chatgpt.com/c/74067459-18f1-40f8-876e-ef5dfb754d92
 
 # Topology
 

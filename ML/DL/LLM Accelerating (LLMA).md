@@ -1,5 +1,5 @@
 
-# Extermal
+# External
 
 GPU Optimization Workshop
 - https://www.notion.so/GPU-Optimization-Workshop-7a38ac2c0d7548ceb9342a215404dfc1
@@ -9,7 +9,8 @@ GPU Optimization Workshop
 [[FLOPS]]
 [[GPU Memory]]
 
-# Overview
+
+# KV Cache
 
 KV Cache
 - https://chatgpt.com/c/74067459-18f1-40f8-876e-ef5dfb754d92

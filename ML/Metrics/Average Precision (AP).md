@@ -21,3 +21,4 @@ Information Retrieval
 # Links
 
 [[Object Detection]]
+[[mAP]]

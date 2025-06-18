@@ -17,14 +17,17 @@ https://pytorch.org/docs/stable/notes/randomness.html
 - Очень важный вопрос для версионирования
 
 
-# Overview
+# pytorch
 
 pytorch nondeterminism
 - torch.backends.cudnn.deterministic
 - Deterministic operations are often slower than nondeterministic operations
 - https://pytorch.org/docs/stable/notes/randomness.html
 
-# Implementation
+
+pytorch reproducibility dataloader
+
+## benchmark
 
 torch.backends.cudnn.benchmark
 - Нужно обязательно ставить `torch.backends.cudnn.benchmark = False` ?
