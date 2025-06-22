@@ -18,6 +18,10 @@ p-tuning
 Notion
 - https://www.notion.so/LLM-36725aa99601409291ae54c42fb0c4b1
 
+Стенфордский курс по внутреннему устройству LLM
+- https://t.me/ai_newz/3930
+- CS336, Language Modeling from Scratch
+
 
 # Термины
 
