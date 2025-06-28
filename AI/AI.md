@@ -43,6 +43,7 @@ DLLM
 # Tools
 
 [[Software x.0]]
+[[Cursor]]
 
 
 Canvas
@@ -54,8 +55,7 @@ Canvas
 - https://t.me/ai_newz/3530
 - OpenAI
 	- https://help.openai.com/en/articles/9930697-what-is-the-canvas-feature-in-chatgpt-and-how-do-i-use-it
-- cursor rules directory
-	- https://x.com/tedx_ai/status/1888419791334944947
+
 
 
 NotebookLM

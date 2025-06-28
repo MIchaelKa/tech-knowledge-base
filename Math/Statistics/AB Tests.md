@@ -18,6 +18,10 @@ https://t.me/reliable_ml/95
 
 https://chatgpt.com/c/815acd82-f494-46c2-b21d-f5203f353340
 
+
+X5
+- https://t.me/cryptovalerii/796
+
 # Parent
 
 [[ML System Design]]

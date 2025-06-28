@@ -22,6 +22,10 @@ Questions
 
 # Rules
 
+cursor rules directory
+- https://x.com/tedx_ai/status/1888419791334944947
+
+Links
 - https://docs.cursor.com/context/rules-for-ai
 - https://cursor.directory/rules
 - What prompts are used by default?
