@@ -4,6 +4,10 @@
 [[PyTorch]]
 [[How to Train Your ResNet]]
 
+ChatGPT
+- https://chatgpt.com/c/685fd045-92c0-8000-b389-b0c0a4d723b4
+- In this blog, “primitives” just means the core low-level building blocks
+
 # Papers
 
 
@@ -36,7 +40,7 @@ How to Train State-Of-The-Art Models Using TorchVision’s Latest Primitives
 	- Longer training cycles are beneficial when our recipe contains ingredients that behave randomly.
 	- Just increasing the number of epochs on top of the old baseline won’t yield such significant improvements.
 - Random Erasing
-	- https://chatgpt.com/c/685fd045-92c0-8000-b389-b0c0a4d723b4
+	- See ChatGPT
 	- Random Erasing vs. CutOut
 - Label Smoothing
 	- PyTorch’s newly introduced CrossEntropyLoss label_smoothing parameter

@@ -29,6 +29,9 @@ unsupervised learning?
 
 [[BERT]]
 word2vec
+
+
+
 # Overview
 
 Self-supervised learning is a method of machine learning that can be regarded as an intermediate form between supervised and unsupervised learning.
@@ -38,10 +41,10 @@ Self-supervised learning is a method of machine learning that can be regarded as
 
 [https://dyakonov.org/2020/06/03/самообучение-self-supervision/](https://dyakonov.org/2020/06/03/%D1%81%D0%B0%D0%BC%D0%BE%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-self-supervision/)
 
-- Мы пропустим описание базового вида обучения – с подкреплением
-	- [[Reinforcement Learning (RL)]]
+Мы пропустим описание базового вида обучения – с подкреплением
+- [[Reinforcement Learning (RL)]]
 
-- В последние годы гораздо меньше работ по выбору предварительных задач, поскольку основным направлением в самообучении стало сравнительное обучение [[Contrastive Learning (CL)]]
+В последние годы гораздо меньше работ по выбору предварительных задач, поскольку основным направлением в самообучении стало сравнительное обучение [[Contrastive Learning (CL)]]
 
 Mutual information
 Взаимная информация

@@ -10,7 +10,7 @@ https://link.springer.com/article/10.1007/s11633-023-1423-y
 2023
 
 GH
-[https://github.com/ShiqiYu/libfacedetection.train/tree/master](https://github.com/ShiqiYu/libfacedetection.train/tree/master)
+https://github.com/ShiqiYu/libfacedetection.train/tree/master
 
 # Обзор
 

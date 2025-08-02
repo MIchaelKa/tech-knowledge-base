@@ -1,5 +1,16 @@
 
 
+# Overview
+
+Thinking Machines
+- Мира Мурати
+- https://t.me/ai_newz/4027
+
+Safe Superintelligence Inc
+-  https://t.me/ai_newz/3191
+- Илья Суцкевер
+
+
 # OpenAI
 
 Notion

@@ -89,3 +89,13 @@ Plot loss functions in the log domain
 - Вопрос: про какую ось идет речь?
 - Paddle делает для логарифмическую ось для самого значения лосса
 - Есть ли смысл делать логарифмическую ось для шкалы с номером итерации?
+
+
+# Plots
+
+[[Exponential Moving Average (EMA)]]
+
+Simple Moving Average (SMA)
+- implementation using convolution
+- np.convolve
+- [[Convolution]]

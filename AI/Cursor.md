@@ -35,3 +35,7 @@ Do not make comments or method documentation until you explicitly asked for.
 Keep the code concise and short.
 
 Prefer simple readable implementation over premature optimization
+
+Do not create python methods inside another methods until it one-two liners that are super trivial.
+
+https://chatgpt.com/c/68700f5b-9378-8000-9725-3093407c66a0
