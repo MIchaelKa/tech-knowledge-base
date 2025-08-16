@@ -43,6 +43,7 @@ cs231n
 
 [[PCA]]
 [[Entropy]]
+[[KL-Divergence]]
 
  variational
 - [[Variational Calculus]]
@@ -145,7 +146,7 @@ Using BCE as reconstruction loss
 NLL loss wrt. term to encoder distribution
 - Как это возможно, что является в этом случае GT?
 
-The KL Divergence
+The [[KL-Divergence]]
 - How to get loss function?
 - https://github.com/rasbt/stat453-deep-learning-ss21/blob/main/L17/helper_train.py#L175C43-L175C52
 - https://chatgpt.com/c/673501dc-89ec-8000-bd7a-219625f2bda4

@@ -136,6 +136,21 @@ SQL injection
 
 # Blogs
 
+Why I don’t think AGI is right around the corner
+- https://www.youtube.com/watch?v=nyvmYnz6EAg
+- gpt
+	- https://chatgpt.com/c/68990ef0-e5dc-8323-a596-f7e1b56d6375
+- Continuous Learning
+	- vs. MLSD [[Continuous Learning]]
+- Context window
+	- Cloude Code compacts the session memory into a summary every 30 minutes
+- Computer use
+	- As horizon lengths increase rollout have to become longer
+- DeepSeek-R1 and GPT-4 -> o1
+	- The idea: we should train the model to solve verifiable math and coding problem
+- Reasoning
+	- ? 
+
 
 ai-2027
 - https://t.me/seeallochnaya/2486
@@ -167,6 +182,7 @@ Situational Awareness
 - https://t.me/seeallochnaya/1461
 - Наверняка вам попадались выдержки из недавнего интервью Джона Шульмана (кофаундера OpenAI) на Dwarkesh Podcast.
 - первый автор в статье про PPO
+- скачок InstructGPT -> ChatGPT
 
 
 How Does Claude 4 Think? – Sholto Douglas & Trenton Bricken

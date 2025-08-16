@@ -2,3 +2,10 @@
 # External Links
 
 https://www.notion.so/Taylor-series-e2f710fda4d242d5a47f21ebcb9071a6
+
+
+# Links
+
+https://en.wikipedia.org/wiki/Taylor_series
+
+ru.wikipedia.org/wiki/Ряд_Тейлора

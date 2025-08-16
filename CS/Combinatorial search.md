@@ -1,3 +1,5 @@
 
 Комбинаторный поиск
 Combinatorial search
+
+https://www.notion.so/f372f9aaab044d3f83108657aaa4371d#24cdafd137be4f5fada60f29a592fd07

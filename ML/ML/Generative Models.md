@@ -51,6 +51,7 @@ Unsupervised Learning
 
 KL-Divergence
 - [[Entropy]]
+- [[KL-Divergence]]
 
 Rules of multiplication of distribution
 - What the meaning of it?

@@ -10,18 +10,34 @@ MMLU
 [[RoPE]]
 p-tuning
 
-**Done**
-
 # External
 
 
 Notion
 - https://www.notion.so/LLM-36725aa99601409291ae54c42fb0c4b1
 
+
+# Курсы
+
+AndrejKarpathy
+- Deep Dive into LLMs like ChatGPT
+- https://www.youtube.com/watch?v=7xTGNNLPyMI
+- https://t.me/rybolos_channel/1386
+- DeepSeek R1
+
 Стенфордский курс по внутреннему устройству LLM
 - https://t.me/ai_newz/3930
 - CS336, Language Modeling from Scratch
 
+Курс молодого ресёрчера
+- https://t.me/buckwheat_thoughts/164
+- NLP
+
+HF llm-course
+- https://huggingface.co/learn/llm-course/en/chapter1/1
+
+Mastering LLMs: Открытый курс по LLM от практиков
+- https://t.me/ai_newz/3087
 
 # Термины
 

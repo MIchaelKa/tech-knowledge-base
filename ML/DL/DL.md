@@ -7,16 +7,6 @@
 
 https://www.notion.so/Deep-Learning-DL-caf52845c584408f9606c994e1f2786e
 
-Курс молодого ресёрчера
-- https://t.me/buckwheat_thoughts/164
-- NLP
-
-HF llm-course
-- https://huggingface.co/learn/llm-course/en/chapter1/1
-
-Mastering LLMs: Открытый курс по LLM от практиков
-- https://t.me/ai_newz/3087
-
 # Подходы
 
 [[Self-Supervised Learning (SSL)]]

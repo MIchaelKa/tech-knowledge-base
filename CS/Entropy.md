@@ -10,6 +10,11 @@ Notion
 - https://www.notion.so/92f61ef05ddc4a94a043a9d6ddd60768
 
 
+# Links
+
+[[KL-Divergence]]
+
+
 # Videos
 
 
@@ -49,14 +54,3 @@ A Short Introduction to Entropy, Cross-Entropy and KL-Divergence
 	- $ln(p) \quad \textrm{or} \quad log(p) \quad \textrm{instead of} \quad log_2p$
 	- p - all zeros except one true label
 	- CEL - negative log of estimated probability for the true class (no sum)
-
-KL Divergence
-- Kullback-Leibler Divergence
-- https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence
-- Расстояние Кульбака — Лейблера
-- ru.wikipedia.org/wiki/Расстояние_Кульбака_—_Лейблера
-
-
-The KL Divergence : Data Science Basics
-- https://www.youtube.com/watch?v=q0AkK8aYbLY
-- Our metric needs to be asymmetric

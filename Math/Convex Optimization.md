@@ -13,14 +13,13 @@ https://www.notion.so/c54f54f538b54efd8d1628d36bc1d900
 # Resources
 
 Edx
-[https://www.edx.org/course/mathematical-optimization-for-engineers](https://www.edx.org/course/mathematical-optimization-for-engineers)
+https://www.edx.org/course/mathematical-optimization-for-engineers
 
 Boyd - Convex Optimization
-[https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)
+https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf
+http://cvxr.com/cvx/
 
-[http://cvxr.com/cvx/](http://cvxr.com/cvx/)
-
-[https://www.cvxpy.org/short_course/index.html](https://www.cvxpy.org/short_course/index.html)
+https://www.cvxpy.org/short_course/index.html
 
 # Links
 

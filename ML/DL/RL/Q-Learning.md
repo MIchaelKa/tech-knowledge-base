@@ -15,13 +15,6 @@ Markov Decision Process
 
 State Machine
 
-
-# Questions
-
-RL and LLM Agents
-How to apply to LLM?
-[[RLHF]]
-
 # YK
 
 https://www.youtube.com/watch?v=nOBm4aYEYR4
@@ -54,11 +47,14 @@ Q-Learning can be done in many different ways. What the ways?
 How can we learn this Q-function?
 
 Self-regression
-Table for learning. Q,S,R.
+Table for learning S,A,Q
 Initialize with random values?
 We you use our own estimates as a target, plus combine them with the actual reward from the world.
 How to get such a table for continuous spaces?
 Reducing the whole problem to just estimating of a single step
+
+Implementation details
+Two variants of neural net setup
 
 Language Modeling
 Connection with autoregressive language modeling.

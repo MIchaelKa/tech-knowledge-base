@@ -140,3 +140,8 @@ Forms of the Policy Gradient
 
 Spinning Up as a Deep RL Researcher
 - parallelized versions of these algorithms
+- more than one environment
+	- sometimes things will work in one environment even when you have a breaking bug, so make sure to test in more than one environment once your results look promising
+- run everything for many random seeds
+- tips on how to do a research
+
