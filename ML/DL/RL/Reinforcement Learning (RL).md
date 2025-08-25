@@ -44,7 +44,6 @@ Stable Baselines
 
 [[Spinning Up in Deep RL]]
 
-[[LLM. RL]]
 [[RLHF]]
 
 # Overview
@@ -69,6 +68,13 @@ Exploration vs. Exploitation
 OpenMPI
 - parallelization
 
+ Generalized Advantage Estimation (GAE)
+ - https://arxiv.org/abs/1506.02438
+
+
+Model
+- ReLu vs. Tanh
+
 # Prompt
 
 paper
@@ -78,6 +84,17 @@ I'm deep learning engineer but I'm new to Reinforcement Learning (RL)
 Help me to learn the paper/algorithm Trust Region Policy Optimization (TRPO)
 What was the key ideas? 
 What the main difference between TRPO and Vanilla Policy Gradient (VPG)?
+
+I'm deep learning engineer but I'm new to Reinforcement Learning (RL) and Large Language Model (LLM)
+
+# Rewards
+
+Discounted rewards
+- Should the gamma depends on the episode length?
+
+Does it make sense to use discounted(cumulative) rewards for any environments?
+- https://chatgpt.com/c/68ab5b00-5880-832e-811e-0eacf6049f87
+- Pendulum-v1, what if we just use the immediate reward?
 
 # VPG
 
@@ -94,9 +111,6 @@ REINFORCE
 - https://colab.research.google.com/drive/12SuRJvvey6PjR_Mw2TqPynNG-rLfESHM
 
 baseline vs. advantage estimate
-
-Discounted rewards
-- Should the gamma depends on the episode length?
 
 Cart pole
 - reward для первых действий всегда значительно больше чем для последующих
@@ -180,8 +194,12 @@ Implementation
 - Soft target update
 
 
- Questions
-- Bellman equation holds only for optimal policy or for any policy?
+ Bellman equation
+- https://spinningup.openai.com/en/latest/spinningup/rl_intro.html#bellman-equations
+- https://chatgpt.com/c/68a1c289-7264-8329-a5af-602f4e71997b
+- Is Bellman equation holds only for optimal value function or for any value function?
+- All four of the value functions obey special self-consistency equations called Bellman equations.
+- The crucial difference between the Bellman equations for the on-policy value functions and the optimal value functions, is the absence or presence of the max over actions.
 
 
 # TRPO
@@ -191,6 +209,11 @@ Trust Region Policy Optimization
 [[KL-Divergence]]
 [[Variational Autoencoder (VAE)]]
 [[Convex Optimization]]
+
+TODO
+- [ ] Quadratic approximation
+- [ ] Natural gradient
+- [x] Importance sampling
 
 Properties
 - On-policy
@@ -226,7 +249,9 @@ Constrained optimization. No regular gradient ascent anymore. Evaluate candidate
 Does it mean we need to treat formulas differently?
 
 Importance sampling
-TODO
+- https://en.wikipedia.org/wiki/Importance_sampling
+- Monte Carlo method for evaluating properties of a particular distribution, while only having samples generated from a different distribution
+- Target distribution in our case is the new policy and we only have samples drawn from the old policy.
 
 As I know TRPO is on-policy algorithm, in which moment we will get new policy out of old policy?
 We compute the ratio for many candidate policies.
@@ -246,18 +271,23 @@ The optimal direction is the natural gradient
 Natural gradient step
 Instead of regular gradient ascent, TRPO uses a natural gradient step that accounts for the curvature of the policy space via the Fisher Information Matrix.
 
-TODO
-Quadratic approximation
-Importance sampling
-Natural gradient
-
 Разложение в ряд Тейлора
 - [[Taylor Series]]
 - определение advantage гарантирует, что его математическое ожидание по текущей политике равно нулю
-- градиент surrogate objective в точке $\Theta_k$ равняется VPG для старой полиси.
+
+Градиент surrogate objective в точке $\Theta_k$ равняется VPG для старой полиси.
+- Почему тогда это называется surrogate objective?
+- Если градиент этой функции равен Policy Gradient для старой политики, получается мы получили формулу лосса для VPG?
+	- Не совсем, формула для TRPO сложнее, они совпадают только локально в точке $\Theta = \Theta_k$. Как раз в этой точке мы и раскладываем в ряд тейлора.
+- ~~В VPG мы оптимизируем градиент? Если это формула уже является градиентом полиси, почему нам нужен ac_loss.backward() ?~~
 
 
 # PPO
+
+Proximal Policy Optimization
+
+HF
+- https://huggingface.co/blog/deep-rl-ppo
 
 There are two primary variants of PPO:
 PPO-Penalty
@@ -267,14 +297,64 @@ proximal - ближайший
 
 Properties
 - On-policy
+- Relies on specialized clipping in the objective function
 
 TRPO vs. PPO
 - PPO methods are significantly simpler to implement, and empirically seem to perform at least as well as TRPO.
 - 2nd order method vs. 1st order method + some tricks
 
+ChatGPT
+- https://chatgpt.com/c/68a1a6ff-d698-8329-8f25-c9336486b097
 
+PPO vs. [[Gradient Clipping]]
+- [[Gradient Clipping]] prevents exploding gradients but doesn’t prevent the update from pushing the policy too far in parameter space.
+- PPO clipping: Instead of clipping gradients, it clips the probability ratio between new and old policies
 
+Surrogate objective formula from TRPO?
+- Why we use the surrogate objective formula from TRPO? If we do not solve Constrained optimization problem anymore and do usual gradient ascent, why we cannot just write usual VPG loss?
 
-# Model
+Implementation
+- Should we fix trained neural net to calculate ratio in the loss formula?
+- What if we do only one update, how to tell PyTorch what this neural net is the constant?
+- When we do first update, is the ratio equal to 1?
+- We can already have the action probability form the old policy in the buffer?
 
-ReLu vs. Tanh
+No log in the loss function?
+- Совпадает с VPG в точке $\theta_k$
+- Или совпадает только градиент?
+
+Cursor
+- Note: PPO is on-policy; data from random actions is off-policy.
+
+# DDPG
+
+Deep Deterministic Policy Gradient
+
+Continuous control with deep reinforcement learning
+- https://arxiv.org/abs/1509.02971
+
+Properties
+- off-policy algorithm
+- concurrently learns a Q-function and a policy
+- adapted specifically for environments with continuous action spaces
+
+Max over actions for continuous action spaces
+- normal optimization algorithm
+
+MSBE
+- mean-squared Bellman error (MSBE) function
+- is it exactly what we learn in usual DQN algorithm?
+
+Tricks
+- Replay Buffers
+- Target Networks
+	- Problematically, the target depends on the same parameters we are trying to train
+	- polyak averaging for target network
+- DDPG Detail: Calculating the Max Over Actions in the Target
+	- target policy network
+
+Policy learning in DDPG
+- Q-function is differentiable
+	- is it only holds when action space is continuous?
+- gradient ascent (with respect to policy parameters only)
+- Q-function parameters are treated as constants

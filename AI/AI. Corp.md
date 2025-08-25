@@ -3,8 +3,11 @@
 # Overview
 
 Thinking Machines
-- Мира Мурати
+- https://thinkingmachines.ai/
 - https://t.me/ai_newz/4027
+- Мира Мурати
+- John Schulman
+
 
 Safe Superintelligence Inc
 -  https://t.me/ai_newz/3191

@@ -1,8 +1,9 @@
 
-Gaussian Distribution
-
 Univariate normal distribution
 Multivariate normal distribution
+
+Gaussian Distribution
+multivariate gaussian distribution
 
 # External Links
 
@@ -10,6 +11,15 @@ Multivariate normal distribution
 
 Гауссова функция
 [https://ru.wikipedia.org/wiki/Гауссова_функция](https://ru.wikipedia.org/wiki/%D0%93%D0%B0%D1%83%D1%81%D1%81%D0%BE%D0%B2%D0%B0_%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F)
+
+https://en.wikipedia.org/wiki/Multivariate_normal_distribution
+
+cs229
+- The Multivariate Gaussian Distribution
+- https://cs229.stanford.edu/section/gaussians.pdf
+- [[Quadratic Form]]
+- [[Covariance Matrix]]
+- an alternative way to characterize the covariance matrix of a random vector X
 
 # Parent
 

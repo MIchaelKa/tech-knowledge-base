@@ -1,8 +1,8 @@
 
+# External
+
 Moved
 https://www.notion.so/Gradient-Clipping-2d89b9301d7c4397a7a6c25465365bd6
-
-# External Links
 
 [https://towardsdatascience.com/what-is-gradient-clipping-b8e815cdfb48](https://towardsdatascience.com/what-is-gradient-clipping-b8e815cdfb48)
 

@@ -35,9 +35,9 @@ DLLM
 - https://t.me/gonzo_ML/3605
 
 
-Обзор
-- GPT-3 исполнилось пять лет
-	- https://t.me/ai_newz/3935
+GPT-3 исполнилось пять лет
+- Хороший обзор с момента появления GPT-3
+- https://t.me/ai_newz/3935
 
 
 # Tools

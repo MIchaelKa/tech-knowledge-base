@@ -59,10 +59,22 @@ Policies
 - policy is essentially the agent’s brain
 
 Stochastic Policies
-- categorical policies and diagonal Gaussian policies.
+- Categorical Policies
+	- discrete action spaces
+- Diagonal Gaussian Policies
+	- continuous action spaces
 - Two key computations
 	- sampling
 	-  log likelihoods of particular actions
+
+Diagonal Gaussian Policies
+- neural network that maps from observations to mean actions
+- single vector of log standard deviations
+	- [[Variational Autoencoder (VAE)]]
+	- two ways: function of the state or not
+	- [[Normal Distribution]]
+- The log-likelihood of a k-dimensional action a, for a diagonal Gaussian
+	- Can you derive this formula?
 
 Likelihood vs. Probability
 - [[MLE]]

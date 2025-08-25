@@ -21,6 +21,10 @@ Notebooks
 [[Singular Value Decomposition (SVD)]]
 
 # Overview
+
+Should we sort the sequence before calculating covariance?
+- нет
+- мы всегда берем соответствующие точки (2d координаты)
  
 Gram matrix
 - $X^TX$ - how this matrix is called?

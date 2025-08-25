@@ -1,0 +1,30 @@
+
+
+- External
+	- https://t.me/boris_again/2827
+	- https://habr.com/ru/companies/yandex/articles/847706/
+- Links
+	- [[VLM]]
+	- Яндекс
+	- Нейро
+		- https://habr.com/ru/companies/yandex/articles/807801/
+	- text‑to‑image и text‑to‑video
+		- диффузионные модели от Яндекса
+		- https://habr.com/ru/companies/yandex/articles/839580/
+- omni-модели
+- тренд на то, что общие подходы побеждают частные
+	- но недостаток в том что они большие
+- адаптеры
+	- prompt‑based
+		- лучшее качество
+		- съедают значимую долю входного контекста LLM
+	- cross‑attention‑based
+- VLM alignment
+	- SFT
+	- RL
+- SFT
+	- похожа на instruct‑based pretrain но данные очень хорошего качества
+	- не хотим просесть на text‑only, поэтому также добавляем text‑only данные очень хорошего качества
+- Оценка
+	- Side‑by‑Side (SbS) оценки
+		- ручной анализ?

@@ -39,13 +39,18 @@ HF llm-course
 Mastering LLMs: Открытый курс по LLM от практиков
 - https://t.me/ai_newz/3087
 
+
+# Blogs
+
+John Schulman's Homepage
+http://joschu.net/index.html
+
 # Термины
 
-**ICL**
+ICL
 in-context learning
 
 # Posts
-
 
 Как выжать максимум из LLM?
 - https://t.me/bogdanisssimo/288
