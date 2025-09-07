@@ -40,16 +40,17 @@ Stable Baselines
 
 [[dlcourse.ai]]
 
-[[Q-Learning]]
-
 [[Spinning Up in Deep RL]]
 
 [[RLHF]]
+[[Reasoning]]
 
 # Overview
 
 В контексте LLM почему люди говорят что только в 2025 RL наконец-то стал работать?
 Почему только [[RLHF]] было не достаточно?
+Потому что RLHF вытеснил [[DPO]], который убрал RL из обучения.
+RL снова заработал только когда появились "думающие" модели
 
 Policy Gradient Loss vs. [[Cross Entropy Loss (CEL)]]
 - Policy Gradient Loss - получаем как градиент для ожидаемой награды за траекторию
@@ -75,17 +76,6 @@ OpenMPI
 Model
 - ReLu vs. Tanh
 
-# Prompt
-
-paper
-algorithm
-
-I'm deep learning engineer but I'm new to Reinforcement Learning (RL)
-Help me to learn the paper/algorithm Trust Region Policy Optimization (TRPO)
-What was the key ideas? 
-What the main difference between TRPO and Vanilla Policy Gradient (VPG)?
-
-I'm deep learning engineer but I'm new to Reinforcement Learning (RL) and Large Language Model (LLM)
 
 # Rewards
 

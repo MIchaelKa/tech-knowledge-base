@@ -11,10 +11,41 @@ The Illustrated Transformer
 A series of videos on the transformer
 - https://www.youtube.com/playlist?list=PLDw5cZwIToCvXLVY2bSqt7F2gu8y-Rqje
 
+
+# Links
+
+[[BERT]]
+
 # Summary
 
 Output
 - If you input n vectors into a transformer it's going to give you n things as an output.
+
+# Size
+
+https://chatgpt.com/c/68bbf387-68c4-832e-b0f2-d2f3d07da451
+
+Original transformer
+- 6 encoder layers
+- 512 hidden units
+- 8 attention heads
+
+Variables
+- d_h - скрытая размерность (embedding / model dim)
+- d_ff - размер внутреннего слоя, обычно d_ff = 4 * d_h
+
+BERT_base
+- transformer layers = 12
+- d_h = 768
+- attention heads = 12
+- parameters = ~109 M
+
+BERT_large
+- transformer layers = 24
+- d_h = 1024
+- attention heads = 16
+- parameters = ~335 M
+
 
 # Decoder
 
@@ -34,11 +65,11 @@ Output
 Применяем ли мы Masked self-attention во время инференса?
 - ДА
 - Именно поэтому и возможно использование KV-cache
-- Модель будет работать дольше но потенциально сможет исправлять свои ошибки?
 
 Что будет, если разрешить смотреть в будущее?
 - Это уже не autoregressive модель — это что-то вроде BERT или других denoising autoencoders.
 - Убирать masked self-attention в autoregressive моделях не просто делает модель медленнее —  она полностью меняет суть модели
+- Модель будет работать дольше но потенциально сможет исправлять свои ошибки?
 
 KV-cache
 - [[LLM Accelerating (LLMA)]]

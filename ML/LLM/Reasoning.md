@@ -7,7 +7,7 @@ Thinking
 [[AI]]
 [[LLM]]
 
-[[DeepSeek]]
+[[DeepSeek-R1]]
 [[OpenAI o1]]
 
 
@@ -17,22 +17,12 @@ Sonnet 3.7
 
 # External
 
-Thinking inside the model???
-
-Reasoning tokens
-- https://chatgpt.com/c/680d050a-d4ec-8000-8339-1fb8b9517e76
-
 Training Large Language Models to Reason in a Continuous Latent Space
 - https://t.me/gonzo_ML/3567
 - https://t.me/buckwheat_thoughts/110
 - CoT
 - ToT
 - Coconut (**C**hain **O**f **CON**tin**U**ous **T**hought)
-
-
-o3
-- https://chatgpt.com/c/680d0be0-cbfc-8000-b521-80168a6c0321
-
 
 Build Reasoning Models
 - HF NLP Course
@@ -47,6 +37,18 @@ Build Reasoning Models
 	- technique for RLHF
 	- GRPO groups similar samples together and compares them as a group.
 
+
+# ChatGPT
+
+Reasoning tokens
+- https://chatgpt.com/c/680d050a-d4ec-8000-8339-1fb8b9517e76
+
+v1
+- https://chatgpt.com/c/680d0be0-cbfc-8000-b521-80168a6c0321
+
+v2
+- https://chatgpt.com/c/68bac6d4-11c4-8329-95d2-598947edfb2e
+- reasoning в R1 в сущности — это новый слой над RLHF
 
 # CoT
 
@@ -66,5 +68,7 @@ Self-Consistency Improves Chain of Thought Reasoning in Language Models
 
 
 # Overview
+
+Thinking inside the model?
 
 Reasoning = CoT + RL

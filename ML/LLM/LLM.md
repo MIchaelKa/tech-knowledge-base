@@ -7,7 +7,6 @@ InternLM
 langchain
 
 MMLU
-[[RoPE]]
 p-tuning
 
 # External
@@ -16,6 +15,9 @@ p-tuning
 Notion
 - https://www.notion.so/LLM-36725aa99601409291ae54c42fb0c4b1
 
+# Links
+
+[[Transformer]]
 
 # Курсы
 
@@ -24,6 +26,10 @@ AndrejKarpathy
 - https://www.youtube.com/watch?v=7xTGNNLPyMI
 - https://t.me/rybolos_channel/1386
 - DeepSeek R1
+
+LLM101n
+- https://github.com/karpathy/LLM101n
+- https://t.me/gonzo_ML/2818
 
 Стенфордский курс по внутреннему устройству LLM
 - https://t.me/ai_newz/3930
@@ -39,6 +45,37 @@ HF llm-course
 Mastering LLMs: Открытый курс по LLM от практиков
 - https://t.me/ai_newz/3087
 
+# Timeline
+
+GPT-2
+- https://en.wikipedia.org/wiki/GPT-2
+- 14 February 2019
+
+GPT-3
+- https://en.wikipedia.org/wiki/GPT-3
+- May 29, 2020
+
+GPT-3 исполнилось пять лет
+- Хороший обзор с момента появления GPT-3
+- https://t.me/ai_newz/3935
+- 300B токенов
+
+Language models are few-shot learners
+- https://arxiv.org/abs/2005.14165
+- GPT-3
+
+Introducing ChatGPT
+- https://openai.com/index/chatgpt/
+- November 30, 2022
+
+GPT-3.5
+- ?
+
+GPT-4
+- https://openai.com/index/gpt-4-research/
+- https://en.wikipedia.org/wiki/GPT-4
+- March 14, 2023
+- Rumors claim that GPT-4 has 1.76 trillion parameters
 
 # Blogs
 
@@ -106,3 +143,12 @@ Thinking
 - Thinking
 - [[OpenAI o1]]
 - [[DeepSeek]]
+
+
+# Training
+
+[[RLHF]]
+[[DPO]]
+
+[[SFT]]
+Отличается ли чем-то сам процесс тренировки (лосс или что-то еще) на этапе при-трейна и SFT, или мы просто заменяем датасет и также тренируем Next token prediction task?

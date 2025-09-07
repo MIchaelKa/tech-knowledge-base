@@ -20,7 +20,7 @@ Fine-tuned LAnguage Net
 
 **M-IT**
 Multimodal Instruction Tuning (M-IT)
-[[Instruction tuning]]
+[[SFT]]
 instruction tuning is highly related to **multi-task prompting**
 
 Benchmark Adaptation

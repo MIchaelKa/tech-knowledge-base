@@ -134,7 +134,7 @@ Total: ~100M
 
 ## SFT
 
-[[Instruction tuning]]
+[[SFT]]
 Получаем Qwen-VL-Chat
 
 **Данные**

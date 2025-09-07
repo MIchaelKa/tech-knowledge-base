@@ -6,55 +6,85 @@ Mixture of Experts (MoE)
 
 Mistral.AI
 
-# Внешние ссылки
+# External
 
+DeepSeek review
+- https://t.me/gonzo_ML/3293
+
+HF
+- https://huggingface.co/blog/moe
 
 A Visual Guide to Mixture of Experts (MoE)
 - https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts
+- dense model vs. sparse model
+	- vs. dropout
+- Experts
+	- experts learn more fine-grained information than entire domains
+	- experts tend to focus on syntax rather than a specific domain
+	- What about more deep layers?
+- Router
+	- gate network
+	- FFNN + softmax
+	- Determines which tokens are sent to which experts
+	- В одном и той же входной последовательности разные токены проходят через разные FFNN
+	- Что значит токен прошел через декодер? - Предсказали следующий токен для этого токена.
+- MoE
+	- Dense MoE vs. Sparse MoE
+	- Sparse MoE was introduced my Mistral.AI?
+- Load Balancing
+	- Expert Capacity
+		- GShard
+		- limit the amount of tokens a given expert can handle
+		- token overflow
+	- Switch Transformer
+		- One of the first transformer-based MoE
+		- capacity factor
+			- If we increase the capacity factor each expert will be able to process more tokens.
 
-Paper
-- Mixtral of Experts
-- https://arxiv.org/abs/2401.04088
+GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding
+- https://arxiv.org/abs/2006.16668
+- Dmitry Lepikhin
 
-HF
-https://huggingface.co/blog/moe
+Switch transformers: Scaling to trillion parameter models with simple and efficient sparsity
+- https://arxiv.org/abs/2101.03961
+
+Switch Transformers
+- https://t.me/gonzo_ML/472
+- модели от гугла на 1,6T в 2021
+- модели от гугла на 137B в 2017 до выхода первой GPT
+- expert-parallelism
+	- не совсем понятно чем это отличается от model-parallelism
+
+
+# Mixtral of Experts
 
 YK
-https://www.youtube.com/watch?v=mwO6v4BlgZQ
+- https://www.youtube.com/watch?v=mwO6v4BlgZQ
 
-# Сводка
+Mixtral of Experts
+- https://arxiv.org/abs/2401.04088
 
-**Основные моменты**
+Links
+- SwiGLU
+- Paired feedback dataset
 
-**Модель**
-Mixtral 8x7B
-Контекст: 32k
-
-# Ссылки
-
-SwiGLU
-
-# Термины
-
-Paired feedback dataset
-
-# Вопросы
+Модель
+- Mixtral 8x7B
+- Контекст: 32k
 
 Sparse Mixture of Experts (SMoE)
-Это то что появляется в этой статье?
+- Это то что появляется в этой статье?
 
-# Обзор
-
-**Mistral**
-Не говорят ничего про свои данные и откуда они их берут.
-Самая открытая лицензия.
-Apache 2.0
+Mistral
+- Не говорят ничего про свои данные и откуда они их берут.
+- Самая открытая лицензия.
+- Apache 2.0
 
 Mixtral 8x7B
 Sparse Mixture of Experts (SMoE)
 Для каждого токена используется только подмножество всех параметров
 
-**Mixture of Experts**
+Mixture of Experts
 Большинство параметров в FFN слое
 
 Каждая матрица в FFN слое имеет большой размер.
@@ -80,10 +110,6 @@ $Softmax(TopK(x*W_G))$
 **Expert Parallelism**
 [[Distributed Training]]
 Model Parallelism
-
-
-
-# Количество параметров
 
 **Sparse paremeter count**
 Полное количество параметров, растет с увеличением количества экспертов

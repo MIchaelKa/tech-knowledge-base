@@ -11,7 +11,7 @@ LAVIS library
 
 # Термины
 
-[[Instruction tuning]]
+[[SFT]]
 vision-language instruction tuning
 
 **Query Transformer**

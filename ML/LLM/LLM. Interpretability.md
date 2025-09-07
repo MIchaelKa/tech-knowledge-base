@@ -9,6 +9,8 @@ Transformer Interpretability
 - https://t.me/cryptovalerii/768
 - https://arena-chapter1-transformer-interp.streamlit.app/
 
+mech interp
+- https://t.me/gonzo_ML/3282
 
 # Overview
 

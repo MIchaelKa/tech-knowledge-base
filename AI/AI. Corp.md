@@ -8,7 +8,6 @@ Thinking Machines
 - Мира Мурати
 - John Schulman
 
-
 Safe Superintelligence Inc
 -  https://t.me/ai_newz/3191
 - Илья Суцкевер
@@ -62,6 +61,7 @@ Claude 3.7 Sonnet
 
 Claude
 - Opus
+	- Тяжеловес opus
 - Sonnet
 
 Haiku - ?

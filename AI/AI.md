@@ -1,4 +1,4 @@
-
+ 
 # External
 
 Notion
@@ -33,11 +33,6 @@ Moved
 DLLM
 - доменно-специфичные модели (DLLM)
 - https://t.me/gonzo_ML/3605
-
-
-GPT-3 исполнилось пять лет
-- Хороший обзор с момента появления GPT-3
-- https://t.me/ai_newz/3935
 
 
 # Tools

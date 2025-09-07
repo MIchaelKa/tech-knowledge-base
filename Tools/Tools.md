@@ -16,3 +16,9 @@ Manim
 
 [[Anki]]
 
+
+# Obsidian
+
+
+Bases
+https://help.obsidian.md/bases

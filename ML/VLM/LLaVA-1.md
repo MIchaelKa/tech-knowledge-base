@@ -62,7 +62,7 @@ Data centric experiments
 # Обзор
 
 **Instruction tuning**
-[[Instruction tuning]]
+[[SFT]]
 Ссылки на статьи по instruction-tuning
 
 teacher-student distillation
