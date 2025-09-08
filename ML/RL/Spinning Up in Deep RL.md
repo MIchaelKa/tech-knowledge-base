@@ -147,6 +147,9 @@ Baseline
 
 
 Forms of the Policy Gradient
+- On-Policy Action-Value Function.
+- Advantage function
+- [[GAE]]
 
 # Resources
 

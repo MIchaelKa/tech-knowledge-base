@@ -1,7 +1,15 @@
 
+# External
+
 https://www.notion.so/Ordinal-Regression-c00f8d5804fc43898d24e09f10445966
+
 https://github.com/michaelka/ord_reg
 
+# Links
+
+vs. [[Learning to Rank]]
+
+# Metrics
 
 QWK
 
