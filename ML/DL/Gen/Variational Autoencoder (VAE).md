@@ -150,6 +150,8 @@ The [[KL-Divergence]]
 - How to get loss function?
 - https://github.com/rasbt/stat453-deep-learning-ss21/blob/main/L17/helper_train.py#L175C43-L175C52
 - https://chatgpt.com/c/673501dc-89ec-8000-bd7a-219625f2bda4
+- Instead of calculating the loss in the closed from can we explicitly calculate it as difference of two logarithms?
+	- Yes, using Monte Carlo estimation
 
 ELBO
 - Evidence lower bound (ELBO)

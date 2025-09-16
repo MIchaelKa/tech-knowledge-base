@@ -101,6 +101,15 @@ Additional Penalty
 - PPO-Penalty
 - KL divergence is approximated via sampling from both distributions (explained by John Schulman [here](http://joschu.net/blog/kl-approx.html))
 
+Why we need additional penalty? As I understand PPO objective already force do not make large updates from the current policy. Is the additional penalty just do the same?
+
+KL-loss
+- [[KL-Divergence]]
+- [[Variational Autoencoder (VAE)]]
+- How it differs from the KL-loss used in VAE?
+	- In VAE we calculate KL-loss between two Gaussian distributions, one of them is 
+	- In VAE we can calculate it in the closed form
+
 ## Tools
 
 Repos and tools for RLHF

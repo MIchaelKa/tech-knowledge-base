@@ -46,6 +46,10 @@ BERT_large
 - attention heads = 16
 - parameters = ~335 M
 
+# Positional Encoding
+
+Representing The Order of The Sequence Using Positional Encoding
+
 
 # Decoder
 
@@ -121,20 +125,3 @@ https://arxiv.org/abs/2002.04745
 
 ReLU только в FFNN слое?
 dropout вместо ReLU
-
-# Attention masks
-Виды аттеншена
-
-**Causal mask attention**
-То что используется в декодере, когда токены не могут смотреть в будущее.
-
-Self-attention mask schemes
-https://www.researchgate.net/figure/Self-attention-mask-schemes-Four-types-of-self-attention-masks-and-the-quadrant-for-the_fig4_363688134
-
-
-- Self-Attention
-- Cross-Attention
-- Causal mask attention
-	- Mask-Attention
-	- Masked self-attention
-- Multi-Head Attention

@@ -86,13 +86,11 @@ Multi-head Latent Attention (MLA)
 	- матрицу для v_t (W^uv) внутрь выходной матрицы W^o.
 	- как это работает? матрица обучается выполнять сразу две задачи?
 - decoupled RoPE
+	- [[RoPE]]
 	- позиционные эмбеддинги RoPE несовместимы с низкоранговой компрессией KV
 
 Другие способы оптимизации внимания при ускорении генерации
-- Multi-Query Attention (MQA)
-	- K и V шарятся между всеми головами внимания (что сильно ускоряет инференс и слегка ухудшает качество)
-- Grouped-Query Attention (GQA)
-	- Среднее между MHA and MQA
+- [[Attention]]
 
 
 DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models
@@ -100,7 +98,7 @@ DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Langua
 
 DeepSeekMoE
 - [[Mixture of Experts (MoE)]]
-- DeepSeekMoE пытается добиться от экспертов большей специализации.
+- DeepSeekMoE пытает[ся добиться от экспертов большей специализации.
 - Fine-Grained Expert Segmentation
 - Shared experts
 	- выучивают какое-то общее знание, им токены отправляются всегда

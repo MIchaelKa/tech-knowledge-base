@@ -31,10 +31,6 @@ R1-Lite
 
 # Papers
 
-DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models
-- https://arxiv.org/abs/2402.03300
-- Introduction of GRPO?
-
 DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning
 - https://arxiv.org/abs/2501.12948
 

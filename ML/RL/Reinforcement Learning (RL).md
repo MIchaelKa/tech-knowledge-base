@@ -275,15 +275,21 @@ Instead of regular gradient ascent, TRPO uses a natural gradient step that accou
 # PPO
 
 Proximal Policy Optimization
+proximal - ближайший
 
 HF
 - https://huggingface.co/blog/deep-rl-ppo
 
-There are two primary variants of PPO:
-PPO-Penalty
-PPO-Clip
+spinningup
+- https://spinningup.openai.com/en/latest/algorithms/ppo.html
 
-proximal - ближайший
+There are two primary variants of PPO:
+- PPO-Penalty
+- PPO-Clip
+
+
+PPO-Penalty
+- penalizes the KL-divergence in the objective function
 
 Properties
 - On-policy

@@ -16,12 +16,6 @@ https://www.youtube.com/playlist?list=PLlx2izuC9gji7vdEkiEwIs7IHKY_64Ed2
 Essence of linear algebra
 https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab
 
-MIT 18.06
-https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/
-https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8
-
-[[MIT 18.065. Matrix Methods.]]
-
 # Books
 
 Кострикин. Введение в алгебру
@@ -38,6 +32,22 @@ Dan Saracino
 https://www.youtube.com/watch?v=pLJSz1KgoOk
 https://www.amazon.com/Abstract-Algebra-Course-Dan-Saracino/dp/1577665368
 
+
+# Strang
+
+Linear Algebra and Learning from Data (2019)
+https://math.mit.edu/~gs/learningfromdata/
+
+Introduction to Linear Algebra
+https://math.mit.edu/~gs/linearalgebra/ila6/indexila6.html
+https://t.me/ai_newz/2377
+
+MIT 18.06
+https://web.mit.edu/18.06/www/index.shtml
+https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/
+https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8
+
+[[MIT 18.065. Matrix Methods.]]
 
 # Discussion
 

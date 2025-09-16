@@ -27,9 +27,7 @@ TDIUC
 **Papers**
 A generalist framework for panoptic segmentation of images and videos
 
-**RoPE**
-Rotary Position Embedding
-[https://paperswithcode.com/method/rope](https://paperswithcode.com/method/rope)
+[[RoPE]]
 
 
 # Термины

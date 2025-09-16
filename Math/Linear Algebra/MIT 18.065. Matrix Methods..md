@@ -5,6 +5,7 @@ https://www.notion.so/M-MIT-18-065-Matrix-Methods-in-Data-Analysis-aea7e2d224e84
 MIT 18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning
 Gilbert Strang
 
+
 # External Links
 
 Main link
@@ -30,11 +31,36 @@ Lecture 1: The Column Space of A Contains All Vectors Ax
 Matrix sampling
 [https://youtu.be/YiqIkSHSmyc?t=2148](https://youtu.be/YiqIkSHSmyc?t=2148)
 
-# Overview
+# Book
 
-Book
 Linear Algebra and Learning from Data (2019)
 https://math.mit.edu/~gs/learningfromdata/
+
+## 1.1 Multiplication Ax Using Columns of A
+
+Ax is the linear combination of columns
+Column space of A - all possible combinations of the columns of A
+C(A)
+
+b in the column space of A when Ax = b has a solution
+- What if it have multiple solutions?
+- A is rank deficient
+
+For full rank matrix we want all columns to be independent
+It means the only combination of these columns that gives zero vector is $A*0$
+The proof?
+
+3 independent columns in R^3 produce an invertible matrix
+TODO
+
+Basis for the column space of A
+$A = C*R$
+
+C - matrix that contains only independent columns of A
+R - row-reduced echelon form of A
+
+Theorem
+The number of independent columns equals the number of independent rows.
 
 ## 1.3 The four fundamental subspaces
 
