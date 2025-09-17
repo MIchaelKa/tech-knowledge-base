@@ -20,6 +20,8 @@ https://www.youtube.com/playlist?list=PLUl4u3cNGP63oMNUHXqIUcrkS2PivhN3k
 
 # Links
 
+[[Linear Algebra]]
+
 [[Fourier Transform]]
 [[Singular Value Decomposition (SVD)]]
 
@@ -29,7 +31,12 @@ https://www.youtube.com/playlist?list=PLUl4u3cNGP63oMNUHXqIUcrkS2PivhN3k
 Lecture 1: The Column Space of A Contains All Vectors Ax
 
 Matrix sampling
-[https://youtu.be/YiqIkSHSmyc?t=2148](https://youtu.be/YiqIkSHSmyc?t=2148)
+https://youtu.be/YiqIkSHSmyc?t=2148
+
+
+# Problems
+
+https://chatgpt.com/c/68c9cfe4-baa4-8320-a79c-780d41849120
 
 # Book
 
@@ -48,9 +55,11 @@ b in the column space of A when Ax = b has a solution
 
 For full rank matrix we want all columns to be independent
 It means the only combination of these columns that gives zero vector is $A*0$
-The proof?
+The proof? - TODO
 
 3 independent columns in R^3 produce an invertible matrix
+Ax = b has exactly one solution
+x = A^-1 b
 TODO
 
 Basis for the column space of A

@@ -12,7 +12,7 @@ Attention alternatives
 
 Виды аттеншена
 
-**Causal mask attention**
+Causal mask attention
 То что используется в декодере, когда токены не могут смотреть в будущее.
 
 Self-attention mask schemes
@@ -40,12 +40,10 @@ Attention types
 - Multi-Head Latent Attention (MLA)
 
 
-# Multi-Head Latent Attention (MLA)
+Multi-Query Attention (MQA)
+- https://chatgpt.com/c/68ca7ce4-34cc-832d-8b86-efc57cb4ffc4
+- all heads share a single K and V
 
-Multi-Head Latent Attention (MLA)
-https://machinelearningmastery.com/a-gentle-introduction-to-multi-head-latent-attention-mla/
+[[Multi-Head Latent Attention (MLA)]]
 
-low-rank approximation
-[[Singular Value Decomposition (SVD)]]
 
-[[DeepSeek]]

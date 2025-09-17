@@ -75,30 +75,17 @@ DeepSeek-V3
 
 ## То что пришло из DeepSeek-V2
 
-Multi-head Latent Attention (MLA)
-- классический Multi-Head Attention (MHA)
-	- нарезаются на векторы для отдельных голов внимания
-		- нарезаются ?
-- сокращает размер необходимого KV-кеша, потому что надо кешировать только низкоразмерные c_t, а не полноразмерные k_t, v_t как раньше
-	- как это работает? все еще нужно затем разворачивать c_t в k_t, v_t?
-- переиспользование матриц
-	- матрицу для k_t (W^uk) можно инкорпорировать внутрь матрицы для получения q_t (W^q)
-	- матрицу для v_t (W^uv) внутрь выходной матрицы W^o.
-	- как это работает? матрица обучается выполнять сразу две задачи?
-- decoupled RoPE
-	- [[RoPE]]
-	- позиционные эмбеддинги RoPE несовместимы с низкоранговой компрессией KV
+[[Multi-Head Latent Attention (MLA)]]
 
 Другие способы оптимизации внимания при ускорении генерации
 - [[Attention]]
-
 
 DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models
 - https://arxiv.org/abs/2401.06066
 
 DeepSeekMoE
 - [[Mixture of Experts (MoE)]]
-- DeepSeekMoE пытает[ся добиться от экспертов большей специализации.
+- DeepSeekMoE пытается добиться от экспертов большей специализации.
 - Fine-Grained Expert Segmentation
 - Shared experts
 	- выучивают какое-то общее знание, им токены отправляются всегда

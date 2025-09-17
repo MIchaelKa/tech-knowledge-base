@@ -62,22 +62,14 @@ Representing The Order of The Sequence Using Positional Encoding
 - Сначала на вход подается SOS (Start of sequence) токен
 - Затем SOS + первый предсказанный токен
 
-Могут ли в процессе работы декодера в режиме инференса изменятся уже предсказанные ранее слова в последовательности?
-- Нет
-- Поэтому мы и можем использовать KV-cache
-
-Применяем ли мы Masked self-attention во время инференса?
-- ДА
-- Именно поэтому и возможно использование KV-cache
+[[KV-Cache]]
 
 Что будет, если разрешить смотреть в будущее?
 - Это уже не autoregressive модель — это что-то вроде BERT или других denoising autoencoders.
 - Убирать masked self-attention в autoregressive моделях не просто делает модель медленнее —  она полностью меняет суть модели
 - Модель будет работать дольше но потенциально сможет исправлять свои ошибки?
 
-KV-cache
-- [[LLM Accelerating (LLMA)]]
-- https://chatgpt.com/c/74067459-18f1-40f8-876e-ef5dfb754d92
+
 
 # Topology
 
