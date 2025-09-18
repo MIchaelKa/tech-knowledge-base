@@ -36,7 +36,18 @@ https://youtu.be/YiqIkSHSmyc?t=2148
 
 # Problems
 
+PS I.1
+
+4.
 https://chatgpt.com/c/68c9cfe4-baa4-8320-a79c-780d41849120
+
+14.
+https://chatgpt.com/c/68cb0863-35a0-8330-8f3a-fd3171896be7
+
+19
+Elimination - row operation
+Using this operation we can reduce matrix A to R (except zero rows)
+
 
 # Book
 
@@ -64,12 +75,25 @@ TODO
 
 Basis for the column space of A
 $A = C*R$
-
 C - matrix that contains only independent columns of A
 R - row-reduced echelon form of A
 
-Theorem
+The first row of A is a combination of rows in R
+The first column of A is a combination of columns in C
+See problem PS I.1.15
+
+The rows of R are basis for the row space of A
+See problem PS I.1.16
+
+The Rank Theorem
 The number of independent columns equals the number of independent rows.
+
+Why does R have independent rows?
+The weak proof in the book
+
+A = CMR
+In this form rows in the R matrix also comes directly form the A
+M - mixing matrix
 
 ## 1.3 The four fundamental subspaces
 

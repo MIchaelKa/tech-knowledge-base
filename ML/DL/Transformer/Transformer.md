@@ -11,6 +11,9 @@ The Illustrated Transformer
 A series of videos on the transformer
 - https://www.youtube.com/playlist?list=PLDw5cZwIToCvXLVY2bSqt7F2gu8y-Rqje
 
+Implementation
+- https://github.com/karpathy/ng-video-lecture/blob/master/gpt.py
+
 
 # Links
 
