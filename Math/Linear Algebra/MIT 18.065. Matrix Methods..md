@@ -36,7 +36,7 @@ https://youtu.be/YiqIkSHSmyc?t=2148
 
 # Problems
 
-PS I.1
+## PS I.1
 
 4.
 https://chatgpt.com/c/68c9cfe4-baa4-8320-a79c-780d41849120
@@ -47,6 +47,22 @@ https://chatgpt.com/c/68cb0863-35a0-8330-8f3a-fd3171896be7
 19
 Elimination - row operation
 Using this operation we can reduce matrix A to R (except zero rows)
+
+## PS I.2
+
+2.
+
+What can you say about aa^T ?
+
+Symmetric
+
+[[Covariance Matrix]] - ?
+No, only one value for the correlation matrix.
+Yes
+- ~~if we consider that the features has dimension = 1~~
+- if we consider that we have only one sample
+
+
 
 
 # Book
@@ -71,7 +87,7 @@ The proof? - TODO
 3 independent columns in R^3 produce an invertible matrix
 Ax = b has exactly one solution
 x = A^-1 b
-TODO
+TODO?
 
 Basis for the column space of A
 $A = C*R$
@@ -94,6 +110,35 @@ The weak proof in the book
 A = CMR
 In this form rows in the R matrix also comes directly form the A
 M - mixing matrix
+
+## **1.2** Matrix-Matrix Multiplication AB
+
+Inner products
+- rows times columns
+
+Outer products
+- columns times rows
+- $u v^T$
+- rank 1 matrix
+
+AB - sum of rank 1 matrices
+
+We can count the multiplication of number by number
+Always there are n^3 multiplications if A and B are nxn or mnp if A is mxn and B is nxp
+
+Factoring A into CR is the reverse of multiplying CR=A
+
+Five important factorization
+
+Spectral Theorem
+Symmetric matrix
+Orthogonal matrix
+SQ = QA comes column by column from Sq = Aq
+
+Every real symmetric matrix S has n orthonormal eigenvectors q1 to qn
+Why? The proof?
+TODO
+
 
 ## 1.3 The four fundamental subspaces
 

@@ -25,6 +25,7 @@ Notebooks
 Should we sort the sequence before calculating covariance?
 - нет
 - мы всегда берем соответствующие точки (2d координаты)
+- Spearman
  
 Gram matrix
 - $X^TX$ - how this matrix is called?
@@ -34,7 +35,7 @@ Gram matrix
 - https://temofeev.ru/info/articles/filtr-kalmana-eto-legko/
 
 $X^TX$ - can be seen as a covariance matrix
-- Нужно рассмотравить случай когда выполнена нормализация по среднему, и все средние значения у всех признаков равны нулю.
+- Нужно рассматривать случай когда выполнена нормализация по среднему, и все средние значения у всех признаков равны нулю.
 
 Understanding the Covariance Matrix
 - https://datascienceplus.com/understanding-the-covariance-matrix/
