@@ -73,6 +73,8 @@ DeepSeek-V3
 - attention heads = ?
 - parameters = MoE с 671B параметров всего и 37B активных.
 
+
+
 ## То что пришло из DeepSeek-V2
 
 [[Multi-Head Latent Attention (MLA)]]
@@ -104,7 +106,7 @@ FP8 Training
 
 Inference optimization
 - [[LLM Accelerating (LLMA)]]
-- Деплоймент фаз _prefilling_ и _decoding_ разделён.
+- Деплоймент фаз prefilling и decoding разделён.
 
 3.5. Suggestions on Hardware Design
 - NVLink
@@ -119,23 +121,57 @@ Pre-training
 - 14.8T токенов (у предыдущей версии было 8.1T токенов)
 - Токенизатор BPE со словарём в 128k.
 - Fill-in-Middle (FIM) стратегия с частотой 0.1
-- YaRN ([https://arxiv.org/abs/2309.00071](https://arxiv.org/abs/2309.00071 "https://arxiv.org/abs/2309.00071")) для расширения контекста
+- YaRN (https://arxiv.org/abs/2309.00071) для расширения контекста
 
 Post-training
 - Состоит из двух частей, Supervised Fine-Tuning (SFT) и RL.
 - SFT делался на дополнительных Reasoning и Non-Reasoning данных
 - итоговый датасет для instruction-tuning составляет 1.5M примеров
-- Resoning
-	- постепенно модель выучивала паттерны R1
-- рекурсия
+- Resoning (SFT)
+	- Reasoning данные фокусировались на математике, программировании, логических задачах.
 	- Данные генерировались внутренней DeepSeek-R1 моделью
-- rejection sampling
-	- TODO
-- GRPO
-	- Как и в DeepSeek-V2, авторы использовали Group Relative Policy Optimization (GRPO)
-- constitutional AI
+	- рекурсия
+	- постепенно модель выучивала паттерны R1
+	- rejection sampling
+	- В RL фазе с высокой температурой генерились ответы модели, и постепенно модель выучивала паттерны R1.
+		- [[Temperature]]
+		- During the RL phase
+- RLHF
+- [[Constitutional AI]]
 	- TODO
 
 RLHF
-- PPO vs. GRPO
+- PPO vs. [[GRPO]]
 - rule-based Reward Model (RM) и model-based RM
+- RM были обучены на SFT чекпойнтах DeepSeek-V3.
+- Как и в DeepSeek-V2, авторы использовали Group Relative Policy Optimization (GRPO)
+- В этих методах я не специалист, интересно, можно было бы заменить на DPO или нет?
+- reward hacking
+
+Reward hacking 
+- когда модель начинает “обманывать” reward, генерируя тексты с ложными триггерами
+
+DeepSeek-V3 vs. DeepSeek-R1
+- https://chatgpt.com/c/68ce7520-4b70-8332-8d71-a390aa5ba2e6
+
+Questions
+
+- What the difference between DeepSeek-V3 and DeepSeek-R1 in terms of reasoning? DeepSeek-V3 was also trained with reasoning SFT data and as it was stated in the paper "models learns to incorporate R1 patterns"
+- reasoning tags
+
+- Зачем нужно генерировать два вида SFT сэмплов?
+- In order to combine both behaviors in the model.
+
+- Что такое rejection sampling?
+
+- During the RL phase
+- Речь идёт именно про обучение экспертной модели (а не про саму V3)
+
+- Что такое preference data?
+- В DeepSeek preference data дополнительно включает обоснование (CoT reasoning), почему один ответ лучше другого.
+- Как выглядит формат такой preference data? Насколько я понимаю в стандартной reward model на вход подается текст, на выход число - reward. Теперь же модели еще также нужно предоставить CoT reasoning. Как происходит получение reward из такого ответа в свободной форме?
+- CoT reasoning включается как часть preference sample, составляется людьми при разметке
+
+
+
+

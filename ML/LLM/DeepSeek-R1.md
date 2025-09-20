@@ -7,20 +7,9 @@ AndrejKarpathy
 GH
 - https://github.com/deepseek-ai/DeepSeek-R1
 
-DeepSeek moment
-- https://t.me/gonzo_ML/3239
-- DeepSeek-R1-Zero
-	- обучена чистым RL (Group Relative Policy Optimization, GRPO — вариант PPO из другой их статьи, https://arxiv.org/abs/2402.03300), без SFT
 
 Open R1
 - https://github.com/huggingface/open-r1
-
-
-R1-Lite
-- https://t.me/ai_newz/3445
-- 20.11.2024
-- бесплатный конкурент o1, который скоро релизнут в опенсорс
-- inference time scaling заставили работать за пределами OpenAI
 
 # Links
 
@@ -40,7 +29,23 @@ A shocking Chinese AI advancement called DeepSeek is sending US stocks plunging
 - https://edition.cnn.com/2025/01/27/tech/deepseek-stocks-ai-china/index.html
 - R1
 
-# External
+# Blogs
+
+DeepSeek-R1 для чайников
+- https://t.me/abstractDL/318
+- https://habr.com/ru/companies/airi/articles/879178/
+
+
+DeepSeek moment
+- https://t.me/gonzo_ML/3239
+- DeepSeek-R1-Zero
+	- обучена чистым RL (Group Relative Policy Optimization, GRPO — вариант PPO из другой их статьи, https://arxiv.org/abs/2402.03300), без SFT
+
+R1-Lite
+- https://t.me/ai_newz/3445
+- 20.11.2024
+- бесплатный конкурент o1, который скоро релизнут в опенсорс
+- inference time scaling заставили работать за пределами OpenAI
 
 DeepSeek-R1
 - https://t.me/gonzo_ML/3319
@@ -61,7 +66,7 @@ DeepSeek-R1
 	- Подход Zero с чистым RL без SFT позволяет пронаблюдать, как модель эволюционирует по ходу обучения
 		- модель сама выучивает, что думать дольше полезно
 - DeepSeek-R1
-	- constitutional AI
+	- [[Constitutional AI]]
 - дистилляция
 	- [[Knowledge Distillation]]
 	- дистилляты обучаются без RL на чистом SFT

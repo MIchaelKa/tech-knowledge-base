@@ -9,3 +9,4 @@ SO
 - The temperature is a way to control the entropy of a distribution
 - Heating a distribution increases the entropy, bringing it closer to a uniform distribution.
 
+For using in LLM see [[LLM]]

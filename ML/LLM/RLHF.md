@@ -1,7 +1,31 @@
 
 Reinforcement Learning from Human Feedback
 
-# Overview
+
+# Links
+
+
+
+
+# RLVR
+
+RL с верифицируемыми наградами
+Reinforcement Learning with Verifiable Rewards
+
+RLIF
+- https://t.me/gonzo_ML/3767
+
+[[DeepSeek-R1]]
+
+Links
+- https://t.me/seeallochnaya/2824
+
+RL не развивает потенциал рассуждений LLM (by Tsinghua)
+- https://t.me/boris_again/3157
+- Когда мало сэмплов (pass@1), то да, RL версии обгоняют base модели. Но если взять pass@128 или pass@256 (много попыток), то уже наоборот, базовые версии стабильно оказываются ЛУЧШЕ, причём существенно!
+- Прямо противоположный эффект у дистилляции
+
+# ChatGPT
 
 ChatGPT
 - https://chatgpt.com/c/687cce3c-3388-8000-b347-bcce969b22d0
