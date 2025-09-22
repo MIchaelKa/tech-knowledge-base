@@ -2,7 +2,10 @@
 Reinforcement Learning from Human Feedback
 
 
-# Links
+# External
+
+[OpenAI InstructGPT & RLHF] Training language models to follow instructions with human feedback
+- https://t.me/gonzo_ML/1277
 
 
 
@@ -42,7 +45,9 @@ RLHF (3 phases)
 - Reinforcement Learning (usually PPO)
 
 
-# OpenAI
+# Timeline
+
+OpenAI
 
 Fine-Tuning Language Models from Human Preferences
 - https://arxiv.org/abs/1909.08593
