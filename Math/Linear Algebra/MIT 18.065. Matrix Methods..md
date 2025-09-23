@@ -25,6 +25,12 @@ https://www.youtube.com/playlist?list=PLUl4u3cNGP63oMNUHXqIUcrkS2PivhN3k
 [[Fourier Transform]]
 [[Singular Value Decomposition (SVD)]]
 
+[[Matrix]]
+
+# Terms
+
+Nullspace - Ядро
+
 
 # Lectures
 
@@ -40,6 +46,8 @@ https://youtu.be/YiqIkSHSmyc?t=2148
 
 4.
 https://chatgpt.com/c/68c9cfe4-baa4-8320-a79c-780d41849120
+1.3 The four fundamental subspaces
+nullspace
 
 14.
 https://chatgpt.com/c/68cb0863-35a0-8330-8f3a-fd3171896be7
@@ -62,8 +70,46 @@ Yes
 - ~~if we consider that the features has dimension = 1~~
 - if we consider that we have only one sample
 
+5.
+
+Start with a matrix B
+If we want to take combinations of its rows, we premultiply by A to get AB
+If we want to take combinations of its columns, we postmultiply by C to get BC
+
+7.
+
+See problem PS I.2.5
+
+The columns of AB are combinations of columns of A.
+Then the column space of AB is contained in the column space of A.
+
+C(AB) <= C(A)
 
 
+## PS I.3
+
+2.
+rank⁡(A^2)<rank⁡(A)
+https://chatgpt.com/c/68d45a62-a520-8321-9581-c316518770b0
+вектор нельзя возвести в квадрат просто так
+they have the same nullity and therefore the same rank (by rank–nullity)
+
+3.
+The nullspace of a vertical stack C
+https://chatgpt.com/c/68d466a0-9e24-8326-b27a-0a3c88d2f51c
+❌
+
+4.
+If row space of A = column space of A, and also N(A) = N(AT), is A symmetric?
+It can be any full-rank matrix A.
+https://chatgpt.com/c/68d46aa8-3510-832d-ae95-129b0d9a7245
+✅
+
+5.
+https://chatgpt.com/c/68d470d1-f090-8330-b976-f3113680edb5
+
+6
+see chatgpt proof for PS I.3.2
 
 # Book
 
@@ -79,10 +125,14 @@ C(A)
 b in the column space of A when Ax = b has a solution
 - What if it have multiple solutions?
 - A is rank deficient
+- What if it have no solutions?
+- A is rank deficient. b is not in the column space of A.
+- See Problem PS I.3.5
 
 For full rank matrix we want all columns to be independent
 It means the only combination of these columns that gives zero vector is $A*0$
 The proof? - TODO
+PS I.1.4
 
 3 independent columns in R^3 produce an invertible matrix
 Ax = b has exactly one solution
@@ -142,7 +192,6 @@ TODO
 
 ## 1.3 The four fundamental subspaces
 
-
 Bx = 0
 - однородная система уравнений
 - TODO винберг
@@ -150,9 +199,46 @@ Bx = 0
 Counting Law
 - With n = 3 unknowns and only r = 1 independent equation, Bx = 0 will have 3 - 1 = 2 independent solutions x1 and x2
 
-Null space
+Nullspace
 - All solutions to Ax = 0
 - [[Matrix Rank]]
+
+Left nullspace
+- All solutions to (A^T)x = 0
+
+При построении решений для уравнения Bx=0 для нахождения независимых решений, можно каждый раз занулять очередной линейно-зависимый стоблец в B
+
+Solutions to Bx=0 from the eliminations step
+
+Preference to perpendicular basis vectors
+
+The big picture
+- Why Null space connected to the row space not the columns space?
+- https://chatgpt.com/c/68d45ebe-b7f8-8321-b7c3-330e352d87c0
+- if Ax=0, then x is orthogonal to every row of A
+
+Incidence matrix
+- [[Matrix]]
+- [[Graph]]
+- Detection of the loops in the graph
+- rows - edges
+- columns - nodes
+- dependent rows means the loop
+- Flows around loops obey Kirchhoff current law: in=out
+
+The ranks of AB and A+B
+
+Subspaces of a matrix
+- Which subspace is b belongs to ?
+- https://chatgpt.com/c/68daea4f-b9ac-8332-877f-6351da932fed
+
+
+## 1.4 Elimination and A = LU
+
+Eliminate x1 from n-1 equations to get a smaller system A2x2=b2 of n-1 size
+
+A = LU is the matrix description of elimination
+
 
 ## 1.5 Orthogonal Matrices and Subspaces
 
