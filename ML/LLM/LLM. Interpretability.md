@@ -33,7 +33,7 @@ Circuits transformers
 
 Liinks
 - [[Transformer]]
-- [[LLM Accelerating (LLMA)]]
+- [[LLM Optimization (LLMA)]]
 
 On Interpretability
 - https://t.me/gonzo_ML/3200

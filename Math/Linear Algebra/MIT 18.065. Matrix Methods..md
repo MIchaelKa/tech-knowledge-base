@@ -239,6 +239,17 @@ Eliminate x1 from n-1 equations to get a smaller system A2x2=b2 of n-1 size
 
 A = LU is the matrix description of elimination
 
+Why elimination is possible for solving Ax=b?
+- We should make this process for b as well
+- https://chatgpt.com/c/68dd8aa2-2b30-832a-a72b-5a1b1bb87563
+- We can subtract one row from another (or any other elementary row operation) because it’s equivalent to left-multiplying by an invertible matrix.
+
+Note: the elimination steps requires non-zero pivots.
+Good codes will choose the largest number to be the pivot.
+
+Row exchanges
+Matrix P
+
 
 ## 1.5 Orthogonal Matrices and Subspaces
 

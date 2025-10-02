@@ -11,7 +11,7 @@ https://t.me/gonzo_ML/3365
 
 # Links
 
-[[ML Accelerating (MLA)]]
+[[ML Optimization (MLO)]]
 [[JIT]]
 
 [[OSS]]

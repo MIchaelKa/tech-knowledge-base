@@ -4,7 +4,7 @@ https://www.notion.so/TNN-e0987b21f1d742cfba3bcb2e04472c03
 # Parent
 
 [[Training Neural Networks (TNN)]]
-[[ML Accelerating (MLA)]]
+[[ML Optimization (MLO)]]
 # Links
 
 [[How to Train Your ResNet]]

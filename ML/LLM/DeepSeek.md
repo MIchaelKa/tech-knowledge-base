@@ -105,7 +105,7 @@ FP8 Training
 - наконец оно завелось в промышленном режиме для большой модели хорошего качества
 
 Inference optimization
-- [[LLM Accelerating (LLMA)]]
+- [[LLM Optimization (LLMA)]]
 - Деплоймент фаз prefilling и decoding разделён.
 
 3.5. Suggestions on Hardware Design

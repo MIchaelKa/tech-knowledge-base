@@ -1,11 +1,14 @@
 
-Edge device inferencing
 
-# External Links
+# External
 
 https://developer.apple.com/machine-learning/models/
 
-https://www.notion.so/B-MLSD-Projects-3302e6e03f2b46e6b6e0baef9a9a863c
+Notion
+- https://www.notion.so/B-MLSD-Projects-3302e6e03f2b46e6b6e0baef9a9a863c
+
+Bag of tricks для ускорения CV моделей — Егор Шестопалов, Тинькофф
+- https://www.youtube.com/watch?v=zZJl32Am92A
 
 # Links
 

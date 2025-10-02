@@ -82,7 +82,7 @@ Link:
 Optimization
 - How would you optimize a deep learning model for real-time inference?
 - What techniques would you use to reduce the memory footprint of a deployed model?
-	- [[ML Accelerating (MLA)]]
+	- [[ML Optimization (MLO)]]
 	- [[Neural Net Optimization (NNO)]]
 	- [[Edge Device Inference]]
 

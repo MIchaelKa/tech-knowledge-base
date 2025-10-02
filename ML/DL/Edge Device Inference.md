@@ -5,6 +5,10 @@
 [[Neural Net Inference (NNI)]]
 [[Neural Net Optimization (NNO)]]
 
+# Links
+
+[[Backbones]]
+
 # Overview
 
 Selective loading
@@ -22,7 +26,7 @@ Inference on CPU
 - Infer on cpu vs gpu in case of neural nets or on mobile
 - How much gpu will faster and by how in ms, flops?
 
-## Capacity
+# Capacity
 
 
 BOTEC
@@ -63,4 +67,4 @@ iPhone 15 GFLOPS
 - https://nanoreview.net/en/phone/apple-iphone-15
 - ANE?
 - CPU?
-    - 1789.4 _**GFLOPS**_
+    - 1789.4 GFLOPS

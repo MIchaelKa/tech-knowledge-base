@@ -11,7 +11,7 @@ PagedAttention
 - https://arxiv.org/abs/2309.06180
 
 Links
-- [[LLM Accelerating (LLMA)]]
+- [[LLM Optimization (LLMA)]]
 
 Какие есть альтернативы?
 - HF

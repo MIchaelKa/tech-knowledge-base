@@ -21,7 +21,7 @@ Evaluation
 - [[Metrics]]
 
 Model
-- [[ML Accelerating (MLA)]]
+- [[ML Optimization (MLO)]]
 - [[Model Registry]]
 
 Training
