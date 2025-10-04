@@ -1,4 +1,6 @@
 
+softmax
+- https://en.wikipedia.org/wiki/Softmax_function
 
 softmax vs. sigmoid
 - https://stats.stackexchange.com/questions/233658/softmax-vs-sigmoid-function-in-logistic-classifier

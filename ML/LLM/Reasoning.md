@@ -11,18 +11,11 @@ Thinking
 [[OpenAI o1]]
 
 
+# External
+
 Sonnet 3.7
 - https://t.me/gonzo_ML/3423
 - https://www.anthropic.com/research/visible-extended-thinking
-
-# External
-
-Training Large Language Models to Reason in a Continuous Latent Space
-- https://t.me/gonzo_ML/3567
-- https://t.me/buckwheat_thoughts/110
-- CoT
-- ToT
-- Coconut (**C**hain **O**f **CON**tin**U**ous **T**hought)
 
 Build Reasoning Models
 - HF NLP Course
@@ -36,6 +29,21 @@ Build Reasoning Models
 	- Group Relative Policy Optimization (GRPO)
 	- technique for RLHF
 	- GRPO groups similar samples together and compares them as a group.
+
+# Latent Reasoning
+
+SIM-CoT: впервые латентный ризонинг догнал явный CoT
+- https://t.me/abstractDL/348
+
+Про непрерывный Test Time Scaling
+- https://t.me/buckwheat_thoughts/110
+- 12.02.2025
+- чекпоинт форварда до генерации через LM Head
+
+Scaling up Test-Time Compute with Latent Reasoning
+- https://arxiv.org/abs/2502.05171
+
+[[Coconut]]
 
 
 # ChatGPT

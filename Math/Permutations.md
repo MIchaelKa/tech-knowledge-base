@@ -8,6 +8,9 @@ https://www.notion.so/Permutations-78f05bc2ca334b1bb6e45090f19c2183
 
 ru.wikipedia.org/wiki/Перестановка
 
+Перестановки: все что вы хотели знать о них, но боялись спросить
+https://halgebra.math.msu.su/wiki/lib/exe/fetch.php/permutations.pdf
+
 # Overview
 
 Умножение перестановок

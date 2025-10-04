@@ -106,10 +106,31 @@ https://chatgpt.com/c/68d46aa8-3510-832d-ae95-129b0d9a7245
 ✅
 
 5.
+Four possibilities
 https://chatgpt.com/c/68d470d1-f090-8330-b976-f3113680edb5
 
 6
 see chatgpt proof for PS I.3.2
+
+## PS I.4
+
+2.
+Formula for the elements of rank 1 matrix
+https://chatgpt.com/c/68dedf92-9600-832d-ac81-82794853492e
+формула которая ломается, лучше формулы которая не ломается
+❌
+
+4.
+one-step inverses
+https://chatgpt.com/c/68e01f4d-d9a4-8330-b086-439ffacc09e7
+left multiplication
+
+7.
+https://chatgpt.com/c/68e027fe-b9b4-8333-8a72-ffc62f4e27d4
+
+12.
+How to perform elimination for rectangular matrices when m < n ?
+
 
 # Book
 
@@ -239,16 +260,25 @@ Eliminate x1 from n-1 equations to get a smaller system A2x2=b2 of n-1 size
 
 A = LU is the matrix description of elimination
 
+chatgpt
+- https://chatgpt.com/c/68dd8aa2-2b30-832a-a72b-5a1b1bb87563
+
 Why elimination is possible for solving Ax=b?
 - We should make this process for b as well
-- https://chatgpt.com/c/68dd8aa2-2b30-832a-a72b-5a1b1bb87563
 - We can subtract one row from another (or any other elementary row operation) because it’s equivalent to left-multiplying by an invertible matrix.
+
+Am I right that if there are matrices L and U such as A = LU, then matrix A is invertible?
+- No, L and U can be singular as well, they are singular if any element on the main diagonal is zero.
 
 Note: the elimination steps requires non-zero pivots.
 Good codes will choose the largest number to be the pivot.
 
 Row exchanges
 Matrix P
+
+
+Every invertible nxn matrix A leads to PA = LU
+P - permutation matrix
 
 
 ## 1.5 Orthogonal Matrices and Subspaces
