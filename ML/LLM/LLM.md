@@ -15,6 +15,10 @@ p-tuning
 Notion
 - https://www.notion.so/LLM-36725aa99601409291ae54c42fb0c4b1
 
+
+John Schulman's Homepage
+http://joschu.net/index.html
+
 # Links
 
 [[Transformer]]
@@ -77,25 +81,18 @@ GPT-4
 - March 14, 2023
 - Rumors claim that GPT-4 has 1.76 trillion parameters
 
-# Blogs
+# Термины
 
-John Schulman's Homepage
-http://joschu.net/index.html
+ICL
+in-context learning
 
-# Posts
+Perplexity
 
-Как выжать максимум из LLM?
-- https://t.me/bogdanisssimo/288
+# Training
 
-Ссылки
-- [[RAG]]
-- kNN few-shot
-- Chain-of-Thought (CoT)
-
-Ensemble choice shuffle
-- Техника которая работает когда нужно выбрать один вариант из нескольких предоставленных.
-- MMBench
-
+[[RLHF]]
+[[DPO]]
+[[SFT]]
 # Контекст
 
 Короткий комментарий про длинные контексты.
@@ -113,6 +110,32 @@ Q
 - Насколько важно поместить всю книгу в контекст?
 
 BOTEC
+
+
+# Perplexity
+
+PPL
+
+https://en.wikipedia.org/wiki/Perplexity
+
+HF
+- https://huggingface.co/docs/transformers/perplexity
+- Perplexity (PPL) is one of the most common metrics for evaluating language models.
+- The larger the perplexity, the less likely it is that an observer can guess the value which will be drawn from the distribution.
+
+Evaluation Metrics for Language Modeling
+- https://thegradient.pub/understanding-evaluation-metrics-for-language-models/
+
+chatgpt
+- https://chatgpt.com/c/68e24b89-8d58-832c-8af0-d777dafa89a6
+- Perplexity - Экспонента кросс-энтропии
+
+Perplexity vs. Entropy
+
+Интерпретация Perplexity
+- Perplexity – “эффективное количество возможных слов”, которые модель считает правдоподобными на каждом шаге.
+- Exponentiation “убирает лог”, возвращая нас в пространство вероятностей.
+
 
 # Overview
 
@@ -139,19 +162,58 @@ Thinking
 - [[OpenAI o1]]
 - [[DeepSeek]]
 
-# Термины
+# Blogs
 
-ICL
-in-context learning
 
-# Training
+HC2025-K1: Predictions for the Next Phase of AI
+- https://www.youtube.com/watch?v=v0beJQZQIGA
+- Кстати, у Ноама был кейноут доклад на свежей HotChips
+	- https://t.me/gonzo_ML/4071
+- Noam Shazeer
+- What LLM wants
+	- Logarithmic gains from
+		- Computations
+	- things that made deep learning take off
+- 2015 - 2025
+	- Perplexity
+	- [[LLM]]
+- 2016 - Sparsely-gated [[Mixture of Experts (MoE)]]
+	- more parameters
+	- not more computations
+	- you need method of sparsity that compatible with fast matrix computation
+	- block sparsity
+	- MatMul speed
+- 2017 - Transformer
+- 2018
+	- Data parallelism
+		- SPMD
+		- en.wikipedia.org/wiki/Single_program,_multiple_data
+		- model size limitation - should fit on one chip
+	- Model parallelism
+		- Mesh-TensorFlow
+		- Use JAX now
+	- Parameters totraining token ratio
+		- 1:1
+		- Chinchilla - 1:20 ?
+	- 3D mesh of processors
+- What LLM wants from hardware
+	- FLOPs
+	- Memory capacity
+	- Memory bandwidth
 
-[[RLHF]]
-[[DPO]]
+# Posts
 
-[[SFT]]
-Отличается ли чем-то сам процесс тренировки (лосс или что-то еще) на этапе при-трейна и SFT, или мы просто заменяем датасет и также тренируем Next token prediction task?
+Как выжать максимум из LLM?
+- https://t.me/bogdanisssimo/288
 
+Ссылки
+- [[RAG]]
+- kNN few-shot
+- Chain-of-Thought (CoT)
+
+Ensemble choice shuffle
+- Техника которая работает когда нужно выбрать один вариант из нескольких предоставленных.
+- MMBench
 
 # Papers
 

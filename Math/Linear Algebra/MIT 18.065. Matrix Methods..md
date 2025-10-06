@@ -131,11 +131,27 @@ https://chatgpt.com/c/68e027fe-b9b4-8333-8a72-ffc62f4e27d4
 12.
 How to perform elimination for rectangular matrices when m < n ?
 
+## PS I.5
+
+4.
+Lengths and angles are never changed by Q.
+Computations with Q are never overflow.
+
+5.
+https://chatgpt.com/c/68e1737d-51c8-8329-9f7e-02ff1c6c307e
+multiplying orthogonal matrices produces an orthogonal matrix
+
+8.
+Haar wavelets
+TODO
+
+
 
 # Book
 
 Linear Algebra and Learning from Data (2019)
 https://math.mit.edu/~gs/learningfromdata/
+https://www.amazon.com/Linear-Algebra-Learning-Gilbert-Strang/dp/0692196382
 
 ## 1.1 Multiplication Ax Using Columns of A
 
@@ -283,6 +299,64 @@ P - permutation matrix
 
 ## 1.5 Orthogonal Matrices and Subspaces
 
+Orthogonal vectors
+Complex components
+[[Complex numbers]]
+
+Hadamard matrix
+Hadamard conjecture
+
+For an orthogonal basis subtract away from b it's component in the direction of a.
+Gram-Schmidt idea
+
+Orthogonal subspaces
+- [[Singular Value Decomposition (SVD)]]
+- SVD finds orthonormal bases in row space and column space of A. And those bases are connected by A.
+
+Tall thin Q
+- Matrix Q with orthogonal columns
+- Tall thin Q with orthonormal columns $Q^TQ = I$
+- Only for square matrix Q the true also that $QQ^T = I$
+	- Proof below
+- if Q multiplies any vector x, the length of x does not change
+	- Proof in the book
+- if m>n, then m rows cannot be orthogonal in R^n 
+
+Projection matrix
+- $P = QQ^T$
+- $P^2 = P = P^T$
+- Pb is orthogonal projection of b into column space of P
+- How related column space of Q and P?
+- Projection lies in the heart of [[Least Squares]] (Section 2.2)
+
 Orthogonal matrix
 - square matrix with orthonormal columns
 - The name "orthogonal matrix" should really be "orthonormal matrix"
+- For square matrix $Q^TQ = I$ leads to $QQ^T = I$
+	- https://chatgpt.com/c/68e1737d-51c8-8329-9f7e-02ff1c6c307e
+	- inverse transformation acts on rows
+	- left inverse and right inverse
+	- see PS I.5.5
+- From above we directly get that $Q^{-1} = Q^T$ 
+
+
+Orthogonal basis
+Formula for coefficients in orthonormal basis
+
+
+## 1.6 Eigenvalues and Eigenvectors
+
+Most n by n matrices have n independent eigenvectors $x_1$ to $x_n$ with n different eigenvalues $\lambda_1$ to $\lambda_n$. In that case every n-dimensional vector $v$ will be a combination of the eigenvectors.
+
+Symmetric matrices S=S^T are somehow like real numbers, always have real eigenvalues.
+Orthogonal matrices like complex numbers of magnitude one.
+
+The matrix A also controls the systems of linear differential equations
+Solution vector - TODO
+
+Similar matrices
+
+The eigenvalues of any triangular matrix are placed on the main diagonal
+
+
+

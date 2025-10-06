@@ -1,7 +1,7 @@
 
 non-linearity
 
-# External Links
+# External
 
 https://chatgpt.com/c/66e4146e-7304-8000-aed8-13bcb407296f
 
@@ -72,3 +72,10 @@ Maxout neuron
 $max(w_1^T*x+b_1,w_2^T*x+b_2)$
 Problem
 - doubles the number of parameters
+
+Swish
+- https://chatgpt.com/c/68e14ed9-50f4-832d-8aa9-987879793561
+- Why it was slow on pytorch?
+
+Stochastic activations
+- https://t.me/gonzo_ML/4070

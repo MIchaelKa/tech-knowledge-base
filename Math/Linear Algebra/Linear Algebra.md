@@ -63,3 +63,14 @@ https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8
 Если матрица не квадратная значит она может переводить данные из более низкой размерности в более высокую. Значит ли это что данные все же будут лежат на какой то менее многомерной плоскости в этом новом пространстве?
 
 Матрица может описывать какую либо трансформацию над данными, а может описывать сами данные. В чем большая разница здесь?
+
+
+# Matrix formulas
+
+$(Qx)^T (Qx) = x^TQ^TQx$
+$(u+v)^T(u-v) =$ 
+
+Linear algebra formulas
+https://chatgpt.com/c/68e18092-d5f8-8328-af1c-4437b8ecb7fb
+basic algebraic laws, adapted to matrix multiplication
+Matrix algebra identities

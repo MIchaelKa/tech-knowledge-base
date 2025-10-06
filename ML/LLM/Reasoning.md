@@ -32,8 +32,6 @@ Build Reasoning Models
 
 # Latent Reasoning
 
-SIM-CoT: впервые латентный ризонинг догнал явный CoT
-- https://t.me/abstractDL/348
 
 Про непрерывный Test Time Scaling
 - https://t.me/buckwheat_thoughts/110
@@ -44,7 +42,10 @@ Scaling up Test-Time Compute with Latent Reasoning
 - https://arxiv.org/abs/2502.05171
 
 [[Coconut]]
+[[SIM-CoT]]
 
+LCM
+iCoT
 
 # ChatGPT
 

@@ -8,9 +8,13 @@ ordinary least squares
 
 sum-of-squares error function
 
-# External Links
+# External
 
-[https://ru.wikipedia.org/wiki/Метод_наименьших_квадратов](https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4_%D0%BD%D0%B0%D0%B8%D0%BC%D0%B5%D0%BD%D1%8C%D1%88%D0%B8%D1%85_%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%BE%D0%B2)
+wiki rus
+- ru.wikipedia.org/wiki/Метод_наименьших_квадратов
+- В простейшем случае f(x)=β, и тогда результатом МНК будет среднее арифметическое входных данных.
+
+
 https://en.wikipedia.org/wiki/Linear_least_squares
 
 # Links
@@ -18,6 +22,7 @@ https://en.wikipedia.org/wiki/Linear_least_squares
 [[Linear Regression]]
 
 # Overview
+
 
 МНК и системы линейных уравнений
 - В частности, метод наименьших квадратов может использоваться для «решения» системы линейных уравнений

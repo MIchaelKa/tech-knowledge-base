@@ -133,8 +133,7 @@ SQL injection
 
 Why I don’t think AGI is right around the corner
 - https://www.youtube.com/watch?v=nyvmYnz6EAg
-- gpt
-	- https://chatgpt.com/c/68990ef0-e5dc-8323-a596-f7e1b56d6375
+- https://chatgpt.com/c/68990ef0-e5dc-8323-a596-f7e1b56d6375
 - Continuous Learning
 	- vs. MLSD [[Continuous Learning]]
 - Context window
