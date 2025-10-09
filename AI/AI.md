@@ -82,7 +82,6 @@ Deep Research
 		- ?
 
 
-
 # Image generation and LLM
 
 [[Imagen]]
@@ -130,6 +129,36 @@ SQL injection
 
 
 # Blogs
+
+
+Richard Sutton – Father of RL thinks LLMs are a dead end
+- https://www.youtube.com/watch?v=21EYKqUsPfg
+- Our field is subject to bandwagons and fashions, so we loose track of the basic things.
+
+François Chollet: How We Get To AGI
+- https://www.youtube.com/watch?v=5QcCeSsNRks
+- scaling law
+	- model size and train data size
+- skill itself is not intelligence
+
+Jeff Dean & Noam Shazeer – 25 years at Google: from PageRank to AGI
+- https://www.youtube.com/watch?v=v0gjI__RyCY
+- https://t.me/seeallochnaya/2307
+- GDP
+- algorithms following hardware
+- our systems
+	- data flow is expensive
+	- arithmetic operations is cheap
+- deep learning
+	- O^3 - arithmetic
+	- O^2 - data copying
+- NGram
+	- https://chatgpt.com/c/680e96ac-b04c-8000-b614-ec0933b9c9af
+- BERT in google search
+- длинный контекст
+	- [[LLM]]
+- shall
+	- I guess we shall see
 
 Why I don’t think AGI is right around the corner
 - https://www.youtube.com/watch?v=nyvmYnz6EAg

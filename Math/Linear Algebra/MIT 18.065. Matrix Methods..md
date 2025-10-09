@@ -74,7 +74,7 @@ Yes
 
 Start with a matrix B
 If we want to take combinations of its rows, we premultiply by A to get AB
-If we want to take combinations of its columns, we postmultiply by C to get BC
+If we want to take combinations of its columns, we postmultiply by C to get BC. 
 
 7.
 
@@ -145,6 +145,27 @@ multiplying orthogonal matrices produces an orthogonal matrix
 Haar wavelets
 TODO
 
+## PS I.6
+
+7.
+The determinant of A equals the product of it's eigenvalues
+Can we consider this exercise as a proof of this fact?
+
+10.
+Companion matrices
+
+12.
+This matrix is singular with rank one. Find three eigenvalues and three eigenvectors.
+
+14.
+zero eigenvalue
+https://chatgpt.com/c/68e637fc-8bbc-832a-8329-e89b4331c095
+eigenspace
+
+17.
+If the columns of X (eigenvectors of A) are linearly independent
+https://chatgpt.com/c/68e64467-124c-8325-bb89-0645c0edbe1d
+❌
 
 
 # Book
@@ -348,15 +369,48 @@ Formula for coefficients in orthonormal basis
 
 Most n by n matrices have n independent eigenvectors $x_1$ to $x_n$ with n different eigenvalues $\lambda_1$ to $\lambda_n$. In that case every n-dimensional vector $v$ will be a combination of the eigenvectors.
 
+A is nxn matrix
+When rank of the matrix r < n, the matrix still can have more than r different eigenvalues and different eigenvectors.
+Can the matrix have more than n different eigenvalues and different eigenvectors?
+See Problem PS 1.6.12
+https://chatgpt.com/c/68e62bb5-5ad8-8325-a04a-a0d35907c56b
+characteristic polynomial cannot have more then n roots
+
+Orthogonal eigenvectors.
+Only true for symmetric matrices?
+https://chatgpt.com/c/68e6296b-57d0-832d-bb9f-a04a47dafdac
+
+
 Symmetric matrices S=S^T are somehow like real numbers, always have real eigenvalues.
 Orthogonal matrices like complex numbers of magnitude one.
 
+Rotation Q has complex eigenvectors
+Complex dot product
+
 The matrix A also controls the systems of linear differential equations
 Solution vector - TODO
+
+Computing the eigenvalues of A
+n-th degree equation which gives you n roots
+What happens to eigenvalues and eigenvectors if A is shifted to $A + sI$ ?
 
 Similar matrices
 
 The eigenvalues of any triangular matrix are placed on the main diagonal
 
+Diagonalizing a Matrix
+If we know the eigenvalues and eigenvectors we can easily compute the matrix A
+And also we can easily calculate powers of the matrix A
+eigenvectors
+left eigenvectors
 
+Markov matrix
+Steady state
 
+Eigenvalue multiplicity
+https://chatgpt.com/c/68e637fc-8bbc-832a-8329-e89b4331c095
+See Problem PS 1.6.14
+Is it possible that we have repeated eigenvalues but do not have corresponding linearly independent eigenvalues, only one eigenvector (line of eigenvectors) for example?
+Algebraic vs Geometric Multiplicity
+GM <= AM
+The shortage of eigenvectors when GM <= AM means that A is not diagonalizable

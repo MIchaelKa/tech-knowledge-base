@@ -192,7 +192,7 @@ HC2025-K1: Predictions for the Next Phase of AI
 	- Model parallelism
 		- Mesh-TensorFlow
 		- Use JAX now
-	- Parameters totraining token ratio
+	- Parameters to training token ratio
 		- 1:1
 		- Chinchilla - 1:20 ?
 	- 3D mesh of processors
