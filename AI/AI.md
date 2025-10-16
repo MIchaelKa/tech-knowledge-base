@@ -135,6 +135,12 @@ Richard Sutton – Father of RL thinks LLMs are a dead end
 - https://www.youtube.com/watch?v=21EYKqUsPfg
 - Our field is subject to bandwagons and fashions, so we loose track of the basic things.
 
+On DeepSeek and Export Controls
+- Дарио Амодеи
+- https://www.darioamodei.com/post/on-deepseek-and-export-controls
+- https://t.me/gonzo_ML/3275
+- Claude 3.5 Sonnet is a mid-sized model that cost a few $10M's to train
+
 François Chollet: How We Get To AGI
 - https://www.youtube.com/watch?v=5QcCeSsNRks
 - scaling law

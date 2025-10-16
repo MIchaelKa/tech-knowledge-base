@@ -167,12 +167,29 @@ If the columns of X (eigenvectors of A) are linearly independent
 https://chatgpt.com/c/68e64467-124c-8325-bb89-0645c0edbe1d
 ❌
 
+## PS I.7
+
+9.
+Power of a matrix
+https://chatgpt.com/c/68ea2bc2-a740-8332-a8b8-80d3c4d3b796
+$A^2$ makes sense only if A is square.
+
+[[Combinatorics]]
+$2^n$ possible eigenvalue matrices
+Up to permutation there are only n+1 canonical forms
+
+$A^TA$ and $AA^T$
+Both are symmetric and positive semidefinite
+
 
 # Book
 
 Linear Algebra and Learning from Data (2019)
 https://math.mit.edu/~gs/learningfromdata/
 https://www.amazon.com/Linear-Algebra-Learning-Gilbert-Strang/dp/0692196382
+
+TODO
+- Determinant in more details
 
 ## 1.1 Multiplication Ax Using Columns of A
 
@@ -195,7 +212,7 @@ PS I.1.4
 3 independent columns in R^3 produce an invertible matrix
 Ax = b has exactly one solution
 x = A^-1 b
-TODO?
+TODO (Look at matrix inverse in more details)
 
 Basis for the column space of A
 $A = C*R$
@@ -245,7 +262,7 @@ SQ = QA comes column by column from Sq = Aq
 
 Every real symmetric matrix S has n orthonormal eigenvectors q1 to qn
 Why? The proof?
-TODO
+See 1.7
 
 
 ## 1.3 The four fundamental subspaces
@@ -369,17 +386,25 @@ Formula for coefficients in orthonormal basis
 
 Most n by n matrices have n independent eigenvectors $x_1$ to $x_n$ with n different eigenvalues $\lambda_1$ to $\lambda_n$. In that case every n-dimensional vector $v$ will be a combination of the eigenvectors.
 
-A is nxn matrix
+http://chatgpt.com/c/68e96ff7-b888-8327-be67-95fca092ad74
+Is every nxn matrix A with rank has n independent eigenvectors?
+No, breaks with repeated eigenvalues.
+Is it possible that some matrix has no eigenvectors?
+Over the complex numbers C, every matrix has at least one eigenvalue and corresponding eigenvector.
+
+Different eigenvalues and different eigenvectors.
+A is nxn matrix.
 When rank of the matrix r < n, the matrix still can have more than r different eigenvalues and different eigenvectors.
 Can the matrix have more than n different eigenvalues and different eigenvectors?
 See Problem PS 1.6.12
 https://chatgpt.com/c/68e62bb5-5ad8-8325-a04a-a0d35907c56b
-characteristic polynomial cannot have more then n roots
+Characteristic polynomial cannot have more then n roots
 
 Orthogonal eigenvectors.
 Only true for symmetric matrices?
 https://chatgpt.com/c/68e6296b-57d0-832d-bb9f-a04a47dafdac
-
+True for symmetric matrices.
+More generally for normal matrices.
 
 Symmetric matrices S=S^T are somehow like real numbers, always have real eigenvalues.
 Orthogonal matrices like complex numbers of magnitude one.
@@ -395,6 +420,8 @@ n-th degree equation which gives you n roots
 What happens to eigenvalues and eigenvectors if A is shifted to $A + sI$ ?
 
 Similar matrices
+Those matrices which have same eigenvalues
+$BAB^{-1}$
 
 The eigenvalues of any triangular matrix are placed on the main diagonal
 
@@ -414,3 +441,76 @@ Is it possible that we have repeated eigenvalues but do not have corresponding l
 Algebraic vs Geometric Multiplicity
 GM <= AM
 The shortage of eigenvectors when GM <= AM means that A is not diagonalizable
+
+
+## 1.7 Symmetric Positive Definite Matrices
+
+The eigenvector matrix for S *can be chosen to be* orthogonal(orthonormal) $Q^TQ = I$
+Is it possible to choose not orthogonal but linear independent eigenvectors for symmetric matrix S?
+https://chatgpt.com/c/68e8ba33-82b4-8325-a8bb-21729a2c98da
+Think about eigenspaces.
+The proof below for all eigenvectors with different eigenvalues.
+
+Spectral theorem
+The usual $A = X \Lambda X^{-1}$ becomes $S = Q \Lambda Q^T$
+Every matrix of this form $Q \Lambda Q^T$ is symmetric (transpose to see)
+
+Proof for orthogonal eigenvectors in S
+
+Proof for real eigenvalues in S
+https://chatgpt.com/c/68e77e52-d31c-8333-bb01-2295987ddff8
+Because up to that point, the entire proof used real-space geometric reasoning — orthogonality of the row space and null space.
+Why we multiply by $x^∗$ ?
+Are we assuming here complex vectors x?
+See Problem 4.
+
+Hermitian transpose
+https://www.notion.so/Hermitian-transpose-bf77c908d5ab496e937a9c728dd5d58b
+
+### Positive Definite Matrices
+
+Symmetric + additional requirements
+Positive Semidefinite Matrices
+[[Matrix]]
+
+Test 1. All positive eigenvalues
+
+If all eigenvalues are real can we say that the matrix is symmetric?
+
+Test 2. The energy test
+If every eigenvector have positive energy than all non-zero vectors x have positive energy.
+Example of using of the energy test.
+
+Test 3.
+$S = A^TA$
+Is a matrix $A^TA$ always symmetric?
+https://chatgpt.com/c/68eaad09-ccc0-8325-8205-d9064aca41d2
+See Problem 9
+
+Test 4. Determinant test
+Second difference matrix
+https://chatgpt.com/c/68e8c7e6-d088-832a-a5cd-d5895a86bea4
+Leading principal determinants
+
+Test 5. Pivots
+
+Symmetric matrix elimination
+$S = LU$
+$S = LDL^T$
+$S = A^TA$
+$A = \sqrt{D}L^T$
+Cholesky factorization
+
+
+### Minimum problems
+
+The energy is [[Quadratic Form]]
+How second derivative works? - TODO
+
+The ellipse
+Energy ellipse
+Principle axis theorem
+
+why we look on quadratic form only analyzing f(x,y)
+https://chatgpt.com/c/68eac484-4980-832c-b230-7c546e0c60f1
+shift the origin to the stationary point

@@ -3,7 +3,7 @@
 Moved
 https://www.notion.so/f699bac1c9ac4f9f9519b96a83d38ec0
 
-# External Links
+# External
 
 Основы комбинаторики
 Райгородский Андрей Михайлович
@@ -30,6 +30,9 @@ https://www.notion.so/f699bac1c9ac4f9f9519b96a83d38ec0
 # Размещения
 
 Размещение
+
+Arrangement?
+https://en.wikipedia.org/wiki/Arrangement_(disambiguation)
 
 [https://ru.wikipedia.org/wiki/Размещение](https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B7%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B5)
 
