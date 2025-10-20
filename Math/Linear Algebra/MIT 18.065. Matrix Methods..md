@@ -167,19 +167,7 @@ If the columns of X (eigenvectors of A) are linearly independent
 https://chatgpt.com/c/68e64467-124c-8325-bb89-0645c0edbe1d
 ❌
 
-## PS I.7
 
-9.
-Power of a matrix
-https://chatgpt.com/c/68ea2bc2-a740-8332-a8b8-80d3c4d3b796
-$A^2$ makes sense only if A is square.
-
-[[Combinatorics]]
-$2^n$ possible eigenvalue matrices
-Up to permutation there are only n+1 canonical forms
-
-$A^TA$ and $AA^T$
-Both are symmetric and positive semidefinite
 
 
 # Book
@@ -417,6 +405,8 @@ Solution vector - TODO
 
 Computing the eigenvalues of A
 n-th degree equation which gives you n roots
+
+Shift rule
 What happens to eigenvalues and eigenvectors if A is shifted to $A + sI$ ?
 
 Similar matrices
@@ -483,6 +473,8 @@ Example of using of the energy test.
 
 Test 3.
 $S = A^TA$
+A should have independent columns
+If A have has dependent columns than S is only positive semidefinite
 Is a matrix $A^TA$ always symmetric?
 https://chatgpt.com/c/68eaad09-ccc0-8325-8205-d9064aca41d2
 See Problem 9
@@ -491,6 +483,9 @@ Test 4. Determinant test
 Second difference matrix
 https://chatgpt.com/c/68e8c7e6-d088-832a-a5cd-d5895a86bea4
 Leading principal determinants
+
+Pivots = ratios of determinants
+Proof?
 
 Test 5. Pivots
 
@@ -511,6 +506,132 @@ The ellipse
 Energy ellipse
 Principle axis theorem
 
-why we look on quadratic form only analyzing f(x,y)
+why we look on quadratic form only, analyzing f(x,y)?
 https://chatgpt.com/c/68eac484-4980-832c-b230-7c546e0c60f1
 shift the origin to the stationary point
+
+
+### Problems
+
+9.
+Power of a matrix
+https://chatgpt.com/c/68ea2bc2-a740-8332-a8b8-80d3c4d3b796
+$A^2$ makes sense only if A is square.
+
+[[Combinatorics]]
+$2^n$ possible eigenvalue matrices
+Up to permutation there are only n+1 canonical forms
+
+$A^TA$ and $AA^T$
+Both are symmetric and positive semidefinite
+
+18
+A positive definite matrix cannot have a zero (or even worse, a negative number) on it's main diagonal
+Proof?
+
+19
+Using shift rule
+
+## 1.8 SVD
+
+[[Singular Value Decomposition (SVD)]]
+
+If A is not square $Ax=\lambda x$ is impossible
+
+A is often matrix of data
+A is mxn
+m - rows
+n - cols
+
+Two sets of singular vectors u's and v's
+v - n right singular vectors - orthogonal in R^n - row space
+u - m left singular vectors - orthogonal in R^m - col space
+$Av=\sigma u$
+
+We can have n singular values (at max?)
+r - rank of A
+r positive singular values in descending order
+last (n-r) v's are in the nullspace of A
+last (m-r) u's are in the nullspace of A^T
+
+How many u's we have? - m
+How many u's in the column space of A? - r, at most n
+
+$A = U\Sigma V^T$
+V - is orthogonal nxn matrix
+U - is orthogonal mxm matrix
+$\Sigma$ - is mxn matrix
+
+Pieces of the SVD
+r pieces of rank 1
+See 1.2 - columns by rows matrix multiplication
+
+Reduced form of the SVD
+Leave only non zero singular values.
+$\Sigma$ - is rxr matrix
+V - is nxr matrix
+U - is mxr matrix
+
+Eckart-Young
+Best k-rank approximation of A
+
+How to find U and V?
+We need to look at $AA^T$ and $A^TA$
+Then find usual eigenvectors and eigenvalues for them
+When I choose the v's, that choice will decide the signs of the u's.
+Proof of the SVD
+
+Singular values are always positives?
+We can select singular vectors so that it will be true?
+https://chatgpt.com/c/68f74451-b2fc-8329-ab4d-45505fc50c85
+
+Diagonalizing
+
+Karhunen-Loeve transform
+TODO
+
+### The First Singular Vector
+
+The connection between data matrix and transformation matrix.
+[[Linear Algebra]]
+
+But we aim for an independent approach to the SVD!
+https://chatgpt.com/c/68f750f8-f9dc-8329-b5d5-5359e885f7b6
+
+Rayleigh quotient
+Optimizing the Rayleigh quotient over x gives you the principal directions and eigenvalues of a symmetric matrix.
+
+[[Calculus]]
+- The quotient rule
+- Lagrange multipliers
+- Maximize under the condition
+
+
+### Submatrices have smaller singular values
+
+The norm of the matrix
+[[Linear Algebra]]
+
+Proof
+https://chatgpt.com/c/68f8a4fe-a408-832b-9eec-fe133206a3d6
+because we are maximizing over a smaller set of vectors
+corrected proof
+
+See Problem 10.
+
+### The SVD for  Derivatives and Integrals
+
+Finite differences
+DST and DCT
+JPEG
+Sobel operator
+[[Image Gradient]]
+
+
+## Problems
+
+1/2/3/4
+Rayleigh quotient
+https://chatgpt.com/c/68f892c2-e910-8330-9d4a-752eb421a44d
+
+10.

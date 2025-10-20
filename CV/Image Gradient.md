@@ -29,5 +29,5 @@ Summary
 - When computing using the “central difference”
 
 Gradient
-- the gradiant direction gives you the normal to the edge (it’s perpindicular to the edge)
+- the gradient direction gives you the normal to the edge (it’s perpendicular to the edge)
 - the gradient magnitude gives you the strength of the edge

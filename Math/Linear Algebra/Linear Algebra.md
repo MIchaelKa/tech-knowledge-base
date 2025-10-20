@@ -55,6 +55,8 @@ https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8
 
 # Questions
 
+Do we have a quick test to see if two vectors are linear independent?
+
 Почему определители вводятся только для квадратных матриц?
 - Он бы всегда равнялся нулю так как ранг по столбцам равен рангу по строкам, следовательно всегда есть линейно-зависимые столбцы или строки.
 
@@ -62,7 +64,9 @@ https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8
 
 Если матрица не квадратная значит она может переводить данные из более низкой размерности в более высокую. Значит ли это что данные все же будут лежат на какой то менее многомерной плоскости в этом новом пространстве?
 
+The connection between data matrix and transformation matrix.
 Матрица может описывать какую либо трансформацию над данными, а может описывать сами данные. В чем большая разница здесь?
+https://chatgpt.com/c/68f74bd1-415c-832a-8d33-45fd1fca1041
 
 
 # Matrix formulas
@@ -74,3 +78,9 @@ Linear algebra formulas
 https://chatgpt.com/c/68e18092-d5f8-8328-af1c-4437b8ecb7fb
 basic algebraic laws, adapted to matrix multiplication
 Matrix algebra identities
+
+
+# Terms
+
+The norm of the matrix
+https://chatgpt.com/c/68f7e798-cbe8-8331-91a1-21d22cc0df68

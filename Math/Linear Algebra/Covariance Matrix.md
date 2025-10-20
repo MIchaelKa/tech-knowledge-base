@@ -67,4 +67,6 @@ Variance of the data vs. Variance of the matrix
 Covariance Matrix
 - squared matrix, we can apply it to vectors in the feature space of the data
 - почему нам важно то, как скейлит Covariance Matrix?
-	- как это связано с Data Matrix?
+- как это связано с Data Matrix?
+
+See: The connection between data matrix and transformation matrix.
