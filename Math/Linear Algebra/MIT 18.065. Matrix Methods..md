@@ -31,6 +31,9 @@ https://www.youtube.com/playlist?list=PLUl4u3cNGP63oMNUHXqIUcrkS2PivhN3k
 
 Nullspace - Ядро
 
+Span - Линейная оболочка?
+https://www.notion.so/Span-261a3e2740154a84bf6aec32599fe205
+
 
 # Lectures
 
@@ -372,6 +375,9 @@ Formula for coefficients in orthonormal basis
 
 ## 1.6 Eigenvalues and Eigenvectors
 
+Properties
+- The trace of a Matrix always equals the sum of it's eigenvalues
+
 Most n by n matrices have n independent eigenvectors $x_1$ to $x_n$ with n different eigenvalues $\lambda_1$ to $\lambda_n$. In that case every n-dimensional vector $v$ will be a combination of the eigenvectors.
 
 http://chatgpt.com/c/68e96ff7-b888-8327-be67-95fca092ad74
@@ -627,11 +633,52 @@ JPEG
 Sobel operator
 [[Image Gradient]]
 
-
-## Problems
+### Problems
 
 1/2/3/4
 Rayleigh quotient
 https://chatgpt.com/c/68f892c2-e910-8330-9d4a-752eb421a44d
 
-10.
+14.
+To recover A how many parameters/angles we need in SVD
+
+15.
+How many parameters describe a rotation in 4-dimensional space?
+
+16.
+How many numbers will give the direction of a unit vector in R^n ?
+
+18.
+Power of a matrix
+
+### Questions
+
+SVD vs. Spectral theorem / Eigendecomposition for a square matrix A
+https://chatgpt.com/c/68f9ebb4-00e0-8333-9215-1c7a50b86747
+
+## 1.9 Principal Components and the Best Low Rank Matrix
+
+Eckart-Young
+Why norm of the matrix is so important when we want to find the closest k-rank approximation to the original matrix A?
+http://chatgpt.com/c/68fb6da2-0d84-8327-97dd-97b6d700e658
+Norm here is a measure of distance between two matrices, not the property we’re trying to match.
+The low-rank approximation problem doesn’t care about comparing norms — it measures the norm of their difference.
+
+The proof for L^2 
+https://chatgpt.com/c/68fa8369-9298-8327-b586-41eeffeaeeed
+Span
+Why the proof should work for other(all) vectors?
+We only need to show that the maximum (the norm) is at least that big — which can be done by constructing one **witness** vector.
+
+Norms stay the same when matrix is multiplied by an orthogonal matrix
+Unitary replaces orthogonal for complex matrix
+
+Statistically correct scale
+Why divide to n-1 ?
+[[Statistics]]
+
+Connection with [[Least Squares]]
+Perpendicular least squares
+
+Total variance = Frobenius norm
+Effective rank of A and S
