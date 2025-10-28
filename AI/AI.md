@@ -130,6 +130,45 @@ SQL injection
 
 # Blogs
 
+Andrej Karpathy — “We’re summoning ghosts, not building animals”
+- https://www.youtube.com/watch?v=lXUZvyajciY
+- https://chatgpt.com/c/68fdfdb5-bc3c-832f-b1d7-e61d445fecf1
+- They don't do a lot of thing that you've alluded to earlier
+	- Continual learning
+- Atari deep RL shift
+	- Why it was so important?
+	- Attempt to get agents.
+	- Misstep that was adopted
+- Meta learning
+	- pre-training spontaneously meta- learns in-context learning 
+- Early agents
+	- Web agent w/o LLMs
+- Compression
+	- LLAMA 3 - 70B - 15T training tokens
+	- Massive amounts of compression
+	- pre-training - 0.075 bits/token
+	- in-context - 2.56M bits/token ??
+- Nick Lane
+	- https://en.wikipedia.org/wiki/Nick_Lane
+- Continual learning
+	- No analogue of the sleep process in the LLM
+		- Context window -> Memory
+		- Distillation phase
+	- LoRA
+	- Ways to have longer context window
+		- Sparse attention scheme
+		- DeepSeek v3.2
+- Nanochat
+- LLM judges for RL
+- English
+	- people in the room
+		- what people in the room felt was about to happen at different breakthrough moments
+	- zeitgeist - дух времени
+	- I have a hard hat on
+	- to steelman the other perspective
+	- strip - лишить
+	- irrespective - независимо
+
 
 Richard Sutton – Father of RL thinks LLMs are a dead end
 - https://www.youtube.com/watch?v=21EYKqUsPfg

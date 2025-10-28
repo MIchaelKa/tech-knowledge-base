@@ -64,6 +64,9 @@ Do we have a quick test to see if two vectors are linear independent?
 
 Если матрица не квадратная значит она может переводить данные из более низкой размерности в более высокую. Значит ли это что данные все же будут лежат на какой то менее многомерной плоскости в этом новом пространстве?
 
+SVD vs. Spectral theorem / Eigendecomposition for a square matrix A
+https://chatgpt.com/c/68f9ebb4-00e0-8333-9215-1c7a50b86747
+
 # Data matrix and transformation matrix
 
 The connection between data matrix and transformation matrix.

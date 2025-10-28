@@ -651,12 +651,14 @@ How many numbers will give the direction of a unit vector in R^n ?
 18.
 Power of a matrix
 
-### Questions
-
-SVD vs. Spectral theorem / Eigendecomposition for a square matrix A
-https://chatgpt.com/c/68f9ebb4-00e0-8333-9215-1c7a50b86747
 
 ## 1.9 Principal Components and the Best Low Rank Matrix
+
+Norms stays the same when matrix A is multiplied by an orthogonal matrix.
+Unitary replaces orthogonal for complex matrix.
+The singular values stays the same when U and V multiplied by an orthogonal matrix.
+Will singular values change if the matrix itself multiplied by an orthogonal matrix?
+TODO
 
 Eckart-Young
 Why norm of the matrix is so important when we want to find the closest k-rank approximation to the original matrix A?
@@ -670,9 +672,6 @@ Span
 Why the proof should work for other(all) vectors?
 We only need to show that the maximum (the norm) is at least that big — which can be done by constructing one **witness** vector.
 
-Norms stay the same when matrix is multiplied by an orthogonal matrix
-Unitary replaces orthogonal for complex matrix
-
 Statistically correct scale
 Why divide to n-1 ?
 [[Statistics]]
@@ -682,3 +681,21 @@ Perpendicular least squares
 
 Total variance = Frobenius norm
 Effective rank of A and S
+
+
+### Problems
+
+10.
+
+Singular values of $A^{-1}$
+See problem 1.8.18
+
+If a square matrix A of size nxn, has n positive singular values, does it mean it's invertible?
+
+https://chatgpt.com/c/69009747-615c-8330-a3ce-32bba4822693
+
+If a square matrix A of size nxn, has n positive singular values, does it mean it is a full rank matrix?
+What the correct term for full rank matrix?
+
+Why invertible matrix should be full-rank?
+No inverse exists for a map that collapses dimensions.
