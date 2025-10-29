@@ -36,6 +36,7 @@ Original transformer
 Variables
 - d_h - скрытая размерность (embedding / model dim)
 - d_ff - размер внутреннего слоя, обычно d_ff = 4 * d_h
+- d_ah - dim of each attention head
 
 BERT_base
 - transformer layers = 12

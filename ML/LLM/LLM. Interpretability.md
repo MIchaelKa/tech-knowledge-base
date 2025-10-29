@@ -1,6 +1,8 @@
 
 Anthropic
 
+# External
+
 mechanistic interpretability
 - механистические интерпретации
 - Transformer Interpretability
@@ -8,6 +10,7 @@ mechanistic interpretability
 Transformer Interpretability
 - https://t.me/cryptovalerii/768
 - https://arena-chapter1-transformer-interp.streamlit.app/
+- https://github.com/callummcdougall/ARENA_3.0/tree/main
 
 mech interp
 - https://t.me/gonzo_ML/3282

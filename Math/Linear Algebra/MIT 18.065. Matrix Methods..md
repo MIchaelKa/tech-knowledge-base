@@ -605,6 +605,7 @@ But we aim for an independent approach to the SVD!
 https://chatgpt.com/c/68f750f8-f9dc-8329-b5d5-5359e885f7b6
 
 Rayleigh quotient
+https://chatgpt.com/c/68f750f8-f9dc-8329-b5d5-5359e885f7b6
 Optimizing the Rayleigh quotient over x gives you the principal directions and eigenvalues of a symmetric matrix.
 
 [[Calculus]]
@@ -699,3 +700,17 @@ What the correct term for full rank matrix?
 
 Why invertible matrix should be full-rank?
 No inverse exists for a map that collapses dimensions.
+
+
+## 1.10 Rayleigh Quotients and Generalized Eigenvalues
+
+Rayleigh quotient
+https://chatgpt.com/c/68f750f8-f9dc-8329-b5d5-5359e885f7b6
+
+Symmetric eigenvalue problem is also an optimization: Maximize R(x)
+
+Generalized Rayleigh quotient
+
+Can it be possible that positive definite matrix is not symmetric?
+https://chatgpt.com/c/69012223-95e8-8328-b9ce-a974e99fe375
+No, a real positive definite matrix must be symmetric.
