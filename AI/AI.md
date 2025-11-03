@@ -68,6 +68,9 @@ Deep Research
 - Posts
 	- https://t.me/seeallochnaya/2293
 	- https://t.me/c3po_notes/263
+- Agent
+
+Agents
 - GAIA
 	- General AI Assistants benchmark
 - Humanity's Last Exam

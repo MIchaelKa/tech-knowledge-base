@@ -9,8 +9,6 @@ https://arxiv.org/abs/2104.14294
 
 Вышла после [[CLIP]] (2103)
 
-Official
-
 YK
 https://www.youtube.com/watch?v=h3ij3F3cPIk
 
