@@ -37,7 +37,7 @@ DLLM
 
 # Tools
 
-[[Software x.0]]
+[[Agents. Coding]]
 [[Cursor]]
 
 

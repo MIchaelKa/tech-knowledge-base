@@ -10,13 +10,6 @@ Copilot
 
 [[Cursor]]
 
-Claude Code
-- https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview
-- https://t.me/datastorieslanguages/411
-- https://openai.com/index/introducing-codex/
-- Default prompt is available.
-- Can we find default prompt for Cursor?
-
 Windsurf
 
 Aider
@@ -25,7 +18,23 @@ Aider
 Codex
 - OpenAI
 - https://t.me/seeallochnaya/2576
+- https://openai.com/index/introducing-codex/
 
+Gemini CLI
+
+# Claude Code
+
+Links
+- https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview
+- https://t.me/datastorieslanguages/411
+- Default prompt is available.
+- Can we find default prompt for Cursor?
+- [[Rev. Sessions]]
+
+
+# Overview
+
+Смогут ли AI агенты генерировать сразу ассемблер или машинный код, более оптимальный чем получается если генерировать высокоуровневый код и затем пользоваться компилятором.
 
 # Software 3.0
 

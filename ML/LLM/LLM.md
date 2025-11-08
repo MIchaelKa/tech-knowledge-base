@@ -93,6 +93,14 @@ Perplexity
 [[RLHF]]
 [[DPO]]
 [[SFT]]
+
+[[Nanochat]]
+
+The Smol Training Playbook
+- https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook
+- https://x.com/eliebakouch/status/1983930328751153159
+
+
 # Контекст
 
 Короткий комментарий про длинные контексты.
