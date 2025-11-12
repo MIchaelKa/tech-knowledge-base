@@ -84,7 +84,7 @@ Optimization
 - What techniques would you use to reduce the memory footprint of a deployed model?
 	- [[ML Optimization (MLO)]]
 	- [[Neural Net Optimization (NNO)]]
-	- [[Edge Device Inference]]
+	- [[Edge Devices]]
 
 Monitoring
 - How do you monitor the performance of a DL model in production and detect when retraining is needed?

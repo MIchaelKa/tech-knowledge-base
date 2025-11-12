@@ -13,7 +13,7 @@ Apple Intelligence Foundation Language Models
 	- [TG](https://t.me/c/1508800336/4473)
 - Links
 	- [[Foundation Model]]
-	- [[Edge Device Inference]]
+	- [[Edge Devices]]
 	- Transformers on Apple NPU?
 - Overview
 	- AFM-on-device

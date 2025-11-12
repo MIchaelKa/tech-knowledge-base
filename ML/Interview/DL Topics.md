@@ -79,7 +79,7 @@ Advanced
 - [[GLIP]]
 
 SD
-- [[Edge Device Inference]]
+- [[Edge Devices]]
 
 # CV
 

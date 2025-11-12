@@ -12,7 +12,7 @@ Bag of tricks для ускорения CV моделей — Егор Шест�
 
 # Links
 
-[[Edge Device Inference]]
+[[Edge Devices]]
 
 # Overview
 

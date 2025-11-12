@@ -28,7 +28,7 @@ Common
 	- tracking
 
 Deep dive
-- [[Edge Device Inference]]
+- [[Edge Devices]]
 - DINO
 - SAM
 
@@ -264,7 +264,7 @@ Probabilities
 
 
 Edge
-- [[Edge Device Inference]]
+- [[Edge Devices]]
 - Computational capacity on target devices
     - BOTEC
     - BOTEC here or it should be earlier?
