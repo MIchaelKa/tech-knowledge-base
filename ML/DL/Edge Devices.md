@@ -17,6 +17,8 @@ https://github.com/PINTO0309/PINTO_model_zoo
 
 [[YuNet]]
 
+[[onnxruntime]]
+
 # Overview
 
 Selective loading
@@ -70,6 +72,8 @@ torch2tflite
 
 
 # Quantization
+
+[[Quantization]]
 
 MobileNetV3 and INT8
 - https://chatgpt.com/c/6867cad2-2c58-8000-a92b-4e78191f4cb5
@@ -127,3 +131,10 @@ iPhone 15 GFLOPS
     - 1789.4 GFLOPS
 
 
+# iOS / ANE
+
+Everything we actually know about the Apple Neural Engine (ANE)
+https://github.com/hollance/neural-engine/tree/master
+
+Which devices have an ANE?
+https://github.com/hollance/neural-engine/blob/master/docs/supported-devices.md
