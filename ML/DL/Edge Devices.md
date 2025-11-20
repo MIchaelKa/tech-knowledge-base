@@ -71,22 +71,6 @@ torch2tflite
 - PyTorch -> Onnx -> Tensorflow 2 -> TFLite
 
 
-# Quantization
-
-[[Quantization]]
-
-MobileNetV3 and INT8
-- https://chatgpt.com/c/6867cad2-2c58-8000-a92b-4e78191f4cb5
-- MobileNetV3 heavily uses depthwise separable convolutions and swish/h-swish activations
-- strong calibration dataset
-- Why depthwise separable convolutions is a problem for int8 quantization?
-	- INT8 quantization needs to map all these channels into the same fixed scale (or at best, one scale per tensor).
-	- scale per tensor should work better for MobileNetV3?
-
-Calibration dataset
-- you do not need true labels for the calibration dataset.
-- you can use train data for calibration dataset
-
 # Capacity
 
 
