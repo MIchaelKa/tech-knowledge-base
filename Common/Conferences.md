@@ -29,6 +29,7 @@ ICML
 
 PyTorch Conference 2025, October 22 – 23, 2025 in San Francisco
 https://events.linuxfoundation.org/pytorch-conference/
+https://x.com/PyTorch/status/1988712965395345651?s=20
 
 # 2024
 

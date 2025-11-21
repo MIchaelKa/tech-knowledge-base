@@ -69,12 +69,3 @@ YK
 
 V-JEPA 2
 LLM-JEPA
-
-# World models
-
-World models
-- https://t.me/gonzo_ML/3176
-- модели генерации видео по факту являются и world models
-
-World models
-- SORA

@@ -21,6 +21,7 @@ http://joschu.net/index.html
 
 # Links
 
+[[AI]]
 [[Transformer]]
 
 # Курсы
@@ -101,6 +102,38 @@ The Smol Training Playbook
 - https://x.com/eliebakouch/status/1983930328751153159
 
 
+
+# Overview
+
+Temperature
+- https://chatgpt.com/c/679b97ff-9d50-8000-9566-3b83e09f66b1
+- [[Temperature]]
+- https://platform.openai.com/docs/api-reference/chat/create
+
+Structured Outputs
+- https://docs.vllm.ai/en/latest/features/structured_outputs.html
+- guided decoding
+- развернутые ответ и COT vs. answer in single word
+	- [[OpenAI o1]]
+- ChatML
+
+Predicted Outputs
+- https://t.me/seeallochnaya/1964
+- https://platform.openai.com/docs/guides/predicted-outputs
+- in canvas
+	- predicted output openai is enabled in canvas?
+
+Thinking
+- Thinking
+- [[OpenAI o1]]
+- [[DeepSeek]]
+
+diffusion LLMs
+- https://www.linkedin.com/posts/ermon_inception-raises-50-million-to-build-diffusion-activity-7392254103260889088-wlcl/
+
+Titans
+-  https://t.me/gonzo_ML/4204
+
 # Контекст
 
 Короткий комментарий про длинные контексты.
@@ -143,32 +176,6 @@ Perplexity vs. Entropy
 Интерпретация Perplexity
 - Perplexity – “эффективное количество возможных слов”, которые модель считает правдоподобными на каждом шаге.
 - Exponentiation “убирает лог”, возвращая нас в пространство вероятностей.
-
-
-# Overview
-
-Temperature
-- https://chatgpt.com/c/679b97ff-9d50-8000-9566-3b83e09f66b1
-- [[Temperature]]
-- https://platform.openai.com/docs/api-reference/chat/create
-
-Structured Outputs
-- https://docs.vllm.ai/en/latest/features/structured_outputs.html
-- guided decoding
-- развернутые ответ и COT vs. answer in single word
-	- [[OpenAI o1]]
-- ChatML
-
-Predicted Outputs
-- https://t.me/seeallochnaya/1964
-- https://platform.openai.com/docs/guides/predicted-outputs
-- in canvas
-	- predicted output openai is enabled in canvas?
-
-Thinking
-- Thinking
-- [[OpenAI o1]]
-- [[DeepSeek]]
 
 # Blogs
 

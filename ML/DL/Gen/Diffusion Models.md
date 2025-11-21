@@ -48,7 +48,6 @@ Brownian motion
 Нейробайесовскиe методы
 - [[Bayesian Statistics]]
 
-
 [[Markov Chain]]
 
 [[Variational Autoencoder (VAE)]]

@@ -38,6 +38,8 @@ GPT-4.1
 o1 Pro
 - o1 с большим бюджетом для рассуждений
 
+[[LLM]] - Timeline
+
 # Anthropic
 
 https://claude.ai/new
@@ -75,11 +77,21 @@ Gemini 2.0
 - https://t.me/seeallochnaya/2119
 - https://t.me/ai_newz/3538
 
-
 Gemini 2.5 Pro
 - https://t.me/seeallochnaya/2447
 - несмотря на отсутствие "thinking" в названии модель умеет рассуждать
 - По сути то, что OpenAI хотят сделать в GPT-5: взять большую базовую модель нового поколения (2.0 или GPT-4.5) и поверх неё обучить рассуждениям
+
+Gemini 3.0
+- https://t.me/seeallochnaya/3110
+- Artificial Analysis
+
+Gemini 3 Pro бенчмарки простыми словами
+- https://t.me/boris_again/3560
+- В общем большая ставка на агентность.
+- Но подождем результатов на арене, SWE Rebench и прочих штуках, где нельзя оверфитнуться на тест
+
+Veo3
 
 # Perplexity
 
