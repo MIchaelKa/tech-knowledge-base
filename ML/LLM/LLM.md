@@ -23,6 +23,8 @@ http://joschu.net/index.html
 
 [[AI]]
 [[Transformer]]
+[[LLM. Interpretability]]
+[[Reasoning]]
 
 # Курсы
 

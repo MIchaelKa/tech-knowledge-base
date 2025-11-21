@@ -13,16 +13,16 @@ Moved
 
 # Links
 
-[[LLM]]
-[[LLM. Interpretability]]
-[[Reasoning]]
-
 [[DL]]
+
+[[LLM]]
 [[VLM]]
+
 [[AI. Corp]]
 
 [[Agents]]
 [[MCP]]
+
 [[CG Design and Art]]
 
 # Overview
@@ -64,9 +64,10 @@ Agentic benchmarks / Агентские бенчмарки
 
 # Tools
 
+[[CG Design and Art]]
 [[Agents. Coding]]
-[[Cursor]]
 
+[[Cursor]]
 
 Canvas
 - https://t.me/kyrillic/985
@@ -77,7 +78,6 @@ Canvas
 - https://t.me/ai_newz/3530
 - OpenAI
 	- https://help.openai.com/en/articles/9930697-what-is-the-canvas-feature-in-chatgpt-and-how-do-i-use-it
-
 
 
 NotebookLM
@@ -112,19 +112,8 @@ Agents
 		- ?
 
 
-# Image generation and LLM
-
-[[Imagen]]
-
-Gemini 2.0 Flash
-- https://t.me/ai_newz/3740
-- ControlNet
-- inpainting
-
-GPT 4o
-- https://t.me/ai_newz/3770
-- https://t.me/ai_newz/3785
-- https://openai.com/index/introducing-4o-image-generation/
+вайб-рисерч
+- https://t.me/seeallochnaya/3125
 
 
 # Arena

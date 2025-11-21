@@ -15,12 +15,42 @@ Windsurf
 Aider
 - https://aider.chat/
 
+Gemini CLI
+
+Antigravity
+- https://t.me/new_yorko_times/394
+
+# Codex
+
 Codex
 - OpenAI
 - https://t.me/seeallochnaya/2576
 - https://openai.com/index/introducing-codex/
+- cloud-based software engineering agent
 
-Gemini CLI
+
+GPT-5.1-Codex-Max
+- https://t.me/seeallochnaya/3113
+- GPT-5.1-Codex -> GPT-5.1-Codex-Max
+- Эта модель, получила возможность пользоваться новым инструментом `compaction`, сжимающим контекст и позволяющим продолжать работу дольше.
+
+
+https://openai.com/codex/
+https://developers.openai.com/codex/
+https://chatgpt.com/en-ES/features/codex
+
+https://github.com/openai/codex
+
+https://chatgpt.com/codex
+
+
+Codex + Cursor - what the point?
+- https://chatgpt.com/c/6920d2bd-e20c-832a-a51a-51fa84d03a82
+- Cursor is not a model, and Codex (or GPT-4.1/GPT-5.1, etc.) is the model.
+
+
+codex vs. claude code
+
 
 # Claude Code
 
@@ -30,6 +60,24 @@ Links
 - Default prompt is available.
 - Can we find default prompt for Cursor?
 - [[Rev. Sessions]]
+
+Claude Code vs. Cursor
+- https://chatgpt.com/c/6920d704-fcf4-8325-9ea3-9fd3fa698574
+
+# Documentation
+
+Gemini
+- https://gemini.google.com/app/fae2be4d3645cf79
+
+Инструменты для Генерации Диаграмм
+- Mermaid или PlantUML
+
+TODO
+- Antigravity
+- Codex
+- Cursor
+- Claude Code
+- Sourcegraph Cody
 
 
 # Overview
