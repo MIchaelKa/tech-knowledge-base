@@ -1,5 +1,14 @@
 
 
+# Links
+
+[[Coding. Prompts]]
+[[Rev. Sessions]]
+
+
+# External
+
+
 Vibe coding
 - https://en.wikipedia.org/wiki/Vibe_coding
 - Vibe coding and tests
@@ -44,12 +53,20 @@ https://github.com/openai/codex
 https://chatgpt.com/codex
 
 
+codex vs. claude code
+codex vs. cursor
+
 Codex + Cursor - what the point?
 - https://chatgpt.com/c/6920d2bd-e20c-832a-a51a-51fa84d03a82
 - Cursor is not a model, and Codex (or GPT-4.1/GPT-5.1, etc.) is the model.
+- Shared agent state across environments
 
+Cloud agent
+- github?
 
-codex vs. claude code
+Use Codex with the Agents SDK
+- https://developers.openai.com/codex/guides/agents-sdk
+- Start by turning Codex CLI into a MCP server that the Agents SDK can call.
 
 
 # Claude Code
@@ -83,6 +100,11 @@ TODO
 # Overview
 
 Смогут ли AI агенты генерировать сразу ассемблер или машинный код, более оптимальный чем получается если генерировать высокоуровневый код и затем пользоваться компилятором.
+
+Мне никогда не нравилось на 100% как работает tab в курсоре
+
+Выход GPT-5.1-Codex-Max, хорошее время чтобы начать с Codex?
+
 
 # Software 3.0
 
