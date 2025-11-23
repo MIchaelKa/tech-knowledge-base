@@ -7,27 +7,25 @@ External
 - https://t.me/seeallochnaya/2170
 - https://vas3k.blog/blog/2024/
 
-
 Интересно про то, как построен Курсор
 - https://t.me/gonzo_ML/3702
-
-Security
-- https://www.cursor.com/security#codebase-indexing
-- Codebase Indexing
-
+- https://newsletter.pragmaticengineer.com/p/cursor
 
 Cursor 2.0
 - https://t.me/ai_newz/4231
 - вертикальная интеграция
 - https://chatgpt.com/c/6920d5dd-bb14-832a-8800-d342a7935d6a
 
-
 # Overview
 
-Questions
 - can cursor make changes in several files at once?
-	- YES
+- YES
 
+# Docs
+
+Security
+- https://www.cursor.com/security#codebase-indexing
+- Codebase Indexing
 
 # Rules
 

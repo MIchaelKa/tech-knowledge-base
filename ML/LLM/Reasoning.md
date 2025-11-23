@@ -30,6 +30,10 @@ Build Reasoning Models
 	- technique for RLHF
 	- GRPO groups similar samples together and compares them as a group.
 
+Speculations on Test-Time Scaling
+- https://t.me/seeallochnaya/1986
+- спекуляции по поводу того, как работает модель OpenAI o1
+
 # Latent Reasoning
 
 

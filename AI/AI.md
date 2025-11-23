@@ -21,6 +21,7 @@ Moved
 [[AI. Corp]]
 
 [[Agents]]
+[[Agents. Coding]]
 [[MCP]]
 
 [[CG Design and Art]]
@@ -47,6 +48,7 @@ SWE-Bench
 
 SWE-ReBench
 - https://t.me/seeallochnaya/3091
+- кстати, если агенту / llm в бенчмарке vercel-а дать явную инструкцию прогонять линтер и делать билд проекта, то метрики сильно-сильно растут)
 
 Agentic benchmarks / Агентские бенчмарки
 - https://t.me/seeallochnaya/3110

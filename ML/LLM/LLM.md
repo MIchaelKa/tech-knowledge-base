@@ -119,11 +119,6 @@ Structured Outputs
 	- [[OpenAI o1]]
 - ChatML
 
-Predicted Outputs
-- https://t.me/seeallochnaya/1964
-- https://platform.openai.com/docs/guides/predicted-outputs
-- in canvas
-	- predicted output openai is enabled in canvas?
 
 Thinking
 - Thinking
@@ -135,6 +130,24 @@ diffusion LLMs
 
 Titans
 -  https://t.me/gonzo_ML/4204
+
+
+# Speculative decoding
+
+
+Predicted Outputs
+- https://t.me/seeallochnaya/1964
+- https://platform.openai.com/docs/guides/predicted-outputs
+- Работает используя Speculative decoding
+- Canvas
+	- predicted output openai is enabled in canvas?
+
+
+Speculative decoding
+Спекулятивное декодирование
+
+Speculative decoding is an inference optimization technique for large language models (LLMs) that uses a smaller, faster "draft" model to generate multiple candidate tokens, which are then verified in parallel by the larger "target" model
+
 
 # Контекст
 
