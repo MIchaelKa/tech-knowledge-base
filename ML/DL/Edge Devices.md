@@ -9,6 +9,8 @@ https://github.com/PINTO0309/PINTO_model_zoo
 
 # Links
 
+[[Neural Net Inference (NNI)]]
+
 [[ML Optimization (MLO)]]
 [[Neural Net Optimization (NNO)]]
 

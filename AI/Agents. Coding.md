@@ -5,6 +5,8 @@
 [[Coding. Prompts]]
 [[Rev. Sessions]]
 
+[[AI]]
+[[AI. Corp]]
 
 # External
 
@@ -28,6 +30,12 @@ Gemini CLI
 
 Antigravity
 - https://t.me/new_yorko_times/394
+
+
+Gemini in Android Studio
+- https://developer.android.com/gemini-in-android
+- https://developer.android.com/studio/gemini/overview
+- https://developer.android.com/studio/gemini/agent-mode
 
 # Codex
 
@@ -68,6 +76,9 @@ Use Codex with the Agents SDK
 - https://developers.openai.com/codex/guides/agents-sdk
 - Start by turning Codex CLI into a MCP server that the Agents SDK can call.
 
+Ask and Agent modes:
+- https://chatgpt.com/c/692724d1-d944-832a-8dd1-4686856ed931
+
 
 # Claude Code
 
@@ -104,6 +115,8 @@ TODO
 Мне никогда не нравилось на 100% как работает tab в курсоре
 
 Выход GPT-5.1-Codex-Max, хорошее время чтобы начать с Codex?
+
+LLM с помощью специального tool должна сама управлять своим контекстом, не только добавлять туда, но и удалять ненужное, сжимать существующее.
 
 
 # Software 3.0

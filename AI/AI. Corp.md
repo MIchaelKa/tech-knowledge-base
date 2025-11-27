@@ -65,8 +65,16 @@ Claude
 - Opus
 	- Тяжеловес opus
 - Sonnet
+- Haiku
+	- fastest?
 
-Haiku - ?
+Claude Opus 4.5
+- https://www.anthropic.com/news/claude-opus-4-5
+- Pricing
+	- 15/75 -> 5/25 - per million tokens
+	- input.output tokens
+- Tool search tool
+	- https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-5#tool-search-tool-beta
 
 
 # Google
