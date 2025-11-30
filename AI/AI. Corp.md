@@ -75,6 +75,9 @@ Claude Opus 4.5
 	- input.output tokens
 - Tool search tool
 	- https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-5#tool-search-tool-beta
+	- Кто придумал GitHub MCP на 26 тысяч токенов???
+- Claude Opus 4.5 таки смог взять 80% на SWE-bench Verified!
+	- https://t.me/seeallochnaya/3131
 
 
 # Google

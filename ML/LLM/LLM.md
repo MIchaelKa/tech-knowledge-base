@@ -125,8 +125,7 @@ Thinking
 - [[OpenAI o1]]
 - [[DeepSeek]]
 
-diffusion LLMs
-- https://www.linkedin.com/posts/ermon_inception-raises-50-million-to-build-diffusion-activity-7392254103260889088-wlcl/
+[[dLLMs]]
 
 Titans
 -  https://t.me/gonzo_ML/4204

@@ -37,6 +37,32 @@ Gemini in Android Studio
 - https://developer.android.com/studio/gemini/overview
 - https://developer.android.com/studio/gemini/agent-mode
 
+
+# Benchmarks
+
+[[AI]] - Benchmarks
+
+SWE-Bench
+- https://t.me/seeallochnaya/2830
+
+SWE-Bench Verified
+- ?
+
+SWE-ReBench
+- https://swe-rebench.com/
+- https://t.me/seeallochnaya/3091
+	- кстати, если агенту / llm в бенчмарке vercel-а дать явную инструкцию прогонять линтер и делать билд проекта, то метрики сильно-сильно растут)
+- https://t.me/AIexTime/160
+
+
+бенчмарк от Vercel
+- https://nextjs.org/evals
+
+
+# Open source
+
+MiniMax M2
+
 # Codex
 
 Codex
@@ -45,6 +71,10 @@ Codex
 - https://openai.com/index/introducing-codex/
 - cloud-based software engineering agent
 
+Оказалось Codex CLI теперь включён в подписку ChatGPT
+- 25.08.2025
+- https://t.me/ai_newz/4129
+- Уровень Codex как CLI инструмента не дотягивает до Claude Code, но, судя по отзывам, качество работы которую делает Codex — лучше.
 
 GPT-5.1-Codex-Max
 - https://t.me/seeallochnaya/3113
@@ -117,6 +147,10 @@ TODO
 Выход GPT-5.1-Codex-Max, хорошее время чтобы начать с Codex?
 
 LLM с помощью специального tool должна сама управлять своим контекстом, не только добавлять туда, но и удалять ненужное, сжимать существующее.
+
+
+как долго агент может автономно выполнять задачи, связанные с ML и разработкой
+- https://t.me/seeallochnaya/3134
 
 
 # Software 3.0

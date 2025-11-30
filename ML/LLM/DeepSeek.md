@@ -15,6 +15,17 @@ DeepSeek moment
 [[LLM]]
 [[Transformer]]
 
+
+# Papers
+
+DeepSeekMath-V2
+- https://t.me/seeallochnaya/3143
+
+DeepSeek-V3.2
+- V3.1-Terminus
+- Sparse Attention
+- https://t.me/seeallochnaya/2943
+
 # Timeline
 
 DeepSeek-V2

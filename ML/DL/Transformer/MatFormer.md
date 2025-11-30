@@ -9,3 +9,6 @@ Gemma
 
 Gemma 3n
 - https://t.me/gonzo_ML/3746
+
+Свежих матрёшек завезли!
+- https://t.me/gonzo_ML/4263

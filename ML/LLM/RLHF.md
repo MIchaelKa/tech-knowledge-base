@@ -2,12 +2,15 @@
 Reinforcement Learning from Human Feedback
 
 
+# Links
+
+[[Reinforcement Learning (RL)]]
+
+
 # External
 
-[OpenAI InstructGPT & RLHF] Training language models to follow instructions with human feedback
+OpenAI InstructGPT & RLHF. Training language models to follow instructions with human feedback
 - https://t.me/gonzo_ML/1277
-
-
 
 
 # RLVR

@@ -43,27 +43,6 @@ Gemini 3.0
 - категории бенчмарков
 - SimpleQA от OpenAI
 
-SWE-Bench
-- https://t.me/seeallochnaya/2830
-
-SWE-ReBench
-- https://t.me/seeallochnaya/3091
-- кстати, если агенту / llm в бенчмарке vercel-а дать явную инструкцию прогонять линтер и делать билд проекта, то метрики сильно-сильно растут)
-
-Agentic benchmarks / Агентские бенчмарки
-- https://t.me/seeallochnaya/3110
-- Vending Bench
-- WeirdML
-
-Спидраним NanoGPT агентами: новый бенчмарк
-- https://t.me/rybolos_channel/1524
-- NanoGPT speedrun
-
-Пицца аля-semi-supervised
-- https://habr.com/ru/companies/ods/articles/422873/
-- как обучить модель и получить разметку датасета, разметив всего несколько сэмплов
-- 13 сен 2018 в 13:05
-
 # Tools
 
 [[CG Design and Art]]

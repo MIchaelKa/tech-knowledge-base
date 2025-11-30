@@ -71,8 +71,6 @@ Byte Latent Transformer
 - LinkedIn
 	- TODO
 
-
 ModernBERT
 - https://t.me/gonzo_ML/3090
 - [linkedin](https://www.linkedin.com/feed/update/urn:li:activity:7275561231028039680?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7275561231028039680%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29)
-- 
