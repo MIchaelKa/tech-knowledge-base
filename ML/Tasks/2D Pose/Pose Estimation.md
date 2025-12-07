@@ -1,4 +1,9 @@
 
+# External
+
+Notion
+https://www.notion.so/Pose-Estimation-fd814da4ce3140c2be9e88c0e33b2c34
+
 # Overview
 
 MoCap

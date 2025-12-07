@@ -6,8 +6,8 @@
 
 # Paper
 
-**Kubric: A scalable dataset generator**
-[https://arxiv.org/abs/2203.03570](https://arxiv.org/abs/2203.03570)
+Kubric: A scalable dataset generator
+https://arxiv.org/abs/2203.03570
 
 # Overview
 
