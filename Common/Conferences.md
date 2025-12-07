@@ -33,10 +33,15 @@ NeurIPS
 ICLR 2025 выходит на финишную прямую!
 - https://t.me/timeforcv/128
 
-
 PyTorch Conference 2025, October 22 – 23, 2025 in San Francisco
 - https://events.linuxfoundation.org/pytorch-conference/
 - https://x.com/PyTorch/status/1988712965395345651?s=20
+
+
+ML Global Recap
+- https://events.yandex.ru/events/ml-global-recap/11-dec-2025
+- https://t.me/cryptovalerii/867
+- https://t.me/buckwheat_thoughts/282
 
 
 # NeurIPS 2025 Best Paper Awards

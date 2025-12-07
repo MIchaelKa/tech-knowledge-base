@@ -24,3 +24,9 @@ https://telegram.org/blog/telegraph
 
 Bases
 https://help.obsidian.md/bases
+
+
+obsidian always open in new tab
+- https://forum.obsidian.md/t/click-links-files-to-open-in-new-tab-by-default/7347
+- plugin for this functionality
+- https://forum.obsidian.md/t/click-links-files-to-open-in-new-tab-by-default/7347/94

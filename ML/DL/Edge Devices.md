@@ -63,9 +63,13 @@ Architectures
 
 # TFLite
 
-PINTO
+onnx2tf
+- PINTO
 - https://github.com/PINTO0309/onnx2tf
 - If the accuracy of the INT8 quantized model degrades significantly
+
+Fix dynamic batch
+- https://chatgpt.com/c/69297b97-fc78-8326-858f-3407a6063ba7
 
 torch2tflite
 - pytorch to tensor flow lite

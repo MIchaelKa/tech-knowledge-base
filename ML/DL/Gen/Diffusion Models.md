@@ -41,6 +41,7 @@ Yang Song
 
 # Links
 
+[[Differential Equations]]
 DE / SDE
 
 Brownian motion
@@ -53,6 +54,8 @@ Brownian motion
 [[Variational Autoencoder (VAE)]]
 
 [[Energy-Based Models (EBMs)]]
+
+[[cs236]]
 
 # Papers
 
@@ -100,6 +103,7 @@ Generative Modeling by Estimating Gradients of the Data Distribution
 Score-Based Generative Modeling through Stochastic Differential Equations
 - https://arxiv.org/abs/2011.13456
 - Yang Song, Jascha Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon, Ben Poole
+- Goal: understand this paper!
 
 Sliced score matching: A scalable approach to density and score estimation
 - TODO
@@ -231,6 +235,10 @@ Denoising Diffusion Models: A Generative Learning Big Bang - Туториал
 		- Advanced ODE/SDE solvers
 
 # Videos
+
+
+Why Does Diffusion Work Better than Auto-Regression?
+- https://www.youtube.com/watch?v=zc5NTeJbk-k
 
 
 What are Diffusion Models?

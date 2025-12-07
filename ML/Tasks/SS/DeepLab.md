@@ -121,7 +121,7 @@ Fully-connected CRF
 - Экспоненциально меньше параметров при использовании графической модели
 - [[Probabilistic Graphical Model (PGM)]]
 - [[Joint Probability]]
-- Should we link [[Sum Rule]] instead?
+- Should we link [[Probability Rules]] instead?
 
 Мы должны выбрать наиболее вероятную раскраску
 [[Graph]]

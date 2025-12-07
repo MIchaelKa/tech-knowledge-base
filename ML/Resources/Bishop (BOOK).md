@@ -35,7 +35,7 @@ Model complexity
 [[Joint Probability]]
 
 Sum rule
-- [[Sum Rule]]
+- [[Probability Rules]]
 - Marginal probability
 - Summing up of joint probabilities
 
