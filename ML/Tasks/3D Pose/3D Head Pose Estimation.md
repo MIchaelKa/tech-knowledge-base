@@ -9,6 +9,8 @@
 Facial Landmark Detection
 https://www.notion.so/Facial-Landmark-Detection-a6aa165984da48779bbd783bdea4bc07 
 
+
+
 # External
 
 PWS
@@ -17,6 +19,12 @@ Now try to find on HF
 
 Обзор технологий трекинга: AR Маски
 https://habr.com/ru/articles/540440/
+
+Picture
+https://github.com/Mostafa-Nafie/Head-Pose-Estimation
+
+openvino
+https://github.com/openvinotoolkit/open_model_zoo/tree/master/models/intel/head-pose-estimation-adas-0001
 
 # PnP
 
@@ -33,3 +41,18 @@ https://docs.opencv.org/4.x/d5/d1f/calib3d_solvePnP.html
 
 Head pose estimation
 https://github.com/yinguobing/head-pose-estimation
+
+
+# Coordinate system
+
+Standard 3D convention (Y-up, right-handed)
+
+OpenCV coordinates convention
+OpenCV’s camera coordinates (X right, Y down, Z forward)
+Z-axis points out of the camera, right-handed
+
+Rotation Matrix To Euler Angles
+https://learnopencv.com/rotation-matrix-to-euler-angles/
+
+ChatGPT
+https://chatgpt.com/c/6939ccf3-1008-8331-9886-c4397482617d

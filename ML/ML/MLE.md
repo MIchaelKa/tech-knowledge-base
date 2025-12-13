@@ -4,11 +4,18 @@ maximum likelihood criterion
 
 Принцип максимального правдоподобия
 
+vs. MAP
+
 # Links
 
 [[Bishop (BOOK)]]
 - 1.2.4
 - 3.1.1
+
+[[Understanding Deep Learning (UDL) (BOOK)]]
+
+[[cs4780]]
+https://www.cs.cornell.edu/courses/cs4780/2018fa/lectures/lecturenote06.html
 
 # Overview
 

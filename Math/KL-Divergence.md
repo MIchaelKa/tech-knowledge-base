@@ -1,4 +1,5 @@
 
+[[Entropy]]
 
 KL Divergence
 - Kullback-Leibler Divergence

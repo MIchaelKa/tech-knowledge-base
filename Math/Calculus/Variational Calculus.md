@@ -1,6 +1,7 @@
 
 вариационное исчисление
 
+# External
 
 wiki
 - en.wikipedia.org/wiki/Calculus_of_variations
@@ -12,6 +13,9 @@ wiki
 
 Вариационное исчисление и Вариационные алгоритмы
 - https://habr.com/ru/articles/692514/
+
+
+# Overview
 
 
 функционал

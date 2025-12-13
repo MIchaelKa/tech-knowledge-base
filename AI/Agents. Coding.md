@@ -19,8 +19,6 @@ Vibe coding
 Copilot
 - https://www.notion.so/GitHub-Copilot-6d39382b23824aa784bf493d84581317
 
-[[Cursor]]
-
 Windsurf
 
 Aider
@@ -62,6 +60,35 @@ SWE-ReBench
 # Open source
 
 MiniMax M2
+
+
+# Cursor
+
+External
+- https://www.cursor.com/
+- https://t.me/c/1508800336/4613
+- https://t.me/seeallochnaya/2170
+- https://vas3k.blog/blog/2024/
+
+Интересно про то, как построен Курсор
+- https://t.me/gonzo_ML/3702
+- https://newsletter.pragmaticengineer.com/p/cursor
+
+Cursor 2.0
+- https://t.me/ai_newz/4231
+- вертикальная интеграция
+- https://chatgpt.com/c/6920d5dd-bb14-832a-8800-d342a7935d6a
+
+Improving Cursor’s agent for OpenAI Codex models
+- https://cursor.com/blog/codex-model-harness
+
+- can cursor make changes in several files at once?
+- YES
+
+Security
+- https://www.cursor.com/security#codebase-indexing
+- Codebase Indexing
+
 
 # Codex
 
@@ -228,7 +255,7 @@ Andrej Karpathy: Software Is Changing (Again)
 - GUI for LLMs
 	- Text is very hard to read, interpret, understand... 
 	- Autonomy slider
-	- [[Cursor]]
+	- Cursor
 	- Perplexity
 - Generation - Verification loop
 	- We have to keep AI on the leash

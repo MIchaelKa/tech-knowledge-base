@@ -11,6 +11,5 @@ Jensen's Inequality proof
 [[Logistic Regression]]
 
 
-# Overview
 
 

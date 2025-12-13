@@ -3,7 +3,7 @@
 
 Weak Law of Large Numbers (WLLN)
 
-# External Links
+# External
 
 https://en.wikipedia.org/wiki/Law_of_large_numbers
 
