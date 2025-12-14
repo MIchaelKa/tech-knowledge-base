@@ -238,7 +238,7 @@ Why we need to replace the log-probability form with a likelihood ratio, why jus
 Constrained optimization. No regular gradient ascent anymore. Evaluate candidate policies.
 Does it mean we need to treat formulas differently?
 
-Importance sampling
+[[Importance Sampling]]
 - https://en.wikipedia.org/wiki/Importance_sampling
 - Monte Carlo method for evaluating properties of a particular distribution, while only having samples generated from a different distribution
 - Target distribution in our case is the new policy and we only have samples drawn from the old policy.

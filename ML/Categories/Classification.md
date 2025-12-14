@@ -1,11 +1,7 @@
 
-softmax
-- https://en.wikipedia.org/wiki/Softmax_function
 
-softmax vs. sigmoid
-- https://stats.stackexchange.com/questions/233658/softmax-vs-sigmoid-function-in-logistic-classifier
-- softmax vs. sigmoid for one class classification in the last layer
-- softmax gives the same probabilities when number of classes K = 2
+[[Softmax]]
+
 
 
 # Multi Label
