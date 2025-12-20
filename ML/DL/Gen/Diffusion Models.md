@@ -113,7 +113,6 @@ Denoising Diffusion Implicit Models
 - Jiaming Song, Chenlin Meng, Stefano Ermon
 - DDIM
 
-
 Generative Modeling by Estimating Gradients of the Data Distribution
 - https://yang-song.net/blog/2021/score/
 - GPT

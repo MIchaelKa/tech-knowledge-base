@@ -6,12 +6,6 @@ https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial8/D
 
 https://www.reddit.com/r/MachineLearning/comments/kc8ruw/d_what_exactly_is_yann_lecuns_energy_based/
 
-# Papers
-
-How to Train Your Energy-Based Models
-- https://arxiv.org/abs/2101.03288
-- Yang Song, Diederik P. Kingma
-
 # Materials
 
 NYU-DLSP20
@@ -83,31 +77,6 @@ The new contender to GANs: score matching with Langevin Sampling
 - convergence guarantees (i.e., no mode collapse)
 - (Annealed) Langevin Sampling
 
-# Langevin
 
-
-Langevin equation
-- Langevin
-	- https://en.wikipedia.org/wiki/Langevin_equation
-- Ланжевен
-	- ru.wikipedia.org/wiki/Уравнение_Ланжевена
-	- стохастическое дифференциальное уравнение, описывающее броуновское движение
-	- FLP
-	- [[Differential Equations]]
-
-
-Langevin Sampling
-- Langevin dynamics
-- Links
-	- https://en.wikipedia.org/wiki/Langevin_dynamics
-	- https://en.wikipedia.org/wiki/Metropolis-adjusted_Langevin_algorithm
-- accept/reject step
-	- en.wikipedia.org/wiki/Metropolis–Hastings_algorithm
-- MCMC
-	- https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo
-- SGLD
-	- https://en.wikipedia.org/wiki/Stochastic_gradient_Langevin_dynamics
-
-# Overview
 
 

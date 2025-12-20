@@ -1,7 +1,7 @@
 
 matrices
 
-# External Links
+# External
 
 Notion
 https://www.notion.so/M-Matrix-11d2e957c1a54b869a442d35a4a40e14

@@ -39,5 +39,5 @@ The covariance Hessian matrix used in cv::goodFeaturesToTrack() is computed over
 	- Матрица M в Харрисе это Гессиан?
 		- Но там производные первого порядка, но функция от двух аргументов.
 		- Там квадраты производных по х и у или их взаимное перемножение.
-	- In the **Harris corner detector**, the matrix computed is **not** the Hessian matrix
+	- In the Harris corner detector, the matrix computed is not the Hessian matrix
 		- https://chatgpt.com/c/66e959ac-dc2c-8000-ba5c-4f5cd5286942
