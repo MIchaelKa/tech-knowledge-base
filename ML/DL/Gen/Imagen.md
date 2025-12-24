@@ -1,4 +1,9 @@
 
+Imagen 2
+- https://t.me/ai_newz/2340
+- 13/12/2023
+
+
 Imagen
 - Paper
 	- Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding

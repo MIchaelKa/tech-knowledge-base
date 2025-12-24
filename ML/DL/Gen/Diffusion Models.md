@@ -91,19 +91,13 @@ Elucidating the Design Space of Diffusion-Based Generative Models
 - https://arxiv.org/abs/2206.00364
 - https://t.me/ai_newz/1911
 
-# DE
-
-[[Differential Equations]]
-
-Generative Modeling by Estimating Gradients of the Data Distribution
-- https://arxiv.org/abs/1907.05600
-- Yang Song, Stefano Ermon
-- score-based generative modeling method
+---
 
 Score-Based Generative Modeling through Stochastic Differential Equations
 - https://arxiv.org/abs/2011.13456
 - Yang Song, Jascha Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon, Ben Poole
 - Goal: understand this paper!
+- DDPM?
 
 Sliced score matching: A scalable approach to density and score estimation
 - TODO
@@ -112,6 +106,13 @@ Denoising Diffusion Implicit Models
 - https://arxiv.org/abs/2010.02502
 - Jiaming Song, Chenlin Meng, Stefano Ermon
 - DDIM
+
+---
+
+Generative Modeling by Estimating Gradients of the Data Distribution
+- https://arxiv.org/abs/1907.05600
+- Yang Song, Stefano Ermon
+- score-based generative modeling method
 
 Generative Modeling by Estimating Gradients of the Data Distribution
 - https://yang-song.net/blog/2021/score/
@@ -291,6 +292,24 @@ What are Diffusion Models?
 	- score-based generative modeling
 - bits/dim
 - unCLIP
+
+# Posts
+
+Search: диффуры
+
+
+Yang Song — Advancements in Diffusion Models for Generative AI
+- https://t.me/ai_newz/1921
+
+DM materials
+- https://t.me/ai_newz/1912
+- Applied Stochastic Differential Equations
+
+CS492(D): Diffusion Models and Their Applications
+- https://t.me/ai_newz/3478
+- Как ускорить диффузию
+
+Cache Me if You Can: Accelerating Diffusion Models through Block Caching
 
 
 # CV Week (Yandex)
