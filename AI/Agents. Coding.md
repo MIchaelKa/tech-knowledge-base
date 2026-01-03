@@ -36,6 +36,12 @@ Gemini in Android Studio
 - https://developer.android.com/studio/gemini/agent-mode
 
 
+# Tools
+
+AGENTS.md
+https://agents.md/
+
+
 # Benchmarks
 
 [[AI]] - Benchmarks

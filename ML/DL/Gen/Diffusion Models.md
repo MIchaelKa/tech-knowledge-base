@@ -3,6 +3,7 @@
 
 Notion
 - https://www.notion.so/Diffusion-Models-fac71777ec1548ae9fcd343bd2d196e6
+- Moved
 
 Awesome-Diffusion-Models
 - https://github.com/diff-usion/Awesome-Diffusion-Models
@@ -10,6 +11,11 @@ Awesome-Diffusion-Models
 wiki
 - https://en.wikipedia.org/wiki/Diffusion_model
 
+
+Yang Song
+- https://yang-song.net/
+
+#  Learn Path
 
 GPT Learn path
 - 4o
@@ -30,24 +36,22 @@ GPT Learn path
 		- Markovian
 		- non-Markovian
 
-Yang Song
-- https://yang-song.net/
 
 # Parent
 
+[[Generative Models]]
+
 [[Image Generation]]
 
-[[Generative Models]]
 
 # Links
 
 [[Differential Equations]]
-DE / SDE
 
 Brownian motion
 
 Нейробайесовскиe методы
-- [[Bayesian Statistics]]
+[[Bayesian Statistics]]
 
 [[Markov Chain]]
 
@@ -97,7 +101,11 @@ Score-Based Generative Modeling through Stochastic Differential Equations
 - https://arxiv.org/abs/2011.13456
 - Yang Song, Jascha Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon, Ben Poole
 - Goal: understand this paper!
-- DDPM?
+- Score-based generative models
+	- DDPM
+	- SMLD
+- Links
+	- Anderson, 1982
 
 Sliced score matching: A scalable approach to density and score estimation
 - TODO
@@ -112,7 +120,9 @@ Denoising Diffusion Implicit Models
 Generative Modeling by Estimating Gradients of the Data Distribution
 - https://arxiv.org/abs/1907.05600
 - Yang Song, Stefano Ermon
-- score-based generative modeling method
+- Score-based generative modeling method
+- Score matching with Langevin dynamics (SMLD)
+- DDPM does same things?
 
 Generative Modeling by Estimating Gradients of the Data Distribution
 - https://yang-song.net/blog/2021/score/
@@ -173,17 +183,9 @@ DDIM
 [[DALL-E-2]]
 
 [[Latent Diffusion]]
+[[Stable Diffusion]]
 
 [[Imagen]]
-
-Stable Diffusion
-- https://t.me/ai_newz/1368
-- https://github.com/CompVis/stable-diffusion
-- CompVis
-- LAION-2B
-- Imagen
-- Grounding DINO
-	- https://t.me/ai_newz/1852
 
 Neural Network Parameter Diffusion
 - https://arxiv.org/abs/2402.13144
@@ -198,6 +200,29 @@ ControlNet
 Score-Based Models vs. DDIM
 - https://chatgpt.com/c/673399d7-76e4-8000-82b5-85ecba3f4840
 
+
+# Overview
+
+Pros
+- High quality samples
+- Diversity
+
+Cons
+- Slow generation process
+	- Slow sampling
+	- Sequential generation process
+
+
+Loss function derivation
+- https://chatgpt.com/c/67339f4a-ef70-8000-9698-7b81e22c862f
+- The reverse process is derived as a parameterized approximation to the true reverse dynamics of the diffusion process
+- Key insight that predicting noise $\epsilon$ is sufficient
+- Approximating the true reverse distribution $q(x_{t-1} | x_t)$
+- Conditioning on $x_0$
+- This makes $q(x_{t-1} | x_t, x_0)$ analytically tractable because the forward process was designed to be Gaussian.
+- p and q notations
+	- q - true forward diffusion process (GT)
+	- p - models's approximation
 
 # Tutorial
 
@@ -254,7 +279,7 @@ How AI Image Generators Work (Stable Diffusion / Dall-E) - Computerphile
 - https://www.youtube.com/watch?v=1CIpzeNxIhU
 	- Oct 4, 2022
 - Dall-E 1 or 2 ?
-- Объясняет как работает GLIDE?
+- Объясняет как работает [[GLIDE]] ?
 - GAN vs. Diffusion models
 	- Smaller steps for model to get from noise to good-looking image
 - Predicting noise
@@ -297,11 +322,13 @@ What are Diffusion Models?
 
 Search: диффуры
 
+Диффузионные генеративные модели все больше и больше отжимают территорию у Ганов.
+- https://t.me/ai_newz/808
 
 Yang Song — Advancements in Diffusion Models for Generative AI
 - https://t.me/ai_newz/1921
 
-DM materials
+Материалы по диффузионкам:
 - https://t.me/ai_newz/1912
 - Applied Stochastic Differential Equations
 
@@ -341,28 +368,35 @@ Links
 - Denoising score matching
 	- Trace of Jacobian
 
-# Overview
 
-Pros
-- High quality samples
-- Diversity
+# YK
 
-Cons
-- Slow generation process
-	- Slow sampling
-	- Sequential generation process
+  
+DDPM - Diffusion Models Beat GANs on Image Synthesis (Machine Learning Research Paper Explained)
+https://www.youtube.com/watch?v=W-O7AZNzbzQ
 
+FID
 
-Loss function derivation
-- https://chatgpt.com/c/67339f4a-ef70-8000-9698-7b81e22c862f
-- The reverse process is derived as a parameterized approximation to the true reverse dynamics of the diffusion process
-- Key insight that predicting noise $\epsilon$ is sufficient
-- Approximating the true reverse distribution $q(x_{t-1} | x_t)$
-- Conditioning on $x_0$
-- This makes $q(x_{t-1} | x_t, x_0)$ analytically tractable because the forward process was designed to be Gaussian.
-- p and q notations
-	- q - true forward diffusion process (GT)
-	- p - models's approximation
+Forward Noising Process
+Many steps with adding a liitle bit of noise on each
+
+Can we learn a function that does the reverse process?
+$f(x,t=50)$
+x - image from step t (with noise)
+t - time/step
+we need to predict the image at step 49
+We have a training data for every step of this pipeline.
+
+$q(x_{t-1}|x_t)$ - это распределение зависит от всего датасета, мы должна знать распределение всех наших данных (всего нашего мира, какие в нем дома, деревья и тд.)
+
+$q(x_t|x_{t-1})$ - такое распределение не зависит практически ни от чего
+
+Модель предсказывает **нормальное** распределение откуда могла прийти картинка $x_{t-1}$ учитывая что мы смотрим на картинку $x_{t}$
+Мы можем делать такое предположение что картинка лежит в нормальном распределении только если делаем маленькие шаги.
+Мы также подаем на вход картинку $x_0$
+
+VAE
+VLB
 
 
 # Implementation

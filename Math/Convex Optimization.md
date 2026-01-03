@@ -21,6 +21,9 @@ http://cvxr.com/cvx/
 
 https://www.cvxpy.org/short_course/index.html
 
+Stanford EE364A Convex Optimization I Stephen Boyd I 2023
+https://www.youtube.com/playlist?list=PLoROMvodv4rMJqxxviPa4AmDClvcbHi6h
+
 # Links
 
 Метод Ньютона

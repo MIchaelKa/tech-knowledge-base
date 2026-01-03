@@ -1,12 +1,14 @@
 
+[[Qwen]]
+
 Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond
 https://arxiv.org/abs/2308.12966
 
-**GH**
+GH
 https://github.com/QwenLM/Qwen-VL
 
-**API**
-[https://help.aliyun.com/zh/dashscope/developer-reference/vl-plus-quick-start/](https://help.aliyun.com/zh/dashscope/developer-reference/vl-plus-quick-start/)
+API
+https://help.aliyun.com/zh/dashscope/developer-reference/vl-plus-quick-start/
 
 Qwen-VL-Plus
 Qwen-VL-Max

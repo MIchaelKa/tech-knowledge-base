@@ -33,3 +33,9 @@ Rules of multiplication of Gaussian distribution
 - смесь нормальных распределений
 - multiplication is not merging?
 - https://chatgpt.com/c/67339f4a-ef70-8000-9698-7b81e22c862f
+
+# Q
+
+- https://chatgpt.com/c/69593f15-1380-8327-812f-931e7829bc12
+- Multivariate Gaussian просто означает что каждый компонент распределен нормально?Или это значит только что маргинальные распределения нормальные?
+- Ключевое свойство — нормальность любых линейных комбинаций

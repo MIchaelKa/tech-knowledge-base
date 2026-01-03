@@ -7,6 +7,7 @@ World models
 
 World models
 - SORA
+- Genie 3
 
 Стрим
 - https://t.me/cryptovalerii/589
@@ -15,3 +16,7 @@ World models
 - https://t.me/ai_newz/4172
 
 [[JEPA]]
+
+
+Genie 3
+- https://t.me/ai_newz/4082

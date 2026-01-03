@@ -1,10 +1,13 @@
 
+
+
+# External
+
+Notion
 https://www.notion.so/ViT-1242a91c9b98482bb76210eac7c7b0e6
 
-# External Links
-
 HF
-[https://huggingface.co/docs/transformers/model_doc/vit](https://huggingface.co/docs/transformers/model_doc/vit)
+https://huggingface.co/docs/transformers/model_doc/vit
 
 *Following the original Vision Transformer, some follow-up works have been made*
 [[DINO-DETR]]
@@ -22,7 +25,7 @@ https://t.me/ai_newz/883
 # Paper
 
 An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
-[https://arxiv.org/abs/2010.11929](https://arxiv.org/abs/2010.11929)
+https://arxiv.org/abs/2010.11929
 
 
 # Links
