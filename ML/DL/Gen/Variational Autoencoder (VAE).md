@@ -44,6 +44,8 @@ cs236
 [[Entropy]]
 [[KL-Divergence]]
 
+[[Probability Rules]]
+
 
 # Blogs
 
@@ -112,17 +114,20 @@ Mixture of Gaussians
 - inference-optimization duality
 - Problem Formulation
 	- We could try to use sampling-based approaches like MCMC, but these are slow to converge.
-- Forward KL vs. Reverse KL
+
+
+Forward KL vs. Reverse KL
+- Links
 	- [[KL-Divergence]]
-	- see [[cs236]] - Lecture 4 - MLE
-	- forward-KL will be large wherever Q(Z) fails to "cover up" P(Z)
-	- If we are fitting a unimodal distribution to a multi-modal one, we'll end up with more false negatives
-	- We use Reverse KL in VAE
-	- We use Forward FL in MLE
-	- Is it possible to use Reverse KL in VAE?
-		- https://chatgpt.com/c/693dbb98-c4a0-832d-bc48-9fb53459fd9d
-		- Mode-covering vs mode-seeking
-		- This is not a modeling choice — it’s a computational constraint.
+	- [[cs236]] - Lecture 4 - MLE
+- forward-KL will be large wherever Q(Z) fails to "cover up" P(Z)
+- If we are fitting a unimodal distribution to a multi-modal one, we'll end up with more false negatives
+- We use Reverse KL in VAE
+- We use Forward FL in MLE
+- Is it possible to use Reverse KL in VAE?
+	- https://chatgpt.com/c/693dbb98-c4a0-832d-bc48-9fb53459fd9d
+	- Mode-covering vs mode-seeking
+	- This is not a modeling choice — it’s a computational constraint.
 
 
 
@@ -225,10 +230,10 @@ Overview
 Evidence in this case is p(x)
 
 
-# Derivations
+# cs231n
 
 
-cs231n
+Derivation
 - https://chatgpt.com/c/6738ff1f-ad80-8000-951c-ebf9cda0a69e
 - в формуле мы хотим оценить вероятность для одной картинки
 - это сложно сделать напрямую (p(x) - intractable) и мы вносим дополнительно переменную в виде z и оцениваем эту вероятность через мат ожидание с сэмплированием различных z
@@ -238,6 +243,24 @@ cs231n
 
 
 # Questions
+
+Q4
+
+- Что представляет из себя неразрешимое(intractable) распределение p(z|x) ?
+- Чем оно отличается от q(z|x)
+- https://chatgpt.com/c/696018e3-35fc-8329-844c-2a6714c6f58f
+- p - истинное распределние
+- q - апрроксимация
+  
+- если p - истинное распределение, то почему мы используем его для обозначения распределения которое представляется моделью, которое не может быть идельным?
+- p(x∣z) - это тоже не идеальное распределение, это выход декодера, модели, значит апроксимация
+- p - истинно относительно модели, а не относительно мира
+- истинное распределение относительно мира - p_data
+
+- p(z∣x) логически следует из модели, но его нельзя вычислить
+
+- intractable - как перевести на русский?
+- неразрешимый
 
 
 Q3

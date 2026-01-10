@@ -20,21 +20,14 @@ Yang Song
 GPT Learn path
 - 4o
 	- https://chatgpt.com/c/673360f7-0b14-8000-8cf0-eae024e5bac1
-	-  Loss function derivation
-	    - Derive the DDPM loss function step-by-step from the KL divergence between the modeled distribution and the true posterior.
-	    - Understand why this loss reduces to a simplified reweighted form.
-	- Key differences between DDPM and DDIM
-		- Understand why DDIM accelerates the reverse process while maintaining sample quality.
 - o1
 	- https://chatgpt.com/c/673361bc-6618-8000-abe1-9c0f0e5d2fa5
-	- Loss
-		- Derive the simplified loss function used in DDPM.
-		- Comprehend the relationship between DDPM and VAEs.
-	- DDIM
-		- Understand how DDIM accelerates the sampling process.
-	- diffusion processes
-		- Markovian
-		- non-Markovian
+-  Loss function derivation
+	- Derive the DDPM loss function step-by-step from the KL divergence between the modeled distribution and the true posterior.
+	- Understand why this loss reduces to a simplified reweighted form.
+	- Comprehend the relationship between DDPM and VAEs.
+- Key differences between DDPM and DDIM
+	- Understand why DDIM accelerates the reverse process while maintaining sample quality.
 
 
 # Parent
@@ -120,9 +113,11 @@ Denoising Diffusion Implicit Models
 Generative Modeling by Estimating Gradients of the Data Distribution
 - https://arxiv.org/abs/1907.05600
 - Yang Song, Stefano Ermon
-- Score-based generative modeling method
+- Noise-conditioned score network (NCSN)
 - Score matching with Langevin dynamics (SMLD)
+- Score-based generative modeling method
 - DDPM does same things?
+- Came out before DDPM paper
 
 Generative Modeling by Estimating Gradients of the Data Distribution
 - https://yang-song.net/blog/2021/score/
@@ -212,18 +207,6 @@ Cons
 	- Slow sampling
 	- Sequential generation process
 
-
-Loss function derivation
-- https://chatgpt.com/c/67339f4a-ef70-8000-9698-7b81e22c862f
-- The reverse process is derived as a parameterized approximation to the true reverse dynamics of the diffusion process
-- Key insight that predicting noise $\epsilon$ is sufficient
-- Approximating the true reverse distribution $q(x_{t-1} | x_t)$
-- Conditioning on $x_0$
-- This makes $q(x_{t-1} | x_t, x_0)$ analytically tractable because the forward process was designed to be Gaussian.
-- p and q notations
-	- q - true forward diffusion process (GT)
-	- p - models's approximation
-
 # Tutorial
 
 Denoising Diffusion Models: A Generative Learning Big Bang - Туториал
@@ -300,23 +283,49 @@ How AI Image Generators Work (Stable Diffusion / Dall-E) - Computerphile
 - Classifier free guidance
 
 
-# Blogs
+# Lilian Weng
 
 What are Diffusion Models?
 - https://lilianweng.github.io/posts/2021-07-11-diffusion-models/
-- Forward process
-	- Closed form sampling
-	- reparameterization trick
-- Backward process
-	- VAE
-		- *As demonstrated in Fig. 2., such a setup is very similar to VAE*
-		- Learn VAE first!
-		- [[Variational Autoencoder (VAE)]]
-	- Ignoring weighting term
-		- Denoising Diffusion Probabilistic Models
-	- score-based generative modeling
 - bits/dim
 - unCLIP
+
+ChatGPT
+- https://chatgpt.com/c/67339f4a-ef70-8000-9698-7b81e22c862f
+
+Merge two Gaussians
+- [[Normal Distribution]]
+
+Langevin dynamics
+- Compared to standard SGD, stochastic gradient Langevin dynamics injects Gaussian noise into the parameter updates to avoid collapses into local minima.
+
+Forward process
+- Closed form sampling
+- Reparameterization trick
+
+Backward process
+- It is noteworthy that the reverse conditional probability is tractable when conditioned on $x_0$
+	- We can do it only during training
+- VAE
+	- *As demonstrated in Fig. 2., such a setup is very similar to VAE*
+	- Learn VAE first!
+	- [[Variational Autoencoder (VAE)]]
+- Ignoring weighting term
+	- Denoising Diffusion Probabilistic Models
+- Score-based generative modeling
+
+Loss function derivation
+- The reverse process is derived as a parameterized approximation to the true reverse dynamics of the diffusion process
+- Key insight that predicting noise $\epsilon$ is sufficient
+- Approximating the true reverse distribution $q(x_{t-1} | x_t)$
+- Conditioning on $x_0$
+- This makes $q(x_{t-1} | x_t, x_0)$ analytically tractable because the forward process was designed to be Gaussian.
+- p and q notations
+	- q - true forward diffusion process (GT)
+	- p - models's approximation
+
+
+
 
 # Posts
 

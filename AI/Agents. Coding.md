@@ -7,6 +7,7 @@
 
 [[AI]]
 [[AI. Corp]]
+[[Agents]]
 
 # External
 
@@ -154,6 +155,19 @@ Links
 
 Claude Code vs. Cursor
 - https://chatgpt.com/c/6920d704-fcf4-8325-9ea3-9fd3fa698574
+
+Skills
+- https://t.me/datastorieslanguages/579
+- https://code.claude.com/docs/en/skills
+- Generating Excalidraw diagrams
+
+Skills vs. Rules
+
+8 советов от Boris Cherny
+- https://t.me/seeallochnaya/3254
+- https://x.com/bcherny/status/2007179832300581177
+- Most sessions start in Plan mode (shift+tab twice)
+- slash commands
 
 # Documentation
 

@@ -1,6 +1,7 @@
 
 # Links
 
+[[Generative Models]]
 [[LLM]]
 [[Diffusion Models]]
 [[DiT]]

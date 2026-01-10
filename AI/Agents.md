@@ -7,10 +7,16 @@ Multi agent systems
 Notion
 - https://www.notion.so/LLM-Agents-b767e2d74fc944b0a39aa804df00bfb3
 
-
 Anthropic
 - Computer
 - https://t.me/ai_newz/3362
+
+
+5-Day AI Agents Intensive Course with Google
+- https://www.kaggle.com/learn-guide/5-day-agents
+- https://t.me/datastorieslanguages/539
+- шикарный блогпост, показывающий как просто написать базового агента с tools и function calling: 
+	- https://fly.io/blog/everyone-write-an-agent/
 
 # Links
 
@@ -47,3 +53,4 @@ Agentic benchmarks / Агентские бенчмарки
 	- Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)
 	- [[Conferences]]
 - Мы используем два альтернативных скаффолда (логики агента)
+

@@ -17,7 +17,7 @@ Langevin equation
 - Ланжевен
 	- ru.wikipedia.org/wiki/Уравнение_Ланжевена
 	- стохастическое дифференциальное уравнение, описывающее броуновское движение
-	- FLP
+	- [[FLP]]
 	- [[Differential Equations]]
 
 

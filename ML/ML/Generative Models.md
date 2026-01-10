@@ -21,6 +21,8 @@ Notion
 
 [[Generative Adversarial Networks (GAN)]]
 
+[[Image Generation]]
+
 Normalizing Flows
 - vs. Network Flows
 
