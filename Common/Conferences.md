@@ -27,6 +27,12 @@ ICML
 NeurIPS
 
 
+# 2026
+
+OpenTalksAI 2026
+https://t.me/rybolos_channel/1715
+OpenTalksAI в Белграде!
+
 
 # 2025
 

@@ -1,14 +1,4 @@
 
-# TODO
-
-InternLM
-[[Mamba]]
-
-langchain
-
-MMLU
-p-tuning
-
 # External
 
 
@@ -102,33 +92,6 @@ Perplexity
 The Smol Training Playbook
 - https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook
 - https://x.com/eliebakouch/status/1983930328751153159
-
-
-
-# Overview
-
-Temperature
-- https://chatgpt.com/c/679b97ff-9d50-8000-9566-3b83e09f66b1
-- [[Temperature]]
-- https://platform.openai.com/docs/api-reference/chat/create
-
-Structured Outputs
-- https://docs.vllm.ai/en/latest/features/structured_outputs.html
-- guided decoding
-- развернутые ответ и COT vs. answer in single word
-	- [[OpenAI o1]]
-- ChatML
-
-
-Thinking
-- Thinking
-- [[OpenAI o1]]
-- [[DeepSeek]]
-
-[[dLLMs]]
-
-Titans
--  https://t.me/gonzo_ML/4204
 
 
 # Speculative decoding
@@ -234,15 +197,13 @@ HC2025-K1: Predictions for the Next Phase of AI
 
 Как выжать максимум из LLM?
 - https://t.me/bogdanisssimo/288
-
-Ссылки
-- [[RAG]]
-- kNN few-shot
-- Chain-of-Thought (CoT)
-
-Ensemble choice shuffle
-- Техника которая работает когда нужно выбрать один вариант из нескольких предоставленных.
-- MMBench
+- Ссылки
+	- [[RAG]]
+	- kNN few-shot
+	- Chain-of-Thought (CoT)
+- Ensemble choice shuffle
+	- Техника которая работает когда нужно выбрать один вариант из нескольких предоставленных.
+	- MMBench
 
 # Papers
 
@@ -258,3 +219,46 @@ Inference-Time Scaling for Generalist Reward Modeling
 - Rejective Fine-Tuning (RFT)
 - Gemma-2-27B
 - Очень часто у LLM, которые занимают оценкой ответов, есть position bias — когда первый (или второй) ответ априори оценивается моделью лучше
+
+
+# Overview
+
+Temperature
+- https://chatgpt.com/c/679b97ff-9d50-8000-9566-3b83e09f66b1
+- [[Temperature]]
+- https://platform.openai.com/docs/api-reference/chat/create
+
+Structured Outputs
+- https://docs.vllm.ai/en/latest/features/structured_outputs.html
+- guided decoding
+- развернутые ответ и COT vs. answer in single word
+	- [[OpenAI o1]]
+- ChatML
+
+Thinking
+- Thinking
+- [[OpenAI o1]]
+- [[DeepSeek]]
+
+[[dLLMs]]
+
+Titans
+-  https://t.me/gonzo_ML/4204
+
+# TODO
+
+Old
+- InternLM
+- [[Mamba]]
+- langchain
+- MMLU
+- p-tuning
+
+mHC: Manifold-Constrained Hyper-Connections
+- https://t.me/datastorieslanguages/588
+- Deepseek
+- Сложный
+
+Universal Reasoning Model
+- https://t.me/gonzo_ML/4437
+- Сложный

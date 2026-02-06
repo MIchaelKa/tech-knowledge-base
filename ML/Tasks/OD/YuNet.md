@@ -1,5 +1,5 @@
 
-# Внешние ссылки
+# External
 
 Moved
 https://www.notion.so/YuNet-193cd0687206418faceec55b358caf89
@@ -12,7 +12,31 @@ https://link.springer.com/article/10.1007/s11633-023-1423-y
 GH
 https://github.com/ShiqiYu/libfacedetection.train/tree/master
 
-# Обзор
+
+# Integration
+
+Links
+- https://www.notion.so/SD-Object-detection-7467b0387f2546a9b260f08ddf08d2ed
+- https://github.com/ShiqiYu/libfacedetection.train/blob/master/mmdet/models/backbones/yunet_backbone.py
+
+Model
+- base - Params: 73.606K
+- st4_l - Params: 0.238M
+
+OpenCV
+- https://github.com/opencv/opencv_zoo/tree/main/models/face_detection_yunet
+- https://docs.opencv.org/4.x/d0/dd4/tutorial_dnn_face.html
+
+FaceDetectorYNImpl
+- https://github.com/opencv/opencv/blob/master/modules/objdetect/src/face_detect.cpp
+
+ChatGPT
+- https://chatgpt.com/c/696a7523-bc98-8326-b543-c06a64a805f3
+- YuNet normalization
+	- YuNet really is trained and run on raw 0–255 images, and this is a deliberate design choice, not an oversight.
+- точность keypoints
+
+# Overview
 
 YuNet vs. YOLOX
 anchor free

@@ -293,39 +293,61 @@ What are Diffusion Models?
 ChatGPT
 - https://chatgpt.com/c/67339f4a-ef70-8000-9698-7b81e22c862f
 
+ChatGPT 2
+- https://chatgpt.com/c/6962cf5c-63c8-832b-aae6-3ba5384f5711
+- Нетрactable
+- DDPM — это эмпирический Байес
+
+
 Merge two Gaussians
 - [[Normal Distribution]]
-
-Langevin dynamics
-- Compared to standard SGD, stochastic gradient Langevin dynamics injects Gaussian noise into the parameter updates to avoid collapses into local minima.
 
 Forward process
 - Closed form sampling
 - Reparameterization trick
+	- Why it's important to mention here?
+- Langevin dynamics
+	- Compared to standard SGD, stochastic gradient Langevin dynamics injects Gaussian noise into the parameter updates to avoid collapses into local minima.
+	- Why it's important to mention here?
 
 Backward process
+- Drifting term
+	- Noise?
+	- Gradient?
+	- Score?
 - It is noteworthy that the reverse conditional probability is tractable when conditioned on $x_0$
 	- We can do it only during training
+	- We use $x_0$ only for deriving the loss function
+	- We're predicting the added noise only to the previous timestep $x_{t-1}$, not to $x_0$ ?
+		- TODO
+- Getting parameters of the distribution $q(x_{t-1}|x_t, x_0)$
+- Мы будет аппроксимировать $q(x_{t-1}|x_t,x_0)$ моделью p
+- Loss function derivation
+	- The reverse process is derived as a parameterized approximation to the true reverse dynamics of the diffusion process
+	- Key insight that predicting noise $\epsilon$ is sufficient
+	- Approximating the true reverse distribution $q(x_{t-1} | x_t)$
+	- Conditioning on $x_0$
+	- This makes $q(x_{t-1} | x_t, x_0)$ analytically tractable because the forward process was designed to be Gaussian.
+- p and q notations
+	- q - true forward diffusion process (GT)
+	- p - models's approximation
 - VAE
 	- *As demonstrated in Fig. 2., such a setup is very similar to VAE*
 	- Learn VAE first!
 	- [[Variational Autoencoder (VAE)]]
 - Ignoring weighting term
-	- Denoising Diffusion Probabilistic Models
+	- DDPM
 - Score-based generative modeling
 
-Loss function derivation
-- The reverse process is derived as a parameterized approximation to the true reverse dynamics of the diffusion process
-- Key insight that predicting noise $\epsilon$ is sufficient
-- Approximating the true reverse distribution $q(x_{t-1} | x_t)$
-- Conditioning on $x_0$
-- This makes $q(x_{t-1} | x_t, x_0)$ analytically tractable because the forward process was designed to be Gaussian.
-- p and q notations
-	- q - true forward diffusion process (GT)
-	- p - models's approximation
 
+Why we need such complex math?
+- The loss function which we get at the end is pretty straightforward – L2 loss between predicted noise and GT noise.
+- Just to know the right scaling?
+	- Empirically, [Ho et al. (2020)](https://arxiv.org/abs/2006.11239) found that training the diffusion model works better with a simplified objective that ignores the weighting term
 
-
+Connection with noise-conditioned score networks (NCSN)
+- Fisher divergence is not used
+- Почему нет сложного вывода как в [[cs236]] для перехода от $q(x^{\sim})$ к $q(x^{\sim}|x)$
 
 # Posts
 

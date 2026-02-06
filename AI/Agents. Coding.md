@@ -16,7 +16,6 @@ Vibe coding
 - https://en.wikipedia.org/wiki/Vibe_coding
 - Vibe coding and tests
 
-
 Copilot
 - https://www.notion.so/GitHub-Copilot-6d39382b23824aa784bf493d84581317
 
@@ -30,11 +29,14 @@ Gemini CLI
 Antigravity
 - https://t.me/new_yorko_times/394
 
-
 Gemini in Android Studio
 - https://developer.android.com/gemini-in-android
 - https://developer.android.com/studio/gemini/overview
 - https://developer.android.com/studio/gemini/agent-mode
+
+пара полезных ресурсов про Agentic AI
+- https://t.me/gonzo_ML/4119
+- https://www.deeplearning.ai/courses/agentic-ai/
 
 
 # Tools
@@ -146,28 +148,58 @@ Ask and Agent modes:
 
 # Claude Code
 
+External
+- https://revolut.atlassian.net/wiki/spaces/BDM/pages/4769055241/Claude+Code
+
 Links
 - https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview
 - https://t.me/datastorieslanguages/411
 - Default prompt is available.
 - Can we find default prompt for Cursor?
+
+Links
 - [[Rev. Sessions]]
 
 Claude Code vs. Cursor
 - https://chatgpt.com/c/6920d704-fcf4-8325-9ea3-9fd3fa698574
+
+Docs
+- https://code.claude.com/docs/en/overview
 
 Skills
 - https://t.me/datastorieslanguages/579
 - https://code.claude.com/docs/en/skills
 - Generating Excalidraw diagrams
 
-Skills vs. Rules
-
 8 советов от Boris Cherny
 - https://t.me/seeallochnaya/3254
 - https://x.com/bcherny/status/2007179832300581177
 - Most sessions start in Plan mode (shift+tab twice)
 - slash commands
+
+Subagents
+- subagent to do code review
+- https://www.aitmpl.com/component/agent/code-reviewer
+
+Claude Code: Best practices for agentic coding
+- https://www.anthropic.com/engineering/claude-code-best-practices
+- claude code and jupyter
+
+ChatGPT
+- https://chatgpt.com/c/6970c23d-4534-832e-aba8-15beeb8df086
+
+Skills vs. Rules
+Plan mode (shift+tab twice)
+Slash commands
+
+## Questions
+
+How to add specific files to context?
+- Just use file path
+
+claude.md
+- can we have several claude.md in subfolders for monorepo?
+- YES
 
 # Documentation
 
@@ -183,6 +215,14 @@ TODO
 - Cursor
 - Claude Code
 - Sourcegraph Cody
+
+
+# Scaling agents
+
+Scaling long-running autonomous coding
+https://cursor.com/blog/scaling-agents
+https://t.me/cryptovalerii/883
+https://t.me/seeallochnaya/3286
 
 
 # Overview

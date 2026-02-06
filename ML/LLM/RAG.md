@@ -29,3 +29,8 @@ https://t.me/ai_newz/2720
 Сети Хопфилда
 https://t.me/boris_again/2849
 RAG и обращения к внешним хранилищам это костыли, которыми мы пытаемся закрыть эту потребность
+
+
+Как я победил в RAG Challenge: от нуля до SoTA за один конкурс
+https://habr.com/ru/articles/893356/
+https://t.me/boris_again/3700
